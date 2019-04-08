@@ -1,0 +1,62 @@
+.build-list
+  padding:  0
+  margin: 0
+  list-style: none
+
+.pr-row
+  @media #{$medium-up}
+    display: flex
+    justify-content: space-between
+    flex-flow: row nowrap
+    align-items: center
+
+    .two-line
+      padding: 0
+      margin: .4em 0
+      white-space: nowrap
+      overflow: hidden
+      .row-item:not(.build-info)
+        display: block
+
+    .row-committer
+      padding-left: 1.6em
+      margin-bottom: 0
+
+    .build-info
+      display: flex
+      flex-flow: row wrap
+      align-items: baseline
+      padding-left: 0.4em
+
+    .row-branch
+      flex: 0 0 30%
+      position: relative
+      overflow: hidden
+      &:after
+        content: ""
+        +fadeOut(right, -90deg, white)
+      &:hover
+        &:after
+          content: none
+        a
+          background-color: white
+    .row-message
+      padding-left: 1.6em
+      flex: 0 0 70%
+      overflow: hidden
+      position: relative
+      &:after
+        +fadeOut(right, -90deg, white)
+
+    .two-line:first-of-type
+      flex: 0 0 50%
+      padding-left: .5em
+      border-right: 1px solid $cream-dark
+    .two-line:nth-of-type(2)
+      flex: 0 0 20%
+    .two-line:nth-last-of-type(2)
+      flex: 0 0 20%
+
+    .row-item.actions
+      overflow: visible
+      transform: translate(0, -3px)
