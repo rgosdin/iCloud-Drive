@@ -1,0 +1,99 @@
+From 20769d46452d7ac2c25735dbe1c8e0d58573aff7 Mon Sep 17 00:00:00 2001
+From: cmpilato <cmpilato@users.noreply.github.com>
+Date: Mon, 2 Mar 2015 19:33:57 +0000
+Subject: [PATCH] Add 'renamed_roots' configuration option for gracefully handing repositories which have been renamed.
+
+* conf/viewvc.conf.dist
+  (renamed_roots): New option.
+
+* lib/config.py
+  (_force_multi_value): Add 'renamed_roots'.
+  (Config._process_section): Parse the 'renamed_roots' configuration, too.
+  (Config.set_defaults): Set default value for 'renamed_roots'.
+
+* lib/viewvc.py
+  (Request.run_viewvc): Honor 'renamed_roots' configuration,
+    redirecting as needed.
+
+Patch by: Ivan Mednev <imednev{__AT__}tigris.org>
+          (Tweaked by me.)
+---
+ conf/viewvc.conf.dist | 14 ++++++++++++++
+ lib/config.py         |  4 +++-
+ lib/viewvc.py         |  6 ++++++
+ 3 files changed, 23 insertions(+), 1 deletion(-)
+
+diff --git a/conf/viewvc.conf.dist b/conf/viewvc.conf.dist
+index d27a044..d246f9d 100644
+--- a/conf/viewvc.conf.dist
++++ b/conf/viewvc.conf.dist
+@@ -156,6 +156,20 @@
+ ##
+ #root_parents =
+ 
++## renamed_roots: Specifies a mapping between the old names of version control
++## roots/repositories and their current names.
++##
++## When the name of a CVS or Subversion root has been changed (e.g. the project
++## name has been changed), existing external links to views of that root will
++## cease to resolve.  This mapping causes ViewVC to continue to recognize the
++## previous root name and automatically redirect the web browser to the appropriate
++## location in the renamed root.
++##
++## Example:
++## renamed_roots = old_root_name: new_root_name,
++##                 backrub: google,
++#renamed_roots = 
++
+ ## default_root: This is the name of the default root.  Valid names
+ ## include those explicitly listed in the cvs_roots and svn_roots
+ ## configuration options, as well as those implicitly indicated by
+diff --git a/lib/config.py b/lib/config.py
+index 689ea1e..a665845 100644
+--- a/lib/config.py
++++ b/lib/config.py
+@@ -119,6 +119,7 @@ class Config:
+     'mime_types_files',
+     'root_parents',
+     'svn_roots',
++    'renamed_roots',
+     )
+   _allowed_overrides = {
+     # Mapping of override types to allowed overridable sections.
+@@ -217,7 +218,7 @@ class Config:
+ 
+       ### FIXME: This feels like unnecessary depth of knowledge for a
+       ### semi-generic configuration object.
+-      if opt == 'cvs_roots' or opt == 'svn_roots':
++      if opt == 'cvs_roots' or opt == 'svn_roots' or opt == 'renamed_roots':
+         value = _parse_roots(opt, value)
+ 
+       setattr(sc, opt, value)
+@@ -378,6 +379,7 @@ class Config:
+ 
+     self.general.cvs_roots = { }
+     self.general.svn_roots = { }
++    self.general.renamed_roots = { }
+     self.general.root_parents = []
+     self.general.default_root = ''
+     self.general.mime_types_files = ["mimetypes.conf"]
+diff --git a/lib/viewvc.py b/lib/viewvc.py
+index 5c3e731..c007173 100644
+--- a/lib/viewvc.py
++++ b/lib/viewvc.py
+@@ -217,6 +217,12 @@ class Request:
+     elif cfg.options.root_as_url_component:
+       needs_redirect = 1
+ 
++    # Take care of old-new roots mapping
++    for old_root, new_root in cfg.general.renamed_roots.iteritems():
++      if self.rootname == old_root:
++        self.rootname = new_root
++        needs_redirect = 1
++
+     self.where = _path_join(path_parts)
+     self.path_parts = path_parts
+ 
+--
+Working Copy 3.7.1
+
