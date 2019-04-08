@@ -1,0 +1,608 @@
+Nov 15 15:59:24.000	NOTE	OS X Version 10.12.6 (Build 16G29) / Model ID: MacBookAir7,2
+Nov 15 15:59:24.000	NOTE	Bluetooth Software Version: 5.0.5f1
+Nov 15 15:59:24.000	NOTE	Host Controller:  Broadcom / 0x05AC / 0x828F / v137 c9263
+Nov 15 15:59:24.000	NOTE	Support:  Deep Idle (Yes) / WoBT (Yes) / BTRS (No) / New Idle Policy (Yes) / Idle Time (500 ms)
+Nov 15 14:15:14.661	KERNEL DEBUG	**** [IOBluetoothHostControllerUSBTransport][ConfigurePM] get Bluetooth Hub  -- entering temp = 0xffffff8025b5b400,  mBluetoothUSBHub = 0xffffff8025a4b000 ****
+Nov 15 14:15:14.662	KERNEL DEBUG	**** [IOBluetoothHostController][SetTransportIdlePolicyValue] -- On Battery -- Does not support new idle policy with no active connection -- calling mBluetoothTransport->SetIdlePolicyValue (8356) ms 
+Nov 15 14:15:14.662	KERNEL DEBUG	**** [IOBluetoothHostControllerTransport][setPowerState] -- calling runAction (setPowerStateAction(ON)) -- Driver loading -- this = 0xffffff80258ef800 ****
+Nov 15 14:15:14.662	POWER	ON->ON -
+Nov 15 14:15:14.665	POWER	USB Low Power
+Nov 15 14:15:14.665	POWER	Low Power done
+Nov 15 14:15:14.665	LMP OUT	Turn ON LMP Logging
+Nov 15 14:15:14.665	KERNEL	No BTRS
+Nov 15 14:15:14.665	HCI COMMAND	[0C03] Reset
+Nov 15 14:15:14.665	KERNEL DEBUG	[0xF000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0C03 (Reset) from: kernel_task (0)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 10000
+Nov 15 14:15:14.681	HCI EVENT	[0C03] Command Complete - Reset
+Nov 15 14:15:14.681	KERNEL DEBUG	[KillAllPendingRequests] -- killed reqs = 0x1; disposed reqs = 0x0
+Nov 15 14:15:14.681	HCI COMMAND	[FCFE] Vendor Specific Command [FCFE] - Read Local Firmware Info - Info Type: Read Current Bluetooth Mode
+Nov 15 14:15:14.681	KERNEL DEBUG	[0xF000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCFE (Broadcom VSC -- Read Local Firmware Info) from: kernel_task (0)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 5000
+Nov 15 14:15:14.682	HCI EVENT	[FCFE] Command Complete - Broadcom VSC Event - Read Local Firmware Info
+Nov 15 14:15:14.682	HCI COMMAND	[1005] Read Buffer Size
+Nov 15 14:15:14.682	KERNEL DEBUG	[0xF000] [IOBluetoothHCIRequest][Start] --  OpCode 0x1005 (Read Buffer Size) from: kernel_task (0)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 5000
+Nov 15 14:15:14.683	HCI EVENT	[1005] Command Complete - Read Buffer Size
+Nov 15 14:15:14.683	HCI COMMAND	[2002] LE Read Buffer Size
+Nov 15 14:15:14.683	KERNEL DEBUG	[0xF000] [IOBluetoothHCIRequest][Start] --  OpCode 0x2002 (LE Read Buffer Size) from: kernel_task (0)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 5000
+Nov 15 14:15:14.684	HCI EVENT	[2002] Command Complete - LE Read Buffer Size
+Nov 15 14:15:14.684	HCI COMMAND	[1003] Read Local Supported Features
+Nov 15 14:15:14.684	KERNEL DEBUG	[0x8000] [IOBluetoothHCIRequest][Start] --  OpCode 0x1003 (Read Local Supported Features) from: kernel_task (0)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 5000
+Nov 15 14:15:14.685	HCI EVENT	[1003] Command Complete - Read Local Supported Features
+Nov 15 14:15:14.685	HCI COMMAND	[2003] LE Read Local Supported Features
+Nov 15 14:15:14.685	KERNEL DEBUG	[0x8000] [IOBluetoothHCIRequest][Start] --  OpCode 0x2003 (LE Read Local Supported Features) from: kernel_task (0)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 5000
+Nov 15 14:15:14.686	HCI EVENT	[2003] Command Complete - LE Read Local Supported Features
+Nov 15 14:15:14.686	HCI COMMAND	[1009] Read Device Address
+Nov 15 14:15:14.686	KERNEL DEBUG	[0xF000] [IOBluetoothHCIRequest][Start] --  OpCode 0x1009 (Read Device Address) from: kernel_task (0)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 5000
+Nov 15 14:15:14.687	HCI EVENT	[1009] Command Complete - Read Device Address
+Nov 15 14:15:14.687	HCI COMMAND	[1001] Read Local Version Information
+Nov 15 14:15:14.687	KERNEL DEBUG	[0xA000] [IOBluetoothHCIRequest][Start] --  OpCode 0x1001 (Read Local Version Information) from: kernel_task (0)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 5000
+Nov 15 14:15:14.688	HCI EVENT	[1001] Command Complete - Read Local Version Information
+Nov 15 14:15:14.688	KERNEL	registerService
+Nov 15 14:15:14.688	KERNEL	Success setIdlePolicy (500 ms) Interrupt Pipe
+Nov 15 14:15:14.688	KERNEL	Success setIdlePolicy (500 ms) Bulk Pipe
+Nov 15 14:15:14.688	KERNEL	Success setIdlePolicy (500 ms) LMP Pipe
+Nov 15 14:15:14.688	KERNEL DEBUG	**** [IOBluetoothFamily][UpdateActiveControllerProperties] -- mActiveBluetoothHardware->mBluetoothHostController->mSupportNewIdlePolicy is TRUE -- mCurrentTimeForIdlePolicy = 500
+Nov 15 14:15:14.690	NOTE	Registering daemon with PID 101
+Nov 15 14:15:14.703	KERNEL DEBUG	[IOBluetoothHostController][RequestPowerStateChangeFromUserSpace] -- ON -> OFF (thread: 0xffffff802676f288) 
+Nov 15 14:15:14.703	POWER	ON->OFF blued+
+Nov 15 14:15:14.703	KERNEL DEBUG	**** [IOBluetoothHostControllerUSBTransport][RequestTransportPowerStateChange] -- entering -- ON -> OFF -- this = 0xffffff80258ef800 ****
+Nov 15 14:15:14.703	POWER	ON->OFF+Req
+Nov 15 14:15:14.703	HCI COMMAND	[0C1A] Write Scan Enable - Requesting Scan State: 0x00
+Nov 15 14:15:14.703	KERNEL DEBUG	[0xF000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0C1A (Write Scan Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 5000
+Nov 15 14:15:14.704	HCI EVENT	[0C1A] Command Complete - Write Scan Enable
+Nov 15 14:15:14.704	KERNEL DEBUG	[KillAllPendingRequests] -- killed reqs = 0x0; disposed reqs = 0x0
+Nov 15 14:15:14.704	LMP OUT	Turn OFF LMP Logging
+Nov 15 14:15:14.704	POWER	ON->OFF +
+Nov 15 14:15:14.704	HCI COMMAND	[0C03] Reset
+Nov 15 14:15:14.704	KERNEL DEBUG	[0x8000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0C03 (Reset) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 5000
+Nov 15 14:15:14.706	HCI EVENT	[0C03] Command Complete - Reset
+Nov 15 14:15:14.706	KERNEL DEBUG	[KillAllPendingRequests] -- killed reqs = 0x1; disposed reqs = 0x0
+Nov 15 14:15:14.706	HCI COMMAND	[0C1A] Write Scan Enable - Requesting Scan State: 0x00
+Nov 15 14:15:14.706	KERNEL DEBUG	[0xF000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0C1A (Write Scan Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 5000
+Nov 15 14:15:14.707	HCI EVENT	[0C1A] Command Complete - Write Scan Enable
+Nov 15 14:15:14.707	KERNEL DEBUG	[KillAllPendingRequests] -- killed reqs = 0x0; disposed reqs = 0x0
+Nov 15 14:15:14.707	HCI COMMAND	[FC34] Vendor Specific Command [FC34] - Enable Radio (Off)
+Nov 15 14:15:14.707	KERNEL DEBUG	[0x8000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFC34 (Broadcom VSC -- Enable Radio) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 5000
+Nov 15 14:15:14.708	HCI EVENT	[FC34] Command Complete - Broadcom VSC Event - Enable Radio
+Nov 15 14:15:14.708	LMP OUT	Turn OFF LMP Logging
+Nov 15 14:15:14.708	KERNEL DEBUG	**** [BroadcomBluetoothHostControllerUSBTransport][StopLMPLoggingBulkPipeRead] -- mInt2BulkInPipe->abort() returned 0x0000 (kIOReturnSuccess) ****
+Nov 15 14:15:14.708	KERNEL DEBUG	**** [IOBluetoothHostControllerUSBTransport][StopInterruptPipeRead] -- mInt0InterruptPipe->abort() returned 0x0000 (kIOReturnSuccess) ****
+Nov 15 14:15:14.708	POWER	ON->OFF -
+Nov 15 14:15:14.708	POWER	OFF Complete
+Nov 15 14:15:14.708	POWER	Power Off
+Nov 15 14:15:14.708	KERNEL DEBUG	**** [IOBluetoothHostControllerUSBTransport][RequestTransportPowerStateChange] -- exiting -- result = SUCCESS -- this = 0xffffff80258ef800 ****
+Nov 15 14:15:14.708	KERNEL DEBUG	**** [BroadcomBluetoothHostControllerUSBTransport][LMPLoggingBulkInReadHandler] -- kIOReturnAborted -- Number of outstanding IO on the LMP Bulk In Pipe = 0 
+Nov 15 14:15:14.708	KERNEL	LMP Bulk Pipe: Aborted
+Nov 15 14:15:14.708	KERNEL DEBUG	[IOBluetoothHostController][RequestPowerStateChangeFromUserSpace] -- ON -> OFF (thread: 0xffffff802676f288) -- returning 0x0000 (kIOReturnSuccess)
+Nov 15 14:15:14.708	POWER	ON->OFF blued-
+Nov 15 14:15:14.708	KERNEL DEBUG	**** [BroadcomBluetoothHostControllerUSBTransport][LMPLoggingBulkInReadHandler] -- LMP Bulk In Pipe Aborted -- Number of outstanding IO on the LMP Bulk In Pipe = 0
+Nov 15 14:15:14.708	KERNEL	LMP: IO 0
+Nov 15 14:15:14.708	KERNEL DEBUG	**** [IOBluetoothHostControllerUSBTransport][InterruptReadHandler] -- kIOReturnAborted -- Number of outstanding IO on the Interrupt Pipe = 0 
+Nov 15 14:15:14.708	KERNEL	Interrupt Pipe: Aborted
+Nov 15 14:15:14.708	KERNEL DEBUG	**** [IOBluetoothHostControllerUSBTransport][InterruptReadHandler] -- kIOReturnAborted -- dataSize = 0 -- inTarget = 0xf800 ****
+Nov 15 14:15:14.708	KERNEL DEBUG	**** [IOBluetoothHostControllerUSBTransport][InterruptReadHandler] -- Interrupt Pipe Aborted -- Number of outstanding IO on the Interrupt Pipe = 0 
+Nov 15 14:15:14.708	KERNEL	Interrupt: IO 0
+Nov 15 14:15:14.708	POWER	OFF done
+Nov 15 14:36:26.598	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff80395c3000 
+Nov 15 14:36:26.598	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:26.599	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff8039818000 
+Nov 15 14:36:26.599	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:26.599	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff8039ad9000 
+Nov 15 14:36:26.599	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:26.599	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff8039a79000 
+Nov 15 14:36:26.599	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:26.599	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff8039526000 
+Nov 15 14:36:26.599	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:26.599	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFD47 (Broadcom VSC -- LE Extended Duplicate Filter), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff803981c000 
+Nov 15 14:36:26.599	ERROR	SendRequest fail Radio OFF opCode 0xFD47
+Nov 15 14:36:26.599	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0x200B (LE Set Scan Parameters), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff803998f000 
+Nov 15 14:36:26.599	ERROR	SendRequest fail Radio OFF opCode 0x200B
+Nov 15 14:36:26.611	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff8032ca2000 
+Nov 15 14:36:26.611	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:26.615	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff803964e000 
+Nov 15 14:36:26.615	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:26.615	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff80398e2000 
+Nov 15 14:36:26.615	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:26.615	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff80397fa000 
+Nov 15 14:36:26.615	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:26.615	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff8039726000 
+Nov 15 14:36:26.615	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:26.616	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFD47 (Broadcom VSC -- LE Extended Duplicate Filter), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff80399bc000 
+Nov 15 14:36:26.616	ERROR	SendRequest fail Radio OFF opCode 0xFD47
+Nov 15 14:36:26.617	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0x200B (LE Set Scan Parameters), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff80396df000 
+Nov 15 14:36:26.617	ERROR	SendRequest fail Radio OFF opCode 0x200B
+Nov 15 14:36:26.640	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff80399ce000 
+Nov 15 14:36:26.640	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:26.641	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff8039527000 
+Nov 15 14:36:26.641	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:26.641	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff8039abc000 
+Nov 15 14:36:26.641	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:26.641	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff80396ef000 
+Nov 15 14:36:26.641	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:26.641	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff8039ab1000 
+Nov 15 14:36:26.641	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:26.642	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFD47 (Broadcom VSC -- LE Extended Duplicate Filter), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff8039a98000 
+Nov 15 14:36:26.642	ERROR	SendRequest fail Radio OFF opCode 0xFD47
+Nov 15 14:36:26.644	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0x200B (LE Set Scan Parameters), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff8039795000 
+Nov 15 14:36:26.644	ERROR	SendRequest fail Radio OFF opCode 0x200B
+Nov 15 14:36:26.650	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff803965f000 
+Nov 15 14:36:26.650	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:26.650	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff8039813000 
+Nov 15 14:36:26.650	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:26.650	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff80399b6000 
+Nov 15 14:36:26.650	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:26.650	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff80397e6000 
+Nov 15 14:36:26.650	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:26.651	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff8039a7e000 
+Nov 15 14:36:26.651	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:26.651	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFD47 (Broadcom VSC -- LE Extended Duplicate Filter), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff80397cf000 
+Nov 15 14:36:26.651	ERROR	SendRequest fail Radio OFF opCode 0xFD47
+Nov 15 14:36:26.651	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0x200B (LE Set Scan Parameters), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff80396cf000 
+Nov 15 14:36:26.651	ERROR	SendRequest fail Radio OFF opCode 0x200B
+Nov 15 14:36:30.867	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff8039540000 
+Nov 15 14:36:30.867	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:30.867	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff80398ce000 
+Nov 15 14:36:30.867	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:30.867	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff80398da000 
+Nov 15 14:36:30.867	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:30.868	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff8039868000 
+Nov 15 14:36:30.868	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:30.868	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff80394f1000 
+Nov 15 14:36:30.868	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 14:36:30.868	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFD47 (Broadcom VSC -- LE Extended Duplicate Filter), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff803985d000 
+Nov 15 14:36:30.868	ERROR	SendRequest fail Radio OFF opCode 0xFD47
+Nov 15 14:36:30.868	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0x200B (LE Set Scan Parameters), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff80398d9000 
+Nov 15 14:36:30.868	ERROR	SendRequest fail Radio OFF opCode 0x200B
+Nov 15 15:47:02.416	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff8025860000 
+Nov 15 15:47:02.416	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 15:47:02.417	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff802c43f000 
+Nov 15 15:47:02.417	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 15:47:02.417	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff802a91f000 
+Nov 15 15:47:02.417	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 15:47:02.418	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff80256b7000 
+Nov 15 15:47:02.418	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 15:47:02.418	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFCE9 (Broadcom VSC -- LE Meta VSC), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff802f09e000 
+Nov 15 15:47:02.418	ERROR	SendRequest fail Radio OFF opCode 0xFCE9
+Nov 15 15:47:02.418	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0xFD47 (Broadcom VSC -- LE Extended Duplicate Filter), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff8028032000 
+Nov 15 15:47:02.418	ERROR	SendRequest fail Radio OFF opCode 0xFD47
+Nov 15 15:47:02.418	KERNEL DEBUG	[BroadcomBluetoothHostController][TransportRadioPowerOff] -- returns kIOReturnError because Radio Power State = Powered Off -- inOpCode = 0x200B (LE Set Scan Parameters), From: Unknown (255), mNumberOfCommandsAllowedByHardware is 1, requestPtr = 0xffffff8025a69000 
+Nov 15 15:47:02.418	ERROR	SendRequest fail Radio OFF opCode 0x200B
+Nov 15 16:03:54.087	KERNEL DEBUG	[IOBluetoothHostController][RequestPowerStateChangeFromUserSpace] -- OFF -> ON (thread: 0xffffff802676f288) 
+Nov 15 16:03:54.087	POWER	OFF->ON blued+
+Nov 15 16:03:54.087	KERNEL DEBUG	**** [IOBluetoothHostControllerUSBTransport][RequestTransportPowerStateChange] -- entering -- OFF -> ON -- this = 0xffffff80258ef800 ****
+Nov 15 16:03:54.087	POWER	OFF->ON+Req
+Nov 15 16:03:54.087	LMP OUT	Turn ON LMP Logging
+Nov 15 16:03:54.087	POWER	OFF->ON +
+Nov 15 16:03:54.087	LMP OUT	Turn ON LMP Logging
+Nov 15 16:03:54.087	KERNEL DEBUG	**** [IOBluetoothHostController][SendingRequest] -- before calling ChangeTransportPowerStateFromIdleToOn() -- currentTransportPowerState = OFF -- opCode = 0xfc34 (Broadcom VSC -- Enable Radio), from: blued (101) -- this = 0xffffff8026a7e000 ****
+Nov 15 16:03:54.087	POWER	Cmd IDLE -> ON
+Nov 15 16:03:54.087	KERNEL DEBUG	**** [IOBluetoothHostController][SendingRequest] -- after calling ChangeTransportPowerStateFromIdleToOn() -- currentTransportPowerState = OFF -- opCode = 0xfc34 (Broadcom VSC -- Enable Radio), from: blued (101) -- this = 0xffffff8026a7e000 ****
+Nov 15 16:03:54.087	HCI COMMAND	[FC34] Vendor Specific Command [FC34] - Enable Radio (On)
+Nov 15 16:03:54.087	KERNEL DEBUG	[0x0000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFC34 (Broadcom VSC -- Enable Radio) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 5000
+Nov 15 16:03:54.089	HCI EVENT	[FC34] Command Complete - Broadcom VSC Event - Enable Radio
+Nov 15 16:03:54.089	HCI COMMAND	[0C03] Reset
+Nov 15 16:03:54.089	KERNEL DEBUG	[0x4000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0C03 (Reset) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 5000
+Nov 15 16:03:54.091	HCI EVENT	[0C03] Command Complete - Reset
+Nov 15 16:03:54.091	KERNEL DEBUG	[KillAllPendingRequests] -- killed reqs = 0x1; disposed reqs = 0x0
+Nov 15 16:03:54.091	POWER	OFF->ON -
+Nov 15 16:03:54.091	POWER	ON->ON-Req
+Nov 15 16:03:54.091	POWER	ON Complete
+Nov 15 16:03:54.091	POWER	USB Low Power
+Nov 15 16:03:54.091	KERNEL DEBUG	**** [IOBluetoothHostControllerUSBTransport][RequestTransportPowerStateChange] -- exiting -- result = SUCCESS -- this = 0xffffff80258ef800 ****
+Nov 15 16:03:54.091	KERNEL DEBUG	[IOBluetoothHostController][RequestPowerStateChangeFromUserSpace] -- OFF -> ON (thread: 0xffffff802676f288) -- returning 0x0000 (kIOReturnSuccess)
+Nov 15 16:03:54.091	POWER	OFF->ON blued-
+Nov 15 16:03:54.091	POWER	Low Power done
+Nov 15 16:03:54.106	HCI COMMAND	[1001] Read Local Version Information
+Nov 15 16:03:54.106	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0x1001 (Read Local Version Information) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.107	HCI EVENT	[1001] Command Complete - Read Local Version Information
+Nov 15 16:03:54.107	HCI COMMAND	[1009] Read Device Address
+Nov 15 16:03:54.107	KERNEL DEBUG	[0xE000] [IOBluetoothHCIRequest][Start] --  OpCode 0x1009 (Read Device Address) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.108	HCI EVENT	[1009] Command Complete - Read Device Address
+Nov 15 16:03:54.109	HCI COMMAND	[FC36] Vendor Specific Command [FC36] - Get HID Device List
+Nov 15 16:03:54.109	KERNEL DEBUG	[0x4000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFC36 (Broadcom VSC -- Get HID Device List) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6000
+Nov 15 16:03:54.110	HCI EVENT	[FC36] Command Complete - Broadcom VSC Event - Get HID Device List
+Nov 15 16:03:54.110	HCI COMMAND	[1003] Read Local Supported Features
+Nov 15 16:03:54.110	KERNEL DEBUG	[0x0000] [IOBluetoothHCIRequest][Start] --  OpCode 0x1003 (Read Local Supported Features) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.111	HCI EVENT	[1003] Command Complete - Read Local Supported Features
+Nov 15 16:03:54.112	HCI COMMAND	[0C0D] Read Stored Link Key
+Nov 15 16:03:54.112	KERNEL DEBUG	[0x4000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0C0D (Read Stored Link Key) from: blued (101)  Asynchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 43210
+Nov 15 16:03:54.112	KERNEL DEBUG	[IOBluetoothHostController][SendHCIRequestFormatted] -- request was put on wait queue -- mNumberOfCommandsAllowedByHardware is 0, inID = 81, opCode = 0x1009, requestPtr = 0xffffff8029c59000 
+Nov 15 16:03:54.112	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0x1009 (Read Device Address) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 1 (WAITING) timeout: 47531
+Nov 15 16:03:54.113	HCI EVENT	[0C0D] Command Complete - Read Stored Link Key
+Nov 15 16:03:54.113	HCI COMMAND	[1009] Read Device Address
+Nov 15 16:03:54.114	HCI EVENT	[1009] Command Complete - Read Device Address
+Nov 15 16:03:54.115	HCI COMMAND	[1001] Read Local Version Information
+Nov 15 16:03:54.115	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0x1001 (Read Local Version Information) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.115	HCI EVENT	[1001] Command Complete - Read Local Version Information
+Nov 15 16:03:54.116	HCI COMMAND	[FC79] Vendor Specific Command [FC79] - Read Verbose Config Version Info
+Nov 15 16:03:54.116	KERNEL DEBUG	[0x8000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFC79 (Broadcom VSC -- Read Verbose Config Version Info) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.116	HCI EVENT	[FC79] Command Complete - Broadcom VSC Event - Read Verbose Config Version Info - Chip ID: 0x49 (20702B0)
+Nov 15 16:03:54.117	HCI COMMAND	[0C16] Write Connection Accept Timeout - 0x5DC0 (15000.00 ms)
+Nov 15 16:03:54.117	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0C16 (Write Connection Accept Timeout) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.117	HCI EVENT	[0C16] Command Complete - Write Connection Accept Timeout
+Nov 15 16:03:54.118	HCI COMMAND	[0C13] Change Local Name
+Nov 15 16:03:54.118	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0C13 (Change Local Name) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.119	HCI EVENT	[0C13] Command Complete - Change Local Name
+Nov 15 16:03:54.120	HCI COMMAND	[0C24] Write Class of Device
+Nov 15 16:03:54.120	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0C24 (Write Class of Device) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.121	HCI EVENT	[0C24] Command Complete - Write Class of Device
+Nov 15 16:03:54.126	HCI COMMAND	[0C23] Read Class of Device
+Nov 15 16:03:54.126	KERNEL DEBUG	[0x0000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0C23 (Read Class of Device) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.126	HCI EVENT	[0C23] Command Complete - Read Class of Device
+Nov 15 16:03:54.128	HCI COMMAND	[0C47] Write Page Scan Type
+Nov 15 16:03:54.128	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0C47 (Write Page Scan Type) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.129	HCI EVENT	[0C47] Command Complete - Write Page Scan Type
+Nov 15 16:03:54.129	HCI COMMAND	[0C1C] Write Page Scan Activity
+Nov 15 16:03:54.129	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0C1C (Write Page Scan Activity) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.130	HCI EVENT	[0C1C] Command Complete - Write Page Scan Activity
+Nov 15 16:03:54.130	HCI COMMAND	[0C56] Write Simple Pairing Mode
+Nov 15 16:03:54.130	KERNEL DEBUG	[0x8000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0C56 (Write Simple Pairing Mode) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.164	HCI EVENT	[0C56] Command Complete - Write Simple Pairing Mode
+Nov 15 16:03:54.164	HCI COMMAND	[0C01] Set Event Mask
+Nov 15 16:03:54.164	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0C01 (Set Event Mask) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.165	HCI EVENT	[0C01] Command Complete - Set Event Mask
+Nov 15 16:03:54.165	HCI COMMAND	[2001] LE Set Event Mask
+Nov 15 16:03:54.165	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0x2001 (LE Set Event Mask) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.166	HCI EVENT	[2001] Command Complete - LE Set Event Mask
+Nov 15 16:03:54.166	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - LE Meta VSC: LE Enable Customer Specific Feature: 0x4108b - LE Resolve Address Whitelist - LE Filter On Adv Packet Content - LE Adv Filter Matching - LE Detect When a Sensor Goes Away - LE Dynamic Scan - LE Allow Scatternet
+Nov 15 16:03:54.166	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.167	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - LE Meta VSC: LE Enable Customer Specific Feature
+Nov 15 16:03:54.167	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - LE Meta VSC: LE Clear IRK List
+Nov 15 16:03:54.167	KERNEL DEBUG	[0xE000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.168	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - LE Meta VSC: LE Clear IRK List - IRK List Available Space: 32
+Nov 15 16:03:54.169	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - LE Meta VSC: LE Add IRK to the List
+Nov 15 16:03:54.169	KERNEL DEBUG	[0x4000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.170	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - LE Meta VSC: LE Add IRK to the List - IRK List Available Space: 31
+Nov 15 16:03:54.172	HCI COMMAND	[FCE2] Olymic settings - Unknown Olympic Settings
+Nov 15 16:03:54.172	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE2 (Broadcom VSC -- Olympic Settings) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.173	HCI EVENT	[FCE2] Command Complete - Broadcom VSC Event - Complete of LE Audio Event Counter Offset
+Nov 15 16:03:54.174	HCI COMMAND	[0C45] Write Inquiry Mode
+Nov 15 16:03:54.174	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0C45 (Write Inquiry Mode) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.174	HCI EVENT	[0C45] Command Complete - Write Inquiry Mode
+Nov 15 16:03:54.175	HCI COMMAND	[0C6D] Write LE Host Supported
+Nov 15 16:03:54.175	KERNEL DEBUG	[0x8000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0C6D (Write LE Host Supported) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.176	HCI EVENT	[0C6D] Command Complete - Write LE Host Supported
+Nov 15 16:03:54.178	HCI COMMAND	[200E] LE Create Connection Cancel
+Nov 15 16:03:54.178	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0x200E (LE Create Connection Cancel) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.178	HCI EVENT	[200E] Command Complete - LE Create Connection Cancel - Status: 0x0C 
+Nov 15 16:03:54.178	KERNEL	Received Command Disallowed (0x0C) error -- In UHE mode?
+Nov 15 16:03:54.178	HCI COMMAND	[FCFE] Vendor Specific Command [FCFE] - Read Local Firmware Info - Info Type: Read Current Bluetooth Mode
+Nov 15 16:03:54.178	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCFE (Broadcom VSC -- Read Local Firmware Info) from: kernel_task (0)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 5000
+Nov 15 16:03:54.179	HCI EVENT	[FCFE] Command Complete - Broadcom VSC Event - Read Local Firmware Info
+Nov 15 16:03:54.179	KERNEL	Not in UHE Mode -- continue
+Nov 15 16:03:54.180	HCI COMMAND	[2010] LE Clear White List
+Nov 15 16:03:54.180	KERNEL DEBUG	[0x8000] [IOBluetoothHCIRequest][Start] --  OpCode 0x2010 (LE Clear White List) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.181	HCI EVENT	[2010] Command Complete - LE Clear White List
+Nov 15 16:03:54.182	HCI COMMAND	[FD49] Vendor Specific Command [FD49] - Remove Extended Advertising Instance
+Nov 15 16:03:54.182	KERNEL DEBUG	[0x0000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD49 (Broadcom VSC -- LE Remove Extended Advertising Instance) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.183	HCI EVENT	[FD49] Command Complete - Broadcom VSC Event - Remove Extended Advertising Instance 
+Nov 15 16:03:54.183	HCI COMMAND	[FD48] Vendor Specific Command [FD48] - Create Extended Advertising Instance
+Nov 15 16:03:54.183	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD48 (Broadcom VSC -- LE Create Extended Advertising Instance) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.184	HCI EVENT	[FD48] Command Complete - Broadcom VSC Event - Create Extended Advertising Instance with Handle: 0x01
+Nov 15 16:03:54.184	HCI COMMAND	[FD48] Vendor Specific Command [FD48] - Create Extended Advertising Instance
+Nov 15 16:03:54.184	KERNEL DEBUG	[0x8000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD48 (Broadcom VSC -- LE Create Extended Advertising Instance) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.185	HCI EVENT	[FD48] Command Complete - Broadcom VSC Event - Create Extended Advertising Instance with Handle: 0x02
+Nov 15 16:03:54.185	HCI COMMAND	[FD48] Vendor Specific Command [FD48] - Create Extended Advertising Instance
+Nov 15 16:03:54.185	KERNEL DEBUG	[0x0000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD48 (Broadcom VSC -- LE Create Extended Advertising Instance) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.186	HCI EVENT	[FD48] Command Complete - Broadcom VSC Event - Create Extended Advertising Instance with Handle: 0x03
+Nov 15 16:03:54.195	HCI COMMAND	[0C1A] Write Scan Enable - Requesting Scan State: 0x02
+Nov 15 16:03:54.195	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0C1A (Write Scan Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.195	HCI EVENT	[0C1A] Command Complete - Write Scan Enable
+Nov 15 16:03:54.197	HCI COMMAND	[FCE2] Olymic settings - Unknown Olympic Settings
+Nov 15 16:03:54.197	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE2 (Broadcom VSC -- Olympic Settings) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.198	HCI EVENT	[FCE2] Command Complete - Broadcom VSC Event - Complete of LE Audio Event Counter Offset
+Nov 15 16:03:54.198	HCI COMMAND	[2002] LE Read Buffer Size
+Nov 15 16:03:54.198	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0x2002 (LE Read Buffer Size) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.199	HCI EVENT	[2002] Command Complete - LE Read Buffer Size
+Nov 15 16:03:54.214	HCI COMMAND	[0C1A] Write Scan Enable - Requesting Scan State: 0x02
+Nov 15 16:03:54.214	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0C1A (Write Scan Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.215	HCI EVENT	[0C1A] Command Complete - Write Scan Enable
+Nov 15 16:03:54.221	HCI COMMAND	[0C1A] Write Scan Enable - Requesting Scan State: 0x02
+Nov 15 16:03:54.221	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0C1A (Write Scan Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.222	HCI EVENT	[0C1A] Command Complete - Write Scan Enable
+Nov 15 16:03:54.224	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - Clear Matching Rules
+Nov 15 16:03:54.224	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.225	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - Clear Matching Rule - Capacity: 30, Remaining: 30
+Nov 15 16:03:54.225	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - Add Matching Rule with Address for Type: 5
+Nov 15 16:03:54.225	KERNEL DEBUG	[0x1000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.226	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - Add Matching Rule with Address - Capacity: 30, Remaining: 29
+Nov 15 16:03:54.227	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - LE Meta VSC: LE Enable Customer Specific Feature: 0x410ab - LE Resolve Address Whitelist - LE Filter On Adv Packet Content - LE Adv Filter Matching - LE Detect When a Sensor Goes Away - LE Dynamic Scan - LE Allow Scatternet
+Nov 15 16:03:54.227	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.228	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - LE Meta VSC: LE Enable Customer Specific Feature
+Nov 15 16:03:54.228	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - LE Meta VSC: LE Adv Packet Filter Content Feature Section - Action: Write
+Nov 15 16:03:54.228	KERNEL DEBUG	[0xE000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.229	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - LE Meta VSC: LE Adv Packet Content Filter Feature Section - Action: Write
+Nov 15 16:03:54.229	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - LE Meta VSC: LE Adv Packet Filter Service UUID - Action: Clear
+Nov 15 16:03:54.229	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.230	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - LE Meta VSC: LE Adv Packet Content Filter Service UUID - Action: Clear, Available Space: 8
+Nov 15 16:03:54.230	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - LE Meta VSC: LE Adv Packet Filter Service UUID - Action: Write
+Nov 15 16:03:54.230	KERNEL DEBUG	[0x0000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.231	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - LE Meta VSC: LE Adv Packet Content Filter Service UUID - Action: Write, Available Space: 7
+Nov 15 16:03:54.231	HCI COMMAND	[FD47] Vendor Specific Command [FD47] - Extended Duplicate Filter
+Nov 15 16:03:54.231	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD47 (Broadcom VSC -- LE Extended Duplicate Filter) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.232	HCI EVENT	[FD47] Command Complete - Broadcom VSC Event - Extended Duplicate Filter
+Nov 15 16:03:54.233	HCI COMMAND	[200B] LE Set Scan Parameters
+Nov 15 16:03:54.233	KERNEL DEBUG	[0x1000] [IOBluetoothHCIRequest][Start] --  OpCode 0x200B (LE Set Scan Parameters) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.233	HCI EVENT	[200B] Command Complete - LE Set Scan Parameters
+Nov 15 16:03:54.233	HCI COMMAND	[200C] LE Set Scan Enable - 0x01
+Nov 15 16:03:54.233	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0x200C (LE Set Scan Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.234	HCI EVENT	[200C] Command Complete - LE Set Scan Enable
+Nov 15 16:03:54.237	HCI COMMAND	[200C] LE Set Scan Enable - 0x00
+Nov 15 16:03:54.237	KERNEL DEBUG	[0x8000] [IOBluetoothHCIRequest][Start] --  OpCode 0x200C (LE Set Scan Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.239	HCI EVENT	[200C] Command Complete - LE Set Scan Enable
+Nov 15 16:03:54.242	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - Clear Matching Rules
+Nov 15 16:03:54.242	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.243	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - Clear Matching Rule - Capacity: 30, Remaining: 30
+Nov 15 16:03:54.244	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - Add Matching Rule with Address for Type: 5
+Nov 15 16:03:54.244	KERNEL DEBUG	[0xE000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.244	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - Add Matching Rule with Address - Capacity: 30, Remaining: 29
+Nov 15 16:03:54.245	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - LE Meta VSC: LE Enable Customer Specific Feature: 0x410ab - LE Resolve Address Whitelist - LE Filter On Adv Packet Content - LE Adv Filter Matching - LE Detect When a Sensor Goes Away - LE Dynamic Scan - LE Allow Scatternet
+Nov 15 16:03:54.245	KERNEL DEBUG	[0x4000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.246	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - LE Meta VSC: LE Enable Customer Specific Feature
+Nov 15 16:03:54.246	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - LE Meta VSC: LE Adv Packet Filter Content Feature Section - Action: Write
+Nov 15 16:03:54.246	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.247	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - LE Meta VSC: LE Adv Packet Content Filter Feature Section - Action: Write
+Nov 15 16:03:54.248	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - LE Meta VSC: LE Adv Packet Filter Service UUID - Action: Clear
+Nov 15 16:03:54.248	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.248	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - LE Meta VSC: LE Adv Packet Content Filter Service UUID - Action: Clear, Available Space: 8
+Nov 15 16:03:54.248	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - LE Meta VSC: LE Adv Packet Filter Service UUID - Action: Write
+Nov 15 16:03:54.248	KERNEL DEBUG	[0x8000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.249	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - LE Meta VSC: LE Adv Packet Content Filter Service UUID - Action: Write, Available Space: 7
+Nov 15 16:03:54.249	HCI COMMAND	[FD47] Vendor Specific Command [FD47] - Extended Duplicate Filter
+Nov 15 16:03:54.249	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD47 (Broadcom VSC -- LE Extended Duplicate Filter) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.250	HCI EVENT	[FD47] Command Complete - Broadcom VSC Event - Extended Duplicate Filter
+Nov 15 16:03:54.251	HCI COMMAND	[200B] LE Set Scan Parameters
+Nov 15 16:03:54.251	KERNEL DEBUG	[0xE000] [IOBluetoothHCIRequest][Start] --  OpCode 0x200B (LE Set Scan Parameters) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.251	HCI EVENT	[200B] Command Complete - LE Set Scan Parameters
+Nov 15 16:03:54.252	HCI COMMAND	[200C] LE Set Scan Enable - 0x01
+Nov 15 16:03:54.252	KERNEL DEBUG	[0x4000] [IOBluetoothHCIRequest][Start] --  OpCode 0x200C (LE Set Scan Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.252	HCI EVENT	[200C] Command Complete - LE Set Scan Enable
+Nov 15 16:03:54.255	HCI COMMAND	[200C] LE Set Scan Enable - 0x00
+Nov 15 16:03:54.255	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0x200C (LE Set Scan Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.257	HCI EVENT	[200C] Command Complete - LE Set Scan Enable
+Nov 15 16:03:54.260	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - Clear Matching Rules
+Nov 15 16:03:54.260	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.261	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - Clear Matching Rule - Capacity: 30, Remaining: 30
+Nov 15 16:03:54.261	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - Add Matching Rule with Address for Type: 5
+Nov 15 16:03:54.261	KERNEL DEBUG	[0xE000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.262	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - Add Matching Rule with Address - Capacity: 30, Remaining: 29
+Nov 15 16:03:54.263	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - LE Meta VSC: LE Enable Customer Specific Feature: 0x410ab - LE Resolve Address Whitelist - LE Filter On Adv Packet Content - LE Adv Filter Matching - LE Detect When a Sensor Goes Away - LE Dynamic Scan - LE Allow Scatternet
+Nov 15 16:03:54.263	KERNEL DEBUG	[0x1000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.264	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - LE Meta VSC: LE Enable Customer Specific Feature
+Nov 15 16:03:54.264	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - LE Meta VSC: LE Adv Packet Filter Content Feature Section - Action: Write
+Nov 15 16:03:54.264	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.265	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - LE Meta VSC: LE Adv Packet Content Filter Feature Section - Action: Write
+Nov 15 16:03:54.265	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - LE Meta VSC: LE Adv Packet Filter Service UUID - Action: Clear
+Nov 15 16:03:54.265	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.266	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - LE Meta VSC: LE Adv Packet Content Filter Service UUID - Action: Clear, Available Space: 8
+Nov 15 16:03:54.266	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - LE Meta VSC: LE Adv Packet Filter Service UUID - Action: Write
+Nov 15 16:03:54.266	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.267	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - LE Meta VSC: LE Adv Packet Content Filter Service UUID - Action: Write, Available Space: 7
+Nov 15 16:03:54.267	HCI COMMAND	[FD47] Vendor Specific Command [FD47] - Extended Duplicate Filter
+Nov 15 16:03:54.267	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD47 (Broadcom VSC -- LE Extended Duplicate Filter) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.268	HCI EVENT	[FD47] Command Complete - Broadcom VSC Event - Extended Duplicate Filter
+Nov 15 16:03:54.269	HCI COMMAND	[200B] LE Set Scan Parameters
+Nov 15 16:03:54.269	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0x200B (LE Set Scan Parameters) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.269	HCI EVENT	[200B] Command Complete - LE Set Scan Parameters
+Nov 15 16:03:54.269	HCI COMMAND	[200C] LE Set Scan Enable - 0x01
+Nov 15 16:03:54.269	KERNEL DEBUG	[0x1000] [IOBluetoothHCIRequest][Start] --  OpCode 0x200C (LE Set Scan Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.270	HCI EVENT	[200C] Command Complete - LE Set Scan Enable
+Nov 15 16:03:54.273	HCI COMMAND	[200C] LE Set Scan Enable - 0x00
+Nov 15 16:03:54.273	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0x200C (LE Set Scan Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.274	HCI EVENT	[200C] Command Complete - LE Set Scan Enable
+Nov 15 16:03:54.277	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - Clear Matching Rules
+Nov 15 16:03:54.277	KERNEL DEBUG	[0x4000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.278	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - Clear Matching Rule - Capacity: 30, Remaining: 30
+Nov 15 16:03:54.279	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - Add Matching Rule with Address for Type: 5
+Nov 15 16:03:54.279	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.279	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - Add Matching Rule with Address - Capacity: 30, Remaining: 29
+Nov 15 16:03:54.280	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - LE Meta VSC: LE Enable Customer Specific Feature: 0x410ab - LE Resolve Address Whitelist - LE Filter On Adv Packet Content - LE Adv Filter Matching - LE Detect When a Sensor Goes Away - LE Dynamic Scan - LE Allow Scatternet
+Nov 15 16:03:54.280	KERNEL DEBUG	[0x0000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.281	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - LE Meta VSC: LE Enable Customer Specific Feature
+Nov 15 16:03:54.281	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - LE Meta VSC: LE Adv Packet Filter Content Feature Section - Action: Write
+Nov 15 16:03:54.281	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.282	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - LE Meta VSC: LE Adv Packet Content Filter Feature Section - Action: Write
+Nov 15 16:03:54.282	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - LE Meta VSC: LE Adv Packet Filter Service UUID - Action: Clear
+Nov 15 16:03:54.282	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.283	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - LE Meta VSC: LE Adv Packet Content Filter Service UUID - Action: Clear, Available Space: 8
+Nov 15 16:03:54.283	HCI COMMAND	[FCE9] Vendor Specific Command [FCE9] - LE Meta VSC: LE Adv Packet Filter Service UUID - Action: Write
+Nov 15 16:03:54.283	KERNEL DEBUG	[0xE000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFCE9 (Broadcom VSC -- LE Meta VSC) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.284	HCI EVENT	[FCE9] Command Complete - Broadcom VSC Event - LE Meta VSC: LE Adv Packet Content Filter Service UUID - Action: Write, Available Space: 7
+Nov 15 16:03:54.284	HCI COMMAND	[FD47] Vendor Specific Command [FD47] - Extended Duplicate Filter
+Nov 15 16:03:54.284	KERNEL DEBUG	[0x4000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD47 (Broadcom VSC -- LE Extended Duplicate Filter) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.285	HCI EVENT	[FD47] Command Complete - Broadcom VSC Event - Extended Duplicate Filter
+Nov 15 16:03:54.285	HCI COMMAND	[200B] LE Set Scan Parameters
+Nov 15 16:03:54.285	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0x200B (LE Set Scan Parameters) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.286	HCI EVENT	[200B] Command Complete - LE Set Scan Parameters
+Nov 15 16:03:54.286	HCI COMMAND	[200C] LE Set Scan Enable - 0x01
+Nov 15 16:03:54.286	KERNEL DEBUG	[0x0000] [IOBluetoothHCIRequest][Start] --  OpCode 0x200C (LE Set Scan Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:54.287	HCI EVENT	[200C] Command Complete - LE Set Scan Enable
+Nov 15 16:03:54.290	HCI COMMAND	[2005] LE Set Random Address - 4C:AD:D3:9C:CF:7E
+Nov 15 16:03:54.290	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0x2005 (LE Set Random Address) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.290	HCI EVENT	[2005] Command Complete - LE Set Random Address
+Nov 15 16:03:54.290	HCI COMMAND	[FD4C] Vendor Specific Command [FD4C] - Set Extended Scan Response Data : Handle: 0x01
+Nov 15 16:03:54.290	KERNEL DEBUG	[0x4000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4C (Broadcom VSC -- LE Set Extended Scan Response Data) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.291	HCI EVENT	[FD4C] Command Complete - Broadcom VSC Event - Set Extended Scan Response Data
+Nov 15 16:03:54.291	HCI COMMAND	[FD4B] Vendor Specific Command [FD4B] - Set Extended Advertising Data : Handle: 0x01
+Nov 15 16:03:54.291	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4B (Broadcom VSC -- LE Set Extended Advertising Data) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.292	HCI EVENT	[FD4B] Command Complete - Broadcom VSC Event - Set Extended Advertising Data
+Nov 15 16:03:54.293	HCI COMMAND	[FD4A] Vendor Specific Command [FD4A] - Set Extended Advertising Parameters : Handle: 0x01
+Nov 15 16:03:54.293	KERNEL DEBUG	[0x0000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4A (Broadcom VSC -- LE Set Extended Advertising Parameters) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.293	HCI EVENT	[FD4A] Command Complete - Broadcom VSC Event - Set Advertising Parameters 
+Nov 15 16:03:54.293	HCI COMMAND	[FD4D] Vendor Specific Command [FD4D] - Set Extended Advertising Enable : Handle: 0x01
+Nov 15 16:03:54.293	KERNEL DEBUG	[0x1000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4D (Broadcom VSC -- LE Set Extended Advertising Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.294	HCI EVENT	[FD4D] Command Complete - Broadcom VSC Event - Set Extended Advertising Enable
+Nov 15 16:03:54.295	HCI COMMAND	[FD4D] Vendor Specific Command [FD4D] - Set Extended Advertising Enable : Handle: 0x01
+Nov 15 16:03:54.295	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4D (Broadcom VSC -- LE Set Extended Advertising Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.297	HCI EVENT	[FD4D] Command Complete - Broadcom VSC Event - Set Extended Advertising Enable
+Nov 15 16:03:54.298	HCI COMMAND	[2005] LE Set Random Address - 4C:AD:D3:9C:CF:7E
+Nov 15 16:03:54.298	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0x2005 (LE Set Random Address) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.301	HCI EVENT	[2005] Command Complete - LE Set Random Address
+Nov 15 16:03:54.301	HCI COMMAND	[FD4C] Vendor Specific Command [FD4C] - Set Extended Scan Response Data : Handle: 0x01
+Nov 15 16:03:54.301	KERNEL DEBUG	[0x4000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4C (Broadcom VSC -- LE Set Extended Scan Response Data) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.302	HCI EVENT	[FD4C] Command Complete - Broadcom VSC Event - Set Extended Scan Response Data
+Nov 15 16:03:54.302	HCI COMMAND	[FD4B] Vendor Specific Command [FD4B] - Set Extended Advertising Data : Handle: 0x01
+Nov 15 16:03:54.302	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4B (Broadcom VSC -- LE Set Extended Advertising Data) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.303	HCI EVENT	[FD4B] Command Complete - Broadcom VSC Event - Set Extended Advertising Data
+Nov 15 16:03:54.303	HCI COMMAND	[FD4A] Vendor Specific Command [FD4A] - Set Extended Advertising Parameters : Handle: 0x01
+Nov 15 16:03:54.303	KERNEL DEBUG	[0x0000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4A (Broadcom VSC -- LE Set Extended Advertising Parameters) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.304	HCI EVENT	[FD4A] Command Complete - Broadcom VSC Event - Set Advertising Parameters 
+Nov 15 16:03:54.304	HCI COMMAND	[FD4D] Vendor Specific Command [FD4D] - Set Extended Advertising Enable : Handle: 0x01
+Nov 15 16:03:54.304	KERNEL DEBUG	[0x1000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4D (Broadcom VSC -- LE Set Extended Advertising Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.305	HCI EVENT	[FD4D] Command Complete - Broadcom VSC Event - Set Extended Advertising Enable
+Nov 15 16:03:54.306	HCI COMMAND	[FD4D] Vendor Specific Command [FD4D] - Set Extended Advertising Enable : Handle: 0x01
+Nov 15 16:03:54.306	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4D (Broadcom VSC -- LE Set Extended Advertising Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.308	HCI EVENT	[FD4D] Command Complete - Broadcom VSC Event - Set Extended Advertising Enable
+Nov 15 16:03:54.309	HCI COMMAND	[2005] LE Set Random Address - 4C:AD:D3:9C:CF:7E
+Nov 15 16:03:54.309	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0x2005 (LE Set Random Address) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.312	HCI EVENT	[2005] Command Complete - LE Set Random Address
+Nov 15 16:03:54.312	HCI COMMAND	[FD4C] Vendor Specific Command [FD4C] - Set Extended Scan Response Data : Handle: 0x01
+Nov 15 16:03:54.312	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4C (Broadcom VSC -- LE Set Extended Scan Response Data) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.313	HCI EVENT	[FD4C] Command Complete - Broadcom VSC Event - Set Extended Scan Response Data
+Nov 15 16:03:54.313	HCI COMMAND	[FD4B] Vendor Specific Command [FD4B] - Set Extended Advertising Data : Handle: 0x01
+Nov 15 16:03:54.313	KERNEL DEBUG	[0x8000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4B (Broadcom VSC -- LE Set Extended Advertising Data) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.314	HCI EVENT	[FD4B] Command Complete - Broadcom VSC Event - Set Extended Advertising Data
+Nov 15 16:03:54.314	HCI COMMAND	[FD4A] Vendor Specific Command [FD4A] - Set Extended Advertising Parameters : Handle: 0x01
+Nov 15 16:03:54.314	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4A (Broadcom VSC -- LE Set Extended Advertising Parameters) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.315	HCI EVENT	[FD4A] Command Complete - Broadcom VSC Event - Set Advertising Parameters 
+Nov 15 16:03:54.315	HCI COMMAND	[FD4D] Vendor Specific Command [FD4D] - Set Extended Advertising Enable : Handle: 0x01
+Nov 15 16:03:54.315	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4D (Broadcom VSC -- LE Set Extended Advertising Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.316	HCI EVENT	[FD4D] Command Complete - Broadcom VSC Event - Set Extended Advertising Enable
+Nov 15 16:03:54.317	HCI COMMAND	[FD4D] Vendor Specific Command [FD4D] - Set Extended Advertising Enable : Handle: 0x01
+Nov 15 16:03:54.317	KERNEL DEBUG	[0x4000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4D (Broadcom VSC -- LE Set Extended Advertising Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.319	HCI EVENT	[FD4D] Command Complete - Broadcom VSC Event - Set Extended Advertising Enable
+Nov 15 16:03:54.320	HCI COMMAND	[2005] LE Set Random Address - 4C:AD:D3:9C:CF:7E
+Nov 15 16:03:54.320	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0x2005 (LE Set Random Address) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.324	HCI EVENT	[2005] Command Complete - LE Set Random Address
+Nov 15 16:03:54.324	HCI COMMAND	[FD4C] Vendor Specific Command [FD4C] - Set Extended Scan Response Data : Handle: 0x01
+Nov 15 16:03:54.324	KERNEL DEBUG	[0x0000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4C (Broadcom VSC -- LE Set Extended Scan Response Data) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.325	HCI EVENT	[FD4C] Command Complete - Broadcom VSC Event - Set Extended Scan Response Data
+Nov 15 16:03:54.325	HCI COMMAND	[FD4B] Vendor Specific Command [FD4B] - Set Extended Advertising Data : Handle: 0x01
+Nov 15 16:03:54.325	KERNEL DEBUG	[0x1000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4B (Broadcom VSC -- LE Set Extended Advertising Data) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.326	HCI EVENT	[FD4B] Command Complete - Broadcom VSC Event - Set Extended Advertising Data
+Nov 15 16:03:54.326	HCI COMMAND	[FD4A] Vendor Specific Command [FD4A] - Set Extended Advertising Parameters : Handle: 0x01
+Nov 15 16:03:54.326	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4A (Broadcom VSC -- LE Set Extended Advertising Parameters) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.327	HCI EVENT	[FD4A] Command Complete - Broadcom VSC Event - Set Advertising Parameters 
+Nov 15 16:03:54.327	HCI COMMAND	[FD4D] Vendor Specific Command [FD4D] - Set Extended Advertising Enable : Handle: 0x01
+Nov 15 16:03:54.327	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4D (Broadcom VSC -- LE Set Extended Advertising Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.328	HCI EVENT	[FD4D] Command Complete - Broadcom VSC Event - Set Extended Advertising Enable
+Nov 15 16:03:54.329	HCI COMMAND	[FD4D] Vendor Specific Command [FD4D] - Set Extended Advertising Enable : Handle: 0x01
+Nov 15 16:03:54.329	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4D (Broadcom VSC -- LE Set Extended Advertising Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.331	HCI EVENT	[FD4D] Command Complete - Broadcom VSC Event - Set Extended Advertising Enable
+Nov 15 16:03:54.332	HCI COMMAND	[2005] LE Set Random Address - 4C:AD:D3:9C:CF:7E
+Nov 15 16:03:54.332	KERNEL DEBUG	[0x8000] [IOBluetoothHCIRequest][Start] --  OpCode 0x2005 (LE Set Random Address) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.336	HCI EVENT	[2005] Command Complete - LE Set Random Address
+Nov 15 16:03:54.336	HCI COMMAND	[FD4C] Vendor Specific Command [FD4C] - Set Extended Scan Response Data : Handle: 0x01
+Nov 15 16:03:54.336	KERNEL DEBUG	[0x4000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4C (Broadcom VSC -- LE Set Extended Scan Response Data) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.337	HCI EVENT	[FD4C] Command Complete - Broadcom VSC Event - Set Extended Scan Response Data
+Nov 15 16:03:54.337	HCI COMMAND	[FD4B] Vendor Specific Command [FD4B] - Set Extended Advertising Data : Handle: 0x01
+Nov 15 16:03:54.337	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4B (Broadcom VSC -- LE Set Extended Advertising Data) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.338	HCI EVENT	[FD4B] Command Complete - Broadcom VSC Event - Set Extended Advertising Data
+Nov 15 16:03:54.338	HCI COMMAND	[FD4A] Vendor Specific Command [FD4A] - Set Extended Advertising Parameters : Handle: 0x01
+Nov 15 16:03:54.338	KERNEL DEBUG	[0x0000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4A (Broadcom VSC -- LE Set Extended Advertising Parameters) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.339	HCI EVENT	[FD4A] Command Complete - Broadcom VSC Event - Set Advertising Parameters 
+Nov 15 16:03:54.339	HCI COMMAND	[FD4D] Vendor Specific Command [FD4D] - Set Extended Advertising Enable : Handle: 0x01
+Nov 15 16:03:54.339	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4D (Broadcom VSC -- LE Set Extended Advertising Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.340	HCI EVENT	[FD4D] Command Complete - Broadcom VSC Event - Set Extended Advertising Enable
+Nov 15 16:03:54.341	HCI COMMAND	[FD4D] Vendor Specific Command [FD4D] - Set Extended Advertising Enable : Handle: 0x01
+Nov 15 16:03:54.341	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4D (Broadcom VSC -- LE Set Extended Advertising Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.343	HCI EVENT	[FD4D] Command Complete - Broadcom VSC Event - Set Extended Advertising Enable
+Nov 15 16:03:54.344	HCI COMMAND	[2005] LE Set Random Address - 4C:AD:D3:9C:CF:7E
+Nov 15 16:03:54.344	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0x2005 (LE Set Random Address) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.347	HCI EVENT	[2005] Command Complete - LE Set Random Address
+Nov 15 16:03:54.348	HCI COMMAND	[FD4C] Vendor Specific Command [FD4C] - Set Extended Scan Response Data : Handle: 0x01
+Nov 15 16:03:54.348	KERNEL DEBUG	[0x8000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4C (Broadcom VSC -- LE Set Extended Scan Response Data) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.348	HCI EVENT	[FD4C] Command Complete - Broadcom VSC Event - Set Extended Scan Response Data
+Nov 15 16:03:54.349	HCI COMMAND	[FD4B] Vendor Specific Command [FD4B] - Set Extended Advertising Data : Handle: 0x01
+Nov 15 16:03:54.349	KERNEL DEBUG	[0x4000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4B (Broadcom VSC -- LE Set Extended Advertising Data) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.349	HCI EVENT	[FD4B] Command Complete - Broadcom VSC Event - Set Extended Advertising Data
+Nov 15 16:03:54.350	HCI COMMAND	[FD4A] Vendor Specific Command [FD4A] - Set Extended Advertising Parameters : Handle: 0x01
+Nov 15 16:03:54.350	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4A (Broadcom VSC -- LE Set Extended Advertising Parameters) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.350	HCI EVENT	[FD4A] Command Complete - Broadcom VSC Event - Set Advertising Parameters 
+Nov 15 16:03:54.350	HCI COMMAND	[FD4D] Vendor Specific Command [FD4D] - Set Extended Advertising Enable : Handle: 0x01
+Nov 15 16:03:54.350	KERNEL DEBUG	[0x1000] [IOBluetoothHCIRequest][Start] --  OpCode 0xFD4D (Broadcom VSC -- LE Set Extended Advertising Enable) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 6543
+Nov 15 16:03:54.351	HCI EVENT	[FD4D] Command Complete - Broadcom VSC Event - Set Extended Advertising Enable
+Nov 15 16:03:57.468	HCI COMMAND	[1009] Read Device Address
+Nov 15 16:03:57.468	KERNEL DEBUG	[0x7000] [IOBluetoothHCIRequest][Start] --  OpCode 0x1009 (Read Device Address) from: cloudpaird (444)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:57.469	HCI EVENT	[1009] Command Complete - Read Device Address
+Nov 15 16:03:57.474	HCI COMMAND	[1009] Read Device Address
+Nov 15 16:03:57.474	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0x1009 (Read Device Address) from: cloudpaird (444)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:57.474	HCI EVENT	[1009] Command Complete - Read Device Address
+Nov 15 16:03:59.256	HCI COMMAND	[0C17] Read Page Timeout
+Nov 15 16:03:59.256	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0C17 (Read Page Timeout) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:59.256	HCI EVENT	[0C17] Command Complete - Read Page Timeout
+Nov 15 16:03:59.257	HCI COMMAND	[0C18] Write Page Timeout - 0x2710 (6.25 s)
+Nov 15 16:03:59.257	KERNEL DEBUG	[0x1000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0C18 (Write Page Timeout) from: blued (101)  Synchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 4321
+Nov 15 16:03:59.258	HCI EVENT	[0C18] Command Complete - Write Page Timeout
+Nov 15 16:03:59.259	HCI COMMAND	[0405] Create Connection: FC:58:FA:70:09:4E
+Nov 15 16:03:59.259	KERNEL DEBUG	[0x9000] [IOBluetoothHCIRequest][Start] --  OpCode 0x0405 (Create Connection) from: blued (101)  Asynchronous  status: 0x00 (kIOReturnSuccess) state: 2 (BUSY) timeout: 43210
+Nov 15 16:03:59.260	HCI EVENT	Command Status - Create Connection
+Nov 15 16:04:05.560	HCI EVENT	Connection Complete - status: 0x04 - FC:58:FA:70:09:4E
+Nov 15 16:04:08.000	NOTE	OS X Version 10.12.6 (Build 16G29) / Model ID: MacBookAir7,2
+Nov 15 16:04:08.000	NOTE	Bluetooth Software Version: 5.0.5f1
+Nov 15 16:04:08.000	NOTE	Host Controller:  Broadcom / 0x05AC / 0x828F / v137 c9263
+Nov 15 16:04:08.000	NOTE	Support:  Deep Idle (Yes) / WoBT (Yes) / BTRS (No) / New Idle Policy (Yes) / Idle Time (500 ms)
+Nov 15 16:04:08.345	KERNEL DEBUG	=== [DumpStats - Start] ===
+Nov 15 16:04:08.345	KERNEL DEBUG	mActiveConnections: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumSCOConnections: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfCommandsAllowedByHardware: 1
+Nov 15 16:04:08.345	KERNEL DEBUG	mACLSCOBufferSize.ACLDataPacketLength: 1021
+Nov 15 16:04:08.345	KERNEL DEBUG	mACLSCOBufferSize.SCODataPacketLength: 64
+Nov 15 16:04:08.345	KERNEL DEBUG	mACLSCOBufferSize.totalNumACLDataPackets: 8
+Nov 15 16:04:08.345	KERNEL DEBUG	mACLSCOBufferSize.totalNumSCODataPackets: 1
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfMidPriorityDevice: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfHighPriorityDevice: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfOutstandingLowPriorityACLPackets: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfOutstandingMidPriorityACLPackets: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfOutstandingHighPriorityACLPackets: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mTotalNumberOfOutstandingACLPackets: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfLowPriorityACLPacketsInQueue: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfMidPriorityACLPacketsInQueue: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfHighPriorityACLPacketsInQueue: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mTotalNumberOfACLPacketsInAllQueues: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfAllowedLowPriorityACLDataPackets: 8
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfAllowedMidPriorityACLDataPackets: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfAllowedHighPriorityACLDataPackets: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mLEACLBufferSize.ACLDataPacketLength: 27
+Nov 15 16:04:08.345	KERNEL DEBUG	mLEACLBufferSize.totalNumACLDataPackets: 15
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfMidPriorityLEDevice: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfHighPriorityLEDevice: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfOutstandingLowPriorityLEACLPackets: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfOutstandingMidPriorityLEACLPackets: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfOutstandingHighPriorityLEACLPackets: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mTotalNumberOfOutstandingLEACLPackets: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfLowPriorityLEACLPacketsInQueue: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfMidPriorityLEACLPacketsInQueue: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfHighPriorityLEACLPacketsInQueue: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mTotalNumberOfLEACLPacketsInAllQueues: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfAllowedLowPriorityLEACLDataPackets: 15
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfAllowedMidPriorityLEACLDataPackets: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumberOfAllowedHighPriorityLEACLDataPackets: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mNumConfiguredHIDDevices: 0
+Nov 15 16:04:08.345	KERNEL DEBUG	mSystemOnTheWayToSleep: FALSE
+Nov 15 16:04:08.345	KERNEL DEBUG	Allowed Incoming L2CAP Channels (7):
+Nov 15 16:04:08.345	KERNEL DEBUG		0x03
+Nov 15 16:04:08.345	KERNEL DEBUG		0x01
+Nov 15 16:04:08.345	KERNEL DEBUG		0x11
+Nov 15 16:04:08.345	KERNEL DEBUG		0x13
+Nov 15 16:04:08.345	KERNEL DEBUG		0x19
+Nov 15 16:04:08.345	KERNEL DEBUG		0x17
+Nov 15 16:04:08.345	KERNEL DEBUG		0x0F
+Nov 15 16:04:08.345	KERNEL DEBUG	Allowed Incoming RFCOMM Channels (3):
+Nov 15 16:04:08.345	KERNEL DEBUG		0x02
+Nov 15 16:04:08.345	KERNEL DEBUG		0x03
+Nov 15 16:04:08.345	KERNEL DEBUG		0x04
+Nov 15 16:04:08.345	KERNEL DEBUG	Allocated HCI requests:
+Nov 15 16:04:08.345	KERNEL DEBUG		<none>
+Nov 15 16:04:08.345	KERNEL DEBUG	Busy queue HCI requests:
+Nov 15 16:04:08.345	KERNEL DEBUG		<none>
+Nov 15 16:04:08.345	KERNEL DEBUG	Wait queue HCI requests:
+Nov 15 16:04:08.345	KERNEL DEBUG		<none>
+Nov 15 16:04:08.345	KERNEL DEBUG	Notification ports:
+Nov 15 16:04:08.345	KERNEL DEBUG		Port[0x00]: 0xffffff80276d62a0, RefCon: 0x4e4c69c7
+Nov 15 16:04:08.345	KERNEL DEBUG		Port[0x01]: 0xffffff80308146f8, RefCon: 0x4e4c6aa8
+Nov 15 16:04:08.345	KERNEL DEBUG		Port[0x02]: 0xffffff80293bc738, RefCon: 0x4e4c698f
+Nov 15 16:04:08.345	KERNEL DEBUG		Port[0x03]: 0xffffff8031d5dbd0, RefCon: 0x4e4c6ae2
+Nov 15 16:04:08.345	KERNEL DEBUG		Port[0x04]: 0xffffff80327e0b90, RefCon: 0x4e4c6ab1
+Nov 15 16:04:08.345	KERNEL DEBUG		Port[0x05]: 0xffffff8035973a80, RefCon: 0x4e4c6ae8
+Nov 15 16:04:08.345	KERNEL DEBUG		Port[0x06]: 0xffffff8035a4cb50, RefCon: 0x4e4c6b1e
+Nov 15 16:04:08.345	KERNEL DEBUG		Port[0x07]: 0xffffff80307d87e0, RefCon: 0x4e4c6b72
+Nov 15 16:04:08.345	KERNEL DEBUG	=== [DumpStats - End] ===
