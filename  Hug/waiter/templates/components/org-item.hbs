@@ -1,0 +1,23 @@
+<div class="media-elem">
+  {{user-avatar url=account.avatarUrl name=name size=36}}
+</div>
+<div class="media-body">
+  {{#link-to "account" account.login}}
+    <h2>{{name}}</h2>
+    {{#if account.reposCount}}<p>Repositories <strong>{{account.reposCount}}</strong></p>{{else}}No repositories{{/if}}
+  {{/link-to}}
+
+  {{#if isUser}}
+    <p class="profile-user-last">Token:
+    {{#if tokenIsVisible}}
+      <strong>{{auth.currentUser.token}}</strong>
+    {{/if}}
+    <a {{action 'tokenVisibility' prevenDefault=true}} class="profile-token-toggle tooltip--profile {{if tokenIsVisible 'is-visible'}} dropdown">
+      <span class="tooltip-bubble">
+        {{#if tokenIsVisible}}hide token{{else}}show token{{/if}}
+      </span>
+      {{inline-svg 'icon-seemore' class="icon icon-seemore"}}
+      </a>
+    </p>
+  {{/if}}
+</div>

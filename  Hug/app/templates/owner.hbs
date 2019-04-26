@@ -1,0 +1,23 @@
+{{#travis-layout layoutName="layouts/simple" class="owner"}}
+<header class="owner-header row">
+  <div class="owner-avatar">
+    {{user-avatar url=owner.avatar name=owner.name size=126}}
+  </div>
+  <div class="owner-info">
+    <h1 class="owner-title">{{owner.name}}</h1>
+    <p class="owner-handle">
+      {{inline-svg 'icon-repooctocat' class="icon--l"}}
+      <a href={{githubProfile}} title="{{owner.name}} on GitHub">
+        <span class="label-align">{{owner.login}}</span></a></p>
+    {{!-- {{owner-sync-button owner=owner}} --}}
+  </div>
+</header>
+
+<div class="tabs--owner">
+  <div class="tabbody">
+    <section role="tabpanel">
+      {{outlet}}
+    </section>
+  </div>
+</div>
+{{/travis-layout}}
