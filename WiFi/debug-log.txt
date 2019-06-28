@@ -1,0 +1,54 @@
+19:37:19.047 BEGIN Connectivity (PRE) [4E7BD]
+19:37:19.048 BEGIN [ifconfig] [A97A8]
+19:37:19.048 BEGIN CoreCapture (Pre) [1AC5C]
+19:37:19.048 BEGIN [arp] [2F105]
+19:37:19.048 BEGIN [ipconfig] [4CF96]
+19:37:19.050 BEGIN Wi-Fi Preferences [1C0FB]
+19:37:19.050 BEGIN Wi-Fi Scan Results [4F1D1]
+19:37:19.050 BEGIN [swvers] [0C1E4]
+19:37:19.051 BEGIN [security] [D49BB]
+19:37:19.051 BEGIN AWDL Status [E424D]
+19:37:19.051 BEGIN Wi-Fi Status [84380]
+19:37:19.051 BEGIN Bluetooth Status [0DD0B]
+19:37:19.052 BEGIN Network Status [9C491]
+19:37:19.053 END [security] [D49BB], took 0.000428s
+19:37:19.053 BEGIN Leaky AP Stats [2F1CF]
+19:37:19.053 BEGIN TCP Dump (Pre) [4B912]
+19:37:19.067 END Wi-Fi Scan Results [4F1D1], took 0.016900s
+19:37:19.077 END Bluetooth Status [0DD0B], took 0.024899s
+19:37:19.077 END Network Status [9C491], took 0.024158s
+19:37:19.078 END Leaky AP Stats [2F1CF], took 0.024412s
+19:37:19.078 END Wi-Fi Status [84380], took 0.026504s
+19:37:19.080 END AWDL Status [E424D], took 0.028206s
+19:37:19.125 END [ipconfig] [4CF96], took 0.075964s
+19:37:19.129 END [ifconfig] [A97A8], took 0.080612s
+19:37:19.129 END [arp] [2F105], took 0.080765s
+19:37:19.129 END [swvers] [0C1E4], took 0.078779s
+19:37:19.195 END Wi-Fi Preferences [1C0FB], took 0.144618s
+19:37:19.870 END CoreCapture (Pre) [1AC5C], took 0.821058s
+19:37:20.580 END TCP Dump (Pre) [4B912], took 1.526907s
+19:37:20.586 END Connectivity (PRE) [4E7BD], took 1.538633s
+19:37:20.595 BEGIN Connectivity (DIAG) [4EFB0]
+19:37:20.598 BEGIN Wi-Fi Logs (Dump) [A5264]
+19:37:20.902 END Wi-Fi Logs (Dump) [A5264], took 0.304169s
+19:37:20.904 BEGIN [netstat] [47E37]
+19:37:21.250 END [netstat] [47E37], took 0.345410s
+19:37:21.251 BEGIN BEGIN Wi-Fi Default Route [C00E5]
+19:37:21.251 END BEGIN Wi-Fi Default Route [C00E5], took 0.000004s
+19:37:21.255 BEGIN Diagnostics [1F211]
+19:37:21.362 END Diagnostics [1F211], took 0.103527s
+19:37:21.367 BEGIN END Wi-Fi Default Route [DC0FA]
+19:37:21.368 END END Wi-Fi Default Route [DC0FA], took 0.000001s
+19:37:21.368 BEGIN [netstat] [4D177]
+19:37:21.707 END [netstat] [4D177], took 0.338695s
+19:37:21.716 END Connectivity (DIAG) [4EFB0], took 1.117957s
+19:37:21.723 BEGIN Connectivity (POST) [02466]
+19:37:21.724 BEGIN CoreCapture (Post) [90656]
+19:37:21.724 BEGIN TCP Dump (Post) [65E7D]
+19:37:21.724 BEGIN Wi-Fi Scan Results [52FEA]
+19:37:21.724 END TCP Dump (Post) [65E7D], took 0.000025s
+19:37:21.725 BEGIN WiFi Env Diagnostics [AD7D8]
+19:37:21.727 END Wi-Fi Scan Results [52FEA], took 0.002209s
+19:37:21.743 END WiFi Env Diagnostics [AD7D8], took 0.016858s
+19:37:24.071 END CoreCapture (Post) [90656], took 2.346828s
+19:37:24.075 END Connectivity (POST) [02466], took 2.351462s

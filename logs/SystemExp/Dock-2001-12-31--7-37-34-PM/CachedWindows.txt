@@ -1,0 +1,4 @@
+0xf0 = WAWindow(wid: 0xf0 title: macOS User Guide)
+
+Animations:
+[:]

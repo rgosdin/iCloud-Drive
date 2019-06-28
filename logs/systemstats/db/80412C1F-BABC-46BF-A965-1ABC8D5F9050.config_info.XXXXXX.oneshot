@@ -1,0 +1,13 @@
+{
+  "StorageType" : 2113,
+  "Version" : 1,
+  "MemorySize" : 17179869184,
+  "Internal" : false,
+  "BoardID" : "Mac-94245B3640C91C81",
+  "SSDProductName" : "SATA SSD",
+  "PageSize" : 4096,
+  "MediaSize" : 239847653376,
+  "Model" : "MacBookPro8,1",
+  "Beta" : false,
+  "SSDProductRevisionLevel" : "SBFM61.3"
+}

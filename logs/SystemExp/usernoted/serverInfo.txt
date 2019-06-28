@@ -1,0 +1,29 @@
+Preferences:
+sort_order = manuallyByApp
+Sort Order
+["com.apple.iCal", "com.apple.FaceTime", "com.apple.mail", "com.apple.iChat", "com.apple.reminders", "com.apple.Safari", "_SYSTEM_CENTER_:com.apple.migrationhelper", "_SYSTEM_CENTER_:com.apple.accountsd", "_SYSTEM_CENTER_:com.apple.mdmclient", "_SYSTEM_CENTER_:com.apple.storeassetd", "_SYSTEM_CENTER_:com.apple.TMHelperAgent", "_SYSTEM_CENTER_:com.apple.appstoreagent", "_SYSTEM_CENTER_:com.apple.cloudpaird", "com.apple.gamecenter", "_SYSTEM_CENTER_:com.apple.BluetoothUIServer", "_SYSTEM_CENTER_:com.apple.EscrowSecurityAlert", "com.apple.iBooksX", "_SYSTEM_CENTER_:com.apple.security.keychain-circle-notification", "_SYSTEM_CENTER_:com.apple.sharingd", "_SYSTEM_CENTER_:com.apple.sharingd.continuity", "com.apple.Photos", "_SYSTEM_CENTER_:com.apple.CalendarNotification.CalNCService", "_SYSTEM_CENTER_:com.apple.CalendarNotification.CalNCServiceBirthday", "_SYSTEM_CENTER_:com.apple.battery-monitor", "_SYSTEM_CENTER_:com.apple.followup.alert", "_SYSTEM_CENTER_:com.apple.noticeboard", "_SYSTEM_CENTER_:com.apple.FaceTime", "com.apple.appstore", "_SYSTEM_CENTER_:com.apple.MobileAccessoryUpdater.fudHelperAgent", "_SYSTEM_CENTER_:com.apple.DiskArbitration.DiskArbitrationAgent", "_SYSTEM_CENTER_:com.apple.USBAgent", "_SYSTEM_CENTER_:com.apple.apd.touristd", "com.intego.virusbarrier.application.events.agent", "com.intego.netbarrier.alert", "com.intego.integotrial", "com.intego.WashingMachine.ui.helper", "com.apple.TelephonyUtilities", "com.apple.Home", "org.mozilla.firefox", "com.apple.iTunes", "com.apple.Notes", "_SYSTEM_CENTER_:com.apple.AssetCache.agent", "com.apple.ScreenSharing", "_SYSTEM_CENTER_:com.apple.loginwindow.appManager"]
+Connections
+<NotificationCenterOutgoingConnection: 0x00007ffead709a20>
+<ClientConnect: 0x00007ffead42da40 identifier: com.apple.reminders type: Application daemon=true>
+<ClientConnect: 0x00007ffead513100 identifier: com.apple.reminders type: Application daemon=true>
+<ClientConnect: 0x00007ffead7438d0 identifier: com.apple.iChat type: Application daemon=true>
+<ClientConnect: 0x00007ffead5167e0 identifier: com.apple.iChat type: Application daemon=true>
+<ClientConnect: 0x00007ffead50bbb0 identifier: com.apple.iCal type: Application daemon=true>
+<ClientConnect: 0x00007ffead7401a0 identifier: com.apple.iCal type: Application daemon=true>
+<ClientConnect: 0x00007ffead426ec0 identifier: com.apple.iBooksX type: Application>
+<ClientConnect: 0x00007ffead73d570 identifier: com.apple.appstore type: Application daemon=true>
+<ClientConnect: 0x00007ffead61d270 identifier: com.apple.TelephonyUtilities type: Application daemon=true>
+<ClientConnect: 0x00007ffead6200b0 identifier: com.apple.Photos type: Application daemon=true>
+<ClientConnect: 0x00007ffead620620 identifier: com.apple.FaceTime type: Application daemon=true>
+<ClientConnect: 0x00007ffead437c10 identifier: _SYSTEM_CENTER_:com.apple.storeassetd type: System daemon=true>
+<ClientConnect: 0x00007ffead41de00 identifier: _SYSTEM_CENTER_:com.apple.sharingd.continuity type: System daemon=true>
+<ClientConnect: 0x00007ffead41d0d0 identifier: _SYSTEM_CENTER_:com.apple.sharingd type: System daemon=true>
+<ClientConnect: 0x00007ffead70dd40 identifier: _SYSTEM_CENTER_:com.apple.security.keychain-circle-notification type: System daemon=true>
+<ClientConnect: 0x00007ffead510560 identifier: _SYSTEM_CENTER_:com.apple.noticeboard type: System daemon=true>
+<ClientConnect: 0x00007ffead50e750 identifier: _SYSTEM_CENTER_:com.apple.loginwindow.appManager type: System daemon=true>
+<ClientConnect: 0x00007ffead613ef0 identifier: _SYSTEM_CENTER_:com.apple.followup.alert type: System daemon=true>
+<ClientConnect: 0x00007ffead61d420 identifier: _SYSTEM_CENTER_:com.apple.appstoreagent type: System daemon=true>
+<ClientConnect: 0x00007ffead503680 identifier: _SYSTEM_CENTER_:com.apple.FaceTime type: System daemon=true>
+<ClientConnect: 0x00007ffead422160 identifier: _SYSTEM_CENTER_:com.apple.EscrowSecurityAlert type: System daemon=true>
+<ClientConnect: 0x00007ffead50c7c0 identifier: _SYSTEM_CENTER_:com.apple.CalendarNotification.CalNCServiceBirthday type: System daemon=true>
+<ClientConnect: 0x00007ffead72a550 identifier: _SYSTEM_CENTER_:com.apple.CalendarNotification.CalNCService type: System daemon=true>

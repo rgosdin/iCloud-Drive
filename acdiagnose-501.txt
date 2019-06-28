@@ -1,0 +1,2005 @@
+=======================================
+Accounts Summary:
+=======================================
+
+com.apple.account.OnMyDevice(x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p4) (null) 6EB7B057-4AE0-45C6-A0F8-BD8AD21EB105
+com.apple.account.Google(x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p34) rgosdin@gmail.com FAF4B394-8ADD-4DF8-8556-1BC7397CEF0D
+    com.apple.account.CalDAV(x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p36) rgosdin@gmail.com B30C0DB9-57A7-4EB3-81E6-BF78BB777726
+    com.apple.account.IMAP(x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p19) rgosdin@gmail.com 6C2D9034-7937-4D8F-A7BC-0C5ED6109E7F
+    com.apple.account.SMTP(x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p23) rgosdin@gmail.com E60CAE28-F265-40AD-A3B1-8D46CBE5B177
+    com.apple.account.CardDAV(x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p8) rgosdin@gmail.com 23A7E885-9187-4CEF-94C8-24571EDB1FD6
+com.apple.account.IdentityServices(x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p47) ryguyga@icloud.com B9B0B664-E141-4E3C-872F-683430090F47
+com.apple.account.GameCenter(x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p27) ryguyga@icloud.com 5B338F49-F3A6-4466-858F-84C33557F6A6
+com.apple.account.AppleAccount(x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p42) ryguyga@icloud.com EB78CEED-9701-457C-AB25-2E6F0D76B949
+    com.apple.account.CloudKit(x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p44) ryguyga@icloud.com 759934A2-E0E2-4546-9866-83A315C9C088
+    com.apple.account.IMAP(x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p19) ryguyga@icloud.com 8B0BEDFE-E2C1-4CF3-8868-1B56A8579BF0
+    com.apple.account.SMTP(x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p23) ryguyga@icloud.com 1A545ABE-D740-4B4B-A163-8B0E47E5B0A8
+com.apple.account.idms(x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p2) ryguyga@icloud.com 2F574E5C-624C-40ED-A1E0-8E0A336FA37F
+com.apple.account.AppleIDAuthentication(x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p5) ryguyga@icloud.com 4640E764-67D4-472E-8E5E-29AD86F3255B
+com.apple.account.SMTP(x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p23) ryguyga@icloud.com 048D7866-F043-4DC4-B342-BDBE0B0AF6F2
+
+
+=======================================
+Accounts Configuration:
+=======================================
+
+type:com.apple.account.OnMyDevice
+identifier: 6EB7B057-4AE0-45C6-A0F8-BD8AD21EB105
+accountDescription: On My Mac
+username: (null)
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/Account/p1
+provisionedDataclasses: {(
+    "com.apple.Dataclass.Calendars",
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.Reminders",
+    "com.apple.Dataclass.Notes",
+    "com.apple.Dataclass.Contacts"
+)}
+enabledDataclasses: {(
+    "com.apple.Dataclass.Mail"
+)}
+dataclassProperties: {
+    "com.apple.Dataclass.Mail" =     {
+        DraftsMailboxName = Drafts;
+        OutboxMailboxName = Outbox;
+        SentMessagesMailboxName = "Sent Messages";
+    };
+}
+properties: {
+}
+parentAccount: (null)
+owningBundleID:com.apple.mail
+authenticated: NO
+lastCredentialRenewalRejectedDate: (null)
+supportsAuthentication: NO
+authenticationType: (null)
+credentialType: (null)
+created: Wednesday, June 12, 2019 at 8:49:42 AM Eastern Daylight Time
+active: YES
+visible: YES
+credential: Password:No Token:No OAuthToken:No RefreshToken:No TokenSecret:No ExpirationDate:(null)
+
+
+type:com.apple.account.Google
+identifier: FAF4B394-8ADD-4DF8-8556-1BC7397CEF0D
+accountDescription: rgosdin@gmail.com
+username: rgosdin@gmail.com
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/Account/p2
+provisionedDataclasses: {(
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.Notes",
+    "com.apple.Dataclass.Contacts",
+    "com.apple.Dataclass.Calendars"
+)}
+enabledDataclasses: {(
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.Notes",
+    "com.apple.Dataclass.Contacts",
+    "com.apple.Dataclass.Calendars"
+)}
+dataclassProperties: (null)
+properties: {
+    ACPropertyFullName = "Ryan Gosdin";
+    AllowsRecoverableTrustCertificate = 0;
+}
+parentAccount: (null)
+owningBundleID:com.apple.mail
+authenticated: YES
+lastCredentialRenewalRejectedDate: (null)
+supportsAuthentication: YES
+authenticationType: (null)
+credentialType: (null)
+created: Wednesday, June 12, 2019 at 8:50:28 AM Eastern Daylight Time
+active: YES
+visible: YES
+credential: Password:No Token:No OAuthToken:Yes RefreshToken:Yes TokenSecret:No ExpirationDate:2019-06-14 08:56:54 +0000
+
+
+type:com.apple.account.CalDAV
+identifier: B30C0DB9-57A7-4EB3-81E6-BF78BB777726
+accountDescription: rgosdin@gmail.com
+username: rgosdin@gmail.com
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/Account/p3
+provisionedDataclasses: {(
+    "com.apple.Dataclass.Calendars"
+)}
+enabledDataclasses: {(
+    "com.apple.Dataclass.Calendars"
+)}
+dataclassProperties: {
+    "com.apple.Dataclass.Calendars" =     {
+        CalAccountPropertyCalDAVAttachmentDownloadHasTakenPlace = 1;
+        CalAccountPropertyCalDAVSyncHasTakenPlace = 1;
+    };
+}
+properties: {
+    Hostname = "apidata.googleusercontent.com";
+    SSLEnabled = 1;
+    kCalDAVMainPrincipalUIDKey = "6C6304E1-3679-4ECE-A9CF-8760DC7F564B";
+    kCalDAVPrincipalsKey =     {
+        "6C6304E1-3679-4ECE-A9CF-8760DC7F564B" =         {
+            ACPropertyFullName = "Ryan Gosdin";
+            kCalDAVPrincipalPathKey = "/caldav/v2/rgosdin%40gmail.com/user";
+        };
+    };
+    kCalDAVRefreshIntervalKey = 900;
+}
+parentAccount: FAF4B394-8ADD-4DF8-8556-1BC7397CEF0D
+owningBundleID:com.apple.accounts.accountsd
+authenticated: YES
+lastCredentialRenewalRejectedDate: (null)
+supportsAuthentication: YES
+authenticationType: parent
+credentialType: (null)
+created: Wednesday, June 12, 2019 at 8:50:36 AM Eastern Daylight Time
+active: YES
+visible: YES
+credential: Password:No Token:No OAuthToken:Yes RefreshToken:Yes TokenSecret:No ExpirationDate:2019-06-14 08:56:54 +0000
+
+
+type:com.apple.account.SMTP
+identifier: E60CAE28-F265-40AD-A3B1-8D46CBE5B177
+accountDescription: rgosdin@gmail.com
+username: rgosdin@gmail.com
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/Account/p5
+provisionedDataclasses: {(
+    "com.apple.Dataclass.Mail"
+)}
+enabledDataclasses: {(
+    "com.apple.Dataclass.Mail"
+)}
+dataclassProperties: (null)
+properties: {
+    AllowsInsecureAuthentication = 0;
+    AuthenticationScheme = OAUTHBEARER;
+    Hostname = "smtp.gmail.com";
+    PortNumber = 587;
+    SSLEnabled = 1;
+    SSLIsDirect = 0;
+}
+parentAccount: FAF4B394-8ADD-4DF8-8556-1BC7397CEF0D
+owningBundleID:com.apple.accounts.accountsd
+authenticated: YES
+lastCredentialRenewalRejectedDate: (null)
+supportsAuthentication: YES
+authenticationType: parent
+credentialType: (null)
+created: Wednesday, June 12, 2019 at 8:50:36 AM Eastern Daylight Time
+active: YES
+visible: YES
+credential: Password:No Token:No OAuthToken:Yes RefreshToken:Yes TokenSecret:No ExpirationDate:2019-06-14 08:56:54 +0000
+
+
+type:com.apple.account.IMAP
+identifier: 6C2D9034-7937-4D8F-A7BC-0C5ED6109E7F
+accountDescription: rgosdin@gmail.com
+username: rgosdin@gmail.com
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/Account/p4
+provisionedDataclasses: {(
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.Notes"
+)}
+enabledDataclasses: {(
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.Notes"
+)}
+dataclassProperties: {
+    "com.apple.Dataclass.Mail" =     {
+        ArchiveMailboxName = "[Gmail]/All Mail";
+        DraftsMailboxName = "[Gmail]/Drafts";
+        HasServerDefinedAllMailMailbox = 1;
+        HasServerDefinedArchiveMailbox = 1;
+        HasServerDefinedDraftsMailbox = 1;
+        HasServerDefinedJunkMailbox = 1;
+        HasServerDefinedSentMailbox = 1;
+        HasServerDefinedTrashMailbox = 1;
+        JunkMailboxName = "[Gmail]/Spam";
+        SentMessagesMailboxName = "[Gmail]/Sent Mail";
+        ShouldUseGmailLabelStores = 1;
+        StoreDraftsOnServer = 1;
+        StoreJunkOnServer = 1;
+        StoreSentMessagesOnServer = 1;
+        StoreTrashOnServer = 1;
+        TrashMailboxName = "[Gmail]/Trash";
+    };
+}
+properties: {
+    AllowsInsecureAuthentication = 0;
+    AuthenticationScheme = OAUTHBEARER;
+    EmailAliases =     (
+                {
+            DisplayName = "Ryan Gosdin";
+            EmailAddresses =             (
+                                {
+                    EmailAddress = "rgosdin@gmail.com";
+                    IsDefault = 1;
+                    IsEnabled = 1;
+                }
+            );
+            IsEnabled = 1;
+            IsPrimary = 1;
+        }
+    );
+    Hostname = "imap.gmail.com";
+    PortNumber = 993;
+    SSLEnabled = 1;
+    SSLIsDirect = 1;
+    SendingAccountIdentifier = "E60CAE28-F265-40AD-A3B1-8D46CBE5B177";
+}
+parentAccount: FAF4B394-8ADD-4DF8-8556-1BC7397CEF0D
+owningBundleID:com.apple.accounts.accountsd
+authenticated: YES
+lastCredentialRenewalRejectedDate: (null)
+supportsAuthentication: YES
+authenticationType: parent
+credentialType: (null)
+created: Wednesday, June 12, 2019 at 8:50:36 AM Eastern Daylight Time
+active: YES
+visible: YES
+credential: Password:No Token:No OAuthToken:Yes RefreshToken:Yes TokenSecret:No ExpirationDate:2019-06-14 08:56:54 +0000
+
+
+type:com.apple.account.CardDAV
+identifier: 23A7E885-9187-4CEF-94C8-24571EDB1FD6
+accountDescription: rgosdin@gmail.com
+username: rgosdin@gmail.com
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/Account/p6
+provisionedDataclasses: {(
+    "com.apple.Dataclass.Contacts"
+)}
+enabledDataclasses: {(
+    "com.apple.Dataclass.Contacts"
+)}
+dataclassProperties: {
+    "com.apple.Dataclass.Contacts" =     {
+        ServerSyncHasTakenPlace = 1;
+    };
+}
+properties: {
+    AccountConfigCompleted = 1;
+    AccountURL = "https://rgosdin%40gmail.com@www.googleapis.com:443/carddav/v1/principals/rgosdin%40gmail.com/";
+    HomeInfo =     {
+        "/carddav/v1/principals/rgosdin%40gmail.com/lists/" =         {
+            displayName = Homeset;
+            path = "/carddav/v1/principals/rgosdin%40gmail.com/lists/";
+            privileges =             (
+                "DAV::read",
+                "DAV::read-acl",
+                "DAV::read-current-user-privilege-set",
+                "DAV::unlock",
+                "DAV::write",
+                "DAV::write-acl"
+            );
+            resourceTypes =             (
+                "DAV::collection"
+            );
+            supportedReports =             (
+                "DAV::acl-principal-prop-set",
+                "DAV::expand-property",
+                "DAV::principal-match",
+                "DAV::principal-property-search",
+                "DAV::principal-search-property-set",
+                "urn:ietf:params:xml:ns:carddav:addressbook-multiget",
+                "urn:ietf:params:xml:ns:carddav:addressbook-query"
+            );
+            url = "https://rgosdin%40gmail.com@www.googleapis.com/carddav/v1/principals/rgosdin%40gmail.com/lists/";
+        };
+        "/carddav/v1/principals/rgosdin%40gmail.com/lists/default/" =         {
+            displayName = "Address Book";
+            path = "/carddav/v1/principals/rgosdin%40gmail.com/lists/default/";
+            privileges =             (
+                "DAV::read",
+                "DAV::read-acl",
+                "DAV::read-current-user-privilege-set",
+                "DAV::unlock",
+                "DAV::write",
+                "DAV::write-acl"
+            );
+            resourceTypes =             (
+                "DAV::collection",
+                "urn:ietf:params:xml:ns:carddav:addressbook"
+            );
+            supportedReports =             (
+                "DAV::acl-principal-prop-set",
+                "DAV::expand-property",
+                "DAV::principal-match",
+                "DAV::principal-property-search",
+                "DAV::principal-search-property-set",
+                "DAV::sync-collection",
+                "urn:ietf:params:xml:ns:carddav:addressbook-multiget",
+                "urn:ietf:params:xml:ns:carddav:addressbook-query"
+            );
+            url = "https://rgosdin%40gmail.com@www.googleapis.com/carddav/v1/principals/rgosdin%40gmail.com/lists/default/";
+        };
+    };
+    Hostname = "www.googleapis.com";
+    OrigServerAddress = "www.googleapis.com";
+    PortNumber = 443;
+    PrincipalInfo =     {
+        "DAV::displayname" = Principal;
+        "DAV::principal-URL" = "https://rgosdin%40gmail.com@www.googleapis.com/carddav/v1/principals/rgosdin%40gmail.com/";
+        "urn:ietf:params:xml:ns:carddav:addressbook-home-set" =         (
+            "https://rgosdin%40gmail.com@www.googleapis.com/carddav/v1/principals/rgosdin%40gmail.com/lists/"
+        );
+    };
+    SSLEnabled = 1;
+    principalInfo =     {
+        "DAV::displayname" = Principal;
+        "DAV::principal-URL" = "https://rgosdin%40gmail.com@www.googleapis.com/carddav/v1/principals/rgosdin%40gmail.com/";
+        "urn:ietf:params:xml:ns:carddav:addressbook-home-set" =         (
+            "https://rgosdin%40gmail.com@www.googleapis.com/carddav/v1/principals/rgosdin%40gmail.com/lists/"
+        );
+    };
+    searchable = 0;
+    serverName = "www.googleapis.com";
+    serverPort = 443;
+    serverRootPath = "/carddav/v1/principals/rgosdin%40gmail.com/";
+    servername = "https://www.googleapis.com/carddav/v1/principals/rgosdin%40gmail.com/";
+    useSSL = 1;
+    userName = "rgosdin@gmail.com";
+}
+parentAccount: FAF4B394-8ADD-4DF8-8556-1BC7397CEF0D
+owningBundleID:com.apple.mail
+authenticated: YES
+lastCredentialRenewalRejectedDate: (null)
+supportsAuthentication: YES
+authenticationType: parent
+credentialType: (null)
+created: Wednesday, June 12, 2019 at 8:50:42 AM Eastern Daylight Time
+active: YES
+visible: YES
+credential: Password:No Token:No OAuthToken:Yes RefreshToken:Yes TokenSecret:No ExpirationDate:2019-06-14 08:56:54 +0000
+
+
+type:com.apple.account.IdentityServices
+identifier: B9B0B664-E141-4E3C-872F-683430090F47
+accountDescription: (null)
+username: ryguyga@icloud.com
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/Account/p7
+provisionedDataclasses: {(
+)}
+enabledDataclasses: {(
+)}
+dataclassProperties: (null)
+properties: {
+    "account-info" =     {
+        AppleID = "ryguyga@icloud.com";
+        AuthID = "D:1068651624";
+        SelfHandle = "urn:ds:1068651624";
+        VettedAliases =         (
+            "+14043997408",
+            "rgosdin@gmail.com",
+            "ryguyga@icloud.com"
+        );
+    };
+    "apple-id" = "ryguyga@icloud.com";
+    "auth-token-receipt-date" = "582036918.2291861";
+    bundleRef = "{(\n    \"com.apple.imcore\"\n)}";
+    "email-address" = "ryguyga@icloud.com";
+    handles =     (
+                {
+            "is-user-visible" = 1;
+            status = 5051;
+            uri = "tel:+14043997408";
+        },
+                {
+            "is-user-visible" = 1;
+            status = 5051;
+            uri = "mailto:rgosdin@gmail.com";
+        },
+                {
+            "is-user-visible" = 1;
+            status = 5051;
+            uri = "mailto:ryguyga@icloud.com";
+        }
+    );
+    "invitation-context" =     {
+        "base-phone-number" = "+14043997408";
+        extra =         {
+        };
+        "region-id" = "R:US";
+    };
+    "profile-id" = "D:1068651624";
+    "self-handle" = "urn:ds:1068651624";
+}
+parentAccount: (null)
+owningBundleID:com.apple.preferences.icloud.remoteservice
+authenticated: YES
+lastCredentialRenewalRejectedDate: (null)
+supportsAuthentication: YES
+authenticationType: (null)
+credentialType: (null)
+created: Wednesday, June 12, 2019 at 8:55:13 AM Eastern Daylight Time
+active: YES
+visible: YES
+credential: Password:No Token:Yes OAuthToken:No RefreshToken:No TokenSecret:No ExpirationDate:(null)
+
+
+type:com.apple.account.GameCenter
+identifier: 5B338F49-F3A6-4466-858F-84C33557F6A6
+accountDescription: ryguyga@icloud.com
+username: ryguyga@icloud.com
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/Account/p8
+provisionedDataclasses: {(
+)}
+enabledDataclasses: {(
+)}
+dataclassProperties: (null)
+properties: {
+    "GKCredentialScope-5" = 14;
+    "GKCredentialScope-5-mod-date" = "2019-06-12 12:55:14 +0000";
+    GKEnvironment = 5;
+    GKPlayerInternal = <62706c69 73743030 d4010203 0405063d 3e582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0aa 07082b2c 2d2e2f30 31325524 6e756c6c df101109 0a0b0c0d 0e0f1011 12131415 16171819 1a1b1c1d 1e1f1e1e 1e23241e 1e1c1e1c 1c5d636f 6d706f73 6974654e 616d6559 66697273 744e616d 655f1019 6e756d62 65724f66 41636869 6576656d 656e7450 6f696e74 73586c61 73744e61 6d655f10 0f6e756d 6265724f 66467269 656e6473 58706c61 79657249 445f1012 6e756d62 65724f66 4368616c 6c656e67 65735d6e 756d6265 724f6654 75726e73 5d6e756d 6265724f 6647616d 65735624 636c6173 7355616c 6961735f 10176e75 6d626572 4f664672 69656e64 73496e43 6f6d6d6f 6e5f1010 6e756d62 65724f66 52657175 65737473 5b6c6f67 696e5374 61747573 5f10156e 756d6265 724f6647 616d6573 496e436f 6d6d6f6e 55666c61 67735f10 146e756d 6265724f 66416368 69657665 6d656e74 73800480 07800280 08800380 06800380 03800380 09800580 03800380 02800380 02800210 0010005b 5279616e 20476f73 64696e57 52796775 7967615c 473a3130 36383635 31363234 54527961 6e56476f 7364696e d2333435 365a2463 6c617373 6e616d65 5824636c 61737365 735f1015 474b4c6f 63616c50 6c617965 72496e74 65726e61 6ca63738 393a3b3c 5f101547 4b4c6f63 616c506c 61796572 496e7465 726e616c 5f101647 4b467269 656e6450 6c617965 72496e74 65726e61 6c5f1018 474b4661 6d696c69 6172506c 61796572 496e7465 726e616c 5f101047 4b506c61 79657249 6e746572 6e616c5f 1018474b 496e7465 726e616c 52657072 6573656e 74617469 6f6e584e 534f626a 6563745f 100f4e53 4b657965 64417263 68697665 72d13f40 54726f6f 74800100 08001100 1a002300 2d003200 37004200 48006d00 7b008500 a100aa00 bc00c500 da00e800 f600fd01 03011d01 30013c01 54015a01 71017301 75017701 79017b01 7d017f01 81018301 85018701 89018b01 8d018f01 91019301 95019701 a301ab01 b801bd01 c401c901 d401dd01 f501fc02 14022d02 48025b02 76027f02 91029402 99000000 00000002 01000000 00000000 41000000 00000000 00000000 00000002 9b>;
+    "altDSID-5-mod-date" = "2019-06-12 12:55:14 +0000";
+    dsid = 1068651624;
+    playerID = "G:1068651624";
+}
+parentAccount: (null)
+owningBundleID:com.apple.GameCenterFoundation
+authenticated: NO
+lastCredentialRenewalRejectedDate: (null)
+supportsAuthentication: YES
+authenticationType: (null)
+credentialType: (null)
+created: Wednesday, June 12, 2019 at 8:55:14 AM Eastern Daylight Time
+active: YES
+visible: YES
+credential: Password:No Token:Yes OAuthToken:No RefreshToken:No TokenSecret:No ExpirationDate:(null)
+
+
+type:com.apple.account.CloudKit
+identifier: 759934A2-E0E2-4546-9866-83A315C9C088
+accountDescription: iCloud
+username: ryguyga@icloud.com
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/Account/p9
+provisionedDataclasses: {(
+    "com.apple.Dataclass.CKShareService",
+    "com.apple.Dataclass.CKDeviceService",
+    "com.apple.Dataclass.CKDatabaseService"
+)}
+enabledDataclasses: {(
+)}
+dataclassProperties: (null)
+properties: {
+}
+parentAccount: EB78CEED-9701-457C-AB25-2E6F0D76B949
+owningBundleID:com.apple.accounts.accountsd
+authenticated: NO
+lastCredentialRenewalRejectedDate: (null)
+supportsAuthentication: YES
+authenticationType: (null)
+credentialType: (null)
+created: Wednesday, June 12, 2019 at 8:55:14 AM Eastern Daylight Time
+active: YES
+visible: YES
+credential: Password:No Token:Yes OAuthToken:No RefreshToken:No TokenSecret:No ExpirationDate:(null)
+
+
+type:com.apple.account.AppleAccount
+identifier: EB78CEED-9701-457C-AB25-2E6F0D76B949
+accountDescription: iCloud
+username: ryguyga@icloud.com
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/Account/p10
+provisionedDataclasses: {(
+    "com.apple.Dataclass.Content",
+    "com.apple.Dataclass.CoreRoutine",
+    "com.apple.Dataclass.News",
+    "com.apple.Dataclass.Home",
+    "com.apple.Dataclass.SharedStreams",
+    "com.apple.Dataclass.iwmb",
+    "com.apple.Dataclass.KeychainSync",
+    "com.apple.Dataclass.Siri",
+    "com.apple.Dataclass.Bookmarks",
+    "com.apple.Dataclass.Stocks",
+    "com.apple.Dataclass.Ubiquity",
+    "com.apple.Dataclass.CKMetricsService",
+    "com.apple.Dataclass.CKCodeService",
+    "com.apple.Dataclass.Calendars",
+    "com.apple.Dataclass.CKDeviceService",
+    "com.apple.Dataclass.KeyValue",
+    "com.apple.Dataclass.CKShareService",
+    "com.apple.Dataclass.Notes",
+    "com.apple.Dataclass.AccountSync",
+    "com.apple.Dataclass.Family",
+    "com.apple.Dataclass.Reminders",
+    "com.apple.Dataclass.Photos",
+    "com.apple.Dataclass.CKDatabaseService",
+    "com.apple.Dataclass.Contacts",
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.MediaStream",
+    "com.apple.Dataclass.DeviceLocator",
+    "com.apple.Dataclass.CloudDesktop",
+    "com.apple.Dataclass.CloudPhotos",
+    "com.apple.Dataclass.ShareLocation",
+    "com.apple.Dataclass.Availability"
+)}
+enabledDataclasses: {(
+    "com.apple.Dataclass.Siri",
+    "com.apple.Dataclass.Bookmarks",
+    "com.apple.Dataclass.Ubiquity",
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.News",
+    "com.apple.Dataclass.Home",
+    "com.apple.Dataclass.Notes",
+    "com.apple.Dataclass.DeviceLocator"
+)}
+dataclassProperties: {
+    "com.apple.Dataclass.Account" =     {
+        accountStatusCode = 2;
+        apsEnv = production;
+        beta = 0;
+        iCloudEnv = PROD;
+        url = "https://p40-setup.icloud.com:443";
+    };
+    "com.apple.Dataclass.AccountSync" =     {
+    };
+    "com.apple.Dataclass.Availability" =     {
+        apsEnv = production;
+        authMechanism = token;
+        url = "https://p40-availability.icloud.com:443";
+    };
+    "com.apple.Dataclass.Bookmarks" =     {
+        apsEnv = production;
+        authMechanism = token;
+        beta = 0;
+        protocol = dav;
+        url = "https://p51-bookmarks.icloud.com:443";
+    };
+    "com.apple.Dataclass.CKCodeService" =     {
+        apsEnv = production;
+        "icloud_gateway_url" = "https://gateway.icloud.com:443/ckcoderouter";
+        url = "https://p40-ckcoderouter.icloud.com:443";
+    };
+    "com.apple.Dataclass.CKDatabaseService" =     {
+        apsEnv = production;
+        "icloud_gateway_url" = "https://gateway.icloud.com:443/ckdatabase";
+        partitionId = 40;
+        url = "https://p40-ckdatabase.icloud.com:443";
+    };
+    "com.apple.Dataclass.CKDeviceService" =     {
+        "icloud_gateway_url" = "https://gateway.icloud.com:443/ckdevice";
+        url = "https://p40-ckdevice.icloud.com:443";
+    };
+    "com.apple.Dataclass.CKMetricsService" =     {
+        url = "https://metrics.icloud.com:443";
+    };
+    "com.apple.Dataclass.CKShareService" =     {
+        cloudSharingURLHostname = "share.icloud.com";
+        "icloud_gateway_url" = "https://gateway.icloud.com:443/ckshare";
+        url = "https://p40-ckshare.icloud.com:443";
+    };
+    "com.apple.Dataclass.Calendars" =     {
+        authMechanism = token;
+        beta = 0;
+        protocol = dav;
+        url = "https://p40-caldav.icloud.com:443";
+    };
+    "com.apple.Dataclass.CloudDesktop" =     {
+        status = active;
+    };
+    "com.apple.Dataclass.CloudPhotos" =     {
+        "cloud-photo-auto-enable" = 1;
+    };
+    "com.apple.Dataclass.Contacts" =     {
+        authMechanism = token;
+        beta = 0;
+        protocol = dav;
+        url = "https://p51-contacts.icloud.com:443";
+    };
+    "com.apple.Dataclass.Content" =     {
+        "icloud_gateway_url" = "https://gateway.icloud.com:443/content";
+        url = "https://p40-content.icloud.com:443";
+    };
+    "com.apple.Dataclass.CoreRoutine" =     {
+        status = active;
+    };
+    "com.apple.Dataclass.DeviceLocator" =     {
+        appHostname = "p40-fmipmobile.icloud.com";
+        apsEnv = Production;
+        authMechanism = token;
+        hostname = "p40-fmip.icloud.com";
+        url = "https://p40-fmip.icloud.com:443";
+    };
+    "com.apple.Dataclass.Family" =     {
+        showManageFamily = 1;
+    };
+    "com.apple.Dataclass.Home" =     {
+    };
+    "com.apple.Dataclass.KeyValue" =     {
+        apsEnv = production;
+        authMechanism = token;
+        beta = 0;
+        configURL = "https://keyvalueservice.icloud.com:443/config";
+        url = "https://p40-keyvalueservice.icloud.com:443";
+    };
+    "com.apple.Dataclass.KeychainSync" =     {
+        authMechanism = token;
+        escrowProxyUrl = "https://p40-escrowproxy.icloud.com:443";
+    };
+    "com.apple.Dataclass.Mail" =     {
+        EmailAddress = "ryguyga@icloud.com";
+        EmailAliases =         (
+                        {
+                DisplayName = "Ryan Gosdin";
+                EmailAddresses =                 (
+                                        {
+                        EmailAddress = "ryguyga@icloud.com";
+                        IsDefault = 1;
+                        IsEnabled = 1;
+                    }
+                );
+                IsEnabled = 1;
+                IsPrimary = 1;
+            }
+        );
+        FullUserName = "Ryan Gosdin";
+        Username = ryguyga;
+        dotMacMailSupported = 0;
+        imapHostname = "p61-imap.mail.me.com";
+        imapPort = 993;
+        imapRequiresSSL = 1;
+        mailAliasEditingURL = "https://www.icloud.com/#mail/prefs-addresses";
+        mailAliasLookupJSONURL = "https://p61-mailws.icloud.com:443/wm/alias.json";
+        mailAliasLookupXMLURL = "https://p61-mailws.icloud.com:443/wm/alias.xml";
+        mailSupportURL = "http://www.apple.com/support/icloud";
+        sendFromAddressJSONURL = "https://p61-mailws.icloud.com:443/wm/ext/sendfrom";
+        smtpHostname = "p61-smtp.mail.me.com";
+        smtpPort = 587;
+        smtpRequiresSSL = 1;
+    };
+    "com.apple.Dataclass.MediaStream" =     {
+        apsEnv = production;
+        authMechanism = token;
+        beta = 0;
+        url = "https://p40-streams.icloud.com:443";
+    };
+    "com.apple.Dataclass.News" =     {
+    };
+    "com.apple.Dataclass.Notes" =     {
+        EmailAddress = "ryguyga@icloud.com";
+        FullUserName = "Ryan Gosdin";
+        Username = ryguyga;
+        dotMacMailSupported = 0;
+        imapHostname = "p61-imap.mail.me.com";
+        imapPort = 993;
+        imapRequiresSSL = 1;
+        mailAliasEditingURL = "https://www.icloud.com/#mail/prefs-addresses";
+        mailAliasLookupJSONURL = "https://p61-mailws.icloud.com:443/wm/alias.json";
+        mailAliasLookupXMLURL = "https://p61-mailws.icloud.com:443/wm/alias.xml";
+        mailSupportURL = "http://www.apple.com/support/icloud";
+        sendFromAddressJSONURL = "https://p61-mailws.icloud.com:443/wm/ext/sendfrom";
+        smtpHostname = "p61-smtp.mail.me.com";
+        smtpPort = 587;
+        smtpRequiresSSL = 1;
+    };
+    "com.apple.Dataclass.Quota" =     {
+        quotaAckEventURL = "https://p40-quota.icloud.com:443/quotaservice/external/osx/1068651624/clearEventDetails";
+        quotaFetchEventURL = "https://p40-quota.icloud.com:443/quotaservice/external/osx/1068651624/fetchEventDetails";
+        quotaFetchOffersURL = "https://p40-quota.icloud.com:443/quotaservice/external/osx/1068651624/fetchOffers";
+        quotaInfoURL = "https://p40-quota.icloud.com:443/quotaservice/external/osx/1068651624/getQuotaInfo";
+        quotaRefreshOfferDetailsURL = "https://p40-quota.icloud.com:443/quotaservice/external/osx/1068651624/refreshOfferDetails";
+        quotaUpdateOfferURL = "https://p40-quota.icloud.com:443/quotaservice/external/osx/1068651624/updateOffer";
+        quotaUpdateURL = "https://p40-quota.icloud.com:443/quotastatic/desktopclient/v2/index.html?isElCapitanOrNewer=true";
+        storageInfoURL = "https://p40-quota.icloud.com:443/quotaservice/external/osx/1068651624/storageUsageInfo";
+        storagePlanURL = "https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/presentOffers";
+    };
+    "com.apple.Dataclass.Reminders" =     {
+        authMechanism = token;
+        beta = 0;
+        protocol = dav;
+        url = "https://p40-caldav.icloud.com:443";
+    };
+    "com.apple.Dataclass.ShareLocation" =     {
+        appHostname = "p40-fmfmobile.icloud.com";
+        apsEnv = Production;
+        authMechanism = token;
+        beta = 0;
+        hostname = "p40-fmf.icloud.com";
+    };
+    "com.apple.Dataclass.SharedStreams" =     {
+        apsEnv = production;
+        authMechanism = token;
+        beta = 0;
+        url = "https://p40-sharedstreams.icloud.com:443";
+    };
+    "com.apple.Dataclass.Siri" =     {
+    };
+    "com.apple.Dataclass.Stocks" =     {
+    };
+    "com.apple.Dataclass.Ubiquity" =     {
+        apsEnv = production;
+        authMechanism = token;
+        iCloudHomeDesktopEnabled = 1;
+        iCloudHomeDocumentsEnabled = 1;
+        iCloudHomeEnabled = 1;
+        url = "https://p40-ubiquity.icloud.com:443";
+        wsUrl = "https://p40-ubiquityws.icloud.com:443";
+    };
+    "com.apple.Dataclass.iwmb" =     {
+        url = "https://p40-iwmb.icloud.com:443";
+    };
+}
+properties: {
+    ACPropertyFullName = "Ryan Gosdin";
+    AKFollowUpAccountRefreshTimestamp = "2019-06-12 12:55:20 +0000";
+    AccountDelegate =     {
+        appleAccountInfo =         {
+            aDsID = "001111-10-1037bcbb-05cc-4d45-ab7d-8ae7fad9fa73";
+            appleId = "ryguyga@icloud.com";
+            appleIdAlias = "";
+            appleIdAliases =             (
+                "ryguyga@icloud.com"
+            );
+            brMigrated = 1;
+            brZoneConsolidated = 0;
+            dsPrsID = 1068651624;
+            familyEligible = 1;
+            firstName = Ryan;
+            fullName = "Ryan Gosdin";
+            hasPaymentInfo = 0;
+            iCDPEnabled = 0;
+            iCloudAppleIdAlias = "ryguyga@icloud.com";
+            isInboxSupported = 0;
+            isManagedAppleID = 0;
+            lastName = Gosdin;
+            locked = 0;
+            notesMigrated = 1;
+            pcsDeleted = 0;
+            primaryEmail = "ryguyga@icloud.com";
+            primaryEmailVerified = 1;
+            statusCode = 2;
+        };
+        "com.apple.mobileme" =         {
+            availableFeatures =             (
+                "com.apple.Dataclass.CloudDesktop",
+                "com.apple.Dataclass.SharedStreams",
+                "com.apple.Dataclass.Reminders",
+                "com.apple.Dataclass.CKShareService",
+                "com.apple.Dataclass.Siri",
+                "com.apple.Dataclass.Bookmarks",
+                "com.apple.Dataclass.Family",
+                "com.apple.Dataclass.CKDatabaseService",
+                "com.apple.Dataclass.Home",
+                "com.apple.Dataclass.AccountSync",
+                "com.apple.Dataclass.iwmb",
+                "com.apple.Dataclass.CoreRoutine",
+                "com.apple.Dataclass.News",
+                "com.apple.Dataclass.Calendars",
+                "com.apple.Dataclass.Stocks",
+                "com.apple.Dataclass.Availability",
+                "com.apple.Dataclass.CKDeviceService",
+                "com.apple.Dataclass.Ubiquity",
+                "com.apple.Dataclass.KeyValue",
+                "com.apple.Dataclass.CKCodeService",
+                "com.apple.Dataclass.Content",
+                "com.apple.Dataclass.ShareLocation",
+                "com.apple.Dataclass.Mail",
+                "com.apple.Dataclass.MediaStream",
+                "com.apple.Dataclass.CloudPhotos",
+                "com.apple.Dataclass.KeychainSync",
+                "com.apple.Dataclass.Notes",
+                "com.apple.Dataclass.CKMetricsService",
+                "com.apple.Dataclass.Contacts",
+                "com.apple.Dataclass.DeviceLocator"
+            );
+            "com.apple.Dataclass.Account" =             {
+                accountStatusCode = 2;
+                apsEnv = production;
+                beta = 0;
+                iCloudEnv = PROD;
+                url = "https://p40-setup.icloud.com:443";
+            };
+            "com.apple.Dataclass.AccountSync" =             {
+            };
+            "com.apple.Dataclass.Availability" =             {
+                apsEnv = production;
+                authMechanism = token;
+                url = "https://p40-availability.icloud.com:443";
+            };
+            "com.apple.Dataclass.Bookmarks" =             {
+                apsEnv = production;
+                authMechanism = token;
+                beta = 0;
+                protocol = dav;
+                url = "https://p51-bookmarks.icloud.com:443";
+            };
+            "com.apple.Dataclass.CKCodeService" =             {
+                apsEnv = production;
+                "icloud_gateway_url" = "https://gateway.icloud.com:443/ckcoderouter";
+                url = "https://p40-ckcoderouter.icloud.com:443";
+            };
+            "com.apple.Dataclass.CKDatabaseService" =             {
+                apsEnv = production;
+                "icloud_gateway_url" = "https://gateway.icloud.com:443/ckdatabase";
+                partitionId = 40;
+                url = "https://p40-ckdatabase.icloud.com:443";
+            };
+            "com.apple.Dataclass.CKDeviceService" =             {
+                "icloud_gateway_url" = "https://gateway.icloud.com:443/ckdevice";
+                url = "https://p40-ckdevice.icloud.com:443";
+            };
+            "com.apple.Dataclass.CKMetricsService" =             {
+                url = "https://metrics.icloud.com:443";
+            };
+            "com.apple.Dataclass.CKShareService" =             {
+                cloudSharingURLHostname = "share.icloud.com";
+                "icloud_gateway_url" = "https://gateway.icloud.com:443/ckshare";
+                url = "https://p40-ckshare.icloud.com:443";
+            };
+            "com.apple.Dataclass.Calendars" =             {
+                authMechanism = token;
+                beta = 0;
+                protocol = dav;
+                url = "https://p40-caldav.icloud.com:443";
+            };
+            "com.apple.Dataclass.CloudDesktop" =             {
+                status = active;
+            };
+            "com.apple.Dataclass.CloudPhotos" =             {
+                "cloud-photo-auto-enable" = 1;
+            };
+            "com.apple.Dataclass.Contacts" =             {
+                authMechanism = token;
+                beta = 0;
+                protocol = dav;
+                url = "https://p51-contacts.icloud.com:443";
+            };
+            "com.apple.Dataclass.Content" =             {
+                "icloud_gateway_url" = "https://gateway.icloud.com:443/content";
+                url = "https://p40-content.icloud.com:443";
+            };
+            "com.apple.Dataclass.CoreRoutine" =             {
+                status = active;
+            };
+            "com.apple.Dataclass.DeviceLocator" =             {
+                appHostname = "p40-fmipmobile.icloud.com";
+                apsEnv = Production;
+                authMechanism = token;
+                hostname = "p40-fmip.icloud.com";
+                url = "https://p40-fmip.icloud.com:443";
+            };
+            "com.apple.Dataclass.Family" =             {
+                showManageFamily = 1;
+            };
+            "com.apple.Dataclass.Home" =             {
+            };
+            "com.apple.Dataclass.KeyValue" =             {
+                apsEnv = production;
+                authMechanism = token;
+                beta = 0;
+                configURL = "https://keyvalueservice.icloud.com:443/config";
+                url = "https://p40-keyvalueservice.icloud.com:443";
+            };
+            "com.apple.Dataclass.KeychainSync" =             {
+                authMechanism = token;
+                escrowProxyUrl = "https://p40-escrowproxy.icloud.com:443";
+            };
+            "com.apple.Dataclass.Mail" =             {
+                EmailAddress = "ryguyga@icloud.com";
+                FullUserName = "Ryan Gosdin";
+                Username = ryguyga;
+                dotMacMailSupported = 0;
+                imapHostname = "p61-imap.mail.me.com";
+                imapPort = 993;
+                imapRequiresSSL = 1;
+                mailAliasEditingURL = "https://www.icloud.com/#mail/prefs-addresses";
+                mailAliasLookupJSONURL = "https://p61-mailws.icloud.com:443/wm/alias.json";
+                mailAliasLookupXMLURL = "https://p61-mailws.icloud.com:443/wm/alias.xml";
+                mailSupportURL = "http://www.apple.com/support/icloud";
+                sendFromAddressJSONURL = "https://p61-mailws.icloud.com:443/wm/ext/sendfrom";
+                smtpHostname = "p61-smtp.mail.me.com";
+                smtpPort = 587;
+                smtpRequiresSSL = 1;
+            };
+            "com.apple.Dataclass.MediaStream" =             {
+                apsEnv = production;
+                authMechanism = token;
+                beta = 0;
+                url = "https://p40-streams.icloud.com:443";
+            };
+            "com.apple.Dataclass.News" =             {
+            };
+            "com.apple.Dataclass.Notes" =             {
+                EmailAddress = "ryguyga@icloud.com";
+                FullUserName = "Ryan Gosdin";
+                Username = ryguyga;
+                dotMacMailSupported = 0;
+                imapHostname = "p61-imap.mail.me.com";
+                imapPort = 993;
+                imapRequiresSSL = 1;
+                mailAliasEditingURL = "https://www.icloud.com/#mail/prefs-addresses";
+                mailAliasLookupJSONURL = "https://p61-mailws.icloud.com:443/wm/alias.json";
+                mailAliasLookupXMLURL = "https://p61-mailws.icloud.com:443/wm/alias.xml";
+                mailSupportURL = "http://www.apple.com/support/icloud";
+                sendFromAddressJSONURL = "https://p61-mailws.icloud.com:443/wm/ext/sendfrom";
+                smtpHostname = "p61-smtp.mail.me.com";
+                smtpPort = 587;
+                smtpRequiresSSL = 1;
+            };
+            "com.apple.Dataclass.Quota" =             {
+                quotaAckEventURL = "https://p40-quota.icloud.com:443/quotaservice/external/osx/1068651624/clearEventDetails";
+                quotaFetchEventURL = "https://p40-quota.icloud.com:443/quotaservice/external/osx/1068651624/fetchEventDetails";
+                quotaFetchOffersURL = "https://p40-quota.icloud.com:443/quotaservice/external/osx/1068651624/fetchOffers";
+                quotaInfoURL = "https://p40-quota.icloud.com:443/quotaservice/external/osx/1068651624/getQuotaInfo";
+                quotaRefreshOfferDetailsURL = "https://p40-quota.icloud.com:443/quotaservice/external/osx/1068651624/refreshOfferDetails";
+                quotaUpdateOfferURL = "https://p40-quota.icloud.com:443/quotaservice/external/osx/1068651624/updateOffer";
+                quotaUpdateURL = "https://p40-quota.icloud.com:443/quotastatic/desktopclient/v2/index.html?isElCapitanOrNewer=true";
+                storageInfoURL = "https://p40-quota.icloud.com:443/quotaservice/external/osx/1068651624/storageUsageInfo";
+                storagePlanURL = "https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/presentOffers";
+            };
+            "com.apple.Dataclass.Reminders" =             {
+                authMechanism = token;
+                beta = 0;
+                protocol = dav;
+                url = "https://p40-caldav.icloud.com:443";
+            };
+            "com.apple.Dataclass.ShareLocation" =             {
+                appHostname = "p40-fmfmobile.icloud.com";
+                apsEnv = Production;
+                authMechanism = token;
+                beta = 0;
+                hostname = "p40-fmf.icloud.com";
+            };
+            "com.apple.Dataclass.SharedStreams" =             {
+                apsEnv = production;
+                authMechanism = token;
+                beta = 0;
+                url = "https://p40-sharedstreams.icloud.com:443";
+            };
+            "com.apple.Dataclass.Siri" =             {
+            };
+            "com.apple.Dataclass.Stocks" =             {
+            };
+            "com.apple.Dataclass.Ubiquity" =             {
+                apsEnv = production;
+                authMechanism = token;
+                url = "https://p40-ubiquity.icloud.com:443";
+                wsUrl = "https://p40-ubiquityws.icloud.com:443";
+            };
+            "com.apple.Dataclass.iwmb" =             {
+                url = "https://p40-iwmb.icloud.com:443";
+            };
+        };
+        protocolVersion = 2;
+        regionInfo =         {
+            displayedHostname = "iCloud.com";
+        };
+    };
+    altDSID = "001111-10-1037bcbb-05cc-4d45-ab7d-8ae7fad9fa73";
+    aosMigrated = 1;
+    appleIDAliases =     (
+        "ryguyga@icloud.com"
+    );
+    appleId = "ryguyga@icloud.com";
+    cloudDocsMigrationComplete = 1;
+    firstName = Ryan;
+    isManagedAppleID = 0;
+    lastName = Gosdin;
+    notesDidFinishMigrationToCloudKit = 1;
+    notesDidMigrateToCloudKitOnMac = 1;
+    notesIsUsingCloudKit = 1;
+    personID = 1068651624;
+    primaryAccount = 1;
+    primaryEmail = "ryguyga@icloud.com";
+    primaryEmailVerified = 1;
+    regionInfo =     {
+        displayedHostname = "iCloud.com";
+    };
+    repairState = 1;
+    userDisabledICK = 0;
+    usesCloudDocs = 1;
+}
+parentAccount: (null)
+owningBundleID:com.apple.accountsd
+authenticated: YES
+lastCredentialRenewalRejectedDate: (null)
+supportsAuthentication: YES
+authenticationType: (null)
+credentialType: (null)
+created: Wednesday, June 12, 2019 at 8:55:17 AM Eastern Daylight Time
+active: YES
+visible: YES
+credential: Password:No Token:Yes OAuthToken:No RefreshToken:No TokenSecret:No ExpirationDate:(null)
+
+
+type:com.apple.account.idms
+identifier: 2F574E5C-624C-40ED-A1E0-8E0A336FA37F
+accountDescription: (null)
+username: ryguyga@icloud.com
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/Account/p11
+provisionedDataclasses: {(
+)}
+enabledDataclasses: {(
+)}
+dataclassProperties: (null)
+properties: {
+    DSID = 1068651624;
+    aliases =     (
+        "ryguyga@icloud.com"
+    );
+    altDSID = "001111-10-1037bcbb-05cc-4d45-ab7d-8ae7fad9fa73";
+    "auth-mode" = 1;
+    "com.apple.ak.checkin-allowed" = 1;
+    "repair-state" = 1;
+    "retaining-services" = "{(\n    2,\n    5,\n    1,\n    4\n)}";
+    "security-level" = 4;
+}
+parentAccount: (null)
+owningBundleID:akd
+authenticated: YES
+lastCredentialRenewalRejectedDate: (null)
+supportsAuthentication: NO
+authenticationType: (null)
+credentialType: (null)
+created: Wednesday, June 12, 2019 at 8:55:19 AM Eastern Daylight Time
+active: YES
+visible: YES
+credential: Password:No Token:Yes OAuthToken:No RefreshToken:No TokenSecret:No ExpirationDate:(null)
+
+
+type:com.apple.account.AppleIDAuthentication
+identifier: 4640E764-67D4-472E-8E5E-29AD86F3255B
+accountDescription: (null)
+username: ryguyga@icloud.com
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/Account/p12
+provisionedDataclasses: {(
+)}
+enabledDataclasses: {(
+)}
+dataclassProperties: (null)
+properties: {
+    altDSID = "001111-10-1037bcbb-05cc-4d45-ab7d-8ae7fad9fa73";
+    dsid = 1068651624;
+}
+parentAccount: (null)
+owningBundleID:akd
+authenticated: YES
+lastCredentialRenewalRejectedDate: (null)
+supportsAuthentication: YES
+authenticationType: (null)
+credentialType: (null)
+created: Wednesday, June 12, 2019 at 8:55:21 AM Eastern Daylight Time
+active: YES
+visible: YES
+credential: Password:No Token:No OAuthToken:No RefreshToken:No TokenSecret:No ExpirationDate:(null)
+
+
+type:com.apple.account.SMTP
+identifier: 1A545ABE-D740-4B4B-A163-8B0E47E5B0A8
+accountDescription: iCloud
+username: ryguyga@icloud.com
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/Account/p14
+provisionedDataclasses: {(
+    "com.apple.Dataclass.Mail"
+)}
+enabledDataclasses: {(
+    "com.apple.Dataclass.Mail"
+)}
+dataclassProperties: (null)
+properties: {
+    AllowsInsecureAuthentication = 0;
+    AuthenticationScheme = ATOKEN;
+    IdentityEmailAddress = "ryguyga@icloud.com";
+    PortNumber = 587;
+    SSLIsDirect = 0;
+}
+parentAccount: EB78CEED-9701-457C-AB25-2E6F0D76B949
+owningBundleID:com.apple.accounts.accountsd
+authenticated: YES
+lastCredentialRenewalRejectedDate: (null)
+supportsAuthentication: YES
+authenticationType: parent
+credentialType: (null)
+created: Friday, June 14, 2019 at 12:47:06 AM Eastern Daylight Time
+active: YES
+visible: YES
+credential: Password:No Token:Yes OAuthToken:No RefreshToken:No TokenSecret:No ExpirationDate:(null)
+
+
+type:com.apple.account.IMAP
+identifier: 8B0BEDFE-E2C1-4CF3-8868-1B56A8579BF0
+accountDescription: iCloud
+username: ryguyga@icloud.com
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/Account/p13
+provisionedDataclasses: {(
+    "com.apple.Dataclass.Notes",
+    "com.apple.Dataclass.Mail"
+)}
+enabledDataclasses: {(
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.Notes"
+)}
+dataclassProperties: (null)
+properties: {
+    AllowsInsecureAuthentication = 0;
+    AuthenticationScheme = ATOKEN;
+    PortNumber = 993;
+    SSLIsDirect = 1;
+    UseMailDrop = 1;
+}
+parentAccount: EB78CEED-9701-457C-AB25-2E6F0D76B949
+owningBundleID:com.apple.accounts.accountsd
+authenticated: YES
+lastCredentialRenewalRejectedDate: (null)
+supportsAuthentication: YES
+authenticationType: parent
+credentialType: (null)
+created: Friday, June 14, 2019 at 12:47:06 AM Eastern Daylight Time
+active: YES
+visible: YES
+credential: Password:No Token:Yes OAuthToken:No RefreshToken:No TokenSecret:No ExpirationDate:(null)
+
+
+type:com.apple.account.SMTP
+identifier: 048D7866-F043-4DC4-B342-BDBE0B0AF6F2
+accountDescription: icloud
+username: ryguyga@icloud.com
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/Account/p15
+provisionedDataclasses: {(
+    "com.apple.Dataclass.Mail"
+)}
+enabledDataclasses: {(
+    "com.apple.Dataclass.Mail"
+)}
+dataclassProperties: (null)
+properties: {
+    Hostname = "smtp.icloud.com";
+    SecIdentityPersistentRef = <73737569 00000020 87191ca3 0fc911d4 849a0005 02b52122 00000000 00000000 00000000 00000006 64626e6d 00000026 7e2f4c69 62726172 792f4b65 79636861 696e732f 6c6f6769 6e2e6b65 79636861 696e2d64 62006974 656d0000 00d08000 10000000 00040100 00000000 00bb3081 b8315a30 58060355 040a1351 4d454d42 45523a20 45323436 31423631 2d333146 302d3430 46312d42 3341352d 36303341 44433541 45444135 20433136 42383433 382d3732 35322d34 3441332d 42424643 2d343136 44453146 46313632 30315a30 58060355 04031351 4d454d42 45523a20 45323436 31423631 2d333146 302d3430 46312d42 3341352d 36303341 44433541 45444135 20433136 42383433 382d3732 35322d34 3441332d 42424643 2d343136 44453146 46313632 30000000 01016964 6e740000 0004ffff ffff>;
+}
+parentAccount: (null)
+owningBundleID:com.apple.mail
+authenticated: NO
+lastCredentialRenewalRejectedDate: (null)
+supportsAuthentication: YES
+authenticationType: (null)
+credentialType: (null)
+created: Friday, June 14, 2019 at 3:04:41 AM Eastern Daylight Time
+active: YES
+visible: YES
+credential: Password:Yes Token:No OAuthToken:No RefreshToken:No TokenSecret:No ExpirationDate:(null)
+
+
+
+=======================================
+Account Sync Status:
+=======================================
+
+Synced: {
+    ACPropertyFullName = "Ryan Gosdin";
+    qualifiedUsername = "rgosdin@gmail.com";
+    servicename = "com.apple.account.Google";
+    username = "rgosdin@gmail.com";
+}
+Synced: {
+    Hostname = "smtp.icloud.com";
+    description = icloud;
+    qualifiedUsername = "ryguyga@icloud.com@smtp.icloud.com";
+    servicename = "com.apple.account.SMTP";
+    username = "ryguyga@icloud.com";
+}
+
+
+=======================================
+Accounts Types:
+=======================================
+
+identifier: com.apple.account.163
+description: 163
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p1
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Contacts",
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.Notes",
+    "com.apple.Dataclass.Reminders",
+    "com.apple.Dataclass.Calendars"
+)}
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.idms
+description: IDMS
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p2
+supportsAuthentication NO
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses (null)
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.linkedInLegacy
+description: LinkedIn Legacy
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p3
+supportsAuthentication YES
+supportsMultipleAccounts NO
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Notifications",
+    "com.apple.Dataclass.Contacts"
+)}
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.OnMyDevice
+description: On My Device
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p4
+supportsAuthentication NO
+supportsMultipleAccounts NO
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Contacts",
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.Notes",
+    "com.apple.Dataclass.Reminders",
+    "com.apple.Dataclass.Calendars"
+)}
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.AppleIDAuthentication
+description: Apple ID
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p5
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses (null)
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.facebookLegacy
+description: Facebook Legacy
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p6
+supportsAuthentication YES
+supportsMultipleAccounts NO
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Calendars",
+    "com.apple.Dataclass.Contacts"
+)}
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.IMAPNotes
+description: IMAPNotes
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p7
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Notes"
+)}
+syncableDataclasses {(
+    "com.apple.Dataclass.Notes"
+)}
+
+
+identifier: com.apple.account.CardDAV
+description: CardDAV
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p8
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.ContactsSearch",
+    "com.apple.Dataclass.Contacts"
+)}
+syncableDataclasses {(
+    "com.apple.Dataclass.ContactsSearch",
+    "com.apple.Dataclass.Contacts"
+)}
+
+
+identifier: com.apple.account.Madrid
+description: Messages
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p9
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses (null)
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.FaceTime
+description: FaceTime
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p10
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses (null)
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.iTunesStore
+description: iTunes Store
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p11
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses (null)
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.126
+description: 126
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p12
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Contacts",
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.Reminders",
+    "com.apple.Dataclass.Notes",
+    "com.apple.Dataclass.Calendars"
+)}
+syncableDataclasses (null)
+
+
+identifier: com.apple.internetaccounts
+description: IA Top Level A-List Account
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p13
+supportsAuthentication NO
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses (null)
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.POP
+description: POP
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p14
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Mail"
+)}
+syncableDataclasses {(
+    "com.apple.Dataclass.Mail"
+)}
+
+
+identifier: com.apple.account.mso
+description: MSO
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p15
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses (null)
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.HolidayCalendar
+description: Holiday Calendar
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p16
+supportsAuthentication NO
+supportsMultipleAccounts NO
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Calendars"
+)}
+syncableDataclasses {(
+    "com.apple.Dataclass.Calendars"
+)}
+
+
+identifier: com.apple.account.Hotmail
+description: Hotmail
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p17
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Calendars",
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.Reminders",
+    "com.apple.Dataclass.Contacts",
+    "com.apple.Dataclass.ContactsSearch"
+)}
+syncableDataclasses {(
+    "com.apple.Dataclass.Calendars",
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.Reminders",
+    "com.apple.Dataclass.Contacts",
+    "com.apple.Dataclass.ContactsSearch"
+)}
+
+
+identifier: com.apple.account.iTunesStore.sandbox
+description: iTunes Store (Sandbox)
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p18
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses (null)
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.IMAP
+description: IMAP
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p19
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.Notes"
+)}
+syncableDataclasses {(
+    "com.apple.Dataclass.Mail"
+)}
+
+
+identifier: com.apple.account.qq
+description: QQ
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p20
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.Notes",
+    "com.apple.Dataclass.Contacts",
+    "com.apple.Dataclass.Calendars"
+)}
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.jabber
+description: Jabber
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p21
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Messages"
+)}
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.tencentweibo
+description: Tencent Weibo
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p22
+supportsAuthentication YES
+supportsMultipleAccounts NO
+obsolete YES
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Notifications"
+)}
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.SMTP
+description: SMTP
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p23
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Mail"
+)}
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.CalDAVLegacy
+description: CalDAV Legacy
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p24
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Calendars",
+    "com.apple.Dataclass.Reminders"
+)}
+syncableDataclasses {(
+    "com.apple.Dataclass.Calendars",
+    "com.apple.Dataclass.Reminders"
+)}
+
+
+identifier: com.apple.account.IMAPMail
+description: IMAPMail
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p25
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Mail"
+)}
+syncableDataclasses {(
+    "com.apple.Dataclass.Mail"
+)}
+
+
+identifier: com.apple.account.LDAP
+description: LDAP
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p26
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.ContactsSearch"
+)}
+syncableDataclasses {(
+    "com.apple.Dataclass.ContactsSearch"
+)}
+
+
+identifier: com.apple.account.GameCenter
+description: Game Center
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p27
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses (null)
+syncableDataclasses (null)
+
+
+identifier: com.apple.sinaweibo
+description: Sina Weibo
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p28
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete YES
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Notifications"
+)}
+syncableDataclasses (null)
+
+
+identifier: com.apple.facebook
+description: Facebook
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p29
+supportsAuthentication YES
+supportsMultipleAccounts NO
+obsolete YES
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Notifications",
+    "com.apple.Dataclass.Calendars",
+    "com.apple.Dataclass.Contacts"
+)}
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.Yahoo
+description: Yahoo
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p30
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Notes",
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.Reminders",
+    "com.apple.Dataclass.Contacts",
+    "com.apple.Dataclass.Calendars"
+)}
+syncableDataclasses {(
+    "com.apple.Dataclass.Mail"
+)}
+
+
+identifier: com.apple.account.osxserver
+description: macOS Server
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p31
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Calendars",
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.NetworkVPN",
+    "com.apple.Dataclass.ServerDocuments",
+    "com.apple.Dataclass.Reminders",
+    "com.apple.Dataclass.Notes",
+    "com.apple.Dataclass.Contacts"
+)}
+syncableDataclasses {(
+    "com.apple.Dataclass.Calendars",
+    "com.apple.Dataclass.ServerDocuments",
+    "com.apple.Dataclass.NetworkVPN",
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.Notes",
+    "com.apple.Dataclass.Reminders",
+    "com.apple.Dataclass.Contacts"
+)}
+
+
+identifier: com.apple.account.SubscribedCalendar
+description: SubscribedCalendar
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p32
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Calendars"
+)}
+syncableDataclasses {(
+    "com.apple.Dataclass.Calendars"
+)}
+
+
+identifier: com.apple.youku
+description: Youku
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p33
+supportsAuthentication YES
+supportsMultipleAccounts NO
+obsolete YES
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses (null)
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.Google
+description: Gmail
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p34
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.Notes",
+    "com.apple.Dataclass.Contacts",
+    "com.apple.Dataclass.Calendars"
+)}
+syncableDataclasses {(
+    "com.apple.Dataclass.Mail"
+)}
+
+
+identifier: com.apple.twitter
+description: Twitter
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p35
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete YES
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Notifications"
+)}
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.CalDAV
+description: CalDAV
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p36
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Calendars",
+    "com.apple.Dataclass.Reminders"
+)}
+syncableDataclasses {(
+    "com.apple.Dataclass.Calendars",
+    "com.apple.Dataclass.Reminders"
+)}
+
+
+identifier: com.apple.account.Exchange
+description: Exchange
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p37
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Calendars",
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.Reminders",
+    "com.apple.Dataclass.Contacts",
+    "com.apple.Dataclass.Notes"
+)}
+syncableDataclasses {(
+    "com.apple.Dataclass.Contacts",
+    "com.apple.Dataclass.Reminders",
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.Notes",
+    "com.apple.Dataclass.ContactsSearch",
+    "com.apple.Dataclass.Calendars"
+)}
+
+
+identifier: com.apple.account.yelp
+description: Yelp
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p38
+supportsAuthentication NO
+supportsMultipleAccounts NO
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses (null)
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.CardDAVLegacy
+description: CardDAV Legacy
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p39
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.ContactsSearch",
+    "com.apple.Dataclass.Contacts"
+)}
+syncableDataclasses {(
+    "com.apple.Dataclass.ContactsSearch",
+    "com.apple.Dataclass.Contacts"
+)}
+
+
+identifier: com.apple.account.aol
+description: Aol
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p40
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Calendars",
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.Reminders",
+    "com.apple.Dataclass.Contacts",
+    "com.apple.Dataclass.Notes"
+)}
+syncableDataclasses {(
+    "com.apple.Dataclass.Mail"
+)}
+
+
+identifier: com.apple.account.yahooim
+description: Yahoo IM
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p41
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Messages"
+)}
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.AppleAccount
+description: iCloud
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p42
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.CKDeviceService",
+    "com.apple.Dataclass.Backup",
+    "com.apple.Dataclass.Ubiquity",
+    "com.apple.Dataclass.Bookmarks",
+    "com.apple.Dataclass.Calendars",
+    "com.apple.Dataclass.KeyValue",
+    "com.apple.Dataclass.News",
+    "com.apple.Dataclass.MediaStream",
+    "com.apple.Dataclass.CKDatabaseService",
+    "com.apple.Dataclass.Contacts",
+    "com.apple.Dataclass.KeychainSync",
+    "com.apple.Dataclass.DeviceLocator",
+    "com.apple.Dataclass.CKShareService",
+    "com.apple.Dataclass.Notes",
+    "com.apple.Dataclass.Mail",
+    "com.apple.Dataclass.Shoebox",
+    "com.apple.Dataclass.SharedStreams",
+    "com.apple.Dataclass.Reminders"
+)}
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.FindMyFriends
+description: Find My Friends
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p43
+supportsAuthentication NO
+supportsMultipleAccounts NO
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses (null)
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.CloudKit
+description: CloudKit
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p44
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.CKShareService",
+    "com.apple.Dataclass.CKDatabaseService",
+    "com.apple.Dataclass.CKDeviceService"
+)}
+syncableDataclasses {(
+    "com.apple.Dataclass.CKShareService",
+    "com.apple.Dataclass.CKDeviceService",
+    "com.apple.Dataclass.CKDatabaseService"
+)}
+
+
+identifier: com.apple.account.SingleSignOn
+description: Single Sign-on
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p45
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses (null)
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.BookmarkDAV
+description: BookmarkDAV
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p46
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Bookmarks"
+)}
+syncableDataclasses {(
+    "com.apple.Dataclass.Bookmarks"
+)}
+
+
+identifier: com.apple.account.IdentityServices
+description: Messages
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p47
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses (null)
+syncableDataclasses (null)
+
+
+identifier: com.apple.vimeo
+description: Vimeo
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p48
+supportsAuthentication YES
+supportsMultipleAccounts NO
+obsolete YES
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses (null)
+syncableDataclasses (null)
+
+
+identifier: com.apple.account.AppleID
+description: AppleID
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p49
+supportsAuthentication YES
+supportsMultipleAccounts YES
+obsolete NO
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses (null)
+syncableDataclasses (null)
+
+
+identifier: com.apple.tudou
+description: Tudou
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p50
+supportsAuthentication YES
+supportsMultipleAccounts NO
+obsolete YES
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses (null)
+syncableDataclasses (null)
+
+
+identifier: com.apple.linkedin
+description: LinkedIn
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p51
+supportsAuthentication YES
+supportsMultipleAccounts NO
+obsolete YES
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses {(
+    "com.apple.Dataclass.Notifications",
+    "com.apple.Dataclass.Contacts"
+)}
+syncableDataclasses (null)
+
+
+identifier: com.apple.flickr
+description: Flickr
+objectID: x-coredata://01737578-67AE-48AB-ABC6-DC50A4F2C5C8/AccountType/p52
+supportsAuthentication YES
+supportsMultipleAccounts NO
+obsolete YES
+encryptAccountProperties NO
+owningBundleID com.apple.accountsd
+supportedDataclasses (null)
+syncableDataclasses (null)
+
+

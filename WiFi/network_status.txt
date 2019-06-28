@@ -1,0 +1,8 @@
+# --- Network Status
+
+    Primary IPv4         : None
+    Primary IPv6         : None
+    DNS Addresses        : None
+    Apple                : Not Reachable
+
+

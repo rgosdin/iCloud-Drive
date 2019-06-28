@@ -1,0 +1,374 @@
+================================================================================
+
+Global state:
+
+Current self:         <CKKSSelves: <CKKSSOSSelfPeer(spid-2YkbbC8XGvvgVp+dO4Sn3puKH6): pubEnc:<04f6ca8e 34c53948 7b0db7e8 df82d3d9> pubSign:<04d7cee7 011320d6 16e6b518 9ee31881>> (no past selves)>
+Trusted peers:        (
+    "<CKKSSOSPeer(spid-d773n8Wx/4q59SXRIZQQMlqfaO): pubEnc:(null) pubSign:(null)>",
+    "<CKKSSOSPeer(spid-1zwUz2UDelnPuaZZurM+48vFp2): pubEnc:<041eb41d c37b5bc8 c73bff59 d0c40539> pubSign:<0406f340 caf37eda 7b69558a 985b505b>>",
+    "<CKKSSOSPeer(spid-f5BdFywxEPicTSnezxW1NX2ydS): pubEnc:(null) pubSign:(null)>",
+    "<CKKSSOSPeer(spid-YIN0mrmrOD/afKnQqITsiBKZQ6): pubEnc:(null) pubSign:(null)>",
+    "<CKKSSOSPeer(spid-16twL9XDluGaIVz7J05MyVD4Xt): pubEnc:(null) pubSign:(null)>",
+    "<CKKSSOSPeer(spid-2YkbbC8XGvvgVp+dO4Sn3puKH6): pubEnc:<04f6ca8e 34c53948 7b0db7e8 df82d3d9> pubSign:<04d7cee7 011320d6 16e6b518 9ee31881>>",
+    "<CKKSSOSPeer(spid-rzMS2lsxLjOZxKffH3oLql/2MW): pubEnc:<0463a5c8 d6239edb 7599f5f6 2870ad9d> pubSign:<040feda4 4bda975e 2ae7e556 d7eb6fdd>>"
+)
+Reachability:         no-network
+CK DeviceID:          4D5B46FCFB28DFBFDEB2FD7B4D5EF0B2B06655D13564DE19653A7A3D19C6CF1A
+CK DeviceID Error:    <null>
+
+================================================================================
+
+View: ApplePay
+
+CloudKit account:     logged in
+Account tracker:      <CKKSCKAccountStateTracker: logged in (<CKAccountInfo: accountStatus=Available, accountPartition=Prod, supportsDeviceToDeviceEncryption=YES, hasValidCredentials=YES, hasEncryptionIdentity=NO> <SOSStatus: InCircle ((null))>) >
+Key state:            ready
+Lock state:           <CKKSLockStateTracker: unlocked last:now>
+Current TLK:          D5757321-AF12-44C3-8EB6-1050898E76EC
+Current ClassA:       747E9363-8B7E-4F9D-B02F-41746FD58C24
+Current ClassC:       8A302F48-414D-425A-888D-94C9BDEBA382
+TLK shares:           (
+    "<CKKSTLKShare(D5757321-AF12-44C3-8EB6-1050898E76EC): recv:<CKKSSOSPeer(spid-1zwUz2UDelnPuaZZurM+48vFp2): pubEnc:<041eb41d c37b5bc8 c73bff59 d0c40539> pubSign:(null)> send:spid-1zwUz2UDelnPuaZZurM+48vFp2>",
+    "<CKKSTLKShare(D5757321-AF12-44C3-8EB6-1050898E76EC): recv:<CKKSSOSPeer(spid-2YkbbC8XGvvgVp+dO4Sn3puKH6): pubEnc:<04f6ca8e 34c53948 7b0db7e8 df82d3d9> pubSign:(null)> send:spid-2YkbbC8XGvvgVp+dO4Sn3puKH6>",
+    "<CKKSTLKShare(D5757321-AF12-44C3-8EB6-1050898E76EC): recv:<CKKSSOSPeer(spid-CFdf0JKcK411wTlEWSOoRv6hxT): pubEnc:<041d7826 64538341 42ed1e90 a2d059df> pubSign:(null)> send:spid-CFdf0JKcK411wTlEWSOoRv6hxT>",
+    "<CKKSTLKShare(D5757321-AF12-44C3-8EB6-1050898E76EC): recv:<CKKSSOSPeer(spid-QWCmBfMI2IDGs6LClgpKRXJYzt): pubEnc:<04d5e12d 9a230376 509d9eaa ca8552e5> pubSign:(null)> send:spid-QWCmBfMI2IDGs6LClgpKRXJYzt>",
+    "<CKKSTLKShare(D5757321-AF12-44C3-8EB6-1050898E76EC): recv:<CKKSSOSPeer(spid-1zwUz2UDelnPuaZZurM+48vFp2): pubEnc:<041eb41d c37b5bc8 c73bff59 d0c40539> pubSign:(null)> send:spid-RjQfEj0YiJMVyRG9BCd75LeL4y>",
+    "<CKKSTLKShare(D5757321-AF12-44C3-8EB6-1050898E76EC): recv:<CKKSSOSPeer(spid-RjQfEj0YiJMVyRG9BCd75LeL4y): pubEnc:<0457d36e a513cafa 9a2a263a 8afaa5b0> pubSign:(null)> send:spid-RjQfEj0YiJMVyRG9BCd75LeL4y>",
+    "<CKKSTLKShare(D5757321-AF12-44C3-8EB6-1050898E76EC): recv:<CKKSSOSPeer(spid-o0EyQkxug0PQ6F3mu4gv0GIV/s): pubEnc:<04ca515b d02b475d ea4201dd 56d7e032> pubSign:(null)> send:spid-o0EyQkxug0PQ6F3mu4gv0GIV/s>",
+    "<CKKSTLKShare(D5757321-AF12-44C3-8EB6-1050898E76EC): recv:<CKKSSOSPeer(spid-2YkbbC8XGvvgVp+dO4Sn3puKH6): pubEnc:<04f6ca8e 34c53948 7b0db7e8 df82d3d9> pubSign:(null)> send:spid-rzMS2lsxLjOZxKffH3oLql/2MW>",
+    "<CKKSTLKShare(D5757321-AF12-44C3-8EB6-1050898E76EC): recv:<CKKSSOSPeer(spid-rzMS2lsxLjOZxKffH3oLql/2MW): pubEnc:<0463a5c8 d6239edb 7599f5f6 2870ad9d> pubSign:(null)> send:spid-rzMS2lsxLjOZxKffH3oLql/2MW>",
+    "<CKKSTLKShare(D5757321-AF12-44C3-8EB6-1050898E76EC): recv:<CKKSSOSPeer(spid-yVz2SGAEHfU8eiAdWlZmd0oZEj): pubEnc:<0452f617 ed1a552a b5117d3c 90a5578e> pubSign:(null)> send:spid-yVz2SGAEHfU8eiAdWlZmd0oZEj>"
+)
+Outgoing Queue counts: {
+}
+Incoming Queue counts: {
+}
+Key counts: {
+    "local-classA" = 1;
+    "local-classC" = 1;
+    "local-tlk" = 1;
+}
+latest manifest generation: null
+Item counts (by key):  {
+    "8A302F48-414D-425A-888D-94C9BDEBA382" = 1;
+}
+Peer states:           (
+    "<CKKSDeviceStateEntry(1CA236C186DC31608F8F51A2EA162FC87183835D265FB7DC05A8336123C43CA2,rzMS2lsxLjOZxKffH3oLql/2MW,iphone 18.6.0 (16F156),2019-06-11 00:00:00 +0000,ApplePay): kSOSCCInCircle ready D5757321-AF12-44C3-8EB6-1050898E76EC 747E9363-8B7E-4F9D-B02F-41746FD58C24 8A302F48-414D-425A-888D-94C9BDEBA382 upd:2019-06-11 14:51:13 +0000>",
+    "<CKKSDeviceStateEntry(4D5B46FCFB28DFBFDEB2FD7B4D5EF0B2B06655D13564DE19653A7A3D19C6CF1A,2YkbbC8XGvvgVp+dO4Sn3puKH6,macOS 18.6.0 (18F132),2019-06-13 00:00:00 +0000,ApplePay): kSOSCCInCircle ready D5757321-AF12-44C3-8EB6-1050898E76EC 747E9363-8B7E-4F9D-B02F-41746FD58C24 8A302F48-414D-425A-888D-94C9BDEBA382 upd:2019-06-14 04:15:10 +0000>"
+)
+zone change fetcher:                 <CKKSZoneChangeFetcher(zone-change-fetcher): no pending fetches
+zoneSetupOperation:                  <CKKSGroupOperation(zone-setup-operation-ApplePay): finished 2001-01-01 00:33:25 +0000 2001-01-01 00:33:25 +0000>
+keyStateOperation:                   never
+lastIncomingQueueOperation:          <CKKSIncomingQueueOperation(incoming-queue-operation): finished 2001-01-01 00:33:25 +0000>
+lastNewTLKOperation:                 never
+lastOutgoingQueueOperation:          <CKKSOutgoingQueueOperation(outgoing-queue-operation): finished 2001-01-01 00:33:26 +0000 2001-01-01 00:33:26 +0000>
+lastProcessReceivedKeysOperation:    never
+lastReencryptOutgoingItemsOperation: never
+lastScanLocalItemsOperation:         never
+
+================================================================================
+
+View: AutoUnlock
+
+CloudKit account:     logged in
+Account tracker:      <CKKSCKAccountStateTracker: logged in (<CKAccountInfo: accountStatus=Available, accountPartition=Prod, supportsDeviceToDeviceEncryption=YES, hasValidCredentials=YES, hasEncryptionIdentity=NO> <SOSStatus: InCircle ((null))>) >
+Key state:            ready
+Lock state:           <CKKSLockStateTracker: unlocked last:now>
+Current TLK:          C0460C00-F332-4270-8E62-14C80805BD00
+Current ClassA:       E6483C85-C400-47D8-9CA3-6ABEEB5EBD9F
+Current ClassC:       D5BA82F9-C98F-4F7A-AB51-0E95513BA2BD
+TLK shares:           (
+    "<CKKSTLKShare(C0460C00-F332-4270-8E62-14C80805BD00): recv:<CKKSSOSPeer(spid-1zwUz2UDelnPuaZZurM+48vFp2): pubEnc:<041eb41d c37b5bc8 c73bff59 d0c40539> pubSign:(null)> send:spid-1zwUz2UDelnPuaZZurM+48vFp2>",
+    "<CKKSTLKShare(C0460C00-F332-4270-8E62-14C80805BD00): recv:<CKKSSOSPeer(spid-2YkbbC8XGvvgVp+dO4Sn3puKH6): pubEnc:<04f6ca8e 34c53948 7b0db7e8 df82d3d9> pubSign:(null)> send:spid-2YkbbC8XGvvgVp+dO4Sn3puKH6>",
+    "<CKKSTLKShare(C0460C00-F332-4270-8E62-14C80805BD00): recv:<CKKSSOSPeer(spid-CFdf0JKcK411wTlEWSOoRv6hxT): pubEnc:<041d7826 64538341 42ed1e90 a2d059df> pubSign:(null)> send:spid-CFdf0JKcK411wTlEWSOoRv6hxT>",
+    "<CKKSTLKShare(C0460C00-F332-4270-8E62-14C80805BD00): recv:<CKKSSOSPeer(spid-QWCmBfMI2IDGs6LClgpKRXJYzt): pubEnc:<04d5e12d 9a230376 509d9eaa ca8552e5> pubSign:(null)> send:spid-QWCmBfMI2IDGs6LClgpKRXJYzt>",
+    "<CKKSTLKShare(C0460C00-F332-4270-8E62-14C80805BD00): recv:<CKKSSOSPeer(spid-1zwUz2UDelnPuaZZurM+48vFp2): pubEnc:<041eb41d c37b5bc8 c73bff59 d0c40539> pubSign:(null)> send:spid-RjQfEj0YiJMVyRG9BCd75LeL4y>",
+    "<CKKSTLKShare(C0460C00-F332-4270-8E62-14C80805BD00): recv:<CKKSSOSPeer(spid-RjQfEj0YiJMVyRG9BCd75LeL4y): pubEnc:<0457d36e a513cafa 9a2a263a 8afaa5b0> pubSign:(null)> send:spid-RjQfEj0YiJMVyRG9BCd75LeL4y>",
+    "<CKKSTLKShare(C0460C00-F332-4270-8E62-14C80805BD00): recv:<CKKSSOSPeer(spid-h4pnhxhm7qrMgytFsIONHd7TZR): pubEnc:<04973f4c 0962f7f8 6fcacc55 60535932> pubSign:(null)> send:spid-h4pnhxhm7qrMgytFsIONHd7TZR>",
+    "<CKKSTLKShare(C0460C00-F332-4270-8E62-14C80805BD00): recv:<CKKSSOSPeer(spid-o0EyQkxug0PQ6F3mu4gv0GIV/s): pubEnc:<04ca515b d02b475d ea4201dd 56d7e032> pubSign:(null)> send:spid-o0EyQkxug0PQ6F3mu4gv0GIV/s>",
+    "<CKKSTLKShare(C0460C00-F332-4270-8E62-14C80805BD00): recv:<CKKSSOSPeer(spid-2YkbbC8XGvvgVp+dO4Sn3puKH6): pubEnc:<04f6ca8e 34c53948 7b0db7e8 df82d3d9> pubSign:(null)> send:spid-rzMS2lsxLjOZxKffH3oLql/2MW>",
+    "<CKKSTLKShare(C0460C00-F332-4270-8E62-14C80805BD00): recv:<CKKSSOSPeer(spid-rzMS2lsxLjOZxKffH3oLql/2MW): pubEnc:<0463a5c8 d6239edb 7599f5f6 2870ad9d> pubSign:(null)> send:spid-rzMS2lsxLjOZxKffH3oLql/2MW>",
+    "<CKKSTLKShare(C0460C00-F332-4270-8E62-14C80805BD00): recv:<CKKSSOSPeer(spid-yVz2SGAEHfU8eiAdWlZmd0oZEj): pubEnc:<0452f617 ed1a552a b5117d3c 90a5578e> pubSign:(null)> send:spid-yVz2SGAEHfU8eiAdWlZmd0oZEj>"
+)
+Outgoing Queue counts: {
+}
+Incoming Queue counts: {
+}
+Key counts: {
+    "local-classA" = 1;
+    "local-classC" = 1;
+    "local-tlk" = 1;
+}
+latest manifest generation: null
+Item counts (by key):  {
+    "D5BA82F9-C98F-4F7A-AB51-0E95513BA2BD" = 2;
+}
+Peer states:           (
+    "<CKKSDeviceStateEntry(1CA236C186DC31608F8F51A2EA162FC87183835D265FB7DC05A8336123C43CA2,rzMS2lsxLjOZxKffH3oLql/2MW,iphone 18.6.0 (16F156),2019-06-11 00:00:00 +0000,AutoUnlock): kSOSCCInCircle ready C0460C00-F332-4270-8E62-14C80805BD00 E6483C85-C400-47D8-9CA3-6ABEEB5EBD9F D5BA82F9-C98F-4F7A-AB51-0E95513BA2BD upd:2019-06-11 14:51:13 +0000>",
+    "<CKKSDeviceStateEntry(69C87327C07EDADC18980A6918AAFB1B5E4CD36216AE89325E4C122B919CE387,1zwUz2UDelnPuaZZurM+48vFp2,macOS 17.5.0 (17E199),2019-05-14 00:00:00 +0000,AutoUnlock): kSOSCCInCircle ready C0460C00-F332-4270-8E62-14C80805BD00 E6483C85-C400-47D8-9CA3-6ABEEB5EBD9F D5BA82F9-C98F-4F7A-AB51-0E95513BA2BD upd:2019-05-14 13:58:18 +0000>",
+    "<CKKSDeviceStateEntry(4D5B46FCFB28DFBFDEB2FD7B4D5EF0B2B06655D13564DE19653A7A3D19C6CF1A,2YkbbC8XGvvgVp+dO4Sn3puKH6,macOS 18.6.0 (18F132),2019-06-12 00:00:00 +0000,AutoUnlock): kSOSCCInCircle ready C0460C00-F332-4270-8E62-14C80805BD00 E6483C85-C400-47D8-9CA3-6ABEEB5EBD9F D5BA82F9-C98F-4F7A-AB51-0E95513BA2BD upd:2019-06-12 12:56:13 +0000>"
+)
+zone change fetcher:                 <CKKSZoneChangeFetcher(zone-change-fetcher): no pending fetches
+zoneSetupOperation:                  <CKKSGroupOperation(zone-setup-operation-AutoUnlock): finished 2001-01-01 00:33:25 +0000 2001-01-01 00:33:25 +0000>
+keyStateOperation:                   never
+lastIncomingQueueOperation:          <CKKSIncomingQueueOperation(incoming-queue-operation): finished 2001-01-01 00:33:25 +0000>
+lastNewTLKOperation:                 never
+lastOutgoingQueueOperation:          <CKKSOutgoingQueueOperation(outgoing-queue-operation): finished 2001-01-01 00:33:26 +0000 2001-01-01 00:33:26 +0000>
+lastProcessReceivedKeysOperation:    never
+lastReencryptOutgoingItemsOperation: never
+lastScanLocalItemsOperation:         never
+
+================================================================================
+
+View: Engram
+
+CloudKit account:     logged in
+Account tracker:      <CKKSCKAccountStateTracker: logged in (<CKAccountInfo: accountStatus=Available, accountPartition=Prod, supportsDeviceToDeviceEncryption=YES, hasValidCredentials=YES, hasEncryptionIdentity=NO> <SOSStatus: InCircle ((null))>) >
+Key state:            ready
+Lock state:           <CKKSLockStateTracker: unlocked last:now>
+Current TLK:          AB38B160-D462-4085-80D8-2684F05D94B2
+Current ClassA:       BE4A0E4B-71A1-4C9B-9878-9CF42DAC5DE9
+Current ClassC:       7452B796-DB00-458E-BF2C-93BFA373503F
+TLK shares:           (
+    "<CKKSTLKShare(AB38B160-D462-4085-80D8-2684F05D94B2): recv:<CKKSSOSPeer(spid-1zwUz2UDelnPuaZZurM+48vFp2): pubEnc:<041eb41d c37b5bc8 c73bff59 d0c40539> pubSign:(null)> send:spid-1zwUz2UDelnPuaZZurM+48vFp2>",
+    "<CKKSTLKShare(AB38B160-D462-4085-80D8-2684F05D94B2): recv:<CKKSSOSPeer(spid-2YkbbC8XGvvgVp+dO4Sn3puKH6): pubEnc:<04f6ca8e 34c53948 7b0db7e8 df82d3d9> pubSign:(null)> send:spid-2YkbbC8XGvvgVp+dO4Sn3puKH6>",
+    "<CKKSTLKShare(AB38B160-D462-4085-80D8-2684F05D94B2): recv:<CKKSSOSPeer(spid-CFdf0JKcK411wTlEWSOoRv6hxT): pubEnc:<041d7826 64538341 42ed1e90 a2d059df> pubSign:(null)> send:spid-CFdf0JKcK411wTlEWSOoRv6hxT>",
+    "<CKKSTLKShare(AB38B160-D462-4085-80D8-2684F05D94B2): recv:<CKKSSOSPeer(spid-QWCmBfMI2IDGs6LClgpKRXJYzt): pubEnc:<04d5e12d 9a230376 509d9eaa ca8552e5> pubSign:(null)> send:spid-QWCmBfMI2IDGs6LClgpKRXJYzt>",
+    "<CKKSTLKShare(AB38B160-D462-4085-80D8-2684F05D94B2): recv:<CKKSSOSPeer(spid-1zwUz2UDelnPuaZZurM+48vFp2): pubEnc:<041eb41d c37b5bc8 c73bff59 d0c40539> pubSign:(null)> send:spid-RjQfEj0YiJMVyRG9BCd75LeL4y>",
+    "<CKKSTLKShare(AB38B160-D462-4085-80D8-2684F05D94B2): recv:<CKKSSOSPeer(spid-RjQfEj0YiJMVyRG9BCd75LeL4y): pubEnc:<0457d36e a513cafa 9a2a263a 8afaa5b0> pubSign:(null)> send:spid-RjQfEj0YiJMVyRG9BCd75LeL4y>",
+    "<CKKSTLKShare(AB38B160-D462-4085-80D8-2684F05D94B2): recv:<CKKSSOSPeer(spid-h4pnhxhm7qrMgytFsIONHd7TZR): pubEnc:<04973f4c 0962f7f8 6fcacc55 60535932> pubSign:(null)> send:spid-h4pnhxhm7qrMgytFsIONHd7TZR>",
+    "<CKKSTLKShare(AB38B160-D462-4085-80D8-2684F05D94B2): recv:<CKKSSOSPeer(spid-o0EyQkxug0PQ6F3mu4gv0GIV/s): pubEnc:<04ca515b d02b475d ea4201dd 56d7e032> pubSign:(null)> send:spid-o0EyQkxug0PQ6F3mu4gv0GIV/s>",
+    "<CKKSTLKShare(AB38B160-D462-4085-80D8-2684F05D94B2): recv:<CKKSSOSPeer(spid-2YkbbC8XGvvgVp+dO4Sn3puKH6): pubEnc:<04f6ca8e 34c53948 7b0db7e8 df82d3d9> pubSign:(null)> send:spid-rzMS2lsxLjOZxKffH3oLql/2MW>",
+    "<CKKSTLKShare(AB38B160-D462-4085-80D8-2684F05D94B2): recv:<CKKSSOSPeer(spid-rzMS2lsxLjOZxKffH3oLql/2MW): pubEnc:<0463a5c8 d6239edb 7599f5f6 2870ad9d> pubSign:(null)> send:spid-rzMS2lsxLjOZxKffH3oLql/2MW>",
+    "<CKKSTLKShare(AB38B160-D462-4085-80D8-2684F05D94B2): recv:<CKKSSOSPeer(spid-yVz2SGAEHfU8eiAdWlZmd0oZEj): pubEnc:<0452f617 ed1a552a b5117d3c 90a5578e> pubSign:(null)> send:spid-yVz2SGAEHfU8eiAdWlZmd0oZEj>"
+)
+Outgoing Queue counts: {
+}
+Incoming Queue counts: {
+}
+Key counts: {
+    "local-classA" = 1;
+    "local-classC" = 1;
+    "local-tlk" = 1;
+}
+latest manifest generation: null
+Item counts (by key):  {
+    "7452B796-DB00-458E-BF2C-93BFA373503F" = 5;
+}
+Peer states:           (
+    "<CKKSDeviceStateEntry(1CA236C186DC31608F8F51A2EA162FC87183835D265FB7DC05A8336123C43CA2,rzMS2lsxLjOZxKffH3oLql/2MW,iphone 18.6.0 (16F156),2019-06-12 00:00:00 +0000,Engram): kSOSCCInCircle ready AB38B160-D462-4085-80D8-2684F05D94B2 BE4A0E4B-71A1-4C9B-9878-9CF42DAC5DE9 7452B796-DB00-458E-BF2C-93BFA373503F upd:2019-06-12 13:11:45 +0000>",
+    "<CKKSDeviceStateEntry(4D5B46FCFB28DFBFDEB2FD7B4D5EF0B2B06655D13564DE19653A7A3D19C6CF1A,2YkbbC8XGvvgVp+dO4Sn3puKH6,macOS 18.6.0 (18F132),2019-06-13 00:00:00 +0000,Engram): kSOSCCInCircle ready AB38B160-D462-4085-80D8-2684F05D94B2 BE4A0E4B-71A1-4C9B-9878-9CF42DAC5DE9 7452B796-DB00-458E-BF2C-93BFA373503F upd:2019-06-14 04:15:10 +0000>"
+)
+zone change fetcher:                 <CKKSZoneChangeFetcher(zone-change-fetcher): no pending fetches
+zoneSetupOperation:                  <CKKSGroupOperation(zone-setup-operation-Engram): finished 2001-01-01 00:33:25 +0000 2001-01-01 00:33:25 +0000>
+keyStateOperation:                   never
+lastIncomingQueueOperation:          <CKKSIncomingQueueOperation(incoming-queue-operation): finished 2001-01-01 00:33:25 +0000>
+lastNewTLKOperation:                 never
+lastOutgoingQueueOperation:          <CKKSOutgoingQueueOperation(outgoing-queue-operation): finished 2001-01-01 00:33:26 +0000 2001-01-01 00:33:26 +0000>
+lastProcessReceivedKeysOperation:    never
+lastReencryptOutgoingItemsOperation: never
+lastScanLocalItemsOperation:         never
+
+================================================================================
+
+View: Health
+
+CloudKit account:     logged in
+Account tracker:      <CKKSCKAccountStateTracker: logged in (<CKAccountInfo: accountStatus=Available, accountPartition=Prod, supportsDeviceToDeviceEncryption=YES, hasValidCredentials=YES, hasEncryptionIdentity=NO> <SOSStatus: InCircle ((null))>) >
+Key state:            ready
+Lock state:           <CKKSLockStateTracker: unlocked last:now>
+Current TLK:          3D5E3521-79DC-40AB-AA03-2863E4FE7FAD
+Current ClassA:       0CC0CF2D-CEDB-4962-A443-939F1DEE4AC7
+Current ClassC:       4A3AA80B-4A93-450A-8CF7-D42FC1C56A7D
+TLK shares:           (
+    "<CKKSTLKShare(3D5E3521-79DC-40AB-AA03-2863E4FE7FAD): recv:<CKKSSOSPeer(spid-1zwUz2UDelnPuaZZurM+48vFp2): pubEnc:<041eb41d c37b5bc8 c73bff59 d0c40539> pubSign:(null)> send:spid-1zwUz2UDelnPuaZZurM+48vFp2>",
+    "<CKKSTLKShare(3D5E3521-79DC-40AB-AA03-2863E4FE7FAD): recv:<CKKSSOSPeer(spid-2YkbbC8XGvvgVp+dO4Sn3puKH6): pubEnc:<04f6ca8e 34c53948 7b0db7e8 df82d3d9> pubSign:(null)> send:spid-2YkbbC8XGvvgVp+dO4Sn3puKH6>",
+    "<CKKSTLKShare(3D5E3521-79DC-40AB-AA03-2863E4FE7FAD): recv:<CKKSSOSPeer(spid-CFdf0JKcK411wTlEWSOoRv6hxT): pubEnc:<041d7826 64538341 42ed1e90 a2d059df> pubSign:(null)> send:spid-CFdf0JKcK411wTlEWSOoRv6hxT>",
+    "<CKKSTLKShare(3D5E3521-79DC-40AB-AA03-2863E4FE7FAD): recv:<CKKSSOSPeer(spid-QWCmBfMI2IDGs6LClgpKRXJYzt): pubEnc:<04d5e12d 9a230376 509d9eaa ca8552e5> pubSign:(null)> send:spid-QWCmBfMI2IDGs6LClgpKRXJYzt>",
+    "<CKKSTLKShare(3D5E3521-79DC-40AB-AA03-2863E4FE7FAD): recv:<CKKSSOSPeer(spid-1zwUz2UDelnPuaZZurM+48vFp2): pubEnc:<041eb41d c37b5bc8 c73bff59 d0c40539> pubSign:(null)> send:spid-RjQfEj0YiJMVyRG9BCd75LeL4y>",
+    "<CKKSTLKShare(3D5E3521-79DC-40AB-AA03-2863E4FE7FAD): recv:<CKKSSOSPeer(spid-RjQfEj0YiJMVyRG9BCd75LeL4y): pubEnc:<0457d36e a513cafa 9a2a263a 8afaa5b0> pubSign:(null)> send:spid-RjQfEj0YiJMVyRG9BCd75LeL4y>",
+    "<CKKSTLKShare(3D5E3521-79DC-40AB-AA03-2863E4FE7FAD): recv:<CKKSSOSPeer(spid-h4pnhxhm7qrMgytFsIONHd7TZR): pubEnc:<04973f4c 0962f7f8 6fcacc55 60535932> pubSign:(null)> send:spid-h4pnhxhm7qrMgytFsIONHd7TZR>",
+    "<CKKSTLKShare(3D5E3521-79DC-40AB-AA03-2863E4FE7FAD): recv:<CKKSSOSPeer(spid-o0EyQkxug0PQ6F3mu4gv0GIV/s): pubEnc:<04ca515b d02b475d ea4201dd 56d7e032> pubSign:(null)> send:spid-o0EyQkxug0PQ6F3mu4gv0GIV/s>",
+    "<CKKSTLKShare(3D5E3521-79DC-40AB-AA03-2863E4FE7FAD): recv:<CKKSSOSPeer(spid-2YkbbC8XGvvgVp+dO4Sn3puKH6): pubEnc:<04f6ca8e 34c53948 7b0db7e8 df82d3d9> pubSign:(null)> send:spid-rzMS2lsxLjOZxKffH3oLql/2MW>",
+    "<CKKSTLKShare(3D5E3521-79DC-40AB-AA03-2863E4FE7FAD): recv:<CKKSSOSPeer(spid-rzMS2lsxLjOZxKffH3oLql/2MW): pubEnc:<0463a5c8 d6239edb 7599f5f6 2870ad9d> pubSign:(null)> send:spid-rzMS2lsxLjOZxKffH3oLql/2MW>",
+    "<CKKSTLKShare(3D5E3521-79DC-40AB-AA03-2863E4FE7FAD): recv:<CKKSSOSPeer(spid-yVz2SGAEHfU8eiAdWlZmd0oZEj): pubEnc:<0452f617 ed1a552a b5117d3c 90a5578e> pubSign:(null)> send:spid-yVz2SGAEHfU8eiAdWlZmd0oZEj>"
+)
+Outgoing Queue counts: {
+}
+Incoming Queue counts: {
+}
+Key counts: {
+    "local-classA" = 1;
+    "local-classC" = 1;
+    "local-tlk" = 1;
+}
+latest manifest generation: null
+Item counts (by key):  {
+}
+Peer states:           (
+    "<CKKSDeviceStateEntry(1CA236C186DC31608F8F51A2EA162FC87183835D265FB7DC05A8336123C43CA2,rzMS2lsxLjOZxKffH3oLql/2MW,iphone 18.6.0 (16F156),2019-06-11 00:00:00 +0000,Health): kSOSCCInCircle ready 3D5E3521-79DC-40AB-AA03-2863E4FE7FAD 0CC0CF2D-CEDB-4962-A443-939F1DEE4AC7 4A3AA80B-4A93-450A-8CF7-D42FC1C56A7D upd:2019-06-11 14:51:13 +0000>",
+    "<CKKSDeviceStateEntry(4D5B46FCFB28DFBFDEB2FD7B4D5EF0B2B06655D13564DE19653A7A3D19C6CF1A,2YkbbC8XGvvgVp+dO4Sn3puKH6,macOS 18.6.0 (18F132),2019-06-13 00:00:00 +0000,Health): kSOSCCInCircle ready 3D5E3521-79DC-40AB-AA03-2863E4FE7FAD 0CC0CF2D-CEDB-4962-A443-939F1DEE4AC7 4A3AA80B-4A93-450A-8CF7-D42FC1C56A7D upd:2019-06-14 04:15:11 +0000>"
+)
+zone change fetcher:                 <CKKSZoneChangeFetcher(zone-change-fetcher): no pending fetches
+zoneSetupOperation:                  <CKKSGroupOperation(zone-setup-operation-Health): finished 2001-01-01 00:33:25 +0000 2001-01-01 00:33:25 +0000>
+keyStateOperation:                   never
+lastIncomingQueueOperation:          <CKKSIncomingQueueOperation(incoming-queue-operation): finished 2001-01-01 00:33:25 +0000>
+lastNewTLKOperation:                 never
+lastOutgoingQueueOperation:          <CKKSOutgoingQueueOperation(outgoing-queue-operation): finished 2001-01-01 00:33:26 +0000 2001-01-01 00:33:26 +0000>
+lastProcessReceivedKeysOperation:    never
+lastReencryptOutgoingItemsOperation: never
+lastScanLocalItemsOperation:         never
+
+================================================================================
+
+View: Home
+
+CloudKit account:     logged in
+Account tracker:      <CKKSCKAccountStateTracker: logged in (<CKAccountInfo: accountStatus=Available, accountPartition=Prod, supportsDeviceToDeviceEncryption=YES, hasValidCredentials=YES, hasEncryptionIdentity=NO> <SOSStatus: InCircle ((null))>) >
+Key state:            ready
+Lock state:           <CKKSLockStateTracker: unlocked last:now>
+Current TLK:          E4F93486-2067-4C1B-B9A7-7E7C751D7FB5
+Current ClassA:       DA89A0AA-25BE-4128-B84F-5B81091E46C9
+Current ClassC:       CF635BED-B25E-4DE0-B7C9-D691C8151915
+TLK shares:           (
+    "<CKKSTLKShare(E4F93486-2067-4C1B-B9A7-7E7C751D7FB5): recv:<CKKSSOSPeer(spid-2YkbbC8XGvvgVp+dO4Sn3puKH6): pubEnc:<04f6ca8e 34c53948 7b0db7e8 df82d3d9> pubSign:(null)> send:spid-2YkbbC8XGvvgVp+dO4Sn3puKH6>",
+    "<CKKSTLKShare(E4F93486-2067-4C1B-B9A7-7E7C751D7FB5): recv:<CKKSSOSPeer(spid-CFdf0JKcK411wTlEWSOoRv6hxT): pubEnc:<041d7826 64538341 42ed1e90 a2d059df> pubSign:(null)> send:spid-CFdf0JKcK411wTlEWSOoRv6hxT>",
+    "<CKKSTLKShare(E4F93486-2067-4C1B-B9A7-7E7C751D7FB5): recv:<CKKSSOSPeer(spid-QWCmBfMI2IDGs6LClgpKRXJYzt): pubEnc:<04d5e12d 9a230376 509d9eaa ca8552e5> pubSign:(null)> send:spid-QWCmBfMI2IDGs6LClgpKRXJYzt>",
+    "<CKKSTLKShare(E4F93486-2067-4C1B-B9A7-7E7C751D7FB5): recv:<CKKSSOSPeer(spid-1zwUz2UDelnPuaZZurM+48vFp2): pubEnc:<041eb41d c37b5bc8 c73bff59 d0c40539> pubSign:(null)> send:spid-RjQfEj0YiJMVyRG9BCd75LeL4y>",
+    "<CKKSTLKShare(E4F93486-2067-4C1B-B9A7-7E7C751D7FB5): recv:<CKKSSOSPeer(spid-RjQfEj0YiJMVyRG9BCd75LeL4y): pubEnc:<0457d36e a513cafa 9a2a263a 8afaa5b0> pubSign:(null)> send:spid-RjQfEj0YiJMVyRG9BCd75LeL4y>",
+    "<CKKSTLKShare(E4F93486-2067-4C1B-B9A7-7E7C751D7FB5): recv:<CKKSSOSPeer(spid-o0EyQkxug0PQ6F3mu4gv0GIV/s): pubEnc:<04ca515b d02b475d ea4201dd 56d7e032> pubSign:(null)> send:spid-o0EyQkxug0PQ6F3mu4gv0GIV/s>",
+    "<CKKSTLKShare(E4F93486-2067-4C1B-B9A7-7E7C751D7FB5): recv:<CKKSSOSPeer(spid-1zwUz2UDelnPuaZZurM+48vFp2): pubEnc:<041eb41d c37b5bc8 c73bff59 d0c40539> pubSign:(null)> send:spid-rzMS2lsxLjOZxKffH3oLql/2MW>",
+    "<CKKSTLKShare(E4F93486-2067-4C1B-B9A7-7E7C751D7FB5): recv:<CKKSSOSPeer(spid-2YkbbC8XGvvgVp+dO4Sn3puKH6): pubEnc:<04f6ca8e 34c53948 7b0db7e8 df82d3d9> pubSign:(null)> send:spid-rzMS2lsxLjOZxKffH3oLql/2MW>",
+    "<CKKSTLKShare(E4F93486-2067-4C1B-B9A7-7E7C751D7FB5): recv:<CKKSSOSPeer(spid-rzMS2lsxLjOZxKffH3oLql/2MW): pubEnc:<0463a5c8 d6239edb 7599f5f6 2870ad9d> pubSign:(null)> send:spid-rzMS2lsxLjOZxKffH3oLql/2MW>",
+    "<CKKSTLKShare(E4F93486-2067-4C1B-B9A7-7E7C751D7FB5): recv:<CKKSSOSPeer(spid-1zwUz2UDelnPuaZZurM+48vFp2): pubEnc:<041eb41d c37b5bc8 c73bff59 d0c40539> pubSign:(null)> send:spid-yVz2SGAEHfU8eiAdWlZmd0oZEj>",
+    "<CKKSTLKShare(E4F93486-2067-4C1B-B9A7-7E7C751D7FB5): recv:<CKKSSOSPeer(spid-yVz2SGAEHfU8eiAdWlZmd0oZEj): pubEnc:<0452f617 ed1a552a b5117d3c 90a5578e> pubSign:(null)> send:spid-yVz2SGAEHfU8eiAdWlZmd0oZEj>"
+)
+Outgoing Queue counts: {
+    new = 1;
+}
+Incoming Queue counts: {
+}
+Key counts: {
+    "local-classA" = 1;
+    "local-classC" = 1;
+    "local-tlk" = 1;
+}
+latest manifest generation: null
+Item counts (by key):  {
+    "CF635BED-B25E-4DE0-B7C9-D691C8151915" = 7;
+}
+Peer states:           (
+    "<CKKSDeviceStateEntry(1CA236C186DC31608F8F51A2EA162FC87183835D265FB7DC05A8336123C43CA2,rzMS2lsxLjOZxKffH3oLql/2MW,iphone 18.6.0 (16F156),2019-06-11 00:00:00 +0000,Home): kSOSCCInCircle ready E4F93486-2067-4C1B-B9A7-7E7C751D7FB5 DA89A0AA-25BE-4128-B84F-5B81091E46C9 CF635BED-B25E-4DE0-B7C9-D691C8151915 upd:2019-06-11 14:51:13 +0000>",
+    "<CKKSDeviceStateEntry(4D5B46FCFB28DFBFDEB2FD7B4D5EF0B2B06655D13564DE19653A7A3D19C6CF1A,2YkbbC8XGvvgVp+dO4Sn3puKH6,macOS 18.6.0 (18F132),2019-06-12 00:00:00 +0000,Home): kSOSCCInCircle ready E4F93486-2067-4C1B-B9A7-7E7C751D7FB5 DA89A0AA-25BE-4128-B84F-5B81091E46C9 CF635BED-B25E-4DE0-B7C9-D691C8151915 upd:2019-06-12 12:56:13 +0000>"
+)
+zone change fetcher:                 <CKKSZoneChangeFetcher(zone-change-fetcher): no pending fetches
+zoneSetupOperation:                  <CKKSGroupOperation(zone-setup-operation-Home): finished 2001-01-01 00:33:25 +0000 2001-01-01 00:33:25 +0000>
+keyStateOperation:                   never
+lastIncomingQueueOperation:          <CKKSIncomingQueueOperation(incoming-queue-operation): finished 2001-01-01 00:33:25 +0000>
+lastNewTLKOperation:                 never
+lastOutgoingQueueOperation:          <CKKSOutgoingQueueOperation(outgoing-queue-operation): finished 2001-01-01 00:33:26 +0000 2001-01-01 00:33:26 +0000 - <CKError 0x7fd46b51bb30: "Network Unavailable" (3/NSURLErrorDomain:-1009); "The Internet connection appears to be offline.">>
+lastProcessReceivedKeysOperation:    never
+lastReencryptOutgoingItemsOperation: never
+lastScanLocalItemsOperation:         never
+
+================================================================================
+
+View: LimitedPeersAllowed
+
+CloudKit account:     logged in
+Account tracker:      <CKKSCKAccountStateTracker: logged in (<CKAccountInfo: accountStatus=Available, accountPartition=Prod, supportsDeviceToDeviceEncryption=YES, hasValidCredentials=YES, hasEncryptionIdentity=NO> <SOSStatus: InCircle ((null))>) >
+Key state:            ready
+Lock state:           <CKKSLockStateTracker: unlocked last:now>
+Current TLK:          D6BF54B0-9141-46F2-8CB3-9A12767FB897
+Current ClassA:       11537F02-DD18-4E04-A6DE-FD46728E41A7
+Current ClassC:       5AC16C59-39F1-49E2-AB82-BF82A9ADE9BE
+TLK shares:           (
+    "<CKKSTLKShare(D6BF54B0-9141-46F2-8CB3-9A12767FB897): recv:<CKKSSOSPeer(spid-2YkbbC8XGvvgVp+dO4Sn3puKH6): pubEnc:<04f6ca8e 34c53948 7b0db7e8 df82d3d9> pubSign:(null)> send:spid-2YkbbC8XGvvgVp+dO4Sn3puKH6>",
+    "<CKKSTLKShare(D6BF54B0-9141-46F2-8CB3-9A12767FB897): recv:<CKKSSOSPeer(spid-CFdf0JKcK411wTlEWSOoRv6hxT): pubEnc:<041d7826 64538341 42ed1e90 a2d059df> pubSign:(null)> send:spid-CFdf0JKcK411wTlEWSOoRv6hxT>",
+    "<CKKSTLKShare(D6BF54B0-9141-46F2-8CB3-9A12767FB897): recv:<CKKSSOSPeer(spid-QWCmBfMI2IDGs6LClgpKRXJYzt): pubEnc:<04d5e12d 9a230376 509d9eaa ca8552e5> pubSign:(null)> send:spid-QWCmBfMI2IDGs6LClgpKRXJYzt>",
+    "<CKKSTLKShare(D6BF54B0-9141-46F2-8CB3-9A12767FB897): recv:<CKKSSOSPeer(spid-1zwUz2UDelnPuaZZurM+48vFp2): pubEnc:<041eb41d c37b5bc8 c73bff59 d0c40539> pubSign:(null)> send:spid-RjQfEj0YiJMVyRG9BCd75LeL4y>",
+    "<CKKSTLKShare(D6BF54B0-9141-46F2-8CB3-9A12767FB897): recv:<CKKSSOSPeer(spid-RjQfEj0YiJMVyRG9BCd75LeL4y): pubEnc:<0457d36e a513cafa 9a2a263a 8afaa5b0> pubSign:(null)> send:spid-RjQfEj0YiJMVyRG9BCd75LeL4y>",
+    "<CKKSTLKShare(D6BF54B0-9141-46F2-8CB3-9A12767FB897): recv:<CKKSSOSPeer(spid-o0EyQkxug0PQ6F3mu4gv0GIV/s): pubEnc:<04ca515b d02b475d ea4201dd 56d7e032> pubSign:(null)> send:spid-o0EyQkxug0PQ6F3mu4gv0GIV/s>",
+    "<CKKSTLKShare(D6BF54B0-9141-46F2-8CB3-9A12767FB897): recv:<CKKSSOSPeer(spid-1zwUz2UDelnPuaZZurM+48vFp2): pubEnc:<041eb41d c37b5bc8 c73bff59 d0c40539> pubSign:(null)> send:spid-rzMS2lsxLjOZxKffH3oLql/2MW>",
+    "<CKKSTLKShare(D6BF54B0-9141-46F2-8CB3-9A12767FB897): recv:<CKKSSOSPeer(spid-2YkbbC8XGvvgVp+dO4Sn3puKH6): pubEnc:<04f6ca8e 34c53948 7b0db7e8 df82d3d9> pubSign:(null)> send:spid-rzMS2lsxLjOZxKffH3oLql/2MW>",
+    "<CKKSTLKShare(D6BF54B0-9141-46F2-8CB3-9A12767FB897): recv:<CKKSSOSPeer(spid-rzMS2lsxLjOZxKffH3oLql/2MW): pubEnc:<0463a5c8 d6239edb 7599f5f6 2870ad9d> pubSign:(null)> send:spid-rzMS2lsxLjOZxKffH3oLql/2MW>",
+    "<CKKSTLKShare(D6BF54B0-9141-46F2-8CB3-9A12767FB897): recv:<CKKSSOSPeer(spid-1zwUz2UDelnPuaZZurM+48vFp2): pubEnc:<041eb41d c37b5bc8 c73bff59 d0c40539> pubSign:(null)> send:spid-yVz2SGAEHfU8eiAdWlZmd0oZEj>",
+    "<CKKSTLKShare(D6BF54B0-9141-46F2-8CB3-9A12767FB897): recv:<CKKSSOSPeer(spid-yVz2SGAEHfU8eiAdWlZmd0oZEj): pubEnc:<0452f617 ed1a552a b5117d3c 90a5578e> pubSign:(null)> send:spid-yVz2SGAEHfU8eiAdWlZmd0oZEj>"
+)
+Outgoing Queue counts: {
+}
+Incoming Queue counts: {
+}
+Key counts: {
+    "local-classA" = 1;
+    "local-classC" = 1;
+    "local-tlk" = 1;
+}
+latest manifest generation: null
+Item counts (by key):  {
+}
+Peer states:           (
+    "<CKKSDeviceStateEntry(1CA236C186DC31608F8F51A2EA162FC87183835D265FB7DC05A8336123C43CA2,rzMS2lsxLjOZxKffH3oLql/2MW,iphone 18.6.0 (16F156),2019-06-11 00:00:00 +0000,LimitedPeersAllowed): kSOSCCInCircle ready D6BF54B0-9141-46F2-8CB3-9A12767FB897 11537F02-DD18-4E04-A6DE-FD46728E41A7 5AC16C59-39F1-49E2-AB82-BF82A9ADE9BE upd:2019-06-11 14:51:13 +0000>",
+    "<CKKSDeviceStateEntry(4D5B46FCFB28DFBFDEB2FD7B4D5EF0B2B06655D13564DE19653A7A3D19C6CF1A,2YkbbC8XGvvgVp+dO4Sn3puKH6,macOS 18.6.0 (18F132),2019-06-13 00:00:00 +0000,LimitedPeersAllowed): kSOSCCInCircle ready D6BF54B0-9141-46F2-8CB3-9A12767FB897 11537F02-DD18-4E04-A6DE-FD46728E41A7 5AC16C59-39F1-49E2-AB82-BF82A9ADE9BE upd:2019-06-14 04:15:11 +0000>"
+)
+zone change fetcher:                 <CKKSZoneChangeFetcher(zone-change-fetcher): no pending fetches
+zoneSetupOperation:                  <CKKSGroupOperation(zone-setup-operation-LimitedPeersAllowed): finished 2001-01-01 00:33:25 +0000 2001-01-01 00:33:25 +0000>
+keyStateOperation:                   never
+lastIncomingQueueOperation:          <CKKSIncomingQueueOperation(incoming-queue-operation): finished 2001-01-01 00:33:25 +0000>
+lastNewTLKOperation:                 never
+lastOutgoingQueueOperation:          <CKKSOutgoingQueueOperation(outgoing-queue-operation): finished 2001-01-01 00:33:26 +0000 2001-01-01 00:33:26 +0000>
+lastProcessReceivedKeysOperation:    never
+lastReencryptOutgoingItemsOperation: never
+lastScanLocalItemsOperation:         never
+
+================================================================================
+
+View: Manatee
+
+CloudKit account:     logged in
+Account tracker:      <CKKSCKAccountStateTracker: logged in (<CKAccountInfo: accountStatus=Available, accountPartition=Prod, supportsDeviceToDeviceEncryption=YES, hasValidCredentials=YES, hasEncryptionIdentity=NO> <SOSStatus: InCircle ((null))>) >
+Key state:            ready
+Lock state:           <CKKSLockStateTracker: unlocked last:now>
+Current TLK:          716D721A-185E-4E98-B5F5-9B61F5B205CE
+Current ClassA:       A5C9EB91-086D-41D2-8148-41DE2418D06B
+Current ClassC:       4EF401AB-CA4C-4C6E-8B27-DBED9A433F08
+TLK shares:           (
+    "<CKKSTLKShare(716D721A-185E-4E98-B5F5-9B61F5B205CE): recv:<CKKSSOSPeer(spid-1zwUz2UDelnPuaZZurM+48vFp2): pubEnc:<041eb41d c37b5bc8 c73bff59 d0c40539> pubSign:(null)> send:spid-1zwUz2UDelnPuaZZurM+48vFp2>",
+    "<CKKSTLKShare(716D721A-185E-4E98-B5F5-9B61F5B205CE): recv:<CKKSSOSPeer(spid-2YkbbC8XGvvgVp+dO4Sn3puKH6): pubEnc:<04f6ca8e 34c53948 7b0db7e8 df82d3d9> pubSign:(null)> send:spid-2YkbbC8XGvvgVp+dO4Sn3puKH6>",
+    "<CKKSTLKShare(716D721A-185E-4E98-B5F5-9B61F5B205CE): recv:<CKKSSOSPeer(spid-CFdf0JKcK411wTlEWSOoRv6hxT): pubEnc:<041d7826 64538341 42ed1e90 a2d059df> pubSign:(null)> send:spid-CFdf0JKcK411wTlEWSOoRv6hxT>",
+    "<CKKSTLKShare(716D721A-185E-4E98-B5F5-9B61F5B205CE): recv:<CKKSSOSPeer(spid-QWCmBfMI2IDGs6LClgpKRXJYzt): pubEnc:<04d5e12d 9a230376 509d9eaa ca8552e5> pubSign:(null)> send:spid-QWCmBfMI2IDGs6LClgpKRXJYzt>",
+    "<CKKSTLKShare(716D721A-185E-4E98-B5F5-9B61F5B205CE): recv:<CKKSSOSPeer(spid-1zwUz2UDelnPuaZZurM+48vFp2): pubEnc:<041eb41d c37b5bc8 c73bff59 d0c40539> pubSign:(null)> send:spid-RjQfEj0YiJMVyRG9BCd75LeL4y>",
+    "<CKKSTLKShare(716D721A-185E-4E98-B5F5-9B61F5B205CE): recv:<CKKSSOSPeer(spid-RjQfEj0YiJMVyRG9BCd75LeL4y): pubEnc:<0457d36e a513cafa 9a2a263a 8afaa5b0> pubSign:(null)> send:spid-RjQfEj0YiJMVyRG9BCd75LeL4y>",
+    "<CKKSTLKShare(716D721A-185E-4E98-B5F5-9B61F5B205CE): recv:<CKKSSOSPeer(spid-h4pnhxhm7qrMgytFsIONHd7TZR): pubEnc:<04973f4c 0962f7f8 6fcacc55 60535932> pubSign:(null)> send:spid-h4pnhxhm7qrMgytFsIONHd7TZR>",
+    "<CKKSTLKShare(716D721A-185E-4E98-B5F5-9B61F5B205CE): recv:<CKKSSOSPeer(spid-o0EyQkxug0PQ6F3mu4gv0GIV/s): pubEnc:<04ca515b d02b475d ea4201dd 56d7e032> pubSign:(null)> send:spid-o0EyQkxug0PQ6F3mu4gv0GIV/s>",
+    "<CKKSTLKShare(716D721A-185E-4E98-B5F5-9B61F5B205CE): recv:<CKKSSOSPeer(spid-rzMS2lsxLjOZxKffH3oLql/2MW): pubEnc:<0463a5c8 d6239edb 7599f5f6 2870ad9d> pubSign:(null)> send:spid-rzMS2lsxLjOZxKffH3oLql/2MW>",
+    "<CKKSTLKShare(716D721A-185E-4E98-B5F5-9B61F5B205CE): recv:<CKKSSOSPeer(spid-yVz2SGAEHfU8eiAdWlZmd0oZEj): pubEnc:<0452f617 ed1a552a b5117d3c 90a5578e> pubSign:(null)> send:spid-yVz2SGAEHfU8eiAdWlZmd0oZEj>"
+)
+Outgoing Queue counts: {
+}
+Incoming Queue counts: {
+}
+Key counts: {
+    "local-classA" = 1;
+    "local-classC" = 1;
+    "local-tlk" = 1;
+}
+latest manifest generation: null
+Item counts (by key):  {
+    "4EF401AB-CA4C-4C6E-8B27-DBED9A433F08" = 21;
+    "A5C9EB91-086D-41D2-8148-41DE2418D06B" = 1;
+}
+Peer states:           (
+    "<CKKSDeviceStateEntry(1CA236C186DC31608F8F51A2EA162FC87183835D265FB7DC05A8336123C43CA2,rzMS2lsxLjOZxKffH3oLql/2MW,iphone 18.6.0 (16F156),2019-06-12 00:00:00 +0000,Manatee): kSOSCCInCircle ready 716D721A-185E-4E98-B5F5-9B61F5B205CE A5C9EB91-086D-41D2-8148-41DE2418D06B 4EF401AB-CA4C-4C6E-8B27-DBED9A433F08 upd:2019-06-12 13:11:15 +0000>",
+    "<CKKSDeviceStateEntry(4D5B46FCFB28DFBFDEB2FD7B4D5EF0B2B06655D13564DE19653A7A3D19C6CF1A,2YkbbC8XGvvgVp+dO4Sn3puKH6,macOS 18.6.0 (18F132),2019-06-13 00:00:00 +0000,Manatee): kSOSCCInCircle ready 716D721A-185E-4E98-B5F5-9B61F5B205CE A5C9EB91-086D-41D2-8148-41DE2418D06B 4EF401AB-CA4C-4C6E-8B27-DBED9A433F08 upd:2019-06-14 04:15:10 +0000>"
+)
+zone change fetcher:                 <CKKSZoneChangeFetcher(zone-change-fetcher): no pending fetches
+zoneSetupOperation:                  <CKKSGroupOperation(zone-setup-operation-Manatee): finished 2001-01-01 00:33:25 +0000 2001-01-01 00:33:25 +0000>
+keyStateOperation:                   never
+lastIncomingQueueOperation:          <CKKSIncomingQueueOperation(incoming-queue-operation): finished 2001-01-01 00:33:25 +0000>
+lastNewTLKOperation:                 never
+lastOutgoingQueueOperation:          <CKKSOutgoingQueueOperation(outgoing-queue-operation): finished 2001-01-01 00:33:26 +0000 2001-01-01 00:33:26 +0000>
+lastProcessReceivedKeysOperation:    never
+lastReencryptOutgoingItemsOperation: never
+lastScanLocalItemsOperation:         never
+

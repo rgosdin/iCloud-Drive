@@ -1,0 +1,3 @@
+total=0, 5GHz=0, 2GHz=0, ibss=0, hidden=0, passpoint=0, airport=0
+
+

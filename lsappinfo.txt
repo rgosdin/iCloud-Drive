@@ -1,0 +1,381 @@
+/System/Library/CoreServices/launchservicesd pid=77 uptime=2210.14 seconds
+Session: id=100007@0x7f91cc501010/186a7 @ 0x7f91cc501000 attrs=has-graphics has-tty   cgSessionID=257(active) refs=924
+ uids=(501 ) 
+ Front app: [0x0-0x3b03b: "System Preferences" pid=497 fg  refCount=8 app vis front menubar ap] seed:133 uiMode:"Normal"
+ menuBarOwner=[0x0-0x3b03b: "System Preferences" pid=497 fg  refCount=8 app vis front menubar ap] seed:119
+ systemProcess=[0x0-0x1001: "loginwindow" pid=89 ui  refCount=7 app system launcher ap]
+ sessionLauncher=[0x0-0x1001: "loginwindow" pid=89 ui  refCount=7 app system launcher ap]
+ Applications: count=32 seed:308
+ [0x0-0x1001: "loginwindow" pid=89 ui  refCount=7 app system launcher ap]
+ [0x0-0x9009: "ViewBridgeAuxiliary" pid=221 bg !signalled  refCount=5 app ap]
+ [0x0-0x11011: "universalaccessd" pid=268 bg !signalled  refCount=5 app ap]
+ [0x0-0x12012: "talagent" pid=269 ui  refCount=5 app ap]
+ [0x0-0x13013: "Dock" pid=270 ui  refCount=5 app ap]
+ [0x0-0x17017: "Spotlight" pid=299 ui  refCount=5 app ap]
+ [0x0-0x18018: "Notification Center" pid=307 ui  refCount=5 app ap]
+ [0x0-0x1e01e: "imklaunchagent" pid=336 bg !signalled  refCount=5 app ap]
+ [0x0-0x24024: "Location Menu" pid=403 ui  refCount=5 app ap]
+ [0x0-0x26026: "Wi-Fi" pid=387 ui  refCount=5 app ap]
+ [0x0-0x36036: "Photos Agent" pid=479 ui (sandbox)  refCount=5 app ap]
+ [0x0-0x3b03b: "System Preferences" pid=497 fg  refCount=8 app vis front menubar ap]
+ [0x0-0x3d03d: "com.apple.preference.displays.AirPlayDeviceMenuService (System Preferences)" pid=506 bg  refCount=5 app ap]
+ [0x0-0x3e03e: "com.apple.preferences.sharing.remoteservice (System Preferences)" pid=507 bg  refCount=5 app ap]
+ [0x0-0x41041: "TextEdit" pid=526 bg (sandbox)  refCount=5 app ap]
+ [0x0-0x44044: "com.apple.preference.universalaccess.remoteservice (System Preferences)" pid=532 bg  refCount=5 app ap]
+ [0x0-0x46046: "Help Viewer" pid=556 ui  refCount=5 app ap]
+ [0x0-0x47047: "com.apple.preference.network.remoteservice (System Preferences)" pid=561 bg  refCount=5 app ap]
+ [0x0-0x48048: "localAuthenticationRemoteService (com.apple.preference.network.remoteservice (System Preferences))" pid=563 bg  refCount=5 app ap]
+ [0x0-0x49049: "Activity Monitor" pid=643 fg hidden  refCount=6 app vis ap]
+ [0x0-0x4a04a: "SSMenuAgent" pid=745 ui (sandbox)  refCount=5 app ap]
+ [0x0-0x4c04c: "ARDAgent" pid=1229 ui !signalled  refCount=5 app ap]
+ [0x0-0x4d04d: "AirPlayUIAgent" pid=1230 ui (sandbox)  refCount=5 app ap]
+ [0x0-0x4e04e: "CoreServicesUIAgent" pid=1231 bg  refCount=5 app ap]
+ [0x0-0x50050: "ViewBridgeAuxiliary" pid=1236 bg !signalled  refCount=5 app ap]
+ [0x0-0x51051: "SystemUIServer" pid=1237 ui  refCount=5 app ap]
+ [0x0-0x52052: "com.apple.dock.extra" pid=1243 ui  refCount=5 app ap]
+ [0x0-0x53053: "studentd" pid=1244 bg (sandbox) !signalled  refCount=5 app ap]
+ [0x0-0x54054: "nbagent" pid=1245 ui  refCount=5 app ap]
+ [0x0-0x55055: "Finder" pid=1247 fg  refCount=6 app vis ap]
+ [0x0-0x57057: "Keychain Circle Notification" pid=1263 ui  refCount=5 app ap]
+ [0x0-0x5a05a: "com.apple.preferences.extensions.remoteservice (System Preferences)" pid=1302 bg  refCount=5 app ap]
+
+ Visible: count=3 seed:341 ["System Preferences","Finder","Activity Monitor",]
+ RecentlyUsed: count=4 "com.apple.systempreferences","com.apple.finder","com.apple.ActivityMonitor","com.apple.TextEdit"]
+ pids: (89 221 268 269 270 299 307 336 387 403 479 497 506 507 526 532 556 561 563 643 745 1229 1230 1231 1236 1237 1243 1244 1245 1247 1263 1302 )
+
+---
+Session: id=100017@0x7f91cc51d0e0/186b1 @ 0x7f91cc51d0d0 attrs=no-graphics no-tty    refs=2
+ uids=(501 ) 
+ Front app: NULL seed:100
+ menuBarOwner=NULL seed:100
+ systemProcess=NULL
+ sessionLauncher=NULL
+ pids: ()
+
+---
+Session: id=100000@0x7f91cc700b60/186a0 @ 0x7f91cc700b50 attrs=no-graphics no-tty is-root   refs=4
+ uids=() 
+ Front app: NULL seed:100
+ menuBarOwner=NULL seed:100
+ systemProcess=NULL
+ sessionLauncher=NULL
+ pids: ()
+
+---
+CLIENT Connections:
+ - 0x7f91cc402c20 pid=265 /usr/libexec/UserEventAgent sessions=100007 {}
+ - 0x7f91cc4119a0 pid=1256 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird sessions=100007 {}
+ - 0x7f91cc419fe0 pid=82 /usr/libexec/locationd sessions=100000 {}
+ - 0x7f91cc426060 pid=518 /System/Library/Frameworks/MediaLibrary.framework/Versions/A/XPCServices/com.apple.MediaLibraryService.xpc/Contents/MacOS/com.apple.MediaLibraryService sessions=100037 {100007 }
+ - 0x7f91cc4261c0 pid=1245 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbagent.app/Contents/MacOS/nbagent sessions=100007 {}
+ - 0x7f91cc428530 pid=424 /System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstoreagent sessions=100007 {}
+ - 0x7f91cc42d720 pid=744 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd sessions=100007 {}
+ - 0x7f91cc432040 pid=455 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell sessions=100007 {}
+ - 0x7f91cc433750 pid=344 /System/Library/CoreServices/diagnostics_agent sessions=100007 {}
+ - 0x7f91cc500b70 pid=106 /System/Library/PrivateFrameworks/CoreDuetContext.framework/Versions/A/Resources/contextstored sessions=100000 {100000 100007 }
+ - 0x7f91cc501a50 pid=1247 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder sessions=100007 {}
+ - 0x7f91cc502b10 pid=745 /System/Library/CoreServices/RemoteManagement/SSMenuAgent.app/Contents/MacOS/SSMenuAgent sessions=100007 {}
+ - 0x7f91cc509410 pid=526 /Applications/TextEdit.app/Contents/MacOS/TextEdit sessions=100007 {}
+ - 0x7f91cc50c1e0 pid=479 /System/Library/CoreServices/cloudphotosd.app/Contents/MacOS/cloudphotosd sessions=100007 {}
+ - 0x7f91cc50dc90 pid=307 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter sessions=100007 {}
+ - 0x7f91cc511400 pid=1669 /usr/bin/lsappinfo sessions=100000 {100007 }
+ - 0x7f91cc513760 pid=270 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock sessions=100007 {}
+ - 0x7f91cc513b50 pid=532 /System/Library/PreferencePanes/UniversalAccessPref.prefPane/Contents/XPCServices/com.apple.preference.universalaccess.remoteservice.xpc/Contents/MacOS/com.apple.preference.universalaccess.remoteservice sessions=100007 {}
+ - 0x7f91cc5143f0 pid=481 /System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/Frameworks/CloudPhotosConfigurationXPC.framework/Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/MacOS/com.apple.CloudPhotosConfiguration sessions=100007 {}
+ - 0x7f91cc516d80 pid=442 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storedownloadd sessions=100007 {}
+ - 0x7f91cc517250 pid=507 /System/Library/PreferencePanes/SharingPref.prefPane/Contents/XPCServices/com.apple.preferences.sharing.remoteservice.xpc/Contents/MacOS/com.apple.preferences.sharing.remoteservice sessions=100007 {}
+ - 0x7f91cc51ca00 pid=403 /System/Library/CoreServices/LocationMenu.app/Contents/MacOS/LocationMenu sessions=100007 {}
+ - 0x7f91cc527db0 pid=325 /System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent sessions=100007 {}
+ - 0x7f91cc52b330 pid=1302 /System/Library/PreferencePanes/Extensions.prefPane/Contents/XPCServices/com.apple.preferences.extensions.remoteservice.xpc/Contents/MacOS/com.apple.preferences.extensions.remoteservice sessions=100007 {}
+ - 0x7f91cc52be80 pid=175 /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/VDC.plugin/Contents/Resources/VDCAssistant sessions=100000 {100007 }
+ - 0x7f91cc52cef0 pid=269 /System/Library/CoreServices/talagent sessions=100007 {}
+ - 0x7f91cc52d1a0 pid=51 /System/Library/CoreServices/appleeventsd sessions=100000 {}
+ - 0x7f91cc52d250 pid=216 /System/Library/CoreServices/sharedfilelistd sessions=100000 {100007 }
+ - 0x7f91cc531c60 pid=561 /System/Library/PreferencePanes/Network.prefPane/Contents/XPCServices/com.apple.preference.network.remoteservice.xpc/Contents/MacOS/com.apple.preference.network.remoteservice sessions=100007 {}
+ - 0x7f91cc538110 pid=1229 /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/MacOS/ARDAgent sessions=100007 {}
+ - 0x7f91cc543f30 pid=1257 /usr/libexec/nsurlsessiond sessions=100007 {}
+ - 0x7f91cc601560 pid=1237 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer sessions=100007 {}
+ - 0x7f91cc601640 pid=131 /System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/Resources/WindowServer sessions=100000 {100007 }
+ - 0x7f91cc601e40 pid=89 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow sessions=100007 {}
+ - 0x7f91cc605a00 pid=221 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary sessions=100002 {100007 }
+ - 0x7f91cc607100 pid=268 /usr/sbin/universalaccessd sessions=100007 {}
+ - 0x7f91cc60b010 pid=222 /System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/XPCServices/com.apple.AmbientDisplayAgent.xpc/Contents/MacOS/com.apple.AmbientDisplayAgent sessions=100000 {100007 }
+ - 0x7f91cc60c0a0 pid=1243 /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra sessions=100007 {}
+ - 0x7f91cc60c4a0 pid=164 /usr/libexec/nsurlsessiond sessions=100000 {100007 }
+ - 0x7f91cc60c570 pid=286 /System/Library/CoreServices/backgroundtaskmanagementagent sessions=100007 {}
+ - 0x7f91cc614310 pid=1244 /usr/libexec/studentd sessions=100007 {}
+ - 0x7f91cc615500 pid=506 /System/Library/PreferencePanes/Displays.prefPane/Contents/XPCServices/com.apple.preference.displays.AirPlayDeviceMenuService.xpc/Contents/MacOS/com.apple.preference.displays.AirPlayDeviceMenuService sessions=100007 {}
+ - 0x7f91cc615e50 pid=283 /System/Library/CoreServices/sharedfilelistd sessions=100007 {}
+ - 0x7f91cc61f180 pid=336 /System/Library/Frameworks/InputMethodKit.framework/Versions/A/Resources/imklaunchagent sessions=100007 {}
+ - 0x7f91cc61f3a0 pid=556 /System/Library/CoreServices/HelpViewer.app/Contents/MacOS/HelpViewer sessions=100007 {}
+ - 0x7f91cc620660 pid=316 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/commerce sessions=100007 {}
+ - 0x7f91cc621f60 pid=497 /Applications/System Preferences.app/Contents/MacOS/System Preferences sessions=100007 {}
+ - 0x7f91cc622a20 pid=730 /usr/libexec/spindump_agent sessions=100007 {}
+ - 0x7f91cc625650 pid=643 /Applications/Utilities/Activity Monitor.app/Contents/MacOS/Activity Monitor sessions=100007 {}
+ - 0x7f91cc626460 pid=1236 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary sessions=100017 {100007 }
+ - 0x7f91cc626770 pid=1230 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent sessions=100007 {}
+ - 0x7f91cc626a80 pid=410 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd sessions=100007 {}
+ - 0x7f91cc628aa0 pid=1263 /System/Library/CoreServices/Keychain Circle Notification.app/Contents/MacOS/Keychain Circle Notification sessions=100007 {}
+ - 0x7f91cc62d1c0 pid=387 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent sessions=100007 {}
+ - 0x7f91cc63ac40 pid=563 /System/Library/PrivateFrameworks/LocalAuthenticationUI.framework/Versions/A/XPCServices/localAuthenticationRemoteService.xpc/Contents/MacOS/localAuthenticationRemoteService sessions=100007 {}
+ - 0x7f91cc701240 pid=310 /usr/libexec/sharingd sessions=100007 {}
+ - 0x7f91cc702140 pid=1231 /System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent sessions=100007 {}
+ - 0x7f91cc70e010 pid=531 /System/Library/CoreServices/ReportCrash sessions=100007 {}
+ - 0x7f91cc70eea0 pid=308 /System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd sessions=100007 {}
+ - 0x7f91cc71dff0 pid=299 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight sessions=100007 {}
+ - 0x7f91cc731d80 pid=337 /System/Library/Image Capture/Support/icdd sessions=100007 {}
+
+Applications: 32 (across all sessions)
+ - 50050 "ViewBridgeAuxiliary" pid=1236 sessionID=100007 refs=9
+ - 48048 "localAuthenticationRemoteService (com.apple.preference.network.remoteservice (System Preferences))" pid=563 sessionID=100007 refs=9
+ - 3e03e "com.apple.preferences.sharing.remoteservice (System Preferences)" pid=507 sessionID=100007 refs=9
+ - 1001 "loginwindow" pid=89 sessionID=100007 refs=11
+ - 49049 "Activity Monitor" pid=643 sessionID=100007 refs=10
+ - 51051 "SystemUIServer" pid=1237 sessionID=100007 refs=9
+ - 52052 "com.apple.dock.extra" pid=1243 sessionID=100007 refs=9
+ - 53053 "studentd" pid=1244 sessionID=100007 refs=9
+ - 4a04a "SSMenuAgent" pid=745 sessionID=100007 refs=9
+ - 17017 "Spotlight" pid=299 sessionID=100007 refs=9
+ - 36036 "Photos Agent" pid=479 sessionID=100007 refs=9
+ - 54054 "nbagent" pid=1245 sessionID=100007 refs=9
+ - 55055 "Finder" pid=1247 sessionID=100007 refs=10
+ - 18018 "Notification Center" pid=307 sessionID=100007 refs=9
+ - 41041 "TextEdit" pid=526 sessionID=100007 refs=9
+ - 4c04c "ARDAgent" pid=1229 sessionID=100007 refs=9
+ - 57057 "Keychain Circle Notification" pid=1263 sessionID=100007 refs=9
+ - 24024 "Location Menu" pid=403 sessionID=100007 refs=9
+ - 4d04d "AirPlayUIAgent" pid=1230 sessionID=100007 refs=9
+ - 4e04e "CoreServicesUIAgent" pid=1231 sessionID=100007 refs=9
+ - 44044 "com.apple.preference.universalaccess.remoteservice (System Preferences)" pid=532 sessionID=100007 refs=9
+ - 11011 "universalaccessd" pid=268 sessionID=100007 refs=9
+ - 26026 "Wi-Fi" pid=387 sessionID=100007 refs=9
+ - 12012 "talagent" pid=269 sessionID=100007 refs=9
+ - 3b03b "System Preferences" pid=497 sessionID=100007 refs=12
+ - 5a05a "com.apple.preferences.extensions.remoteservice (System Preferences)" pid=1302 sessionID=100007 refs=9
+ - 46046 "Help Viewer" pid=556 sessionID=100007 refs=9
+ - 13013 "Dock" pid=270 sessionID=100007 refs=9
+ - 9009 "ViewBridgeAuxiliary" pid=221 sessionID=100007 refs=9
+ - 1e01e "imklaunchagent" pid=336 sessionID=100007 refs=9
+ - 3d03d "com.apple.preference.displays.AirPlayDeviceMenuService (System Preferences)" pid=506 sessionID=100007 refs=9
+ - 47047 "com.apple.preference.network.remoteservice (System Preferences)" pid=561 sessionID=100007 refs=9
+Pids: 32 (across all sessions)
+ - 1263=[ 0x0/0x57057]  "Keychain Circle Notification"
+ - 563=[ 0x0/0x48048]  "localAuthenticationRemoteService (com.apple.preference.network.remoteservice (System Preferences))"
+ - 1230=[ 0x0/0x4d04d]  "AirPlayUIAgent"
+ - 336=[ 0x0/0x1e01e]  "imklaunchagent"
+ - 221=[ 0x0/0x9009]  "ViewBridgeAuxiliary"
+ - 497=[ 0x0/0x3b03b]  "System Preferences"
+ - 270=[ 0x0/0x13013]  "Dock"
+ - 1243=[ 0x0/0x52052]  "com.apple.dock.extra"
+ - 532=[ 0x0/0x44044]  "com.apple.preference.universalaccess.remoteservice (System Preferences)"
+ - 1229=[ 0x0/0x4c04c]  "ARDAgent"
+ - 387=[ 0x0/0x26026]  "Wi-Fi"
+ - 89=[ 0x0/0x1001]  "loginwindow"
+ - 745=[ 0x0/0x4a04a]  "SSMenuAgent"
+ - 1245=[ 0x0/0x54054]  "nbagent"
+ - 507=[ 0x0/0x3e03e]  "com.apple.preferences.sharing.remoteservice (System Preferences)"
+ - 403=[ 0x0/0x24024]  "Location Menu"
+ - 1237=[ 0x0/0x51051]  "SystemUIServer"
+ - 299=[ 0x0/0x17017]  "Spotlight"
+ - 269=[ 0x0/0x12012]  "talagent"
+ - 1302=[ 0x0/0x5a05a]  "com.apple.preferences.extensions.remoteservice (System Preferences)"
+ - 1231=[ 0x0/0x4e04e]  "CoreServicesUIAgent"
+ - 307=[ 0x0/0x18018]  "Notification Center"
+ - 479=[ 0x0/0x36036]  "Photos Agent"
+ - 526=[ 0x0/0x41041]  "TextEdit"
+ - 1236=[ 0x0/0x50050]  "ViewBridgeAuxiliary"
+ - 556=[ 0x0/0x46046]  "Help Viewer"
+ - 1247=[ 0x0/0x55055]  "Finder"
+ - 506=[ 0x0/0x3d03d]  "com.apple.preference.displays.AirPlayDeviceMenuService (System Preferences)"
+ - 561=[ 0x0/0x47047]  "com.apple.preference.network.remoteservice (System Preferences)"
+ - 643=[ 0x0/0x49049]  "Activity Monitor"
+ - 268=[ 0x0/0x11011]  "universalaccessd"
+ - 1244=[ 0x0/0x53053]  "studentd"
+
+Applications that we will get notifications from launchd with an exit status:
+ - [ 0x0/0x3b03b]  "System Preferences" pid=497
+ - [ 0x0/0x41041]  "TextEdit" pid=526
+ - [ 0x0/0x46046]  "Help Viewer" pid=556
+ - [ 0x0/0x49049]  "Activity Monitor" pid=643
+Applications that we will get pid death notifications from the kernel:
+ - [ 0x0/0x1001]  "loginwindow" pid=89
+ - [ 0x0/0x9009]  "ViewBridgeAuxiliary" pid=221
+ - [ 0x0/0x11011]  "universalaccessd" pid=268
+ - [ 0x0/0x12012]  "talagent" pid=269
+ - [ 0x0/0x13013]  "Dock" pid=270
+ - [ 0x0/0x17017]  "Spotlight" pid=299
+ - [ 0x0/0x18018]  "Notification Center" pid=307
+ - [ 0x0/0x1e01e]  "imklaunchagent" pid=336
+ - [ 0x0/0x24024]  "Location Menu" pid=403
+ - [ 0x0/0x26026]  "Wi-Fi" pid=387
+ - [ 0x0/0x36036]  "Photos Agent" pid=479
+ - [ 0x0/0x3d03d]  "com.apple.preference.displays.AirPlayDeviceMenuService (System Preferences)" pid=506
+ - [ 0x0/0x3e03e]  "com.apple.preferences.sharing.remoteservice (System Preferences)" pid=507
+ - [ 0x0/0x44044]  "com.apple.preference.universalaccess.remoteservice (System Preferences)" pid=532
+ - [ 0x0/0x47047]  "com.apple.preference.network.remoteservice (System Preferences)" pid=561
+ - [ 0x0/0x48048]  "localAuthenticationRemoteService (com.apple.preference.network.remoteservice (System Preferences))" pid=563
+ - [ 0x0/0x4a04a]  "SSMenuAgent" pid=745
+ - [ 0x0/0x4c04c]  "ARDAgent" pid=1229
+ - [ 0x0/0x4d04d]  "AirPlayUIAgent" pid=1230
+ - [ 0x0/0x4e04e]  "CoreServicesUIAgent" pid=1231
+ - [ 0x0/0x50050]  "ViewBridgeAuxiliary" pid=1236
+ - [ 0x0/0x51051]  "SystemUIServer" pid=1237
+ - [ 0x0/0x52052]  "com.apple.dock.extra" pid=1243
+ - [ 0x0/0x53053]  "studentd" pid=1244
+ - [ 0x0/0x54054]  "nbagent" pid=1245
+ - [ 0x0/0x55055]  "Finder" pid=1247
+ - [ 0x0/0x57057]  "Keychain Circle Notification" pid=1263
+ - [ 0x0/0x5a05a]  "com.apple.preferences.extensions.remoteservice (System Preferences)" pid=1302
+
+NOTIFICATIONS: 145 (across all sessions)
+ - "Notification: id=104 pid=106 {257 258 } asns=() sessionID=-4 @ 0x7f91cc600d40 refs=4"
+ - "Notification: id=165 pid=268 {784 } asns=(ASN:0x0-0x11011: ) sessionID=100007 @ 0x7f91cc607d00 refs=3"
+ - "Notification: id=416 pid=1243 {260 273 561 562 } asns=(ASN:0x0-0x52052: ) sessionID=100007 @ 0x7f91cc421f30 refs=6"
+ - "Notification: id=373 pid=561 {640 } asns=() sessionID=100007 @ 0x7f91cc5329e0 refs=3"
+ - "Notification: id=330 pid=506 {512 513 561 } asns=(ASN:0x0-0x3d03d: ) sessionID=100007 @ 0x7f91cc507ce0 refs=5"
+ - "Notification: id=348 pid=526 {640 } asns=() sessionID=100007 @ 0x7f91cc50d6a0 refs=3"
+ - "Notification: id=201 pid=307 {260 273 561 562 } asns=(ASN:0x0-0x18018: ) sessionID=100007 @ 0x7f91cc60a920 refs=6"
+ - "Notification: id=305 pid=481 {272 } asns=() sessionID=100007 @ 0x7f91cc71d210 refs=3"
+ - "Notification: id=158 pid=164 {512 } asns=() sessionID=100007 @ 0x7f91cc616210 refs=3"
+ - "Notification: id=409 pid=1237 {512 513 561 } asns=(ASN:0x0-0x51051: ) sessionID=100007 @ 0x7f91cc52cc00 refs=5"
+ - "Notification: id=452 pid=1302 {260 273 561 562 } asns=(ASN:0x0-0x5a05a: ) sessionID=100007 @ 0x7f91cc5124e0 refs=6"
+ - "Notification: id=323 pid=497 {515 536 537 784 } asns=(ASN:0x0-0x3b03b: ) sessionID=100007 @ 0x7f91cc629f40 refs=6"
+ - "Notification: id=427 pid=1247 {640 } asns=() sessionID=100007 @ 0x7f91cc425060 refs=3"
+ - "Notification: id=133 pid=221 {512 513 561 } asns=(ASN:0x0-0x9009: ) sessionID=100007 @ 0x7f91cc70d860 refs=5"
+ - "Notification: id=384 pid=744 {272 } asns=() sessionID=100007 @ 0x7f91cc6089a0 refs=3"
+ - "Notification: id=194 pid=307 {512 513 561 } asns=(ASN:0x0-0x18018: ) sessionID=100007 @ 0x7f91cc410070 refs=5"
+ - "Notification: id=402 pid=1231 {640 } asns=() sessionID=100007 @ 0x7f91cc726cd0 refs=3"
+ - "Notification: id=359 pid=532 {512 513 561 } asns=(ASN:0x0-0x44044: ) sessionID=100007 @ 0x7f91cc71ebd0 refs=5"
+ - "Notification: id=169 pid=269 {515 536 537 784 } asns=(ASN:0x0-0x12012: ) sessionID=100007 @ 0x7f91cc41c7d0 refs=6"
+ - "Notification: id=420 pid=1244 {257 258 658 } asns=() sessionID=100007 @ 0x7f91cc606cc0 refs=5"
+ - "Notification: id=377 pid=563 {640 } asns=() sessionID=100007 @ 0x7f91cc40fc50 refs=3"
+ - "Notification: id=334 pid=507 {512 513 561 } asns=(ASN:0x0-0x3e03e: ) sessionID=100007 @ 0x7f91cc627230 refs=5"
+ - "Notification: id=187 pid=299 {515 536 537 784 } asns=(ASN:0x0-0x17017: ) sessionID=100007 @ 0x7f91cc608350 refs=6"
+ - "Notification: id=438 pid=1263 {515 536 537 784 } asns=(ASN:0x0-0x57057: ) sessionID=100007 @ 0x7f91cc64bab0 refs=6"
+ - "Notification: id=395 pid=1229 {515 536 537 784 } asns=(ASN:0x0-0x4c04c: ) sessionID=100007 @ 0x7f91cc524160 refs=6"
+ - "Notification: id=248 pid=387 {640 } asns=() sessionID=100007 @ 0x7f91cc725ce0 refs=3"
+ - "Notification: id=205 pid=310 {784 } asns=(ASN:0x0-0x1a01a: ) sessionID=100007 @ 0x7f91cc529c40 refs=3"
+ - "Notification: id=413 pid=1243 {512 513 561 } asns=(ASN:0x0-0x52052: ) sessionID=100007 @ 0x7f91cc5247f0 refs=5"
+ - "Notification: id=119 pid=89 {260 273 561 562 } asns=(ASN:0x0-0x1001: ) sessionID=100007 @ 0x7f91cc529dc0 refs=6"
+ - "Notification: id=370 pid=556 {260 273 561 562 } asns=(ASN:0x0-0x46046: ) sessionID=100007 @ 0x7f91cc41a060 refs=6"
+ - "Notification: id=431 pid=1257 {516 } asns=() sessionID=100007 @ 0x7f91cc422970 refs=3"
+ - "Notification: id=388 pid=745 {640 } asns=() sessionID=100007 @ 0x7f91cc42ac70 refs=3"
+ - "Notification: id=241 pid=403 {640 } asns=() sessionID=100007 @ 0x7f91cc50dee0 refs=3"
+ - "Notification: id=449 pid=1302 {512 513 561 } asns=(ASN:0x0-0x5a05a: ) sessionID=100007 @ 0x7f91cc42e760 refs=5"
+ - "Notification: id=302 pid=479 {515 536 537 784 } asns=(ASN:0x0-0x36036: ) sessionID=100007 @ 0x7f91cc420980 refs=6"
+ - "Notification: id=112 pid=89 {640 } asns=() sessionID=100007 @ 0x7f91cc605cf0 refs=3"
+ - "Notification: id=173 pid=268 {513 } asns=() sessionID=100007 @ 0x7f91cc608070 refs=3"
+ - "Notification: id=424 pid=1245 {260 273 561 562 } asns=(ASN:0x0-0x54054: ) sessionID=100007 @ 0x7f91cc60b660 refs=6"
+ - "Notification: id=381 pid=643 {640 } asns=() sessionID=100007 @ 0x7f91cc53ace0 refs=3"
+ - "Notification: id=191 pid=270 {260 273 561 562 } asns=(ASN:0x0-0x13013: ) sessionID=100007 @ 0x7f91cc70dc50 refs=6"
+ - "Notification: id=399 pid=1230 {260 273 561 562 } asns=(ASN:0x0-0x4d04d: ) sessionID=100007 @ 0x7f91cc729220 refs=6"
+ - "Notification: id=105 pid=106 {512 513 } asns=() sessionID=-4 @ 0x7f91cc601340 refs=4"
+ - "Notification: id=166 pid=269 {262 658 } asns=() sessionID=100007 @ 0x7f91cc6064d0 refs=4"
+ - "Notification: id=417 pid=1244 {512 513 561 } asns=(ASN:0x0-0x53053: ) sessionID=100007 @ 0x7f91cc424460 refs=5"
+ - "Notification: id=374 pid=561 {260 273 561 562 } asns=(ASN:0x0-0x47047: ) sessionID=100007 @ 0x7f91cc72b290 refs=6"
+ - "Notification: id=331 pid=506 {784 } asns=(ASN:0x0-0x3d03d: ) sessionID=100007 @ 0x7f91cc637910 refs=3"
+ - "Notification: id=349 pid=526 {260 273 561 562 } asns=(ASN:0x0-0x41041: ) sessionID=100007 @ 0x7f91cc512730 refs=6"
+ - "Notification: id=306 pid=481 {258 } asns=() sessionID=100007 @ 0x7f91cc5175d0 refs=3"
+ - "Notification: id=159 pid=164 {516 } asns=() sessionID=100007 @ 0x7f91cc616150 refs=3"
+ - "Notification: id=410 pid=1237 {515 536 537 784 } asns=(ASN:0x0-0x51051: ) sessionID=100007 @ 0x7f91cc428410 refs=6"
+ - "Notification: id=116 pid=89 {384 } asns=() sessionID=100007 @ 0x7f91cc609960 refs=3"
+ - "Notification: id=367 pid=556 {512 513 561 } asns=(ASN:0x0-0x46046: ) sessionID=100007 @ 0x7f91cc723220 refs=5"
+ - "Notification: id=324 pid=497 {512 640 } asns=() sessionID=100007 @ 0x7f91cc50c8e0 refs=4"
+ - "Notification: id=177 pid=269 {640 } asns=() sessionID=100007 @ 0x7f91cc6109a0 refs=3"
+ - "Notification: id=428 pid=1247 {260 273 561 562 } asns=(ASN:0x0-0x55055: ) sessionID=100007 @ 0x7f91cc4247b0 refs=6"
+ - "Notification: id=134 pid=221 {784 } asns=(ASN:0x0-0x9009: ) sessionID=100007 @ 0x7f91cc70d900 refs=3"
+ - "Notification: id=385 pid=744 {258 } asns=() sessionID=100007 @ 0x7f91cc71bfe0 refs=3"
+ - "Notification: id=195 pid=307 {515 536 537 784 } asns=(ASN:0x0-0x18018: ) sessionID=100007 @ 0x7f91cc60e0b0 refs=6"
+ - "Notification: id=403 pid=1231 {260 273 561 562 } asns=(ASN:0x0-0x4e04e: ) sessionID=100007 @ 0x7f91cc537eb0 refs=6"
+ - "Notification: id=360 pid=532 {784 } asns=(ASN:0x0-0x44044: ) sessionID=100007 @ 0x7f91cc70c470 refs=3"
+ - "Notification: id=170 pid=270 {512 513 561 } asns=(ASN:0x0-0x13013: ) sessionID=100007 @ 0x7f91cc529f50 refs=5"
+ - "Notification: id=421 pid=1245 {512 513 561 } asns=(ASN:0x0-0x54054: ) sessionID=100007 @ 0x7f91cc41e3a0 refs=5"
+ - "Notification: id=378 pid=563 {260 273 561 562 } asns=(ASN:0x0-0x48048: ) sessionID=100007 @ 0x7f91cc50caa0 refs=6"
+ - "Notification: id=335 pid=507 {784 } asns=(ASN:0x0-0x3e03e: ) sessionID=100007 @ 0x7f91cc50b8f0 refs=3"
+ - "Notification: id=188 pid=299 {640 } asns=() sessionID=100007 @ 0x7f91cc718440 refs=3"
+ - "Notification: id=439 pid=1263 {640 } asns=() sessionID=100007 @ 0x7f91cc52ea30 refs=3"
+ - "Notification: id=396 pid=1230 {512 513 561 } asns=(ASN:0x0-0x4d04d: ) sessionID=100007 @ 0x7f91cc41fb30 refs=5"
+ - "Notification: id=206 pid=307 {564 641 } asns=() sessionID=100007 @ 0x7f91cc723300 refs=4"
+ - "Notification: id=414 pid=1243 {515 536 537 784 } asns=(ASN:0x0-0x52052: ) sessionID=100007 @ 0x7f91cc50ebd0 refs=6"
+ - "Notification: id=371 pid=561 {512 513 561 } asns=(ASN:0x0-0x47047: ) sessionID=100007 @ 0x7f91cc61de40 refs=5"
+ - "Notification: id=432 pid=1256 {512 513 } asns=(ASN:0x0-0x55055: ) sessionID=100007 @ 0x7f91cc7256a0 refs=4"
+ - "Notification: id=389 pid=745 {260 273 561 562 } asns=(ASN:0x0-0x4a04a: ) sessionID=100007 @ 0x7f91cc60de60 refs=6"
+ - "Notification: id=242 pid=403 {260 273 561 562 } asns=(ASN:0x0-0x24024: ) sessionID=100007 @ 0x7f91cc524930 refs=6"
+ - "Notification: id=346 pid=526 {512 513 561 } asns=(ASN:0x0-0x41041: ) sessionID=100007 @ 0x7f91cc51fe80 refs=5"
+ - "Notification: id=450 pid=1302 {784 } asns=(ASN:0x0-0x5a05a: ) sessionID=100007 @ 0x7f91cc6253f0 refs=3"
+ - "Notification: id=303 pid=479 {640 } asns=() sessionID=100007 @ 0x7f91cc50a970 refs=3"
+ - "Notification: id=407 pid=1236 {512 513 561 } asns=(ASN:0x0-0x50050: ) sessionID=100007 @ 0x7f91cc42c3c0 refs=5"
+ - "Notification: id=217 pid=336 {512 513 561 } asns=(ASN:0x0-0x1e01e: ) sessionID=100007 @ 0x7f91cc623dc0 refs=5"
+ - "Notification: id=425 pid=1247 {512 513 561 } asns=(ASN:0x0-0x55055: ) sessionID=100007 @ 0x7f91cc426ff0 refs=5"
+ - "Notification: id=382 pid=643 {272 544 562 } asns=() sessionID=100007 @ 0x7f91cc515560 refs=5"
+ - "Notification: id=400 pid=1231 {512 513 561 } asns=(ASN:0x0-0x4e04e: ) sessionID=100007 @ 0x7f91cc4294d0 refs=5"
+ - "Notification: id=106 pid=89 {512 513 561 } asns=(ASN:0x0-0x1001: ) sessionID=100007 @ 0x7f91cc5234b0 refs=5"
+ - "Notification: id=167 pid=268 {640 } asns=() sessionID=100007 @ 0x7f91cc72d340 refs=3"
+ - "Notification: id=271 pid=410 {272 } asns=() sessionID=100007 @ 0x7f91cc423370 refs=3"
+ - "Notification: id=375 pid=563 {512 513 561 } asns=(ASN:0x0-0x48048: ) sessionID=100007 @ 0x7f91cc40fd10 refs=5"
+ - "Notification: id=418 pid=1244 {784 } asns=(ASN:0x0-0x53053: ) sessionID=100007 @ 0x7f91cc52d060 refs=3"
+ - "Notification: id=332 pid=506 {640 } asns=() sessionID=100007 @ 0x7f91cc507b90 refs=3"
+ - "Notification: id=246 pid=387 {512 513 561 } asns=(ASN:0x0-0x26026: ) sessionID=100007 @ 0x7f91cc4135e0 refs=5"
+ - "Notification: id=350 pid=526 {561 } asns=(ASN:0x0-0x41041: ) sessionID=100007 @ 0x7f91cc415a50 refs=3"
+ - "Notification: id=203 pid=308 {512 } asns=() sessionID=100007 @ 0x7f91cc51a2f0 refs=3"
+ - "Notification: id=160 pid=89 {256 257 258 262 272 288 561 } asns=() sessionID=100007 @ 0x7f91cc50dd90 refs=9"
+ - "Notification: id=411 pid=1237 {640 } asns=() sessionID=100007 @ 0x7f91cc714700 refs=3"
+ - "Notification: id=117 pid=89 {259 } asns=() sessionID=100007 @ 0x7f91cc712bd0 refs=3"
+ - "Notification: id=368 pid=556 {515 536 537 784 } asns=(ASN:0x0-0x46046: ) sessionID=100007 @ 0x7f91cc532f50 refs=6"
+ - "Notification: id=325 pid=497 {260 273 561 562 } asns=(ASN:0x0-0x3b03b: ) sessionID=100007 @ 0x7f91cc718ba0 refs=6"
+ - "Notification: id=178 pid=270 {256 258 262 265 272 528 529 561 563 564 566 641 658 2147483647 } asns=() sessionID=100007 @ 0x7f91cc6055e0 refs=16"
+ - "Notification: id=386 pid=745 {512 513 561 } asns=(ASN:0x0-0x4a04a: ) sessionID=100007 @ 0x7f91cc539e80 refs=5"
+ - "Notification: id=239 pid=403 {512 513 561 } asns=(ASN:0x0-0x24024: ) sessionID=100007 @ 0x7f91cc52bd20 refs=5"
+ - "Notification: id=196 pid=307 {640 } asns=() sessionID=100007 @ 0x7f91cc60dbb0 refs=3"
+ - "Notification: id=361 pid=532 {640 } asns=() sessionID=100007 @ 0x7f91cc648e60 refs=3"
+ - "Notification: id=171 pid=270 {515 536 537 784 } asns=(ASN:0x0-0x13013: ) sessionID=100007 @ 0x7f91cc511a30 refs=6"
+ - "Notification: id=422 pid=1245 {515 536 537 784 } asns=(ASN:0x0-0x54054: ) sessionID=100007 @ 0x7f91cc536dd0 refs=6"
+ - "Notification: id=379 pid=643 {512 513 561 } asns=(ASN:0x0-0x49049: ) sessionID=100007 @ 0x7f91cc53ac40 refs=5"
+ - "Notification: id=336 pid=507 {640 } asns=() sessionID=100007 @ 0x7f91cc51f080 refs=3"
+ - "Notification: id=440 pid=1263 {260 273 561 562 } asns=(ASN:0x0-0x57057: ) sessionID=100007 @ 0x7f91cc52ead0 refs=6"
+ - "Notification: id=397 pid=1230 {515 536 537 784 } asns=(ASN:0x0-0x4d04d: ) sessionID=100007 @ 0x7f91cc721680 refs=6"
+ - "Notification: id=250 pid=387 {260 273 561 562 } asns=(ASN:0x0-0x26026: ) sessionID=100007 @ 0x7f91cc711f70 refs=6"
+ - "Notification: id=164 pid=268 {512 513 561 } asns=(ASN:0x0-0x11011: ) sessionID=100007 @ 0x7f91cc417df0 refs=5"
+ - "Notification: id=415 pid=1243 {640 } asns=() sessionID=100007 @ 0x7f91cc42bd40 refs=3"
+ - "Notification: id=372 pid=561 {784 } asns=(ASN:0x0-0x47047: ) sessionID=100007 @ 0x7f91cc532940 refs=3"
+ - "Notification: id=347 pid=526 {515 536 537 784 } asns=(ASN:0x0-0x41041: ) sessionID=100007 @ 0x7f91cc50bf70 refs=6"
+ - "Notification: id=451 pid=1302 {640 } asns=() sessionID=100007 @ 0x7f91cc532ff0 refs=3"
+ - "Notification: id=304 pid=479 {260 273 561 562 } asns=(ASN:0x0-0x36036: ) sessionID=100007 @ 0x7f91cc63e580 refs=6"
+ - "Notification: id=408 pid=1236 {784 } asns=(ASN:0x0-0x50050: ) sessionID=100007 @ 0x7f91cc611710 refs=3"
+ - "Notification: id=218 pid=336 {784 } asns=(ASN:0x0-0x1e01e: ) sessionID=100007 @ 0x7f91cc50eab0 refs=3"
+ - "Notification: id=322 pid=497 {512 513 561 } asns=(ASN:0x0-0x3b03b: ) sessionID=100007 @ 0x7f91cc6295d0 refs=5"
+ - "Notification: id=426 pid=1247 {515 536 537 784 } asns=(ASN:0x0-0x55055: ) sessionID=100007 @ 0x7f91cc62cc40 refs=6"
+ - "Notification: id=383 pid=643 {260 273 561 562 } asns=(ASN:0x0-0x49049: ) sessionID=100007 @ 0x7f91cc7132f0 refs=6"
+ - "Notification: id=193 pid=299 {260 273 561 562 } asns=(ASN:0x0-0x17017: ) sessionID=100007 @ 0x7f91cc51f1b0 refs=6"
+ - "Notification: id=401 pid=1231 {515 536 537 784 } asns=(ASN:0x0-0x4e04e: ) sessionID=100007 @ 0x7f91cc52b970 refs=6"
+ - "Notification: id=168 pid=269 {512 513 561 } asns=(ASN:0x0-0x12012: ) sessionID=100007 @ 0x7f91cc615130 refs=5"
+ - "Notification: id=272 pid=410 {258 } asns=() sessionID=100007 @ 0x7f91cc70e350 refs=3"
+ - "Notification: id=376 pid=563 {784 } asns=(ASN:0x0-0x48048: ) sessionID=100007 @ 0x7f91cc427a20 refs=3"
+ - "Notification: id=419 pid=1244 {640 } asns=() sessionID=100007 @ 0x7f91cc5048d0 refs=3"
+ - "Notification: id=333 pid=506 {260 273 561 562 } asns=(ASN:0x0-0x3d03d: ) sessionID=100007 @ 0x7f91cc41e470 refs=6"
+ - "Notification: id=186 pid=299 {512 513 561 } asns=(ASN:0x0-0x17017: ) sessionID=100007 @ 0x7f91cc424180 refs=5"
+ - "Notification: id=437 pid=1263 {512 513 561 } asns=(ASN:0x0-0x57057: ) sessionID=100007 @ 0x7f91cc71b440 refs=5"
+ - "Notification: id=394 pid=1229 {512 513 561 } asns=(ASN:0x0-0x4c04c: ) sessionID=100007 @ 0x7f91cc61eac0 refs=5"
+ - "Notification: id=247 pid=387 {515 536 537 784 } asns=(ASN:0x0-0x26026: ) sessionID=100007 @ 0x7f91cc62eca0 refs=6"
+ - "Notification: id=204 pid=310 {512 513 561 } asns=(ASN:0x0-0x1a01a: ) sessionID=100007 @ 0x7f91cc6097f0 refs=5"
+ - "Notification: id=412 pid=1237 {260 273 561 562 } asns=(ASN:0x0-0x51051: ) sessionID=100007 @ 0x7f91cc411740 refs=6"
+ - "Notification: id=369 pid=556 {640 } asns=() sessionID=100007 @ 0x7f91cc511230 refs=3"
+ - "Notification: id=179 pid=269 {260 273 561 562 } asns=(ASN:0x0-0x12012: ) sessionID=100007 @ 0x7f91cc414840 refs=6"
+ - "Notification: id=430 pid=1257 {512 } asns=() sessionID=100007 @ 0x7f91cc545d30 refs=3"
+ - "Notification: id=387 pid=745 {515 536 537 784 } asns=(ASN:0x0-0x4a04a: ) sessionID=100007 @ 0x7f91cc500690 refs=6"
+ - "Notification: id=240 pid=403 {515 536 537 784 } asns=(ASN:0x0-0x24024: ) sessionID=100007 @ 0x7f91cc7309f0 refs=6"
+ - "Notification: id=448 pid=1231 {561 } asns=(ASN:0x0-0x4e04e: ) sessionID=100007 @ 0x7f91cc532e80 refs=3"
+ - "Notification: id=301 pid=479 {512 513 561 } asns=(ASN:0x0-0x36036: ) sessionID=100007 @ 0x7f91cc63f560 refs=5"
+ - "Notification: id=258 pid=344 {257 258 516 } asns=() sessionID=100007 @ 0x7f91cc4301b0 refs=5"
+ - "Notification: id=111 pid=89 {515 536 537 784 } asns=(ASN:0x0-0x1001: ) sessionID=100007 @ 0x7f91cc516520 refs=6"
+ - "Notification: id=362 pid=532 {260 273 561 562 } asns=(ASN:0x0-0x44044: ) sessionID=100007 @ 0x7f91cc426790 refs=6"
+ - "Notification: id=423 pid=1245 {640 } asns=() sessionID=100007 @ 0x7f91cc50cd80 refs=3"
+ - "Notification: id=380 pid=643 {515 536 537 784 } asns=(ASN:0x0-0x49049: ) sessionID=100007 @ 0x7f91cc626510 refs=6"
+ - "Notification: id=337 pid=507 {260 273 561 562 } asns=(ASN:0x0-0x3e03e: ) sessionID=100007 @ 0x7f91cc721ab0 refs=6"
+ - "Notification: id=398 pid=1230 {640 } asns=() sessionID=100007 @ 0x7f91cc41f470 refs=3"
+MALLOC stats: blocksInUse=13222 sizeInUse=1209072 maxSizeInUse=2323328 sizeAllocated=37797888
+MachPorts in use:
+- sendRights: 183 [0x103(2) 0x51b 0x707(6) 0x803 0x907 0xa03 0xb03 0xc03(4) 0xd03 0xe0b 0xf03 0x1003 0x1103 0x1303(2) 0x1403 0x1597 0x1603(2) 0x1747 0x1a3b 0x1c0f 0x1e23 0x1f6b 0x2007 0x22cf 0x2313 0x2507 0x262b 0x2707 0x2903 0x2b23 0x2d03 0x3007 0x3103 0x3303 0x3807 0x3cd3 0x3d0b 0x3e03 0x3f33 0x4127 0x428b 0x4333 0x455f 0x4847 0x4943 0x4a03 0x4b03 0x4c07 0x4d03 0x4f03 0x5003 0x515b 0x5203 0x5403 0x59a7 0x5a53 0x5b23 0x5c67 0x5dd3 0x5e47 0x6127 0x6353 0x6503 0x6703 0x693f 0x6b17 0x6d57 0x6e77 0x71a3 0x7447 0x7687 0x7abf 0x7c2f 0x7fa7 0x8033 0x8103 0x8257 0x84b3 0x867b 0x8763 0x8823 0x893f 0x8a27 0x8b73 0x8c0b 0x8fcf 0x900f 0x9137 0x9403 0x9683 0x9703(2) 0x9f4b 0xa093 0xa13b 0xa28f 0xa333 0xa6bf 0xa71b 0xa81b 0xaa1f 0xac83 0xad07 0xae0b 0xb147 0xb3ab 0xb68f 0xb923 0xba7b 0xbb6f 0xbc43 0xbe2b 0xc10f 0xc20b 0xc47b 0xc617 0xc78f 0xc923 0xca43 0xcc47 0xcd03 0xd21b 0xd307 0xd573 0xd737 0xd81f 0xda33 0xdfc7 0xe047 0xe16f 0xe213 0xe617 0xe7e3 0xe84b 0xeaaf 0xeb93 0xee3f 0xef0b 0xf11b 0xf313 0xf41b 0xf523 0xfb4b 0xfd93 0xff03 0x10043 0x101df 0x1024f 0x1032f 0x1042b 0x11e33 0x11f5f 0x1217b 0x1224f 0x12417 0x1278b 0x1287b 0x12c07 0x12e37 0x13007 0x13127 0x13207 0x13317 0x1354f 0x1366f 0x13a0b 0x13c93 0x13d57 0x13e43 0x14027 0x14133 0x1429f 0x143db 0x1442b 0x145bb 0x14603 0x14713 0x14887 0x14e13 0x15097 0x15103 0x1523f 0x153af 0x15493 ]
+- sendOnceRights: 1 [0x830b ]
+- receiveRight: 136 [0x203 0x307 0x403 0x60f 0xe0b 0xf03 0x1213 0x1303 0x1597 0x1603 0x1807 0x1903 0x1bb7 0x2103 0x24bf 0x28d7 0x2a07 0x2c03 0x2e07 0x2f03 0x3303 0x3403 0x3603 0x3777 0x396b 0x3a2f 0x4017 0x445f 0x4607 0x471b 0x4a03 0x4b03 0x4c07 0x4e07 0x539b 0x5547 0x562f 0x5853 0x5f1f 0x6003 0x627f 0x6407 0x6607 0x6803 0x6a2b 0x6c07 0x6f23 0x700f 0x722b 0x7347 0x7503 0x774f 0x789f 0x791f 0x7b2f 0x8033 0x8527 0x8d07 0x8e47 0x928f 0x937b 0x9403 0x9823 0x9907 0x9a4b 0x9b13 0x9c93 0x9d13 0x9e1b 0xa463 0xa517 0xa90b 0xaf03 0xb06b 0xb20b 0xb53b 0xb72f 0xb867 0xbd2f 0xbf13 0xc003 0xc327 0xc587 0xc817 0xcb0f 0xce07 0xcf6b 0xd037 0xd103 0xd47b 0xd62b 0xd94f 0xdb9b 0xdc67 0xdd7b 0xded7 0xe33b 0xe40f 0xe54b 0xe99b 0xec17 0xed13 0xf007 0xf213 0xf60f 0xf72f 0xf8fb 0xf98f 0xfa3b 0xfcbb 0xfe37 0x1042b 0x10563 0x1070b 0x11d2b 0x120b7 0x12303 0x1255f 0x12653 0x12907 0x12a47 0x12bf7 0x12d33 0x12f3b 0x13437 0x1371b 0x1389b 0x13907 0x13b33 0x13d57 0x1493b 0x14a27 0x14b07 0x14cb7 0x14d23 0x14f3f ]
+- deadNames: 4 [0x1d03 0x3b27 0x5713 0x9553 ]

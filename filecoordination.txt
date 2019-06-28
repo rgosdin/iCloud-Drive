@@ -1,0 +1,141 @@
+Server Information:
+
+<NSFileAccessNode 0x7f8c2cd042c0> parent: 0x0, name: "/"
+progress subscribers:
+    <NSProgressSubscriberProxy 0x7f8c2f91f940> forwarder: <_NSXPCDistantObject: 0x7f8c2f951220>, subscriber ID: 8AE8C7D0-2D6E-47C1-BE19-88125CAEF523
+        location: 0x7f8c2cd042c0
+children:
+    coreservicesuiagent.app
+        <NSFileAccessNode 0x7f8c2f83e7c0> parent: 0x7f8c2f83e740, name: "CoreServicesUIAgent.app"
+        presenters:
+            <NSFilePresenterProxy 0x7f8c2f83bed0> client: CoreServicesUIAgent (1231), reactor ID: 2FD11F39-EF77-454D-ACBB-75227E8B61F8
+                location: 0x7f8c2f83e7c0
+    501
+        <NSFileAccessNode 0x7f8c2cd07ec0> parent: 0x7f8c2cd0fe00, name: "501"
+        provider:
+            <NSFileProviderProxy 0x7f8c2f5c2ab0> client: bird (1256), reactor ID: com.apple.bird.versions
+                location: 0x7f8c2cd07ec0
+    documents
+        <NSFileAccessNode 0x7f8c2ce05e80> parent: 0x7f8c2cf06180, name: "Documents"
+        provider:
+            <NSFileProviderProxy 0x7f8c2f6a7e10> client: fileproviderd (394), reactor ID: com.apple.bird
+                location: 0x7f8c2ce05e80
+        children:
+            server.key
+                <NSFileAccessNode 0x7f8c2f992450> parent: 0x7f8c2f9923b0, name: "server.key"
+                progress publishers:
+                    <NSProgressPublisherProxy 0x7f8c2f992070> forwarder: <_NSXPCDistantObject: 0x7f8c2f991770>, publisher ID: 49BD77C6-8140-42B9-A74C-F8ADAF417844
+                        location: 0x7f8c2f992450
+            server.key
+                <NSFileAccessNode 0x7f8c2f98aa80> parent: 0x7f8c2f98a9a0, name: "server.key"
+                progress publishers:
+                    <NSProgressPublisherProxy 0x7f8c2f98a6a0> forwarder: <_NSXPCDistantObject: 0x7f8c2f989c10>, publisher ID: 9575FC16-7037-4807-92CB-99453BAE8D0F
+                        location: 0x7f8c2f98aa80
+            server.key
+                <NSFileAccessNode 0x7f8c2f78e760> parent: 0x7f8c2f78e670, name: "server.key"
+                progress publishers:
+                    <NSProgressPublisherProxy 0x7f8c2f78e2b0> forwarder: <_NSXPCDistantObject: 0x7f8c2f79c700>, publisher ID: FA5047D1-7BCE-4FD6-9AB7-DD4E9357B424
+                        location: 0x7f8c2f78e760
+    com.apple.iapps.plist
+        <NSFileAccessNode 0x7f8c2f5c28b0> parent: 0x7f8c2f5c2520, name: "com.apple.iApps.plist"
+        presenters:
+            <NSFilePresenterProxy 0x7f8c2f569540> client: com.apple.MediaLibraryService (518), reactor ID: A5228230-7620-4B67-A59F-274942CCC993
+                location: 0x7f8c2f5c28b0
+    mobile documents
+        <NSFileAccessNode 0x7f8c2cd19670> parent: 0x7f8c2cd195d0, name: "Mobile Documents"
+        provider:
+            <NSFileProviderProxy 0x7f8c2f631dd0> client: fileproviderd (394), reactor ID: com.apple.bird
+                location: 0x7f8c2cd19670
+        progress subscribers:
+            <NSProgressSubscriberProxy 0x7f8c2f503db0> forwarder: <_NSXPCDistantObject: 0x7f8c2f5990c0>, subscriber ID: CB30C5B1-749C-4689-A31A-D7CC305EEB3F
+                location: 0x7f8c2cd19670
+        progress publishers:
+            <NSProgressPublisherProxy 0x7f8c2f7a4a30> forwarder: <_NSXPCDistantObject: 0x7f8c2f770710>, publisher ID: BA14E201-48BE-4D34-8EDB-478C4A5064AE
+                location: 0x7f8c2cd19670
+            <NSProgressPublisherProxy 0x7f8c2f95e420> forwarder: <_NSXPCDistantObject: 0x7f8c2f95e4b0>, publisher ID: 36601208-11E9-482B-BA16-44036DBF049F
+                location: 0x7f8c2cd19670
+            <NSProgressPublisherProxy 0x7f8c2f5baa30> forwarder: <_NSXPCDistantObject: 0x7f8c2f5c5e70>, publisher ID: 69E44734-5F4C-4E6C-8E25-C6BE02F431AE
+                location: 0x7f8c2cd19670
+    desktop
+        <NSFileAccessNode 0x7f8c2ce06ae0> parent: 0x7f8c2cf06180, name: "Desktop"
+        provider:
+            <NSFileProviderProxy 0x7f8c2f7afb60> client: fileproviderd (394), reactor ID: com.apple.bird
+                location: 0x7f8c2ce06ae0
+        progress subscribers:
+            <NSProgressSubscriberProxy 0x7f8c2f79a780> forwarder: <_NSXPCDistantObject: 0x7f8c2f7ae870>, subscriber ID: 40505907-F127-47C8-9760-4408681A41F2
+                location: 0x7f8c2ce06ae0
+    photos library.photoslibrary
+        <NSFileAccessNode 0x7f8c2f8018f0> parent: 0x7f8c2f801870, name: "Photos Library.photoslibrary"
+        presenters:
+            <NSFilePresenterProxy 0x7f8c2f80afa0> client: photolibraryd (483), reactor ID: 4B7C87C1-6FE0-40AE-A69C-3FA4B5DBBCD9
+                location: 0x7f8c2f8018f0
+    textedit.app
+        <NSFileAccessNode 0x7f8c2f814950> parent: 0x7f8c2f947ba0, name: "TextEdit.app"
+        presenters:
+            <NSFilePresenterProxy 0x7f8c2f8056d0> client: TextEdit (526), reactor ID: CE117C81-4480-4B0E-B971-7A1B3DAA5395
+                location: 0x7f8c2f814950
+    activity monitor.app
+        <NSFileAccessNode 0x7f8c2f834b10> parent: 0x7f8c2f572750, name: "Activity Monitor.app"
+        presenters:
+            <NSFilePresenterProxy 0x7f8c2f8108c0> client: Activity Monitor (643), reactor ID: 4674AAF2-D191-4496-BB11-C967EFAA8BAC
+                location: 0x7f8c2f834b10
+    system preferences.app
+        <NSFileAccessNode 0x7f8c2f905110> parent: 0x7f8c2f947ba0, name: "System Preferences.app"
+        presenters:
+            <NSFilePresenterProxy 0x7f8c2f5c4890> client: com.apple.preference.universala (532), reactor ID: 7A1A3534-3684-412B-8018-20F29DF4A170
+                location: 0x7f8c2f905110
+            <NSFilePresenterProxy 0x7f8c2f931c30> client: com.apple.preference.network.re (561), reactor ID: 5524F201-FEA8-4AEC-8DC4-52F4DC4302E2
+                location: 0x7f8c2f905110
+            <NSFilePresenterProxy 0x7f8c2f7a9fd0> client: com.apple.preferences.extension (1302), reactor ID: 8939FAB4-99E1-4122-9960-D9F47EA5C8E5
+                location: 0x7f8c2f905110
+            <NSFilePresenterProxy 0x7f8c2f94ea90> client: System Preferences (497), reactor ID: 555441CD-A2EE-4A20-832C-4957E880EA6B
+                location: 0x7f8c2f905110
+            <NSFilePresenterProxy 0x7f8c2f953020> client: com.apple.preference.displays.A (506), reactor ID: 4BC69D76-B7BD-41F3-946C-B16E1C31615B
+                location: 0x7f8c2f905110
+            <NSFilePresenterProxy 0x7f8c2f5c2ef0> client: com.apple.preferences.sharing.r (507), reactor ID: 66251232-77CF-4F3F-BC8F-3CA8B2810B20
+                location: 0x7f8c2f905110
+
+Application Information:
+
+photolibraryd (483):
+Nothing
+
+com.apple.preference.displays.A (506):
+Nothing
+
+sysdiagnose_helper (728):
+Nothing
+
+com.apple.preference.network.re (561):
+Nothing
+
+com.apple.preference.universala (532):
+Nothing
+
+fileproviderd (394):
+Nothing
+
+Activity Monitor (643):
+Nothing
+
+TextEdit (526):
+Nothing
+
+com.apple.preferences.sharing.r (507):
+Nothing
+
+com.apple.preferences.extension (1302):
+Nothing
+
+CoreServicesUIAgent (1231):
+Nothing
+
+System Preferences (497):
+Nothing
+
+com.apple.MediaLibraryService (518):
+Nothing
+
+bird (1256):
+Nothing
+

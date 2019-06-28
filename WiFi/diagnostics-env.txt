@@ -1,0 +1,19 @@
+# --- Diagnostics
+
+!!! Wi-Fi is OFF
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————
+Timestamp    Name                          Duration    Result    Description                            
+————————————————————————————————————————————————————————————————————————————————————————————————————————
+19:37:21.727 Congested Wi-Fi Channel       0.004       No        Current channel (0) is not congested
+                                                                 Recommended 2.4GHz — 11
+                                                                 Recommended 5GHz — 161
+19:37:21.732 HT40 2.4GHz Networks          0.004       No        Did not find HT40 network(s) in 2.4GHz
+19:37:21.737 Conflicting Wi-Fi CC          0.000       No        Did not find conflicting country code(s) (us)
+19:37:21.738 Conflicting Wi-Fi Security    0.000       No        Did not conflicting security types
+19:37:21.738 Hidden Wi-Fi Scan Results     0.000       No        Did not find any hidden networks
+19:37:21.739 No Scan Results               0.000       Yes       No Wi-Fi networks are visible
+19:37:21.740 Conflicting PHY Mode 11ac     0.000       No        0 PNL networks have conflicting PHY modes (802.11ac).
+19:37:21.741 Conflicting PHY Mode 11n      0.000       No        0 PNL networks have conflicting PHY modes (802.11n).
+
+

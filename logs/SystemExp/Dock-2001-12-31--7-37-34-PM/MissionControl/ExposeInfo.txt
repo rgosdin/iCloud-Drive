@@ -1,0 +1,22 @@
+General
+	time = 2254.327357
+	Expose.disabled = false
+	gSpaces.anySwitchingOccuring = false
+	gDashboard.overlayShowing = nil
+	Expose.mode = none
+
+MissionControl
+	state = exited
+	inFluidTransition = false
+	clusterExpanded = false
+	inAnimation = true
+	
+ShowFrontWindows
+	state = exited
+	inAnimation = false
+	currentPSN = nil
+	currentTile = nil
+	recents = none
+ShowDesktop
+	state = exited
+	inAnimation = false

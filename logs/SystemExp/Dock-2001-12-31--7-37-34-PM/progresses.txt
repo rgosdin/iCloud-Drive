@@ -1,0 +1,3 @@
+DOCKDownloadManager 0x600000c06580: directories=(
+    "DOCKDownloadDirectory 0x600000022f40: path=/Users/ryangosdin/Downloads/ progresses={}"
+)

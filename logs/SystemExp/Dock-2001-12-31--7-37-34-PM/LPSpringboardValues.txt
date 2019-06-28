@@ -1,0 +1,26 @@
+iconSize: 72
+miniIconSize: 15
+deferLayout: NO
+gesturing: NO
+gestureType: 0
+visibility: 0.000000
+visible: NO
+autoHideWasEnabled: NO
+forcedDockWindowToShow: NO
+lastEventShouldBeHandledByDock: NO
+editCancelled: NO
+appAnimatingIn: NO
+scanningComplete: YES
+rebuildingModel: NO
+dragInDock: NO
+dragEnteredDock: NO
+desktopStale: NO
+resumedDownloadingApp: NO
+searching: NO
+ensuringSize: NO
+forcedDockHidden: NO
+window: WAWindow(wid: 0x25 title: nil)
+windowIsOrderedOn: NO
+allowBounce: NO
+animateShow: NO
+showLaunchpadGestureEnabled: YES

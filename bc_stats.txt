@@ -1,0 +1,25 @@
+                                total    non-shared cache        shared cache
+initiated reads                     0                   0                   0
+blocks read                         0                   0                   0
+bytes read                          0                   0                   0
+cache size                          0                   0                   0
+bytes requested                     0                   0                   0
+cache active time              0.000s
+
+total strategy calls                0                   0                   0
+
+mounts in cache                     0
+extents in cache                    0                   0                   0
+extent lookups                      0                   0                   0
+
+kext load timestamp             3.241s
+kext start timestamp            0.000s
+history active time            0.000s
+history entries                     0                   0                   0
+history bytes                       0                   0                   0
+history mounts                      0
+unidentifiable mounts               0
+mounts without blocksize            0
+number history recordings           0
+
+current flags              0x0

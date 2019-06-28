@@ -1,0 +1,670 @@
+
+status -
+========================
+
+    all_status -
+    ------------------------
+        CKKS_Engram: 0
+        CKKS_Manatee: 0
+        icdp_status: 1
+        icdp_status_2: 0
+
+    current_identities -
+    ------------------------
+        AccessibilityVOPronunciation: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service AccessibilityVOPronunciation" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service AccessibilityVOPronunciation}
+        AccessibilityVOPronunciation2: <PCSIdentity  pubkey: hnlhJTNMovlk+g0erwrrbsiUmXjjf/bHXfyTufWvIeA= service: AccessibilityVOPronunciation2 BAT: 20170926152540;iPhone OS;15A372 >
+        AccessibilityVOPronunciation3: <PCSIdentity  pubkey: PgdhNshwYdLVN9yAIPKmMiDHcVRxg/rMOVchLMU9olE= service: AccessibilityVOPronunciation3 BAT: (null) >
+        AccountData: <PCSIdentity  pubkey: 9UZSIRuBm78cB+GhGhXUkgCblyrwDWHhdxJPuY4PqwI= service: AccountData BAT: (null) >
+        Activities: <PCSIdentity  pubkey: N2DUvRrnFCTi/tHZkHbIJBNegFSiA/ktiaWPHcGwtVs= service: Activities BAT: (null) >
+        Backup: <PCSIdentity  pubkey: kVnFrCOAUOc4Y0ckiKldcbJZpZsZOQYZlf1Y76wtNlc= service: Backup BAT: (null) >
+        BluetoothCloudPairing: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service BluetoothCloudPairing" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service BluetoothCloudPairing}
+        BluetoothCloudPairing2: <PCSIdentity  pubkey: X7AoQPrv3qc5fAkMS1ff0+53kSbX7djJWPFKbFFK26k= service: BluetoothCloudPairing2 BAT: 20170926152540;iPhone OS;15A372 >
+        BTAnnouncement: <PCSIdentity  pubkey: 1QO6A5QrUopSy4ZLPjdQ02n1XYVGb4MjtzOkeO4Pm/8= service: BTAnnouncement BAT: (null) >
+        BTPairing: <PCSIdentity  pubkey: zdv2j3Go+spHuMOORPoJggtKpTl30Fdjb1CmoPlmSHo= service: BTPairing BAT: (null) >
+        BulkMail: <PCSIdentity  pubkey: +CXvUIeBlgAYo0OyVqnCO0epMUyYM+wNNZiXkI/Ay64= service: BulkMail BAT: (null) >
+        CloudKit: <PCSIdentity  pubkey: OEHnGt5tyIhnWUhgI2lMCJQfrRg671rPu5metskb8lI= service: CloudKit BAT: (null) >
+        CloudKitApple: <PCSIdentity  pubkey: XZ0TJDoiwdIwHRRLnfoAdej//vAhndRzn58DIZPo390= service: CloudKitApple BAT: (null) >
+        com.apple.Avatar: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service com.apple.Avatar" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service com.apple.Avatar}
+        com.apple.classroom.syncing: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service com.apple.classroom.syncing" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service com.apple.classroom.syncing}
+        com.apple.coreidv.idv-data: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service com.apple.coreidv.idv-data" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service com.apple.coreidv.idv-data}
+        com.apple.coreidv.service-messages: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service com.apple.coreidv.service-messages" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service com.apple.coreidv.service-messages}
+        com.apple.health.sync: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service com.apple.health.sync" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service com.apple.health.sync}
+        com.apple.health.sync2: <PCSIdentity  pubkey: nO8CWlna2A1zs9/RdBhJtZGRbqm0ttkSZH/0YxkKuN4= service: com.apple.health.sync2 BAT: 20170926152540;iPhone OS;15A372 >
+        com.apple.iad-cloudkit: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service com.apple.iad-cloudkit" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service com.apple.iad-cloudkit}
+        com.apple.icloud-appleid.privacy: <PCSIdentity  pubkey: syaK3gQe2o7j5MPTo5/2kf7bwsdH/qh1R2y0aa4rXUY= service: com.apple.icloud-appleid.privacy BAT: (null) >
+        com.apple.knowledgestore: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service com.apple.knowledgestore" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service com.apple.knowledgestore}
+        com.apple.knowledgestore2: <PCSIdentity  pubkey: 2Q4ejlkBKKiTEOKKXOrflbvHfCRrVoMOGSM1bI2nabw= service: com.apple.knowledgestore2 BAT: 20170926152540;iPhone OS;15A372 >
+        com.apple.news.private.secure: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service com.apple.news.private.secure" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service com.apple.news.private.secure}
+        com.apple.news.private.secure2: <PCSIdentity  pubkey: 8jmzWLxW+Kc8Vpt8D09Wuy812vV9KZ09GjUnQ+wHd0w= service: com.apple.news.private.secure2 BAT: 20170926152540;iPhone OS;15A372 >
+        com.apple.routined: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service com.apple.routined" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service com.apple.routined}
+        com.apple.routined2: <PCSIdentity  pubkey: OBkR4/EGxOCxrNCZ9AZ+R6CV9S/oEnap0wk5Qv/ApfM= service: com.apple.routined2 BAT: 20170926152540;iPhone OS;15A372 >
+        com.apple.SafariShared.Bookmarks: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service com.apple.SafariShared.Bookmarks" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service com.apple.SafariShared.Bookmarks}
+        com.apple.SafariShared.CloudTabs: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service com.apple.SafariShared.CloudTabs" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service com.apple.SafariShared.CloudTabs}
+        com.apple.SafariShared.History: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service com.apple.SafariShared.History" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service com.apple.SafariShared.History}
+        com.apple.siri.data: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service com.apple.siri.data" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service com.apple.siri.data}
+        com.apple.siri.knowledge: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service com.apple.siri.knowledge" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service com.apple.siri.knowledge}
+        com.apple.siri.knowledge2: <PCSIdentity  pubkey: AfIdju4yV68UMu9+lFlTyh4iQVche3sNbdSKwyxiYJU= service: com.apple.siri.knowledge2 BAT: 20170926152540;iPhone OS;15A372 >
+        com.apple.siri.profile: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service com.apple.siri.profile" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service com.apple.siri.profile}
+        com.apple.siri.profile2: <PCSIdentity  pubkey: AvXyxOL7c4bm5pkCGEmtSuiVsil5IYrvC9AMD8SKmdU= service: com.apple.siri.profile2 BAT: 20170926152540;iPhone OS;15A372 >
+        com.apple.stocks.private: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service com.apple.stocks.private" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service com.apple.stocks.private}
+        com.apple.textinput.KeyboardServices.Secure: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service com.apple.textinput.KeyboardServices.Secure" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service com.apple.textinput.KeyboardServices.Secure}
+        com.apple.textinput.KeyboardServices.Secure2: <PCSIdentity  pubkey: hshxqP4x+uEfXtJncyk6d2rwxU+WXMqnjVAaHilhJFs= service: com.apple.textinput.KeyboardServices.Secure2 BAT: 20170926152540;iPhone OS;15A372 >
+        com.apple.wallet.paymentservices: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service com.apple.wallet.paymentservices" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service com.apple.wallet.paymentservices}
+        com.apple.wallet.paymentservices2: <PCSIdentity  pubkey: ShxvGbsPL0UtRjUvVbsjaNHIuBFZjX1KlIc9pEt3hhQ= service: com.apple.wallet.paymentservices2 BAT: 20170926152540;iPhone OS;15A372 >
+        Continuity: <PCSIdentity  pubkey: +7l0oEQi9yU/kMXgi+5OA2iaDalj+0iGeC6Qfna9ewo= service: Continuity BAT: (null) >
+        CoreSuggestionsPseudoEvents: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service CoreSuggestionsPseudoEvents" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service CoreSuggestionsPseudoEvents}
+        CoreSuggestionsPseudoEvents2: <PCSIdentity  pubkey: O6xnfqFMAyPxU6tyLIwqaMOQmw/K1BmB7fmrcJyVcU8= service: CoreSuggestionsPseudoEvents2 BAT: 20170926152540;iPhone OS;15A372 >
+        DigitalHealth: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service DigitalHealth" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service DigitalHealth}
+        Escrow: <PCSIdentity  pubkey: YeuC2LK3ZaYCv4wBtSABs3v/iUao6Ac5ubRq3Zn415Q= service: Escrow BAT: (null) >
+        FDE: <PCSIdentity  pubkey: 8vYcjW/cKMdQpep7283oFHS17dMieOBM5iL731Obl0o= service: FDE BAT: (null) >
+        Gaming: <PCSIdentity  pubkey: l2F6ulKh2ICe2OEC9yn3d1v7yEafZhJK6MYPE5HFb2o= service: Gaming BAT: (null) >
+        iAD: <PCSIdentity  pubkey: /hO0Y1iuyuV+cP7RL/0xxfoqrlpxiV26IMAKYjgi73I= service: iAD BAT: (null) >
+        iBooksSecureData: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service iBooksSecureData" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service iBooksSecureData}
+        iCloudDrive: <PCSIdentity  pubkey: wKI60ZLr/USNyB5l+rwjp7HYIDy2TioIcqEfZcWNxGA= service: iCloudDrive BAT: (null) >
+        IDServicesEngram: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service IDServicesEngram" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service IDServicesEngram}
+        iMessage: <PCSIdentity  pubkey: nFhpeGwL8Vb5KrAgE4qLYDO6nrU91CegL8MAGNBJzeI= service: iMessage BAT: (null) >
+        KeyboardServices: <PCSIdentity  pubkey: PvgJDxgCymzIRv51xNZWnBiaeTIp9Rxr7o4uKPdbSfU= service: KeyboardServices BAT: (null) >
+        Maildrop: <PCSIdentity  pubkey: eYdwwzvaB9K+tecCz8MILqNx5ZL0g8vRVJufbDzk/Kk= service: Maildrop BAT: (null) >
+        MapsSync: <PCSIdentity  pubkey: m36AwAjFLVv0nZhfAbWi0HOAxvQFvk1YS+Zm0Nh1Syg= service: MapsSync BAT: (null) >
+        MasterKey: <PCSIdentity  pubkey: VnhzEKwDHESU1urZUyY/5uyu6aDqmz9OKJQlP1jv3eI= service: MasterKey BAT: (null) >
+        Messages: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service Messages" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service Messages}
+        Messages2: <PCSIdentity  pubkey: y+7zKLcoAmT5JkoryhOD+GDzLixJtOR886AWPJqX+7E= service: Messages2 BAT: 20170926152540;iPhone OS;15A372 >
+        Messages3: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service Messages3" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service Messages3}
+        MessagesDevelopment: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service MessagesDevelopment" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service MessagesDevelopment}
+        News: <PCSIdentity  pubkey: jICd0nmk+v9Yc4vnrFPXW3lECQey4MjhvwZ3nTPetqw= service: News BAT: (null) >
+        Notes: <PCSIdentity  pubkey: Y9hDVMUWbASYGQSQ0b7P6zNnwXHuvc05KzjldRA9b5Y= service: Notes BAT: (null) >
+        Photos: <PCSIdentity  pubkey: FnQul3lrgOrpJuLwoX3bD7A2gc+RLLpPLZmjC7+myO0= service: Photos BAT: (null) >
+        Raw: missing
+        Rawhide: <PCSIdentity  pubkey: Zi89ULTFiB2MYvBuXn3eoxJraUZgvHkMbSqx5y2EKV8= service: Rawhide BAT: 20171120151131;iPhone OS;15C5110b >
+        Rawhide3: <PCSIdentity  pubkey: ttAyLJPRdMjiGNuQ8w5cZxwTCkuGvGmTvhg46jDIYnI= service: Rawhide3 BAT: 20171120151131;iPhone OS;15C5110b >
+        Safari: <PCSIdentity  pubkey: adu2Q6kTh4QnVuaQvd0T6SEhEf9TNPjUta2rHaHlsWI= service: Safari BAT: (null) >
+        Sharing: <PCSIdentity  pubkey: K20Chb/Xm5hbYXrnvoLXdFR+PAb4kR6/za07yk2IVSY= service: Sharing BAT: (null) >
+        SiriActions: Error Domain=NSOSStatusErrorDomain Code=-25300 "Failed finding service SiriActions" (errKCItemNotFound / errSecItemNotFound:  / The item cannot be found.) UserInfo={NSDescription=Failed finding service SiriActions}
+        TTYCallHistory: <PCSIdentity  pubkey: fZsAn0gCNrijcSlTW5PhkHR1PL4t44IEoTU+7VG+STE= service: TTYCallHistory BAT: (null) >
+
+    identities -
+    ------------------------
+        AccessibilityVOPronunciation2 -
+            0 -
+                build_time: 20170926152540;iPhone OS;15A372
+                current: 1
+                key_id: <c9fbba80 8160db49 7bbb2141 2d84a604 e3892807>
+                key_id_websafe: yfu6gIFg20l7uyFBLYSmBOOJKAc
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: hnlhJTNMovlk+g0erwrrbsiUmXjjf/bHXfyTufWvIeA=
+                service_id: 52
+        AccessibilityVOPronunciation3 -
+            0 -
+                current: 1
+                key_id: <8369ec63 54870fbc d480a9a1 4f1ebc96 6b3c7d6b>
+                key_id_websafe: g2nsY1SHD7zUgKmhTx68lms8fWs
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: PgdhNshwYdLVN9yAIPKmMiDHcVRxg/rMOVchLMU9olE=
+                service_id: 53
+        AccountData -
+            0 -
+                current: 1
+                key_id: <11b82721 1a904766 a9da0395 696bfcf5 04073bf0>
+                key_id_websafe: EbgnIRqQR2ap2gOVaWv89QQHO_A
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: 9UZSIRuBm78cB+GhGhXUkgCblyrwDWHhdxJPuY4PqwI=
+                service_id: 38
+        Activities -
+            0 -
+                current: 1
+                key_id: <dd841978 5e51711a 48f88ef3 25ba67b9 e8d2a8e7>
+                key_id_websafe: 3YQZeF5RcRpI-I7zJbpnuejSqOc
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: N2DUvRrnFCTi/tHZkHbIJBNegFSiA/ktiaWPHcGwtVs=
+                service_id: 14
+        Backup -
+            0 -
+                current: 1
+                key_id: <0f778758 9aa9efa4 603d2824 328f46a4 652c0bb9>
+                key_id_websafe: D3eHWJqp76RgPSgkMo9GpGUsC7k
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: kVnFrCOAUOc4Y0ckiKldcbJZpZsZOQYZlf1Y76wtNlc=
+                service_id: 8
+        BluetoothCloudPairing2 -
+            0 -
+                build_time: 20170926152540;iPhone OS;15A372
+                current: 1
+                key_id: <b95f0d5a 2fb31149 a805cfcc 95edbe5c 91112f17>
+                key_id_websafe: uV8NWi-zEUmoBc_Mle2-XJERLxc
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: X7AoQPrv3qc5fAkMS1ff0+53kSbX7djJWPFKbFFK26k=
+                service_id: 50
+        BTAnnouncement -
+            0 -
+                current: 1
+                key_id: <8d5d9356 fb672379 f2b4b8c7 f27b8593 ea6b6606>
+                key_id_websafe: jV2TVvtnI3nytLjH8nuFk-prZgY
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: 1QO6A5QrUopSy4ZLPjdQ02n1XYVGb4MjtzOkeO4Pm/8=
+                service_id: 19
+        BTPairing -
+            0 -
+                current: 1
+                key_id: <6ae81b9a 0717d499 c9c568d7 6b267ed8 a5e94c11>
+                key_id_websafe: augbmgcX1JnJxWjXayZ-2KXpTBE
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: zdv2j3Go+spHuMOORPoJggtKpTl30Fdjb1CmoPlmSHo=
+                service_id: 18
+        BulkMail -
+            0 -
+                current: 1
+                key_id: <85d357bb 48019934 e40d94ef 91ac514e a07b8118>
+                key_id_websafe: hdNXu0gBmTTkDZTvkaxRTqB7gRg
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: +CXvUIeBlgAYo0OyVqnCO0epMUyYM+wNNZiXkI/Ay64=
+                service_id: 17
+        CloudKit -
+            0 -
+                current: 1
+                key_id: <80d9e2a7 07f5670b d3be68aa 46649740 da55e5aa>
+                key_id_websafe: gNnipwf1ZwvTvmiqRmSXQNpV5ao
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: OEHnGt5tyIhnWUhgI2lMCJQfrRg671rPu5metskb8lI=
+                service_id: 4
+        CloudKitApple -
+            0 -
+                current: 1
+                key_id: <bb3853ee ddc24923 c39565e5 5780b24d cf347784>
+                key_id_websafe: uzhT7t3CSSPDlWXlV4CyTc80d4Q
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: XZ0TJDoiwdIwHRRLnfoAdej//vAhndRzn58DIZPo390=
+                service_id: 23
+        com.apple.coreidv.service-messages -
+            0 -
+                build_time: 20190515110346;iPhone OS;16F156
+                circleFingerPrint: <77564d52 6c325a41 344f6257 37573546 582b4a36 6548746c 56675065 48443755 4f733477 2b796158 4c70493d>
+                current: 0
+                key_id: <39f7ba34 8a10e36b 01afe91c 1461d852 f3e815eb>
+                key_id_websafe: Ofe6NIoQ42sBr-kcFGHYUvPoFes
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: P2AuSAoH3k0f8P18vIGN5NdgHLTnHxEEU/kT2dFOR1M=
+                service_id: 71
+        com.apple.health.sync2 -
+            0 -
+                build_time: 20170926152540;iPhone OS;15A372
+                current: 1
+                key_id: <c13e542e 34cef783 d6827a6c 908edd64 73cb56b7>
+                key_id_websafe: wT5ULjTO94PWgnpskI7dZHPLVrc
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: nO8CWlna2A1zs9/RdBhJtZGRbqm0ttkSZH/0YxkKuN4=
+                service_id: 44
+        com.apple.icloud-appleid.privacy -
+            0 -
+                current: 1
+                key_id: <7367f05d f8880975 06d1fb83 09a2e732 40542bd2>
+                key_id_websafe: c2fwXfiICXUG0fuDCaLnMkBUK9I
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: syaK3gQe2o7j5MPTo5/2kf7bwsdH/qh1R2y0aa4rXUY=
+                service_id: 63
+        com.apple.knowledgestore2 -
+            0 -
+                build_time: 20170926152540;iPhone OS;15A372
+                current: 1
+                key_id: <da845ba7 98927fb0 38fcefad b46347fb 87f4ce09>
+                key_id_websafe: 2oRbp5iSf7A4_O-ttGNH-4f0zgk
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: 2Q4ejlkBKKiTEOKKXOrflbvHfCRrVoMOGSM1bI2nabw=
+                service_id: 47
+        com.apple.news.private.secure2 -
+            0 -
+                build_time: 20170926152540;iPhone OS;15A372
+                current: 1
+                key_id: <9e18697f 04cb21a2 cc76582e 8987d5ae 53b1d273>
+                key_id_websafe: nhhpfwTLIaLMdlguiYfVrlOx0nM
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: 8jmzWLxW+Kc8Vpt8D09Wuy812vV9KZ09GjUnQ+wHd0w=
+                service_id: 49
+        com.apple.routined2 -
+            0 -
+                build_time: 20170926152540;iPhone OS;15A372
+                current: 1
+                key_id: <ed3758a2 78eb1a49 7af196a7 d7aed847 f1ae71cb>
+                key_id_websafe: 7TdYonjrGkl68Zan167YR_Guccs
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: OBkR4/EGxOCxrNCZ9AZ+R6CV9S/oEnap0wk5Qv/ApfM=
+                service_id: 43
+        com.apple.siri.knowledge2 -
+            0 -
+                build_time: 20170926152540;iPhone OS;15A372
+                current: 1
+                key_id: <c5ca7db2 c8981e23 dc0e74d4 6459baad cbb5742b>
+                key_id_websafe: xcp9ssiYHiPcDnTUZFm6rcu1dCs
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: AfIdju4yV68UMu9+lFlTyh4iQVche3sNbdSKwyxiYJU=
+                service_id: 46
+        com.apple.siri.profile2 -
+            0 -
+                build_time: 20170926154700;iPhone OS;15A372
+                circleFingerPrint: <706a4747 6c394344 452f4d50 6f735074 6835586f 7a4b6f75 472f3871 314e366e 58786e36 304a3341 7830513d>
+                current: 0
+                key_id: <dd5ec98d 1391c83c 0cf07a14 6667f5a8 d8558671>
+                key_id_websafe: 3V7JjRORyDwM8HoUZmf1qNhVhnE
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: cY+aY6PVD4C0PgskeCvKFAnRLbiw5dNNKg81mE+Ub50=
+                service_id: 45
+            1 -
+                build_time: 20170926152540;iPhone OS;15A372
+                current: 1
+                key_id: <d7bd4fd3 f91f330e 1aaf6355 fef993d1 8dc5076f>
+                key_id_websafe: 171P0_kfMw4ar2NV_vmT0Y3FB28
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: AvXyxOL7c4bm5pkCGEmtSuiVsil5IYrvC9AMD8SKmdU=
+                service_id: 45
+        com.apple.textinput.KeyboardServices.Secure2 -
+            0 -
+                build_time: 20170926154700;iPhone OS;15A372
+                circleFingerPrint: <706a4747 6c394344 452f4d50 6f735074 6835586f 7a4b6f75 472f3871 314e366e 58786e36 304a3341 7830513d>
+                current: 0
+                key_id: <5d362696 a9815380 c92e1766 4648e828 919fe81e>
+                key_id_websafe: XTYmlqmBU4DJLhdmRkjoKJGf6B4
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: jE+Ryxwtlcbc+T9rIZZ4+hJy1qsuhQzkxEf4XL0PaoU=
+                service_id: 42
+            1 -
+                build_time: 20170926152540;iPhone OS;15A372
+                current: 1
+                key_id: <8293c911 eb0fd8cc 5e0aab5e 45af034f a70d9f6a>
+                key_id_websafe: gpPJEesP2MxeCqteRa8DT6cNn2o
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: hshxqP4x+uEfXtJncyk6d2rwxU+WXMqnjVAaHilhJFs=
+                service_id: 42
+        com.apple.wallet.paymentservices2 -
+            0 -
+                build_time: 20170926152540;iPhone OS;15A372
+                current: 1
+                key_id: <558656ad 2326fcb5 0a179488 4820d2c4 90e28fa0>
+                key_id_websafe: VYZWrSMm_LUKF5SISCDSxJDij6A
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: ShxvGbsPL0UtRjUvVbsjaNHIuBFZjX1KlIc9pEt3hhQ=
+                service_id: 48
+        Continuity -
+            0 -
+                current: 1
+                key_id: <393f9a3d 34de4d9c a12553e2 79b9f38c c8f7bb2a>
+                key_id_websafe: OT-aPTTeTZyhJVPiebnzjMj3uyo
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: +7l0oEQi9yU/kMXgi+5OA2iaDalj+0iGeC6Qfna9ewo=
+                service_id: 21
+        CoreSuggestionsPseudoEvents2 -
+            0 -
+                build_time: 20170926152540;iPhone OS;15A372
+                current: 1
+                key_id: <f4ff5666 ab4095c7 1a1007a8 1585a31d 86335d4d>
+                key_id_websafe: 9P9WZqtAlccaEAeoFYWjHYYzXU0
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: O6xnfqFMAyPxU6tyLIwqaMOQmw/K1BmB7fmrcJyVcU8=
+                service_id: 51
+        DigitalHealth -
+            0 -
+                build_time: 20190428063235;iPhone OS;16E227
+                circleFingerPrint: <77345a42 79563661 4c4b3437 6a324541 47515752 6477394c 672b5434 39675149 6e767831 70556d2b 4f34673d>
+                current: 0
+                key_id: <cc598fa8 7785410c 552c7842 df9ab187 bc558f1d>
+                key_id_websafe: zFmPqHeFQQxVLHhC35qxh7xVjx0
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: vWtMnVkyx6abs4e6Uxh/c2tTRUUjXkj5S5AtPkUvRaU=
+                service_id: 62
+        Escrow -
+            0 -
+                current: 1
+                key_id: <c37f0fef 8851551c 6941c109 e0a15c44 bcd44c53>
+                key_id_websafe: w38P74hRVRxpQcEJ4KFcRLzUTFM
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: YeuC2LK3ZaYCv4wBtSABs3v/iUao6Ac5ubRq3Zn415Q=
+                service_id: 5
+        FDE -
+            0 -
+                current: 1
+                key_id: <e5ce2669 acc17153 05c39c83 531715f1 b8eaf727>
+                key_id_websafe: 5c4maazBcVMFw5yDUxcV8bjq9yc
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: 8vYcjW/cKMdQpep7283oFHS17dMieOBM5iL731Obl0o=
+                service_id: 6
+        Gaming -
+            0 -
+                current: 1
+                key_id: <6214f475 355d2b4f a890895e d8acd214 0a17cab9>
+                key_id_websafe: YhT0dTVdK0-okIle2KzSFAoXyrk
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: l2F6ulKh2ICe2OEC9yn3d1v7yEafZhJK6MYPE5HFb2o=
+                service_id: 15
+        iAD -
+            0 -
+                current: 1
+                key_id: <109773d3 edad8166 ca7c5d59 33c620b5 c0a9f342>
+                key_id_websafe: EJdz0-2tgWbKfF1ZM8YgtcCp80I
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: /hO0Y1iuyuV+cP7RL/0xxfoqrlpxiV26IMAKYjgi73I=
+                service_id: 16
+        iBooksSecureData -
+            0 -
+                build_time: 20190311150618;iPhone OS;16C101
+                circleFingerPrint: <77345a42 79563661 4c4b3437 6a324541 47515752 6477394c 672b5434 39675149 6e767831 70556d2b 4f34673d>
+                current: 0
+                key_id: <be59b22e 6a517c6d f2951cf5 3d6f3b53 d7683bf6>
+                key_id_websafe: vlmyLmpRfG3ylRz1PW87U9doO_Y
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: /V7jkLXL22oZiXesLsMmhxpsHtIdQ9Xjg3NjA4ot0ng=
+                service_id: 61
+        iCloudDrive -
+            0 -
+                current: 1
+                key_id: <340fe8d7 129a1184 b4afccb8 527fb9c0 5cb3de79>
+                key_id_websafe: NA_o1xKaEYS0r8y4Un-5wFyz3nk
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: wKI60ZLr/USNyB5l+rwjp7HYIDy2TioIcqEfZcWNxGA=
+                service_id: 2
+        iMessage -
+            0 -
+                current: 1
+                key_id: <97a0aa89 b7d29223 6eddb277 a3869d30 b139554e>
+                key_id_websafe: l6CqibfSkiNu3bJ3o4adMLE5VU4
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: nFhpeGwL8Vb5KrAgE4qLYDO6nrU91CegL8MAGNBJzeI=
+                service_id: 10
+        KeyboardServices -
+            0 -
+                current: 1
+                key_id: <03f5784d 60d6df24 8d6dd52e 92ee99ee 16f1fe49>
+                key_id_websafe: A_V4TWDW3ySNbdUuku6Z7hbx_kk
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: PvgJDxgCymzIRv51xNZWnBiaeTIp9Rxr7o4uKPdbSfU=
+                service_id: 13
+        Maildrop -
+            0 -
+                current: 1
+                key_id: <5b942ffa a768ecf5 bd82454a 0506fe93 6683d2f8>
+                key_id_websafe: W5Qv-qdo7PW9gkVKBQb-k2aD0vg
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: eYdwwzvaB9K+tecCz8MILqNx5ZL0g8vRVJufbDzk/Kk=
+                service_id: 7
+        MapsSync -
+            0 -
+                current: 1
+                key_id: <c8e690cb e5950e05 52688422 4619ca52 7a39d650>
+                key_id_websafe: yOaQy-WVDgVSaIQiRhnKUno51lA
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: m36AwAjFLVv0nZhfAbWi0HOAxvQFvk1YS+Zm0Nh1Syg=
+                service_id: 40
+        MasterKey -
+            0 -
+                current: 1
+                key_id: <0a129272 43066298 bed4c86d fcbf0da8 570ff057>
+                key_id_websafe: ChKSckMGYpi-1Mht_L8NqFcP8Fc
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: VnhzEKwDHESU1urZUyY/5uyu6aDqmz9OKJQlP1jv3eI=
+                service_id: 1
+        Messages2 -
+            0 -
+                build_time: 20170926152540;iPhone OS;15A372
+                current: 1
+                key_id: <a88377d3 f43b25f9 eaea7d96 4733db24 c7edf8b2>
+                key_id_websafe: qIN30_Q7Jfnq6n2WRzPbJMft-LI
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: y+7zKLcoAmT5JkoryhOD+GDzLixJtOR886AWPJqX+7E=
+                service_id: 41
+        Messages3 -
+            0 -
+                build_time: 20190612131144;iPhone OS;16F156
+                circleFingerPrint: <77564d52 6c325a41 344f6257 37573546 582b4a36 6548746c 56675065 48443755 4f733477 2b796158 4c70493d>
+                current: 0
+                key_id: <aaca0155 9ee1bba0 3ec88f5d a7f2a659 db8fc2b0>
+                key_id_websafe: qsoBVZ7hu6A-yI9dp_KmWduPwrA
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: P/JdqYucW2CLSkWy+Kgbd2qxIjUXYZBJ+B4pBiy/mFE=
+                service_id: 55
+            1 -
+                build_time: 20190510025823;iPhone OS;16E227
+                circleFingerPrint: <77564d52 6c325a41 344f6257 37573546 582b4a36 6548746c 56675065 48443755 4f733477 2b796158 4c70493d>
+                current: 0
+                key_id: <38eb4c14 e2627080 1239c99f 8d667d8e 7439e361>
+                key_id_websafe: OOtMFOJicIASOcmfjWZ9jnQ542E
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: aQLe4F1WNYP/7G+Jm/KYGRBClCOi8eMdsmp4a1Jg/gU=
+                service_id: 55
+            2 -
+                build_time: 20190429020807;iPhone OS;16E227
+                circleFingerPrint: <77345a42 79563661 4c4b3437 6a324541 47515752 6477394c 672b5434 39675149 6e767831 70556d2b 4f34673d>
+                current: 0
+                key_id: <a1e9be59 e420a141 f048eab2 0f3735e7 2e208605>
+                key_id_websafe: oem-WeQgoUHwSOqyDzc15y4ghgU
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: WqjHoMfu/OXHEpfh5mF/1nepSYX22SrVuA89xZ+tnUo=
+                service_id: 55
+        News -
+            0 -
+                current: 1
+                key_id: <310bfb99 fe359cfa a0785794 75ea2afe d7b0766c>
+                key_id_websafe: MQv7mf41nPqgeFeUdeoq_tewdmw
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: jICd0nmk+v9Yc4vnrFPXW3lECQey4MjhvwZ3nTPetqw=
+                service_id: 11
+        Notes -
+            0 -
+                current: 1
+                key_id: <1eaea380 634be737 a12f91e0 36173337 0a8e755f>
+                key_id_websafe: Hq6jgGNL5zehL5HgNhczNwqOdV8
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: Y9hDVMUWbASYGQSQ0b7P6zNnwXHuvc05KzjldRA9b5Y=
+                service_id: 9
+        Photos -
+            0 -
+                current: 1
+                key_id: <359792c0 ba507ff0 1a3a842e ddb1c0f4 927d2c69>
+                key_id_websafe: NZeSwLpQf_AaOoQu3bHA9JJ9LGk
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: FnQul3lrgOrpJuLwoX3bD7A2gc+RLLpPLZmjC7+myO0=
+                service_id: 3
+        Rawhide -
+            0 -
+                build_time: 20190612131114;iPhone OS;16F156
+                circleFingerPrint: <77564d52 6c325a41 344f6257 37573546 582b4a36 6548746c 56675065 48443755 4f733477 2b796158 4c70493d>
+                current: 0
+                key_id: <c49de932 494348fd 8555625e f9bd9330 e448829e>
+                key_id_websafe: xJ3pMklDSP2FVWJe-b2TMORIgp4
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: FZz9yRM9M3bK2Wkpk15kG7waaGZeEeW1evOVfQST9HE=
+                service_id: 54
+            1 -
+                build_time: 20190510025753;iPhone OS;16E227
+                circleFingerPrint: <77564d52 6c325a41 344f6257 37573546 582b4a36 6548746c 56675065 48443755 4f733477 2b796158 4c70493d>
+                current: 0
+                key_id: <6aac3c5e a1c76cde d7a10341 5cf656c8 1782de40>
+                key_id_websafe: aqw8XqHHbN7XoQNBXPZWyBeC3kA
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: DH4lsuaohdRSDZo+Dk0MQxwt6u4JNIV7IHQNiH4A9IY=
+                service_id: 54
+            2 -
+                build_time: 20171120151131;iPhone OS;15C5110b
+                circleFingerPrint: <706a4747 6c394344 452f4d50 6f735074 6835586f 7a4b6f75 472f3871 314e366e 58786e36 304a3341 7830513d>
+                current: 1
+                key_id: <4e8b1716 263f2019 3e74c1f2 5eac5f18 cb013bbf>
+                key_id_websafe: TosXFiY_IBk-dMHyXqxfGMsBO78
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: Zi89ULTFiB2MYvBuXn3eoxJraUZgvHkMbSqx5y2EKV8=
+                service_id: 54
+        Rawhide3 -
+            0 -
+                build_time: 20171120151131;iPhone OS;15C5110b
+                circleFingerPrint: <706a4747 6c394344 452f4d50 6f735074 6835586f 7a4b6f75 472f3871 314e366e 58786e36 304a3341 7830513d>
+                current: 1
+                key_id: <f2c438e8 71b6e645 a5998b56 85fcd7a4 95894228>
+                key_id_websafe: 8sQ46HG25kWlmYtWhfzXpJWJQig
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: ttAyLJPRdMjiGNuQ8w5cZxwTCkuGvGmTvhg46jDIYnI=
+                service_id: 56
+        Safari -
+            0 -
+                current: 1
+                key_id: <7cac85df 60cb7adf 68d986be 0324d52e a2417043>
+                key_id_websafe: fKyF32DLet9o2Ya-AyTVLqJBcEM
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: adu2Q6kTh4QnVuaQvd0T6SEhEf9TNPjUta2rHaHlsWI=
+                service_id: 22
+        Sharing -
+            0 -
+                current: 1
+                key_id: <e4c66d83 8e21fe71 e0acaf5e 3d46b464 34d45630>
+                key_id_websafe: 5MZtg44h_nHgrK9ePUa0ZDTUVjA
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: K20Chb/Xm5hbYXrnvoLXdFR+PAb4kR6/za07yk2IVSY=
+                service_id: 12
+        SiriActions -
+            0 -
+                build_time: 20181011032241;iPhone OS;16A404
+                circleFingerPrint: <41725856 47565133 32556e59 2b393374 6d6f5670 64747479 352f7939 6d6e5a37 74676f4c 562b4530 3542733d>
+                current: 0
+                key_id: <3bd25a32 867f88eb 58cfad9e aa4db38e 283a9fd6>
+                key_id_websafe: O9JaMoZ_iOtYz62eqk2zjig6n9Y
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: NsEmpFQXsv+NVQ6iaAvydbs3wQJeV1bGoDxPnz7QpdI=
+                service_id: 60
+        TTYCallHistory -
+            0 -
+                current: 1
+                key_id: <fa5b339d a231260f 9a8242b3 b3e8df92 b1bf78ee>
+                key_id_websafe: -lsznaIxJg-agkKzs-jfkrG_eO4
+                key_valid: 1
+                manatee: 0
+                manatee_full: 0
+                public_key: fZsAn0gCNrijcSlTW5PhkHR1PL4t44IEoTU+7VG+STE=
+                service_id: 20
+        UNKNOWN-90 -
+            0 -
+                build_time: 20170926152540;iPhone OS;15A372
+                current: 1
+                key_id: <29076568 57e69fa1 96e77dbe a256ea9d c0ef908a>
+                key_id_websafe: KQdlaFfmn6GW532-olbqncDvkIo
+                key_valid: 1
+                manatee: 1
+                manatee_full: 1
+                public_key: eNKxpHTJHuRhBInB7/kE/k0RUDpbsrznNa6y798ZCp4=
+                service_id: 90
+
+status_keychain -
+========================
+    circle_status: InCircle
+
+    view_status -
+    ------------------------
+        PCS-Backup: Member
+        PCS-CloudKit: Member
+        PCS-Escrow: Member
+        PCS-FDE: Member
+        PCS-Feldspar: Member
+        PCS-iCloudDrive: Member
+        PCS-iMessage: Member
+        PCS-Maildrop: Member
+        PCS-MasterKey: Member
+        PCS-Notes: Member
+        PCS-Photos: Member
+
+status_keysync -
+========================

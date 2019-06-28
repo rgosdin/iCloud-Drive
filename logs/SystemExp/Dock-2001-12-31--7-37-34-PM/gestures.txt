@@ -1,0 +1,34 @@
+swipeDownGestures:
+(
+)
+swipeUpGestures:
+(
+    "<Dock.FluidGestureController: 0x60000350c1a0>"
+)
+swipeLeftGestures:
+(
+    "<Dock.Spaces: 0x600002d05c70>"
+)
+swipeRightGestures:
+(
+    "<Dock.Spaces: 0x600002d05c70>"
+)
+expandGestures:
+(
+    "<Dock.FluidGestureController: 0x60000350c0d0>"
+)
+collapseGestures:
+(
+    "<LPSpringboard: 0x7fa876406860>"
+)
+doubleTapGestures:
+(
+    "<Dock.WVExpose: 0x600001b0e5c0>"
+)
+windowSwitchGestures:
+{}
+currentHandler: (null)
+phaseBeginCount = 0
+startingDisplayUUID = (null)
+isGesturing = 0
+isFluidGesturing = 0

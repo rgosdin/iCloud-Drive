@@ -1,0 +1,7 @@
+
+<NSView: 0x6000003d70c0> (396.0, 778.0)
+<NSLayoutConstraint:0x6000011f2df0 H:|-(0)-[NSView:0x6000003d7340]   (active, names: banner_window:0x6000003d70c0, '|':banner_window:0x6000003d70c0 )>
+<NSLayoutConstraint:0x6000011f2ee0 NSView:0x6000003d7340.trailing == banner_window.trailing   (active, names: banner_window:0x6000003d70c0 )>
+
+    <NSView: 0x6000003d7340> (396.0, 20.0)
+    <NSLayoutConstraint:0x6000011f2490 NSView:0x6000003d7340.height == 20   (active)>

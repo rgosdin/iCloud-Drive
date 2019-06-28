@@ -1,0 +1,18 @@
+collecting logs at "/var/tmp/IN_PROGRESS_sysdiagnose_2000.12.31_19-35-36-0500_Mac_OS_X_MacBookPro8-1_18F132.tmp/brctl"
+- sending SIGINFO to cloudd
+- running launchctl print... done
+- copying containers plists
+- dumping daemon state... done
+- copying client.db and server.db... done
+- listing containers... done
+- listing Desktop... done
+- listing Documents... done
+- listing containers files... done
+- listing caches... done
+- listing file sizes... done
+- listing cache sizes... done
+- listing session stage... done
+- collecting clouddocs logs... done
+- collecting cloudkit logs... done
+- reading defaults... done
+- collecting package extensions... done

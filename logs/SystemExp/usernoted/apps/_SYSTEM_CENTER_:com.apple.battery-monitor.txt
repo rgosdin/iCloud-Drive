@@ -1,0 +1,18 @@
+		path: "/System/Library/UserNotifications/Bundles/com.apple.battery-monitor.bundle"
+		identifier: "_SYSTEM_CENTER_:com.apple.battery-monitor"
+		daemon launching messages
+			[ ]
+		access count: 0
+		prefs:
+			app_shows_summary: false
+			app_hidden_from_ls: false
+			app_content_hidden: false
+			app_pref_shows_in_notification_center: false
+			app_prefs_play_sounds: true
+			app_prefs_alert_style: 2
+			app_pref_notifications_to_show: 20
+			app_content_hidden_lockscreen: false
+			app_authorizations: 3
+			app_prefs_badge_icon: true
+			app_uses_modern_api: true
+			app_type: 2

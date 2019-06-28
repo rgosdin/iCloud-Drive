@@ -1,0 +1,18 @@
+		path: ""
+		identifier: "_SYSTEM_CENTER_:com.apple.CalendarNotification.CalNCServiceBirthday"
+		daemon launching messages
+			[ ]
+		access count: 2
+		prefs:
+			app_pref_shows_in_notification_center: false
+			app_content_hidden_lockscreen: true
+			app_authorizations: 7
+			app_hidden_from_ls: false
+			app_type: 2
+			app_prefs_badge_icon: true
+			app_shows_summary: false
+			app_prefs_alert_style: 2
+			app_content_hidden: false
+			app_pref_notifications_to_show: 20
+			app_uses_modern_api: false
+			app_prefs_play_sounds: true

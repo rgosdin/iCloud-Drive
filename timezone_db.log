@@ -1,0 +1,700 @@
+total 0
+lrwxr-xr-x  1 root  wheel  35 May 19  2019 icutz -> /var/db/timezone/tz/2019a.1.0/icutz
+drwxr-xr-x  3 root  wheel  96 May 17  2019 tz
+lrwxr-xr-x  1 root  wheel  29 May 17  2019 tz_latest -> /var/db/timezone/tz/2019a.1.0
+lrwxr-xr-x  1 root  wheel  38 May 19  2019 zoneinfo -> /var/db/timezone/tz/2019a.1.0/zoneinfo
+
+/var/db/timezone/tz:
+total 0
+drwxr-xr-x  5 root  wheel  160 Apr  2  2019 2019a.1.0
+
+/var/db/timezone/tz/2019a.1.0:
+total 8
+drwxr-xr-x   3 root  wheel    96 Apr  2  2019 icutz
+-rw-r--r--   1 root  wheel  1273 Apr  2  2019 versions.plist
+drwxr-xr-x  67 root  wheel  2144 Apr  2  2019 zoneinfo
+
+/var/db/timezone/tz/2019a.1.0/icutz:
+total 472
+-rw-r--r--  1 root  wheel  238448 Apr  2  2019 icutz44l.dat
+
+/var/db/timezone/tz/2019a.1.0/zoneinfo:
+total 464
+-rw-r--r--    1 root  wheel      6 Apr  2  2019 +VERSION
+drwxr-xr-x   56 root  wheel   1792 Apr  2  2019 Africa
+drwxr-xr-x  146 root  wheel   4672 Apr  2  2019 America
+drwxr-xr-x   14 root  wheel    448 Apr  2  2019 Antarctica
+drwxr-xr-x    3 root  wheel     96 Apr  2  2019 Arctic
+drwxr-xr-x  101 root  wheel   3232 Apr  2  2019 Asia
+drwxr-xr-x   14 root  wheel    448 Apr  2  2019 Atlantic
+drwxr-xr-x   25 root  wheel    800 Apr  2  2019 Australia
+drwxr-xr-x    6 root  wheel    192 Apr  2  2019 Brazil
+-rw-r--r--    1 root  wheel   2102 Apr  2  2019 CET
+-rw-r--r--    1 root  wheel   2294 Apr  2  2019 CST6CDT
+drwxr-xr-x   10 root  wheel    320 Apr  2  2019 Canada
+drwxr-xr-x    4 root  wheel    128 Apr  2  2019 Chile
+-rw-r--r--    1 root  wheel   2411 Apr  2  2019 Cuba
+-rw-r--r--    1 root  wheel   1876 Apr  2  2019 EET
+-rw-r--r--    1 root  wheel    118 Apr  2  2019 EST
+-rw-r--r--    1 root  wheel   2294 Apr  2  2019 EST5EDT
+-rw-r--r--    1 root  wheel   1946 Apr  2  2019 Egypt
+-rw-r--r--    1 root  wheel   3517 Apr  2  2019 Eire
+drwxr-xr-x   37 root  wheel   1184 Apr  2  2019 Etc
+drwxr-xr-x   65 root  wheel   2080 Apr  2  2019 Europe
+-rw-r--r--    1 root  wheel    120 Apr  2  2019 Factory
+-rw-r--r--    1 root  wheel   3661 Apr  2  2019 GB
+-rw-r--r--    1 root  wheel   3661 Apr  2  2019 GB-Eire
+-rw-r--r--    1 root  wheel    118 Apr  2  2019 GMT
+-rw-r--r--    1 root  wheel    118 Apr  2  2019 GMT+0
+-rw-r--r--    1 root  wheel    118 Apr  2  2019 GMT-0
+-rw-r--r--    1 root  wheel    118 Apr  2  2019 GMT0
+-rw-r--r--    1 root  wheel    118 Apr  2  2019 Greenwich
+-rw-r--r--    1 root  wheel    119 Apr  2  2019 HST
+-rw-r--r--    1 root  wheel   1191 Apr  2  2019 Hongkong
+-rw-r--r--    1 root  wheel   1174 Apr  2  2019 Iceland
+drwxr-xr-x   13 root  wheel    416 Apr  2  2019 Indian
+-rw-r--r--    1 root  wheel   9776 Apr  2  2019 Iran
+-rw-r--r--    1 root  wheel   9037 Apr  2  2019 Israel
+-rw-r--r--    1 root  wheel    481 Apr  2  2019 Jamaica
+-rw-r--r--    1 root  wheel    292 Apr  2  2019 Japan
+-rw-r--r--    1 root  wheel    309 Apr  2  2019 Kwajalein
+-rw-r--r--    1 root  wheel    641 Apr  2  2019 Libya
+-rw-r--r--    1 root  wheel   2102 Apr  2  2019 MET
+-rw-r--r--    1 root  wheel    118 Apr  2  2019 MST
+-rw-r--r--    1 root  wheel   2294 Apr  2  2019 MST7MDT
+drwxr-xr-x    5 root  wheel    160 Apr  2  2019 Mexico
+-rw-r--r--    1 root  wheel   2434 Apr  2  2019 NZ
+-rw-r--r--    1 root  wheel   2047 Apr  2  2019 NZ-CHAT
+-rw-r--r--    1 root  wheel   2427 Apr  2  2019 Navajo
+-rw-r--r--    1 root  wheel    528 Apr  2  2019 PRC
+-rw-r--r--    1 root  wheel   2294 Apr  2  2019 PST8PDT
+drwxr-xr-x   45 root  wheel   1440 Apr  2  2019 Pacific
+-rw-r--r--    1 root  wheel   2679 Apr  2  2019 Poland
+-rw-r--r--    1 root  wheel   3455 Apr  2  2019 Portugal
+-rw-r--r--    1 root  wheel    764 Apr  2  2019 ROC
+-rw-r--r--    1 root  wheel    517 Apr  2  2019 ROK
+-rw-r--r--    1 root  wheel    384 Apr  2  2019 Singapore
+-rw-r--r--    1 root  wheel   2126 Apr  2  2019 Turkey
+-rw-r--r--    1 root  wheel    118 Apr  2  2019 UCT
+drwxr-xr-x   15 root  wheel    480 Apr  2  2019 US
+-rw-r--r--    1 root  wheel    118 Apr  2  2019 UTC
+-rw-r--r--    1 root  wheel    118 Apr  2  2019 Universal
+-rw-r--r--    1 root  wheel   1518 Apr  2  2019 W-SU
+-rw-r--r--    1 root  wheel   1873 Apr  2  2019 WET
+-rw-r--r--    1 root  wheel    118 Apr  2  2019 Zulu
+-rw-r--r--    1 root  wheel   4463 Apr  2  2019 iso3166.tab
+-rw-r--r--    1 root  wheel   3519 Apr  2  2019 posixrules
+-rw-r--r--    1 root  wheel  19222 Apr  2  2019 zone.tab
+
+/var/db/timezone/tz/2019a.1.0/zoneinfo/Africa:
+total 432
+-rw-r--r--  1 root  wheel   156 Apr  2  2019 Abidjan
+-rw-r--r--  1 root  wheel   828 Apr  2  2019 Accra
+-rw-r--r--  1 root  wheel   271 Apr  2  2019 Addis_Ababa
+-rw-r--r--  1 root  wheel   734 Apr  2  2019 Algiers
+-rw-r--r--  1 root  wheel   271 Apr  2  2019 Asmara
+-rw-r--r--  1 root  wheel   271 Apr  2  2019 Asmera
+-rw-r--r--  1 root  wheel   156 Apr  2  2019 Bamako
+-rw-r--r--  1 root  wheel   157 Apr  2  2019 Bangui
+-rw-r--r--  1 root  wheel   156 Apr  2  2019 Banjul
+-rw-r--r--  1 root  wheel   194 Apr  2  2019 Bissau
+-rw-r--r--  1 root  wheel   157 Apr  2  2019 Blantyre
+-rw-r--r--  1 root  wheel   157 Apr  2  2019 Brazzaville
+-rw-r--r--  1 root  wheel   157 Apr  2  2019 Bujumbura
+-rw-r--r--  1 root  wheel  1946 Apr  2  2019 Cairo
+-rw-r--r--  1 root  wheel  1510 Apr  2  2019 Casablanca
+-rw-r--r--  1 root  wheel  2033 Apr  2  2019 Ceuta
+-rw-r--r--  1 root  wheel   156 Apr  2  2019 Conakry
+-rw-r--r--  1 root  wheel   156 Apr  2  2019 Dakar
+-rw-r--r--  1 root  wheel   271 Apr  2  2019 Dar_es_Salaam
+-rw-r--r--  1 root  wheel   271 Apr  2  2019 Djibouti
+-rw-r--r--  1 root  wheel   157 Apr  2  2019 Douala
+-rw-r--r--  1 root  wheel  1348 Apr  2  2019 El_Aaiun
+-rw-r--r--  1 root  wheel   156 Apr  2  2019 Freetown
+-rw-r--r--  1 root  wheel   157 Apr  2  2019 Gaborone
+-rw-r--r--  1 root  wheel   157 Apr  2  2019 Harare
+-rw-r--r--  1 root  wheel   245 Apr  2  2019 Johannesburg
+-rw-r--r--  1 root  wheel   669 Apr  2  2019 Juba
+-rw-r--r--  1 root  wheel   271 Apr  2  2019 Kampala
+-rw-r--r--  1 root  wheel   699 Apr  2  2019 Khartoum
+-rw-r--r--  1 root  wheel   157 Apr  2  2019 Kigali
+-rw-r--r--  1 root  wheel   157 Apr  2  2019 Kinshasa
+-rw-r--r--  1 root  wheel   157 Apr  2  2019 Lagos
+-rw-r--r--  1 root  wheel   157 Apr  2  2019 Libreville
+-rw-r--r--  1 root  wheel   156 Apr  2  2019 Lome
+-rw-r--r--  1 root  wheel   157 Apr  2  2019 Luanda
+-rw-r--r--  1 root  wheel   157 Apr  2  2019 Lubumbashi
+-rw-r--r--  1 root  wheel   157 Apr  2  2019 Lusaka
+-rw-r--r--  1 root  wheel   157 Apr  2  2019 Malabo
+-rw-r--r--  1 root  wheel   157 Apr  2  2019 Maputo
+-rw-r--r--  1 root  wheel   245 Apr  2  2019 Maseru
+-rw-r--r--  1 root  wheel   245 Apr  2  2019 Mbabane
+-rw-r--r--  1 root  wheel   271 Apr  2  2019 Mogadishu
+-rw-r--r--  1 root  wheel   207 Apr  2  2019 Monrovia
+-rw-r--r--  1 root  wheel   271 Apr  2  2019 Nairobi
+-rw-r--r--  1 root  wheel   211 Apr  2  2019 Ndjamena
+-rw-r--r--  1 root  wheel   157 Apr  2  2019 Niamey
+-rw-r--r--  1 root  wheel   156 Apr  2  2019 Nouakchott
+-rw-r--r--  1 root  wheel   156 Apr  2  2019 Ouagadougou
+-rw-r--r--  1 root  wheel   157 Apr  2  2019 Porto-Novo
+-rw-r--r--  1 root  wheel   241 Apr  2  2019 Sao_Tome
+-rw-r--r--  1 root  wheel   156 Apr  2  2019 Timbuktu
+-rw-r--r--  1 root  wheel   641 Apr  2  2019 Tripoli
+-rw-r--r--  1 root  wheel   684 Apr  2  2019 Tunis
+-rw-r--r--  1 root  wheel  1008 Apr  2  2019 Windhoek
+
+/var/db/timezone/tz/2019a.1.0/zoneinfo/America:
+total 1152
+-rw-r--r--   1 root  wheel  2339 Apr  2  2019 Adak
+-rw-r--r--   1 root  wheel  2354 Apr  2  2019 Anchorage
+-rw-r--r--   1 root  wheel   156 Apr  2  2019 Anguilla
+-rw-r--r--   1 root  wheel   156 Apr  2  2019 Antigua
+-rw-r--r--   1 root  wheel   882 Apr  2  2019 Araguaina
+drwxr-xr-x  15 root  wheel   480 Apr  2  2019 Argentina
+-rw-r--r--   1 root  wheel   198 Apr  2  2019 Aruba
+-rw-r--r--   1 root  wheel  2037 Apr  2  2019 Asuncion
+-rw-r--r--   1 root  wheel   319 Apr  2  2019 Atikokan
+-rw-r--r--   1 root  wheel  2339 Apr  2  2019 Atka
+-rw-r--r--   1 root  wheel  1022 Apr  2  2019 Bahia
+-rw-r--r--   1 root  wheel  1574 Apr  2  2019 Bahia_Banderas
+-rw-r--r--   1 root  wheel   330 Apr  2  2019 Barbados
+-rw-r--r--   1 root  wheel   574 Apr  2  2019 Belem
+-rw-r--r--   1 root  wheel   964 Apr  2  2019 Belize
+-rw-r--r--   1 root  wheel   281 Apr  2  2019 Blanc-Sablon
+-rw-r--r--   1 root  wheel   630 Apr  2  2019 Boa_Vista
+-rw-r--r--   1 root  wheel   231 Apr  2  2019 Bogota
+-rw-r--r--   1 root  wheel  2377 Apr  2  2019 Boise
+-rw-r--r--   1 root  wheel  1069 Apr  2  2019 Buenos_Aires
+-rw-r--r--   1 root  wheel  2084 Apr  2  2019 Cambridge_Bay
+-rw-r--r--   1 root  wheel  2002 Apr  2  2019 Campo_Grande
+-rw-r--r--   1 root  wheel   802 Apr  2  2019 Cancun
+-rw-r--r--   1 root  wheel   249 Apr  2  2019 Caracas
+-rw-r--r--   1 root  wheel  1069 Apr  2  2019 Catamarca
+-rw-r--r--   1 root  wheel   196 Apr  2  2019 Cayenne
+-rw-r--r--   1 root  wheel   177 Apr  2  2019 Cayman
+-rw-r--r--   1 root  wheel  3559 Apr  2  2019 Chicago
+-rw-r--r--   1 root  wheel  1508 Apr  2  2019 Chihuahua
+-rw-r--r--   1 root  wheel   319 Apr  2  2019 Coral_Harbour
+-rw-r--r--   1 root  wheel  1069 Apr  2  2019 Cordoba
+-rw-r--r--   1 root  wheel   315 Apr  2  2019 Costa_Rica
+-rw-r--r--   1 root  wheel   207 Apr  2  2019 Creston
+-rw-r--r--   1 root  wheel  1974 Apr  2  2019 Cuiaba
+-rw-r--r--   1 root  wheel   198 Apr  2  2019 Curacao
+-rw-r--r--   1 root  wheel   698 Apr  2  2019 Danmarkshavn
+-rw-r--r--   1 root  wheel  2067 Apr  2  2019 Dawson
+-rw-r--r--   1 root  wheel  1033 Apr  2  2019 Dawson_Creek
+-rw-r--r--   1 root  wheel  2427 Apr  2  2019 Denver
+-rw-r--r--   1 root  wheel  2174 Apr  2  2019 Detroit
+-rw-r--r--   1 root  wheel   156 Apr  2  2019 Dominica
+-rw-r--r--   1 root  wheel  2388 Apr  2  2019 Edmonton
+-rw-r--r--   1 root  wheel   662 Apr  2  2019 Eirunepe
+-rw-r--r--   1 root  wheel   236 Apr  2  2019 El_Salvador
+-rw-r--r--   1 root  wheel  2342 Apr  2  2019 Ensenada
+-rw-r--r--   1 root  wheel  2223 Apr  2  2019 Fort_Nelson
+-rw-r--r--   1 root  wheel  1649 Apr  2  2019 Fort_Wayne
+-rw-r--r--   1 root  wheel   714 Apr  2  2019 Fortaleza
+-rw-r--r--   1 root  wheel  2192 Apr  2  2019 Glace_Bay
+-rw-r--r--   1 root  wheel  8294 Apr  2  2019 Godthab
+-rw-r--r--   1 root  wheel  3193 Apr  2  2019 Goose_Bay
+-rw-r--r--   1 root  wheel  1855 Apr  2  2019 Grand_Turk
+-rw-r--r--   1 root  wheel   156 Apr  2  2019 Grenada
+-rw-r--r--   1 root  wheel   156 Apr  2  2019 Guadeloupe
+-rw-r--r--   1 root  wheel   292 Apr  2  2019 Guatemala
+-rw-r--r--   1 root  wheel   231 Apr  2  2019 Guayaquil
+-rw-r--r--   1 root  wheel   238 Apr  2  2019 Guyana
+-rw-r--r--   1 root  wheel  3424 Apr  2  2019 Halifax
+-rw-r--r--   1 root  wheel  2411 Apr  2  2019 Havana
+-rw-r--r--   1 root  wheel   440 Apr  2  2019 Hermosillo
+drwxr-xr-x  10 root  wheel   320 Apr  2  2019 Indiana
+-rw-r--r--   1 root  wheel  1649 Apr  2  2019 Indianapolis
+-rw-r--r--   1 root  wheel  1914 Apr  2  2019 Inuvik
+-rw-r--r--   1 root  wheel  2032 Apr  2  2019 Iqaluit
+-rw-r--r--   1 root  wheel   481 Apr  2  2019 Jamaica
+-rw-r--r--   1 root  wheel  1041 Apr  2  2019 Jujuy
+-rw-r--r--   1 root  wheel  2336 Apr  2  2019 Juneau
+drwxr-xr-x   4 root  wheel   128 Apr  2  2019 Kentucky
+-rw-r--r--   1 root  wheel  2411 Apr  2  2019 Knox_IN
+-rw-r--r--   1 root  wheel   198 Apr  2  2019 Kralendijk
+-rw-r--r--   1 root  wheel   217 Apr  2  2019 La_Paz
+-rw-r--r--   1 root  wheel   395 Apr  2  2019 Lima
+-rw-r--r--   1 root  wheel  2819 Apr  2  2019 Los_Angeles
+-rw-r--r--   1 root  wheel  2755 Apr  2  2019 Louisville
+-rw-r--r--   1 root  wheel   198 Apr  2  2019 Lower_Princes
+-rw-r--r--   1 root  wheel   742 Apr  2  2019 Maceio
+-rw-r--r--   1 root  wheel   437 Apr  2  2019 Managua
+-rw-r--r--   1 root  wheel   602 Apr  2  2019 Manaus
+-rw-r--r--   1 root  wheel   156 Apr  2  2019 Marigot
+-rw-r--r--   1 root  wheel   231 Apr  2  2019 Martinique
+-rw-r--r--   1 root  wheel  1402 Apr  2  2019 Matamoros
+-rw-r--r--   1 root  wheel  1550 Apr  2  2019 Mazatlan
+-rw-r--r--   1 root  wheel  1069 Apr  2  2019 Mendoza
+-rw-r--r--   1 root  wheel  2257 Apr  2  2019 Menominee
+-rw-r--r--   1 root  wheel  1442 Apr  2  2019 Merida
+-rw-r--r--   1 root  wheel  1406 Apr  2  2019 Metlakatla
+-rw-r--r--   1 root  wheel  1604 Apr  2  2019 Mexico_City
+-rw-r--r--   1 root  wheel  1668 Apr  2  2019 Miquelon
+-rw-r--r--   1 root  wheel  3137 Apr  2  2019 Moncton
+-rw-r--r--   1 root  wheel  1402 Apr  2  2019 Monterrey
+-rw-r--r--   1 root  wheel  1536 Apr  2  2019 Montevideo
+-rw-r--r--   1 root  wheel  3477 Apr  2  2019 Montreal
+-rw-r--r--   1 root  wheel   156 Apr  2  2019 Montserrat
+-rw-r--r--   1 root  wheel  2270 Apr  2  2019 Nassau
+-rw-r--r--   1 root  wheel  3519 Apr  2  2019 New_York
+-rw-r--r--   1 root  wheel  2105 Apr  2  2019 Nipigon
+-rw-r--r--   1 root  wheel  2350 Apr  2  2019 Nome
+-rw-r--r--   1 root  wheel   714 Apr  2  2019 Noronha
+drwxr-xr-x   5 root  wheel   160 Apr  2  2019 North_Dakota
+-rw-r--r--   1 root  wheel  1508 Apr  2  2019 Ojinaga
+-rw-r--r--   1 root  wheel   177 Apr  2  2019 Panama
+-rw-r--r--   1 root  wheel  2094 Apr  2  2019 Pangnirtung
+-rw-r--r--   1 root  wheel   268 Apr  2  2019 Paramaribo
+-rw-r--r--   1 root  wheel   327 Apr  2  2019 Phoenix
+-rw-r--r--   1 root  wheel  1429 Apr  2  2019 Port-au-Prince
+-rw-r--r--   1 root  wheel   156 Apr  2  2019 Port_of_Spain
+-rw-r--r--   1 root  wheel   634 Apr  2  2019 Porto_Acre
+-rw-r--r--   1 root  wheel   574 Apr  2  2019 Porto_Velho
+-rw-r--r--   1 root  wheel   229 Apr  2  2019 Puerto_Rico
+-rw-r--r--   1 root  wheel  1871 Apr  2  2019 Punta_Arenas
+-rw-r--r--   1 root  wheel  2105 Apr  2  2019 Rainy_River
+-rw-r--r--   1 root  wheel  1916 Apr  2  2019 Rankin_Inlet
+-rw-r--r--   1 root  wheel   714 Apr  2  2019 Recife
+-rw-r--r--   1 root  wheel   980 Apr  2  2019 Regina
+-rw-r--r--   1 root  wheel  1916 Apr  2  2019 Resolute
+-rw-r--r--   1 root  wheel   634 Apr  2  2019 Rio_Branco
+-rw-r--r--   1 root  wheel  1069 Apr  2  2019 Rosario
+-rw-r--r--   1 root  wheel  2342 Apr  2  2019 Santa_Isabel
+-rw-r--r--   1 root  wheel   604 Apr  2  2019 Santarem
+-rw-r--r--   1 root  wheel  9343 Apr  2  2019 Santiago
+-rw-r--r--   1 root  wheel   465 Apr  2  2019 Santo_Domingo
+-rw-r--r--   1 root  wheel  2002 Apr  2  2019 Sao_Paulo
+-rw-r--r--   1 root  wheel  1902 Apr  2  2019 Scoresbysund
+-rw-r--r--   1 root  wheel  2427 Apr  2  2019 Shiprock
+-rw-r--r--   1 root  wheel  2324 Apr  2  2019 Sitka
+-rw-r--r--   1 root  wheel   156 Apr  2  2019 St_Barthelemy
+-rw-r--r--   1 root  wheel  3638 Apr  2  2019 St_Johns
+-rw-r--r--   1 root  wheel   156 Apr  2  2019 St_Kitts
+-rw-r--r--   1 root  wheel   156 Apr  2  2019 St_Lucia
+-rw-r--r--   1 root  wheel   156 Apr  2  2019 St_Thomas
+-rw-r--r--   1 root  wheel   156 Apr  2  2019 St_Vincent
+-rw-r--r--   1 root  wheel   560 Apr  2  2019 Swift_Current
+-rw-r--r--   1 root  wheel   264 Apr  2  2019 Tegucigalpa
+-rw-r--r--   1 root  wheel  1514 Apr  2  2019 Thule
+-rw-r--r--   1 root  wheel  2185 Apr  2  2019 Thunder_Bay
+-rw-r--r--   1 root  wheel  2342 Apr  2  2019 Tijuana
+-rw-r--r--   1 root  wheel  3477 Apr  2  2019 Toronto
+-rw-r--r--   1 root  wheel   156 Apr  2  2019 Tortola
+-rw-r--r--   1 root  wheel  2875 Apr  2  2019 Vancouver
+-rw-r--r--   1 root  wheel   156 Apr  2  2019 Virgin
+-rw-r--r--   1 root  wheel  2067 Apr  2  2019 Whitehorse
+-rw-r--r--   1 root  wheel  2865 Apr  2  2019 Winnipeg
+-rw-r--r--   1 root  wheel  2288 Apr  2  2019 Yakutat
+-rw-r--r--   1 root  wheel  1966 Apr  2  2019 Yellowknife
+
+/var/db/timezone/tz/2019a.1.0/zoneinfo/America/Argentina:
+total 104
+-rw-r--r--  1 root  wheel  1069 Apr  2  2019 Buenos_Aires
+-rw-r--r--  1 root  wheel  1069 Apr  2  2019 Catamarca
+-rw-r--r--  1 root  wheel  1069 Apr  2  2019 ComodRivadavia
+-rw-r--r--  1 root  wheel  1069 Apr  2  2019 Cordoba
+-rw-r--r--  1 root  wheel  1041 Apr  2  2019 Jujuy
+-rw-r--r--  1 root  wheel  1083 Apr  2  2019 La_Rioja
+-rw-r--r--  1 root  wheel  1069 Apr  2  2019 Mendoza
+-rw-r--r--  1 root  wheel  1069 Apr  2  2019 Rio_Gallegos
+-rw-r--r--  1 root  wheel  1041 Apr  2  2019 Salta
+-rw-r--r--  1 root  wheel  1083 Apr  2  2019 San_Juan
+-rw-r--r--  1 root  wheel  1099 Apr  2  2019 San_Luis
+-rw-r--r--  1 root  wheel  1097 Apr  2  2019 Tucuman
+-rw-r--r--  1 root  wheel  1069 Apr  2  2019 Ushuaia
+
+/var/db/timezone/tz/2019a.1.0/zoneinfo/America/Indiana:
+total 64
+-rw-r--r--  1 root  wheel  1649 Apr  2  2019 Indianapolis
+-rw-r--r--  1 root  wheel  2411 Apr  2  2019 Knox
+-rw-r--r--  1 root  wheel  1705 Apr  2  2019 Marengo
+-rw-r--r--  1 root  wheel  1887 Apr  2  2019 Petersburg
+-rw-r--r--  1 root  wheel  1709 Apr  2  2019 Tell_City
+-rw-r--r--  1 root  wheel  1397 Apr  2  2019 Vevay
+-rw-r--r--  1 root  wheel  1677 Apr  2  2019 Vincennes
+-rw-r--r--  1 root  wheel  1761 Apr  2  2019 Winamac
+
+/var/db/timezone/tz/2019a.1.0/zoneinfo/America/Kentucky:
+total 16
+-rw-r--r--  1 root  wheel  2755 Apr  2  2019 Louisville
+-rw-r--r--  1 root  wheel  2335 Apr  2  2019 Monticello
+
+/var/db/timezone/tz/2019a.1.0/zoneinfo/America/North_Dakota:
+total 24
+-rw-r--r--  1 root  wheel  2363 Apr  2  2019 Beulah
+-rw-r--r--  1 root  wheel  2363 Apr  2  2019 Center
+-rw-r--r--  1 root  wheel  2363 Apr  2  2019 New_Salem
+
+/var/db/timezone/tz/2019a.1.0/zoneinfo/Antarctica:
+total 96
+-rw-r--r--  1 root  wheel   283 Apr  2  2019 Casey
+-rw-r--r--  1 root  wheel   283 Apr  2  2019 Davis
+-rw-r--r--  1 root  wheel   188 Apr  2  2019 DumontDUrville
+-rw-r--r--  1 root  wheel  1507 Apr  2  2019 Macquarie
+-rw-r--r--  1 root  wheel   197 Apr  2  2019 Mawson
+-rw-r--r--  1 root  wheel  2434 Apr  2  2019 McMurdo
+-rw-r--r--  1 root  wheel  1404 Apr  2  2019 Palmer
+-rw-r--r--  1 root  wheel   158 Apr  2  2019 Rothera
+-rw-r--r--  1 root  wheel  2434 Apr  2  2019 South_Pole
+-rw-r--r--  1 root  wheel   159 Apr  2  2019 Syowa
+-rw-r--r--  1 root  wheel  1148 Apr  2  2019 Troll
+-rw-r--r--  1 root  wheel   159 Apr  2  2019 Vostok
+
+/var/db/timezone/tz/2019a.1.0/zoneinfo/Arctic:
+total 8
+-rw-r--r--  1 root  wheel  2225 Apr  2  2019 Longyearbyen
+
+/var/db/timezone/tz/2019a.1.0/zoneinfo/Asia:
+total 888
+-rw-r--r--  1 root  wheel   159 Apr  2  2019 Aden
+-rw-r--r--  1 root  wheel  1003 Apr  2  2019 Almaty
+-rw-r--r--  1 root  wheel  8620 Apr  2  2019 Amman
+-rw-r--r--  1 root  wheel  1194 Apr  2  2019 Anadyr
+-rw-r--r--  1 root  wheel   989 Apr  2  2019 Aqtau
+-rw-r--r--  1 root  wheel  1019 Apr  2  2019 Aqtobe
+-rw-r--r--  1 root  wheel   623 Apr  2  2019 Ashgabat
+-rw-r--r--  1 root  wheel   623 Apr  2  2019 Ashkhabad
+-rw-r--r--  1 root  wheel   997 Apr  2  2019 Atyrau
+-rw-r--r--  1 root  wheel   964 Apr  2  2019 Baghdad
+-rw-r--r--  1 root  wheel   197 Apr  2  2019 Bahrain
+-rw-r--r--  1 root  wheel  1241 Apr  2  2019 Baku
+-rw-r--r--  1 root  wheel   180 Apr  2  2019 Bangkok
+-rw-r--r--  1 root  wheel  1227 Apr  2  2019 Barnaul
+-rw-r--r--  1 root  wheel  2149 Apr  2  2019 Beirut
+-rw-r--r--  1 root  wheel  1017 Apr  2  2019 Bishkek
+-rw-r--r--  1 root  wheel   201 Apr  2  2019 Brunei
+-rw-r--r--  1 root  wheel   286 Apr  2  2019 Calcutta
+-rw-r--r--  1 root  wheel  1229 Apr  2  2019 Chita
+-rw-r--r--  1 root  wheel   963 Apr  2  2019 Choibalsan
+-rw-r--r--  1 root  wheel   528 Apr  2  2019 Chongqing
+-rw-r--r--  1 root  wheel   528 Apr  2  2019 Chungking
+-rw-r--r--  1 root  wheel   373 Apr  2  2019 Colombo
+-rw-r--r--  1 root  wheel   330 Apr  2  2019 Dacca
+-rw-r--r--  1 root  wheel  2306 Apr  2  2019 Damascus
+-rw-r--r--  1 root  wheel   330 Apr  2  2019 Dhaka
+-rw-r--r--  1 root  wheel   225 Apr  2  2019 Dili
+-rw-r--r--  1 root  wheel   159 Apr  2  2019 Dubai
+-rw-r--r--  1 root  wheel   593 Apr  2  2019 Dushanbe
+-rw-r--r--  1 root  wheel  2028 Apr  2  2019 Famagusta
+-rw-r--r--  1 root  wheel  9119 Apr  2  2019 Gaza
+-rw-r--r--  1 root  wheel   528 Apr  2  2019 Harbin
+-rw-r--r--  1 root  wheel  9147 Apr  2  2019 Hebron
+-rw-r--r--  1 root  wheel   361 Apr  2  2019 Ho_Chi_Minh
+-rw-r--r--  1 root  wheel  1191 Apr  2  2019 Hong_Kong
+-rw-r--r--  1 root  wheel   893 Apr  2  2019 Hovd
+-rw-r--r--  1 root  wheel  1236 Apr  2  2019 Irkutsk
+-rw-r--r--  1 root  wheel  2126 Apr  2  2019 Istanbul
+-rw-r--r--  1 root  wheel   366 Apr  2  2019 Jakarta
+-rw-r--r--  1 root  wheel   237 Apr  2  2019 Jayapura
+-rw-r--r--  1 root  wheel  9037 Apr  2  2019 Jerusalem
+-rw-r--r--  1 root  wheel   189 Apr  2  2019 Kabul
+-rw-r--r--  1 root  wheel  1170 Apr  2  2019 Kamchatka
+-rw-r--r--  1 root  wheel   403 Apr  2  2019 Karachi
+-rw-r--r--  1 root  wheel   159 Apr  2  2019 Kashgar
+-rw-r--r--  1 root  wheel   210 Apr  2  2019 Kathmandu
+-rw-r--r--  1 root  wheel   210 Apr  2  2019 Katmandu
+-rw-r--r--  1 root  wheel  1283 Apr  2  2019 Khandyga
+-rw-r--r--  1 root  wheel   286 Apr  2  2019 Kolkata
+-rw-r--r--  1 root  wheel  1215 Apr  2  2019 Krasnoyarsk
+-rw-r--r--  1 root  wheel   384 Apr  2  2019 Kuala_Lumpur
+-rw-r--r--  1 root  wheel   493 Apr  2  2019 Kuching
+-rw-r--r--  1 root  wheel   159 Apr  2  2019 Kuwait
+-rw-r--r--  1 root  wheel  1241 Apr  2  2019 Macao
+-rw-r--r--  1 root  wheel  1241 Apr  2  2019 Macau
+-rw-r--r--  1 root  wheel  1230 Apr  2  2019 Magadan
+-rw-r--r--  1 root  wheel   274 Apr  2  2019 Makassar
+-rw-r--r--  1 root  wheel   333 Apr  2  2019 Manila
+-rw-r--r--  1 root  wheel   159 Apr  2  2019 Muscat
+-rw-r--r--  1 root  wheel  2002 Apr  2  2019 Nicosia
+-rw-r--r--  1 root  wheel  1169 Apr  2  2019 Novokuznetsk
+-rw-r--r--  1 root  wheel  1227 Apr  2  2019 Novosibirsk
+-rw-r--r--  1 root  wheel  1215 Apr  2  2019 Omsk
+-rw-r--r--  1 root  wheel  1011 Apr  2  2019 Oral
+-rw-r--r--  1 root  wheel   180 Apr  2  2019 Phnom_Penh
+-rw-r--r--  1 root  wheel   381 Apr  2  2019 Pontianak
+-rw-r--r--  1 root  wheel   253 Apr  2  2019 Pyongyang
+-rw-r--r--  1 root  wheel   197 Apr  2  2019 Qatar
+-rw-r--r--  1 root  wheel  1019 Apr  2  2019 Qostanay
+-rw-r--r--  1 root  wheel  1049 Apr  2  2019 Qyzylorda
+-rw-r--r--  1 root  wheel   257 Apr  2  2019 Rangoon
+-rw-r--r--  1 root  wheel   159 Apr  2  2019 Riyadh
+-rw-r--r--  1 root  wheel   361 Apr  2  2019 Saigon
+-rw-r--r--  1 root  wheel  1206 Apr  2  2019 Sakhalin
+-rw-r--r--  1 root  wheel   591 Apr  2  2019 Samarkand
+-rw-r--r--  1 root  wheel   517 Apr  2  2019 Seoul
+-rw-r--r--  1 root  wheel   528 Apr  2  2019 Shanghai
+-rw-r--r--  1 root  wheel   384 Apr  2  2019 Singapore
+-rw-r--r--  1 root  wheel  1216 Apr  2  2019 Srednekolymsk
+-rw-r--r--  1 root  wheel   764 Apr  2  2019 Taipei
+-rw-r--r--  1 root  wheel   607 Apr  2  2019 Tashkent
+-rw-r--r--  1 root  wheel  1040 Apr  2  2019 Tbilisi
+-rw-r--r--  1 root  wheel  9776 Apr  2  2019 Tehran
+-rw-r--r--  1 root  wheel  9037 Apr  2  2019 Tel_Aviv
+-rw-r--r--  1 root  wheel   201 Apr  2  2019 Thimbu
+-rw-r--r--  1 root  wheel   201 Apr  2  2019 Thimphu
+-rw-r--r--  1 root  wheel   292 Apr  2  2019 Tokyo
+-rw-r--r--  1 root  wheel  1227 Apr  2  2019 Tomsk
+-rw-r--r--  1 root  wheel   274 Apr  2  2019 Ujung_Pandang
+-rw-r--r--  1 root  wheel   893 Apr  2  2019 Ulaanbaatar
+-rw-r--r--  1 root  wheel   893 Apr  2  2019 Ulan_Bator
+-rw-r--r--  1 root  wheel   159 Apr  2  2019 Urumqi
+-rw-r--r--  1 root  wheel  1262 Apr  2  2019 Ust-Nera
+-rw-r--r--  1 root  wheel   180 Apr  2  2019 Vientiane
+-rw-r--r--  1 root  wheel  1216 Apr  2  2019 Vladivostok
+-rw-r--r--  1 root  wheel  1215 Apr  2  2019 Yakutsk
+-rw-r--r--  1 root  wheel   257 Apr  2  2019 Yangon
+-rw-r--r--  1 root  wheel  1253 Apr  2  2019 Yekaterinburg
+-rw-r--r--  1 root  wheel  1185 Apr  2  2019 Yerevan
+
+/var/db/timezone/tz/2019a.1.0/zoneinfo/Atlantic:
+total 96
+-rw-r--r--  1 root  wheel  3453 Apr  2  2019 Azores
+-rw-r--r--  1 root  wheel  1990 Apr  2  2019 Bermuda
+-rw-r--r--  1 root  wheel  1897 Apr  2  2019 Canary
+-rw-r--r--  1 root  wheel   256 Apr  2  2019 Cape_Verde
+-rw-r--r--  1 root  wheel  1815 Apr  2  2019 Faeroe
+-rw-r--r--  1 root  wheel  1815 Apr  2  2019 Faroe
+-rw-r--r--  1 root  wheel  2225 Apr  2  2019 Jan_Mayen
+-rw-r--r--  1 root  wheel  3458 Apr  2  2019 Madeira
+-rw-r--r--  1 root  wheel  1174 Apr  2  2019 Reykjavik
+-rw-r--r--  1 root  wheel   141 Apr  2  2019 South_Georgia
+-rw-r--r--  1 root  wheel   156 Apr  2  2019 St_Helena
+-rw-r--r--  1 root  wheel  1211 Apr  2  2019 Stanley
+
+/var/db/timezone/tz/2019a.1.0/zoneinfo/Australia:
+total 184
+-rw-r--r--  1 root  wheel  2197 Apr  2  2019 ACT
+-rw-r--r--  1 root  wheel  2216 Apr  2  2019 Adelaide
+-rw-r--r--  1 root  wheel   426 Apr  2  2019 Brisbane
+-rw-r--r--  1 root  wheel  2252 Apr  2  2019 Broken_Hill
+-rw-r--r--  1 root  wheel  2197 Apr  2  2019 Canberra
+-rw-r--r--  1 root  wheel  2197 Apr  2  2019 Currie
+-rw-r--r--  1 root  wheel   301 Apr  2  2019 Darwin
+-rw-r--r--  1 root  wheel   463 Apr  2  2019 Eucla
+-rw-r--r--  1 root  wheel  2309 Apr  2  2019 Hobart
+-rw-r--r--  1 root  wheel  1849 Apr  2  2019 LHI
+-rw-r--r--  1 root  wheel   496 Apr  2  2019 Lindeman
+-rw-r--r--  1 root  wheel  1849 Apr  2  2019 Lord_Howe
+-rw-r--r--  1 root  wheel  2197 Apr  2  2019 Melbourne
+-rw-r--r--  1 root  wheel  2197 Apr  2  2019 NSW
+-rw-r--r--  1 root  wheel   301 Apr  2  2019 North
+-rw-r--r--  1 root  wheel   453 Apr  2  2019 Perth
+-rw-r--r--  1 root  wheel   426 Apr  2  2019 Queensland
+-rw-r--r--  1 root  wheel  2216 Apr  2  2019 South
+-rw-r--r--  1 root  wheel  2197 Apr  2  2019 Sydney
+-rw-r--r--  1 root  wheel  2309 Apr  2  2019 Tasmania
+-rw-r--r--  1 root  wheel  2197 Apr  2  2019 Victoria
+-rw-r--r--  1 root  wheel   453 Apr  2  2019 West
+-rw-r--r--  1 root  wheel  2252 Apr  2  2019 Yancowinna
+
+/var/db/timezone/tz/2019a.1.0/zoneinfo/Brazil:
+total 32
+-rw-r--r--  1 root  wheel   634 Apr  2  2019 Acre
+-rw-r--r--  1 root  wheel   714 Apr  2  2019 DeNoronha
+-rw-r--r--  1 root  wheel  2002 Apr  2  2019 East
+-rw-r--r--  1 root  wheel   602 Apr  2  2019 West
+
+/var/db/timezone/tz/2019a.1.0/zoneinfo/Canada:
+total 64
+-rw-r--r--  1 root  wheel  3424 Apr  2  2019 Atlantic
+-rw-r--r--  1 root  wheel  2865 Apr  2  2019 Central
+-rw-r--r--  1 root  wheel  3477 Apr  2  2019 Eastern
+-rw-r--r--  1 root  wheel  2388 Apr  2  2019 Mountain
+-rw-r--r--  1 root  wheel  3638 Apr  2  2019 Newfoundland
+-rw-r--r--  1 root  wheel  2875 Apr  2  2019 Pacific
+-rw-r--r--  1 root  wheel   980 Apr  2  2019 Saskatchewan
+-rw-r--r--  1 root  wheel  2067 Apr  2  2019 Yukon
+
+/var/db/timezone/tz/2019a.1.0/zoneinfo/Chile:
+total 48
+-rw-r--r--  1 root  wheel  9343 Apr  2  2019 Continental
+-rw-r--r--  1 root  wheel  9047 Apr  2  2019 EasterIsland
+
+/var/db/timezone/tz/2019a.1.0/zoneinfo/Etc:
+total 280
+-rw-r--r--  1 root  wheel  118 Apr  2  2019 GMT
+-rw-r--r--  1 root  wheel  118 Apr  2  2019 GMT+0
+-rw-r--r--  1 root  wheel  120 Apr  2  2019 GMT+1
+-rw-r--r--  1 root  wheel  121 Apr  2  2019 GMT+10
+-rw-r--r--  1 root  wheel  121 Apr  2  2019 GMT+11
+-rw-r--r--  1 root  wheel  121 Apr  2  2019 GMT+12
+-rw-r--r--  1 root  wheel  120 Apr  2  2019 GMT+2
+-rw-r--r--  1 root  wheel  120 Apr  2  2019 GMT+3
+-rw-r--r--  1 root  wheel  120 Apr  2  2019 GMT+4
+-rw-r--r--  1 root  wheel  120 Apr  2  2019 GMT+5
+-rw-r--r--  1 root  wheel  120 Apr  2  2019 GMT+6
+-rw-r--r--  1 root  wheel  120 Apr  2  2019 GMT+7
+-rw-r--r--  1 root  wheel  120 Apr  2  2019 GMT+8
+-rw-r--r--  1 root  wheel  120 Apr  2  2019 GMT+9
+-rw-r--r--  1 root  wheel  118 Apr  2  2019 GMT-0
+-rw-r--r--  1 root  wheel  121 Apr  2  2019 GMT-1
+-rw-r--r--  1 root  wheel  122 Apr  2  2019 GMT-10
+-rw-r--r--  1 root  wheel  122 Apr  2  2019 GMT-11
+-rw-r--r--  1 root  wheel  122 Apr  2  2019 GMT-12
+-rw-r--r--  1 root  wheel  122 Apr  2  2019 GMT-13
+-rw-r--r--  1 root  wheel  122 Apr  2  2019 GMT-14
+-rw-r--r--  1 root  wheel  121 Apr  2  2019 GMT-2
+-rw-r--r--  1 root  wheel  121 Apr  2  2019 GMT-3
+-rw-r--r--  1 root  wheel  121 Apr  2  2019 GMT-4
+-rw-r--r--  1 root  wheel  121 Apr  2  2019 GMT-5
+-rw-r--r--  1 root  wheel  121 Apr  2  2019 GMT-6
+-rw-r--r--  1 root  wheel  121 Apr  2  2019 GMT-7
+-rw-r--r--  1 root  wheel  121 Apr  2  2019 GMT-8
+-rw-r--r--  1 root  wheel  121 Apr  2  2019 GMT-9
+-rw-r--r--  1 root  wheel  118 Apr  2  2019 GMT0
+-rw-r--r--  1 root  wheel  118 Apr  2  2019 Greenwich
+-rw-r--r--  1 root  wheel  118 Apr  2  2019 UCT
+-rw-r--r--  1 root  wheel  118 Apr  2  2019 UTC
+-rw-r--r--  1 root  wheel  118 Apr  2  2019 Universal
+-rw-r--r--  1 root  wheel  118 Apr  2  2019 Zulu
+
+/var/db/timezone/tz/2019a.1.0/zoneinfo/Europe:
+total 504
+-rw-r--r--  1 root  wheel  2923 Apr  2  2019 Amsterdam
+-rw-r--r--  1 root  wheel  1725 Apr  2  2019 Andorra
+-rw-r--r--  1 root  wheel  1169 Apr  2  2019 Astrakhan
+-rw-r--r--  1 root  wheel  2245 Apr  2  2019 Athens
+-rw-r--r--  1 root  wheel  3661 Apr  2  2019 Belfast
+-rw-r--r--  1 root  wheel  1931 Apr  2  2019 Belgrade
+-rw-r--r--  1 root  wheel  2309 Apr  2  2019 Berlin
+-rw-r--r--  1 root  wheel  2312 Apr  2  2019 Bratislava
+-rw-r--r--  1 root  wheel  2944 Apr  2  2019 Brussels
+-rw-r--r--  1 root  wheel  2195 Apr  2  2019 Bucharest
+-rw-r--r--  1 root  wheel  2379 Apr  2  2019 Budapest
+-rw-r--r--  1 root  wheel  1892 Apr  2  2019 Busingen
+-rw-r--r--  1 root  wheel  2419 Apr  2  2019 Chisinau
+-rw-r--r--  1 root  wheel  2134 Apr  2  2019 Copenhagen
+-rw-r--r--  1 root  wheel  3517 Apr  2  2019 Dublin
+-rw-r--r--  1 root  wheel  3035 Apr  2  2019 Gibraltar
+-rw-r--r--  1 root  wheel  3661 Apr  2  2019 Guernsey
+-rw-r--r--  1 root  wheel  1883 Apr  2  2019 Helsinki
+-rw-r--r--  1 root  wheel  3661 Apr  2  2019 Isle_of_Man
+-rw-r--r--  1 root  wheel  2126 Apr  2  2019 Istanbul
+-rw-r--r--  1 root  wheel  3661 Apr  2  2019 Jersey
+-rw-r--r--  1 root  wheel  1492 Apr  2  2019 Kaliningrad
+-rw-r--r--  1 root  wheel  2071 Apr  2  2019 Kiev
+-rw-r--r--  1 root  wheel  1139 Apr  2  2019 Kirov
+-rw-r--r--  1 root  wheel  3455 Apr  2  2019 Lisbon
+-rw-r--r--  1 root  wheel  1931 Apr  2  2019 Ljubljana
+-rw-r--r--  1 root  wheel  3661 Apr  2  2019 London
+-rw-r--r--  1 root  wheel  2960 Apr  2  2019 Luxembourg
+-rw-r--r--  1 root  wheel  2611 Apr  2  2019 Madrid
+-rw-r--r--  1 root  wheel  2603 Apr  2  2019 Malta
+-rw-r--r--  1 root  wheel  1883 Apr  2  2019 Mariehamn
+-rw-r--r--  1 root  wheel  1330 Apr  2  2019 Minsk
+-rw-r--r--  1 root  wheel  2927 Apr  2  2019 Monaco
+-rw-r--r--  1 root  wheel  1518 Apr  2  2019 Moscow
+-rw-r--r--  1 root  wheel  2002 Apr  2  2019 Nicosia
+-rw-r--r--  1 root  wheel  2225 Apr  2  2019 Oslo
+-rw-r--r--  1 root  wheel  2945 Apr  2  2019 Paris
+-rw-r--r--  1 root  wheel  1931 Apr  2  2019 Podgorica
+-rw-r--r--  1 root  wheel  2312 Apr  2  2019 Prague
+-rw-r--r--  1 root  wheel  2209 Apr  2  2019 Riga
+-rw-r--r--  1 root  wheel  2666 Apr  2  2019 Rome
+-rw-r--r--  1 root  wheel  1225 Apr  2  2019 Samara
+-rw-r--r--  1 root  wheel  2666 Apr  2  2019 San_Marino
+-rw-r--r--  1 root  wheel  1931 Apr  2  2019 Sarajevo
+-rw-r--r--  1 root  wheel  1169 Apr  2  2019 Saratov
+-rw-r--r--  1 root  wheel  1464 Apr  2  2019 Simferopol
+-rw-r--r--  1 root  wheel  1931 Apr  2  2019 Skopje
+-rw-r--r--  1 root  wheel  2104 Apr  2  2019 Sofia
+-rw-r--r--  1 root  wheel  1892 Apr  2  2019 Stockholm
+-rw-r--r--  1 root  wheel  2161 Apr  2  2019 Tallinn
+-rw-r--r--  1 root  wheel  2084 Apr  2  2019 Tirane
+-rw-r--r--  1 root  wheel  2419 Apr  2  2019 Tiraspol
+-rw-r--r--  1 root  wheel  1253 Apr  2  2019 Ulyanovsk
+-rw-r--r--  1 root  wheel  2077 Apr  2  2019 Uzhgorod
+-rw-r--r--  1 root  wheel  1892 Apr  2  2019 Vaduz
+-rw-r--r--  1 root  wheel  2666 Apr  2  2019 Vatican
+-rw-r--r--  1 root  wheel  2211 Apr  2  2019 Vienna
+-rw-r--r--  1 root  wheel  2173 Apr  2  2019 Vilnius
+-rw-r--r--  1 root  wheel  1169 Apr  2  2019 Volgograd
+-rw-r--r--  1 root  wheel  2679 Apr  2  2019 Warsaw
+-rw-r--r--  1 root  wheel  1931 Apr  2  2019 Zagreb
+-rw-r--r--  1 root  wheel  2089 Apr  2  2019 Zaporozhye
+-rw-r--r--  1 root  wheel  1892 Apr  2  2019 Zurich
+
+/var/db/timezone/tz/2019a.1.0/zoneinfo/Indian:
+total 88
+-rw-r--r--  1 root  wheel  271 Apr  2  2019 Antananarivo
+-rw-r--r--  1 root  wheel  197 Apr  2  2019 Chagos
+-rw-r--r--  1 root  wheel  142 Apr  2  2019 Christmas
+-rw-r--r--  1 root  wheel  151 Apr  2  2019 Cocos
+-rw-r--r--  1 root  wheel  271 Apr  2  2019 Comoro
+-rw-r--r--  1 root  wheel  159 Apr  2  2019 Kerguelen
+-rw-r--r--  1 root  wheel  159 Apr  2  2019 Mahe
+-rw-r--r--  1 root  wheel  180 Apr  2  2019 Maldives
+-rw-r--r--  1 root  wheel  239 Apr  2  2019 Mauritius
+-rw-r--r--  1 root  wheel  271 Apr  2  2019 Mayotte
+-rw-r--r--  1 root  wheel  159 Apr  2  2019 Reunion
+
+/var/db/timezone/tz/2019a.1.0/zoneinfo/Mexico:
+total 24
+-rw-r--r--  1 root  wheel  2342 Apr  2  2019 BajaNorte
+-rw-r--r--  1 root  wheel  1550 Apr  2  2019 BajaSur
+-rw-r--r--  1 root  wheel  1604 Apr  2  2019 General
+
+/var/db/timezone/tz/2019a.1.0/zoneinfo/Pacific:
+total 368
+-rw-r--r--  1 root  wheel  1098 Apr  2  2019 Apia
+-rw-r--r--  1 root  wheel  2434 Apr  2  2019 Auckland
+-rw-r--r--  1 root  wheel   255 Apr  2  2019 Bougainville
+-rw-r--r--  1 root  wheel  2047 Apr  2  2019 Chatham
+-rw-r--r--  1 root  wheel   256 Apr  2  2019 Chuuk
+-rw-r--r--  1 root  wheel  9047 Apr  2  2019 Easter
+-rw-r--r--  1 root  wheel   464 Apr  2  2019 Efate
+-rw-r--r--  1 root  wheel   219 Apr  2  2019 Enderbury
+-rw-r--r--  1 root  wheel   181 Apr  2  2019 Fakaofo
+-rw-r--r--  1 root  wheel  7839 Apr  2  2019 Fiji
+-rw-r--r--  1 root  wheel   143 Apr  2  2019 Funafuti
+-rw-r--r--  1 root  wheel   240 Apr  2  2019 Galapagos
+-rw-r--r--  1 root  wheel   158 Apr  2  2019 Gambier
+-rw-r--r--  1 root  wheel   160 Apr  2  2019 Guadalcanal
+-rw-r--r--  1 root  wheel   499 Apr  2  2019 Guam
+-rw-r--r--  1 root  wheel   312 Apr  2  2019 Honolulu
+-rw-r--r--  1 root  wheel   312 Apr  2  2019 Johnston
+-rw-r--r--  1 root  wheel   223 Apr  2  2019 Kiritimati
+-rw-r--r--  1 root  wheel   346 Apr  2  2019 Kosrae
+-rw-r--r--  1 root  wheel   309 Apr  2  2019 Kwajalein
+-rw-r--r--  1 root  wheel   299 Apr  2  2019 Majuro
+-rw-r--r--  1 root  wheel   167 Apr  2  2019 Marquesas
+-rw-r--r--  1 root  wheel   174 Apr  2  2019 Midway
+-rw-r--r--  1 root  wheel   254 Apr  2  2019 Nauru
+-rw-r--r--  1 root  wheel   226 Apr  2  2019 Niue
+-rw-r--r--  1 root  wheel   283 Apr  2  2019 Norfolk
+-rw-r--r--  1 root  wheel   300 Apr  2  2019 Noumea
+-rw-r--r--  1 root  wheel   174 Apr  2  2019 Pago_Pago
+-rw-r--r--  1 root  wheel   159 Apr  2  2019 Palau
+-rw-r--r--  1 root  wheel   183 Apr  2  2019 Pitcairn
+-rw-r--r--  1 root  wheel   294 Apr  2  2019 Pohnpei
+-rw-r--r--  1 root  wheel   294 Apr  2  2019 Ponape
+-rw-r--r--  1 root  wheel   165 Apr  2  2019 Port_Moresby
+-rw-r--r--  1 root  wheel   562 Apr  2  2019 Rarotonga
+-rw-r--r--  1 root  wheel   499 Apr  2  2019 Saipan
+-rw-r--r--  1 root  wheel   174 Apr  2  2019 Samoa
+-rw-r--r--  1 root  wheel   159 Apr  2  2019 Tahiti
+-rw-r--r--  1 root  wheel   143 Apr  2  2019 Tarawa
+-rw-r--r--  1 root  wheel   353 Apr  2  2019 Tongatapu
+-rw-r--r--  1 root  wheel   256 Apr  2  2019 Truk
+-rw-r--r--  1 root  wheel   143 Apr  2  2019 Wake
+-rw-r--r--  1 root  wheel   143 Apr  2  2019 Wallis
+-rw-r--r--  1 root  wheel   256 Apr  2  2019 Yap
+
+/var/db/timezone/tz/2019a.1.0/zoneinfo/US:
+total 104
+-rw-r--r--  1 root  wheel  2354 Apr  2  2019 Alaska
+-rw-r--r--  1 root  wheel  2339 Apr  2  2019 Aleutian
+-rw-r--r--  1 root  wheel   327 Apr  2  2019 Arizona
+-rw-r--r--  1 root  wheel  3559 Apr  2  2019 Central
+-rw-r--r--  1 root  wheel  1649 Apr  2  2019 East-Indiana
+-rw-r--r--  1 root  wheel  3519 Apr  2  2019 Eastern
+-rw-r--r--  1 root  wheel   312 Apr  2  2019 Hawaii
+-rw-r--r--  1 root  wheel  2411 Apr  2  2019 Indiana-Starke
+-rw-r--r--  1 root  wheel  2174 Apr  2  2019 Michigan
+-rw-r--r--  1 root  wheel  2427 Apr  2  2019 Mountain
+-rw-r--r--  1 root  wheel  2819 Apr  2  2019 Pacific
+-rw-r--r--  1 root  wheel  2819 Apr  2  2019 Pacific-New
+-rw-r--r--  1 root  wheel   174 Apr  2  2019 Samoa

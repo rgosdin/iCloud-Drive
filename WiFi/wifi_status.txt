@@ -1,0 +1,46 @@
+# --- Wi-Fi Status
+
+    MAC Address          : e0:f8:47:07:af:ec
+    Interface Name       : en1
+    Power                : Off [Off,Off,Off]
+    Op Mode              : None
+    SSID                 : None
+    BSSID                : None
+    RSSI                 : 0 dBm
+    Noise                : 0 dBm
+    Tx Rate              : 0.0 Mbps
+    Security             : None
+    PHY Mode             : None
+    MCS Index            : 0
+    Guard Interval       : 0
+    NSS                  : 0
+    Channel              : None
+    Country Code         : US
+    NetworkServiceID     : None
+    IPv4 Config Method   : None
+    IPv4 Address         : None
+    IPv4 Router          : None
+    IPv6 Config Method   : None
+    IPv6 Address         : None
+    IPv6 Router          : None
+    DNS                  : None
+    BTC Mode             : Unavailable
+    Desense              : None
+    Chain Ack            : [Off,Off,Off]
+    Tx Power [0]         : On
+      Current            : 0
+      Offset             : 0
+      Min                : 15
+      Max                : 18
+    Tx Power [1]         : On
+      Current            : 0
+      Offset             : 0
+      Min                : 15
+      Max                : 18
+    Tx Power [2]         : On
+      Current            : 0
+      Offset             : 0
+      Min                : 15
+      Max                : 18
+
+

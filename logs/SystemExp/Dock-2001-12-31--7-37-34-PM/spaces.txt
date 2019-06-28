@@ -1,0 +1,1 @@
+[<DisplaySpaces: 0x0000600003f041e0> {displayUUID=15008967-4FF1-F763-DF47-53684D4F1602 currentSpace=<Dock.ManagedSpace: 0x600000001a10> {uuid= fullscreen=false space=CGSSpace(spid: 1)} spaces=[<Dock.ManagedSpace: 0x600000001a10> {uuid= fullscreen=false space=CGSSpace(spid: 1)}] fluidSwitching=false _performingJumpToAnimation=false]

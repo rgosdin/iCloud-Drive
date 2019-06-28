@@ -1,0 +1,16 @@
+topLeftCorner=1 modifiers=0x0
+topRightCorner=1 modifiers=0x0
+bottomLeftCorner=1 modifiers=0x0
+bottomRightCorner=1 modifiers=0x0
+_screenSaverTimer=(null)
+_displaySleepTimer=(null)
+_exposeTimer=(null)
+_disabledReason=0
+_mouseInCorner=0
+_disabledScreenSaver=0
+_displaySleepStopped=0
+_disabledScreenSaver=0
+_displaySleepStopped=0
+_displaySleepAssertion=0
+_exposeCornerTime=0.000000
+_cornerRegion=(null)

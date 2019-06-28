@@ -1,0 +1,11 @@
+# --- Bluetooth Status
+
+    Power                : Off
+    MAC Address          : None
+    Discoverable         : No
+    Connectable          : No
+    Scanning             : No
+    Devices              : 0 (paired=0 cloud=0 connected=0)
+
+
+

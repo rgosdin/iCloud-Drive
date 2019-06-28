@@ -1,0 +1,52 @@
+# --- Diagnostics
+
+!!! Wi-Fi is OFF
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————
+Timestamp    Name                          Duration    Result    Description                            
+————————————————————————————————————————————————————————————————————————————————————————————————————————
+19:37:21.261 Ping LAN                      0.000       No        Could not ping router
+19:37:21.261 Ping LAN                      0.000       No        Could not ping router
+19:37:21.262 Ping LAN                      0.000       No        Could not ping router
+19:37:21.262 Ping LAN                      0.000       No        Could not ping router
+19:37:21.262 Ping WAN                      0.000       No        Could not ping DNS server
+19:37:21.262 Ping LAN                      0.000       No        Could not ping router
+19:37:21.262 Ping WAN                      0.000       No        Could not ping DNS server
+19:37:21.262 Ping LAN                      0.000       No        Could not ping router
+19:37:21.263 Resolve DNS                   0.000       No        Could not resolve 'captive.apple.com'
+19:37:21.263 Ping LAN                      0.000       No        Could not ping router
+19:37:21.263 Ping LAN                      0.000       No        Could not ping router
+19:37:21.263 Reach Apple                   0.000       No        Could not reach 'www.apple.com'
+19:37:21.263 Curl Apple                    0.065       No        Could not curl 'https://captive.apple.com'
+19:37:21.332 Wi-Fi Link                    0.000       No        Wi-Fi is not associated
+19:37:21.333 IPv4 Assigned                 0.000       No        Wi-Fi does not have IPv4 assigned
+19:37:21.333 IPv6 Assigned                 0.000       No        Wi-Fi does not have IPv6 assigned
+19:37:21.334 Primary IPv4 is Wi-Fi         0.001       No        None
+19:37:21.335 Primary IPv6 is Wi-Fi         0.001       No        None
+19:37:21.336 Custom IPv4                   0.000       Yes       Wi-Fi is using 'None' for IPv4
+19:37:21.337 Custom IPv6                   0.000       Yes       Wi-Fi is using 'None' for IPv6
+19:37:21.337 Custom DNS                    0.000       No        Did not detect custom DNS settings
+19:37:21.338 Custom Web Proxy              0.000       No        Did not detect custom web proxy settings
+19:37:21.338 High BT Paired Count          0.000       No        Paired Bluetooth device count (0)
+19:37:21.339 High BT Connected Count       0.000       No        Connected Bluetooth device count (0)
+19:37:21.339 BT Coex Active                0.000       No        Bluetooth coexistence is not active
+19:37:21.339 AWDL Enabled                  0.000       No        AWDL is not active
+19:37:21.340 AWDL Real Time Mode           0.000       No        AWDL real time mode is not active
+19:37:21.340 Poor Wi-Fi Signal             0.000       No        Current network has poor signal (RSSI=0dBm, SNR=0dB)
+19:37:21.341 Long Beacon Interval          0.003       No        Beacon interval is 100ms
+19:37:21.344 Long DTIM Interval            0.000       No        DTIM interval is 0ms
+19:37:21.344 No Wi-Fi Security (Open)      0.000       No        Current network uses open security
+19:37:21.345 Legacy Wi-Fi Security (WPA)   0.000       No        Current network uses WPA security
+19:37:21.345 Legacy Wi-Fi Security (WEP)   0.000       No        Current network uses WEP security
+19:37:21.346 Legacy Wi-Fi Rates (802.11b)  0.000       No        Current network is using 802.11b
+19:37:21.346 iOS Personal Hotspot          0.001       No        Current network is not an iOS PH
+19:37:21.348 Passpoint                     0.002       No        Current network is not Passpoint
+19:37:21.351 Captive Portal                0.001       No        Current network is captive
+19:37:21.351 Large PNL                     0.000       No        Wi-Fi PNL count (2)
+19:37:21.352 PNL Contains Hidden           0.000       Yes       PNL contains hidden networks
+                                                                 'Treehouse89210' — WPA/WPA2 Personal
+19:37:21.353 Hidden Network                0.000       No        Current network is not marked as hidden
+19:37:21.353 AirPort Base Station          0.001       No        Current network is not an AirPort Base Station
+19:37:21.355 Ambiguous Network Name        0.000       No        Current network is ambiguous
+
+

@@ -1,0 +1,77 @@
+com.apple.LSSharedFileList.FavoriteItems - [modernized]
+Properties: {
+}
+- Item: 0
+	UUID: 7CD563CB-F254-48FD-A135-2D01777A7164
+	Item ID: -882649732
+	Display name: 
+	URL: nwnode://domain-AirDrop
+	Icon binding: FileInfoBinding [0x103] - extension: (NULL), UTI: dyn.agk81g2wskq, fileType: sbNC
+	Properties: {
+		 com.apple.LSSharedFileList.SpecialItemIdentifier : com.apple.LSSharedFileList.IsMeetingRoom
+	}
+- Item: 1
+	UUID: 1CEC4D79-373C-4290-893A-06345A4A3E9C
+	Item ID: 2035149852
+	Display name: myDocuments.cannedSearch
+	URL: file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/myDocuments.cannedSearch/
+	Icon binding: VariantBinding [0x203] flags: 0x1 binding: FileInfoBinding [0x105] - extension: cannedSearch, UTI: com.apple.finder.predefined-search, fileType: ????
+	Properties: {
+	}
+- Item: 2
+	UUID: EA522B59-2965-466B-AC40-10AA9EC65E9C
+	Item ID: 1496011498
+	Display name: Applications
+	URL: file:///Applications/
+	Icon binding: VariantBinding [0x107] flags: 0x1 binding: FileInfoBinding [0x205] - extension: (NULL), UTI: com.apple.applications-folder, fileType: apps
+	Properties: {
+	}
+- Item: 3
+	UUID: 06450CDF-378E-4AB9-A150-A0DFAC22A9D2
+	Item ID: -552844026
+	Display name: Desktop
+	URL: file:///Users/ryangosdin/Desktop/
+	Icon binding: VariantBinding [0x207] flags: 0x1 binding: FileInfoBinding [0x109] - extension: (NULL), UTI: public.directory, fileType: ????
+	Properties: {
+		 com.apple.LSSharedFileList.ItemIsHidden : 1
+	}
+- Item: 4
+	UUID: 09F678AB-622D-4C9C-83F1-50BAB97370C4
+	Item ID: -1418136055
+	Display name: Downloads
+	URL: file:///Users/ryangosdin/Downloads/
+	Icon binding: VariantBinding [0x10b] flags: 0x1 binding: FileInfoBinding [0x209] - extension: (NULL), UTI: public.directory, fileType: ????
+	Properties: {
+	}
+- Item: 5
+	UUID: D185D4AB-4098-4DCF-AACB-6138D8C2C2C1
+	Item ID: -1412135471
+	Display name: Movies
+	URL: file:///Users/ryangosdin/Movies/
+	Icon binding: VariantBinding [0x20b] flags: 0x1 binding: FileInfoBinding [0x10d] - extension: (NULL), UTI: public.directory, fileType: ????
+	Properties: {
+	}
+- Item: 6
+	UUID: CD56559F-112D-4FAB-B01E-96162B93B56A
+	Item ID: -1621797171
+	Display name: ryangosdin
+	URL: file:///Users/ryangosdin/
+	Icon binding: VariantBinding [0x10f] flags: 0x1 binding: FileInfoBinding [0x20d] - extension: (NULL), UTI: public.directory, fileType: ????
+	Properties: {
+	}
+- Item: 7
+	UUID: E5493D11-77C1-4F38-A4C0-FFCDEFD94334
+	Item ID: 289229285
+	Display name: Pictures
+	URL: file:///Users/ryangosdin/Pictures/
+	Icon binding: VariantBinding [0x20f] flags: 0x1 binding: FileInfoBinding [0x111] - extension: (NULL), UTI: public.directory, fileType: ????
+	Properties: {
+	}
+- Item: 8
+	UUID: 75E86B11-D43B-42C3-8999-3DF264D71554
+	Item ID: 292284533
+	Display name: Music
+	URL: file:///Users/ryangosdin/Music/
+	Icon binding: VariantBinding [0x113] flags: 0x1 binding: FileInfoBinding [0x211] - extension: (NULL), UTI: public.directory, fileType: ????
+	Properties: {
+	}

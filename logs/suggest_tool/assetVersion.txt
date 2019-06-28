@@ -1,0 +1,2 @@
+Currently installed asset version: 10650
+Highest available asset version: 10650

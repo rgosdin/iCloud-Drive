@@ -1,0 +1,45 @@
+APFS Container (1 found)
+|
++-- Container disk1 260EB317-E9F4-4212-8AF9-C93709E26729
+    ====================================================
+    APFS Container Reference:     disk1
+    Size (Capacity Ceiling):      239847653376 B (239.8 GB)
+    Capacity In Use By Volumes:   55200755712 B (55.2 GB) (23.0% used)
+    Capacity Not Allocated:       184646897664 B (184.6 GB) (77.0% free)
+    |
+    +-< Physical Store disk0s2 12508FDF-B607-42FE-9EFC-4DA23F6FBB4C
+    |   -----------------------------------------------------------
+    |   APFS Physical Store Disk:   disk0s2
+    |   Size:                       239847653376 B (239.8 GB)
+    |
+    +-> Volume disk1s1 515057A2-DE46-47AD-A732-F377E26D3889
+    |   ---------------------------------------------------
+    |   APFS Volume Disk (Role):   disk1s1 (No specific role)
+    |   Name:                      MacOS (Case-insensitive)
+    |   Mount Point:               /
+    |   Capacity Consumed:         45943169024 B (45.9 GB)
+    |   FileVault:                 No
+    |
+    +-> Volume disk1s2 ED6ECD85-3E4D-443D-BC4B-7A7C9041F05C
+    |   ---------------------------------------------------
+    |   APFS Volume Disk (Role):   disk1s2 (Preboot)
+    |   Name:                      Preboot (Case-insensitive)
+    |   Mount Point:               Not Mounted
+    |   Capacity Consumed:         23355392 B (23.4 MB)
+    |   FileVault:                 No
+    |
+    +-> Volume disk1s3 F5B706B2-9011-4F55-8FBD-27358D410DDF
+    |   ---------------------------------------------------
+    |   APFS Volume Disk (Role):   disk1s3 (Recovery)
+    |   Name:                      Recovery (Case-insensitive)
+    |   Mount Point:               Not Mounted
+    |   Capacity Consumed:         506810368 B (506.8 MB)
+    |   FileVault:                 No
+    |
+    +-> Volume disk1s4 10616B12-6094-4E61-B395-9153BA240CC5
+        ---------------------------------------------------
+        APFS Volume Disk (Role):   disk1s4 (VM)
+        Name:                      VM.html (Case-insensitive)
+        Mount Point:               /private/var/vm
+        Capacity Consumed:         8589955072 B (8.6 GB)
+        FileVault:                 No

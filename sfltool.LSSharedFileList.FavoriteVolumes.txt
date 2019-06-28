@@ -1,0 +1,37 @@
+com.apple.LSSharedFileList.FavoriteVolumes - [modernized]
+Properties: {
+	 com.apple.LSSharedFileList.FavoriteVolumes.ComputerIsVisible : 1
+	 com.apple.LSSharedFileList.FavoriteVolumes.ShowHardDrives : 1
+	 com.apple.LSSharedFileList.FavoriteVolumes.ShowEjectableVolumes : 1
+	 com.apple.LSSharedFileList.FavoriteVolumes.ShowNetworkVolumes : 1
+	 com.apple.LSSharedFileList.FavoriteVolumes.ShowHardDrivesExceptions : 1
+}
+- Item: 0
+	UUID: 8B999B1B-0AD6-4E30-9DA0-0084EF602658
+	Item ID: 463182219
+	Display name: 
+	URL: com-apple-sfl://com.apple.LSSharedFileList.IsComputer
+	Icon binding: FileInfoBinding [0x103] - extension: (NULL), UTI: com.apple.macbookpro-13-unibody, fileType: root
+	Properties: {
+		 NSURLVolumeIsEjectableKey : 0
+		 com.apple.LSSharedFileList.VolumeGroup : 2
+		 com.apple.LSSharedFileList.SpecialItemIdentifier : com.apple.LSSharedFileList.IsComputer
+		 NSURLVolumeIsRootFileSystemKey : 0
+		 NSURLIsVolumeKey : 0
+		 com.apple.LSSharedFileList.ItemVisibility : NeverVisible
+		 NSURLVolumeIsInternalKey : 0
+	}
+- Item: 1
+	UUID: F4AD3354-98B8-4F80-93E2-ACE53E2C3FCD
+	Item ID: 1412673012
+	Display name: 
+	URL: com-apple-sfl://com.apple.LSSharedFileList.IsRemoteDisc
+	Icon binding: FileInfoBinding [0x105] - extension: (NULL), UTI: dyn.agk81g2wtku, fileType: sbOD
+	Properties: {
+		 NSURLVolumeIsInternalKey : 0
+		 NSURLIsVolumeKey : 0
+		 com.apple.LSSharedFileList.SpecialItemIdentifier : com.apple.LSSharedFileList.IsRemoteDisc
+		 NSURLVolumeIsEjectableKey : 0
+		 NSURLVolumeIsRootFileSystemKey : 0
+		 com.apple.LSSharedFileList.VolumeGroup : 4
+	}

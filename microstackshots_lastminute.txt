@@ -1,0 +1,91 @@
+Date/Time:       2000-12-31 19:35:30 -0500
+End time:        2000-12-31 19:35:35 -0500
+OS Version:      Mac OS X 10.14.5 (Build 18F132)
+Architecture:    x86_64
+Report Version:  28
+
+Data Source:     Microstackshots
+Shared Cache:    0x365000 D718BCFA-5498-3531-A0B5-B4AE313943CA
+
+Event:           powerstats
+Duration:        5.02s
+Steps:           2
+
+Hardware model:  MacBookPro8,1
+Active cpus:     4
+Boot args:       -no_compat_check
+
+
+
+Powerstats for:  Activity Monitor
+UUID:            7FD00FD0-E003-36A7-BF4B-5D368BC2D350
+Path:            /Applications/Utilities/Activity Monitor.app/Contents/MacOS/Activity Monitor
+Architecture:    x86_64
+Start time:      2000-12-31 19:35:30 -0500
+End time:        2000-12-31 19:35:30 -0500
+Num samples:     1 (50%)
+Primary state:   1 samples Frontmost App, Non-Suppressed, User mode, Effective Thread QoS User Interactive, Requested Thread QoS User Interactive, Override Thread QoS Unspecified
+User Activity:   0 samples Idle, 1 samples Active
+Power Source:    0 samples on Battery, 1 samples on AC
+  1  start + 1 (libdyld.dylib + 91093) [0x7fff57e143d5]
+    1  NSApplicationMain + 777 (AppKit + 11644) [0x7fff294b0d7c]
+      1  -[NSApplication run] + 810 (AppKit + 80043) [0x7fff294c18ab]
+        1  -[NSAutoreleasePool drain] + 144 (Foundation + 220290) [0x7fff2e0eac82]
+          1  _CFAutoreleasePoolPop + 22 (CoreFoundation + 54062) [0x7fff2be2332e]
+            1  (anonymous namespace)::AutoreleasePoolPage::pop(void*) + 710 (libobjc.A.dylib + 37146) [0x7fff5664411a]
+              1  -[NSView dealloc] + 209 (AppKit + 1148832) [0x7fff295c67a0]
+                1  -[NSView _finalize] + 1056 (AppKit + 1150279) [0x7fff295c6d47]
+                  1  -[NSView removeFromSuperviewWithoutNeedingDisplay] + 36 (AppKit + 1550923) [0x7fff29628a4b]
+                    1  -[NSView removeFromSuperview] + 146 (AppKit + 606391) [0x7fff295420b7]
+                      1  -[NSView _setSuperview:] + 1402 (AppKit + 593293) [0x7fff2953ed8d]
+                        1  -[NSView _viewDidChangeAppearance:] + 289 (AppKit + 390221) [0x7fff2950d44d]
+                          1  -[NSView effectiveAppearance] + 189 (AppKit + 391290) [0x7fff2950d87a]
+                            1  +[NSCompositeAppearance compositeAppearanceForView:] + 374 (AppKit + 428620) [0x7fff29516a4c]
+                              1  -[NSMutableArray addObjectsFromArray:] + 591 (CoreFoundation + 501247) [0x7fff2be905ff]
+                                1  -[NSMutableArray insertObjectsFromArray:range:atIndex:] + 380 (CoreFoundation + 501697) [0x7fff2be907c1]
+                                  1  malloc_good_size + 0 (libsystem_malloc.dylib + 36227) [0x7fff57fc5d83]
+
+  Binary Images:
+           0x10c5bc000 -                ???  Activity Monitor                       <7FD00FD0-E003-36A7-BF4B-5D368BC2D350>  /Applications/Utilities/Activity Monitor.app/Contents/MacOS/Activity Monitor
+        0x7fff294ae000 -     0x7fff2a263fff  com.apple.AppKit 6.9 (1671.50.111)     <933155DC-6404-3646-B6AE-087D34F611BE>  /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+        0x7fff2be16000 -     0x7fff2c25afff  com.apple.CoreFoundation 6.9 (1575.12) <B1D65801-A477-3F70-B97F-C2B43ECFF4FE>  /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+        0x7fff2e0b5000 -     0x7fff2e462fff  com.apple.Foundation 6.9 (1575.12)     <AD258ED7-64AE-367C-AE5F-48D45089D9F2>  /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+        0x7fff5663b000 -     0x7fff56dc3fff  libobjc.A.dylib (756.2)                <20942D4E-CE6F-376A-8BCD-016F88E4BFD5>  /usr/lib/libobjc.A.dylib
+        0x7fff57dfe000 -     0x7fff57e2afff  libdyld.dylib (655.1.1)                <002418CC-AD11-3D10-865B-015591D24E6C>  /usr/lib/system/libdyld.dylib
+        0x7fff57fbd000 -     0x7fff57fe7fff  libsystem_malloc.dylib (166.261.1)     <4D1CEF38-DE32-3ECF-9F70-0ADDD5C8775F>  /usr/lib/system/libsystem_malloc.dylib
+
+
+Powerstats for:  opendirectoryd
+UUID:            039ED865-1AD1-3EAA-86F9-56FEB426E033
+Path:            /usr/libexec/opendirectoryd
+Architecture:    x86_64
+Start time:      2000-12-31 19:35:35 -0500
+End time:        2000-12-31 19:35:35 -0500
+Num samples:     1 (50%)
+Primary state:   1 samples Non-Frontmost App, Non-Suppressed, User mode, Effective Thread QoS User Initiated, Requested Thread QoS User Initiated, Override Thread QoS Unspecified
+User Activity:   0 samples Idle, 1 samples Active
+Power Source:    0 samples on Battery, 1 samples on AC
+  1  start_wqthread + 13 (libsystem_pthread.dylib + 9213) [0x7fff580073fd]
+    1  _pthread_wqthread + 583 (libsystem_pthread.dylib + 9907) [0x7fff580076b3]
+      1  _dispatch_worker_thread2 + 90 (libdispatch.dylib + 72518) [0x7fff57dd5b46]
+        1  _dispatch_root_queue_drain + 324 (libdispatch.dylib + 70588) [0x7fff57dd53bc]
+          1  _dispatch_queue_override_invoke + 763 (libdispatch.dylib + 23123) [0x7fff57dc9a53]
+            1  _dispatch_client_callout + 8 (libdispatch.dylib + 13885) [0x7fff57dc763d]
+              1  _dispatch_call_block_and_release + 12 (libdispatch.dylib + 9720) [0x7fff57dc65f8]
+                1  ??? (opendirectoryd + 121353) [0x10d1dca09]
+                  1  ??? (opendirectoryd + 22648) [0x10d1c4878]
+                    1  odm_RecordVerifyPassword + 158 (PlistFile + 75896) [0x10d6d3878]
+                      1  ??? (PlistFile + 36528) [0x10d6c9eb0]
+                        1  ??? (PlistFile + 95455) [0x10d6d84df]
+                          1  ccsrp_generate_verifier + 180 (libcorecrypto.dylib + 410383) [0x7fff57d1d30f]
+                            1  ccdh_power_blinded + 451 (libcorecrypto.dylib + 385864) [0x7fff57d17348]
+                              1  ccn_div_euclid_ws + 104 (libcorecrypto.dylib + 74186) [0x7fff57ccb1ca]
+                                1  ccn_div_use_recip_ws + 654 (libcorecrypto.dylib + 74862) [0x7fff57ccb46e]
+                                  1  ccn_mul + 102 (libcorecrypto.dylib + 28630) [0x7fff57cbffd6]
+
+  Binary Images:
+           0x10d1bf000 -        0x10d237fff  opendirectoryd (483.250.4)                                  <039ED865-1AD1-3EAA-86F9-56FEB426E033>  /usr/libexec/opendirectoryd
+           0x10d6c1000 -        0x10d6ebfff  com.apple.opendirectoryd.module.PlistFile 10.14 (483.250.4) <2F40E377-279C-3DF2-AE61-23E8C0708335>  /System/Library/OpenDirectory/Modules/PlistFile.bundle/Contents/MacOS/PlistFile
+        0x7fff57cb9000 -     0x7fff57d3dfff  libcorecrypto.dylib (602.260.2)                             <BED0F385-D8A2-334A-BD7B-0673B5DABBC5>  /usr/lib/system/libcorecrypto.dylib
+        0x7fff57dc4000 -     0x7fff57dfdfff  libdispatch.dylib (1008.250.7)                              <26DF5B1E-A388-38EF-B73B-AF0E93FB02DB>  /usr/lib/system/libdispatch.dylib
+        0x7fff58005000 -     0x7fff5800ffff  libsystem_pthread.dylib (330.250.2)                         <2D5C08FF-484F-3D59-9132-CE1DCB3F76D7>  /usr/lib/system/libsystem_pthread.dylib

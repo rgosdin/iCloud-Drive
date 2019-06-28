@@ -1,0 +1,4 @@
+(
+    "DPDesktopPicture 0x600003c00120: wid=0x22 frame=(0.000000 0.000000 1280.000000 800.000000) sleeping=0 info=DPPictureInfo 0x6000037000e0: space= display=0x4273140 realDisplay=0x4273140 displayUUID=15008967-4FF1-F763-DF47-53684D4F1602 url=file:///System/Library/CoreServices/DefaultDesktop.heic placement=0 pictureID=3 imageIndex=15 dynamicStyle=0, liveDesktopTrigger=<Dock.LivingDesktopSolarTrigger: 0x600002502840> remoteConnections=(null)"
+)
+DPPictureInfo 0x6000037000e0: space= display=0x4273140 realDisplay=0x4273140 displayUUID=15008967-4FF1-F763-DF47-53684D4F1602 url=file:///System/Library/CoreServices/DefaultDesktop.heic placement=0 pictureID=3 imageIndex=15 dynamicStyle=0, liveDesktopTrigger=<Dock.LivingDesktopSolarTrigger: 0x600002502840>

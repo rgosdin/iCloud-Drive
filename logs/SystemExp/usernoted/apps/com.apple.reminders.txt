@@ -1,0 +1,18 @@
+		path: "/Applications/Reminders.app"
+		identifier: "com.apple.reminders"
+		daemon launching messages
+			[ .Delivered .Activate .DismissAlert .SnoozeAlert .DeliveredRemoved .ShouldPresent .NotificationsExpired ]
+		access count: 18
+		prefs:
+			app_pref_shows_in_notification_center: true
+			app_content_hidden_lockscreen: false
+			app_uses_modern_api: false
+			app_type: 1
+			app_prefs_badge_icon: true
+			app_prefs_alert_style: 2
+			app_prefs_play_sounds: true
+			app_authorizations: 7
+			app_shows_summary: false
+			app_content_hidden: false
+			app_pref_notifications_to_show: 20
+			app_hidden_from_ls: false

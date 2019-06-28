@@ -1,0 +1,62 @@
+Process:               virusbarrierl [628]
+Path:                  /Library/Intego/virusbarrier.bundle/Contents/MacOS/virusbarrierl
+Identifier:            virusbarrierl
+Version:               ???
+Code Type:             X86-64 (Native)
+Parent Process:        launchd [1]
+Responsible:           virusbarrierl [628]
+User ID:               0
+
+Date/Time:             2019-06-12 17:36:02.017 -0400
+OS Version:            Mac OS X 10.14.5 (18F132)
+Report Version:        12
+Anonymous UUID:        C4BB502A-BCB6-4654-9DC8-3287F6779664
+
+
+Time Awake Since Boot: 320 seconds
+
+System Integrity Protection: disabled
+
+Crashed Thread:        Unknown
+
+Exception Type:        EXC_CRASH (Code Signature Invalid)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Termination Signal:    Terminated: 15
+Termination Reason:    Namespace SIGNAL, Code 0xf
+Terminating Process:   launchd [1]
+
+kernel messages:
+
+Backtrace not available
+
+Unknown thread crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x0000000000000000  rcx: 0x0000000000000000  rdx: 0x0000000000000000
+  rdi: 0x0000000000000000  rsi: 0x0000000000000000  rbp: 0x0000000000000000  rsp: 0x00007ffeeea1ad68
+   r8: 0x0000000000000000   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000000
+  r12: 0x0000000000000000  r13: 0x0000000000000000  r14: 0x0000000000000000  r15: 0x0000000000000000
+  rip: 0x00000001085d5000  rfl: 0x0000000000000200  cr2: 0x0000000000000000
+  
+Logical CPU:     0
+Error Code:      0x00000000
+Trap Number:     0
+
+
+Binary images description not available
+
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 953
+    thread_create: 0
+    thread_set_state: 0
+

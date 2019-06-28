@@ -1,0 +1,363 @@
+Active connections:
+
+Node           Refs Module    Destination Socket Connected Shared Active Requests Credentials Timeout 
+-------------- ---- --------- ----------- ------ --------- ------ --------------- ----------- ------- 
+/Local/Default 34   PlistFile                    X         X      0                           0       
+/Local/Default 2    PlistFile                    X                0               Users/root  0       
+/Search        2    search                       X                0                           0       
+/Search        2    search                       X                0                           0       
+/Search        2    search                       X                0                           0       
+/Search        2    search                       X                0                           0       
+/Search        2    search                       X                0                           0       
+/Search        2    search                       X                0                           0       
+/Search        2    search                       X                0                           0       
+/Search        2    search                       X                0                           0       
+/Search        2    search                       X                0                           0       
+/Search        2    search                       X                0                           0       
+/Search        2    search                       X                0                           0       
+/Search        2    search                       X                0                           0       
+/Search        2    search                       X                0                           0       
+/Search        2    search                       X                0                           0       
+
+Open nodes:
+
+PID      Node ID                              Refs Nodename       Options Legacy Internal Use Session ID 
+-------- ------------------------------------ ---- -------------- ------- ------ ------------ ---------- 
+41 -- UserEventAgent -- total (1)
+         59ADBB25-3BA3-47D9-B689-445A1027C32E 1    /Local/Default                             <Default>  
+89 -- loginwindow -- total (3)
+         842D255B-DA4A-4E74-B057-3A52B626184F 1    /Local/Default                X            <Default>  
+         964913DB-9FEE-46F4-ABF8-23B04238D82E 1    /Search                                    <Default>  
+         F950C036-42C7-460F-A4AD-87A5B2180C5D 1    /Local/Default                             <Default>  
+97 -- corebrightnessd -- total (3)
+         1D9DA59B-AC17-45A8-808D-751420DD7029 1    /Local/Default                X            <Default>  
+         3C2418F5-9D55-4EE3-B72D-D8D41F2D763D 1    /Local/Default                             <Default>  
+         F6CD2262-351C-44D7-B50F-B8E169D3BC14 1    /Search                                    <Default>  
+105 -- authd -- total (1)
+         AEFA586F-94A0-4A20-BEF0-BFFB0F601EE0 1    /Local/Default                X            <Default>  
+250 -- apsd -- total (3)
+         0303716A-4832-4B26-9AC9-A76C67F2D5F1 1    /Local/Default                X            <Default>  
+         50238828-5113-4F6B-ABC4-93F476B107AB 1    /Search                                    <Default>  
+         701FF12B-F4FA-45BB-8CDD-90B66293ECFD 1    /Local/Default                             <Default>  
+284 -- pkd -- total (1)
+         0249A6F4-B5C9-4B48-AF1E-96D2C87FC515 1    /Local/Default                X            <Default>  
+303 -- akd -- total (3)
+         11969B3E-BB73-4321-9494-ED8CDCF0805F 1    /Search                                    <Default>  
+         1B0BC339-9BEC-48EC-95B2-AA36BA4F2429 1    /Local/Default                             <Default>  
+         E585B469-2C68-4D00-9099-D500AA97C6EF 1    /Local/Default                X            <Default>  
+310 -- sharingd -- total (3)
+         5B837101-E96F-4433-9517-7FA28973D448 1    /Search                                    <Default>  
+         621D19C7-6185-4A9C-84E5-5061E5E296FF 1    /Local/Default                X            <Default>  
+         F34E60B4-9034-47A9-A155-AF02B27E8A71 1    /Local/Default                             <Default>  
+316 -- commerce -- total (3)
+         C86EC708-AA02-4B95-99BE-5F1EAD5168A2 1    /Search                                    <Default>  
+         E6298923-73EE-4D2B-96FA-FAF1444A17F8 1    /Local/Default                             <Default>  
+         E69AF5C8-E41F-404D-99FC-BB91D7E8B6A0 1    /Local/Default                X            <Default>  
+361 -- fmfd -- total (3)
+         1F247731-D9FF-4D80-AB62-F440A770D8F2 1    /Local/Default                X            <Default>  
+         4ABA87AD-B989-441F-A3A8-872FA3BC2D92 1    /Search                                    <Default>  
+         C451C2C9-05CD-4DE0-9DC2-4E1EECB1E67B 1    /Local/Default                             <Default>  
+428 -- writeconfig -- total (1)
+         BBBEA4C5-6945-4241-9230-12AC2C2A5BBB 1    /Local/Default                X            <Default>  
+479 -- cloudphotosd -- total (3)
+         40EFA41F-BEB0-4C11-8DFE-F7A422DFE65B 1    /Local/Default                X            <Default>  
+         E10AAD5E-49C2-4D13-B6C3-1AA1FFE5D87E 1    /Search                                    <Default>  
+         E7D858CE-8693-4440-A04B-03AA2F9F0AF2 1    /Local/Default                             <Default>  
+507 -- com.apple.preferences.sharing.r -- total (4)
+         27581D4F-517E-4C68-953B-FAFE3965C9EF 1    /Local/Default                             <Default>  
+         4B744AF3-5988-4318-A132-7B9E45FFF57F 1    /Local/Default                X            <Default>  
+         94784324-1C09-449B-A888-55D7879BF4D3 1    /Search                                    <Default>  
+         D15B9A01-C0A2-49F8-AECC-708747AFFA0C 1    /Local/Default                             <Default>  
+561 -- com.apple.preference.network.re -- total (3)
+         3DC9E9EB-E1DE-4B44-B074-7B255FD83768 1    /Local/Default                             <Default>  
+         5EB1C29E-9F27-4DF1-B344-4BB7DCABD53A 1    /Local/Default                X            <Default>  
+         B689112C-5BB6-455D-A69E-8654BA518543 1    /Search                                    <Default>  
+563 -- localAuthenticationRemoteServic -- total (3)
+         9B6705C2-A206-406A-A153-771850096F95 1    /Local/Default                             <Default>  
+         C88E55EB-755F-45B6-BD9E-557400D954AE 1    /Search                                    <Default>  
+         E8BA282A-1410-4DC0-B9A1-BA551B070CF9 1    /Local/Default                X            <Default>  
+1234 -- automountd -- total (1)
+         FBCED5F1-6127-40F9-B477-BFDDD1FA2679 1    /Local/Default                X            <Default>  
+1237 -- SystemUIServer -- total (1)
+         68BFD9F6-6FC1-4416-9569-9D6CAA053411 1    /Local/Default                             <Default>  
+1247 -- Finder -- total (1)
+         DCD3E8BC-3EA4-445D-ABAD-F3799BEAF48D 1    /Local/Default                             <Default>  
+1270 -- com.apple.iCloudHelper -- total (3)
+         0ED7BC05-3FEA-4788-9F79-E6C01F5241F3 1    /Local/Default                             <Default>  
+         5DE1ED0E-62CE-4BE2-9640-C97B627883FD 1    /Local/Default                X            <Default>  
+         F131C54E-BA00-4864-9116-CC4A14BA3862 1    /Search                                    <Default>  
+1271 -- SharePointManagementService -- total (1)
+         2B516199-18CE-4143-A962-915FF3F857B5 1    /Local/Default                             <Default>  
+
+Active requests (time in microseconds):
+
+PID      Request ID Refs Type Active Time Node ID Nodename Current Module Parent Request Results Delivered 
+-------- ---------- ---- ---- ----------- ------- -------- -------------- -------------- ----------------- 
+
+Nodenames:
+
+Name              State  Refs Type External Locked Hidden 
+----------------- ------ ---- ---- -------- ------ ------ 
+/Active Directory        1                  X      X      
+/Configure               1                  X      X      
+/Contacts         Online 3                                
+/LDAPv3           Online 1                  X      X      
+/Local                   2                  X      X      
+/Local/Default    Online 36                 X             
+/Search           Online 17                               
+
+Active sessions:
+
+PID      Session ID Refs Type Target 
+-------- ---------- ---- ---- ------ 
+
+Modules:
+
+Name            Capabilities                                               External Path                                                     
+--------------- ---------------------------------------------------------- -------- -------------------------------------------------------- 
+AppleID         Authentication, Connection                                          /System/Library/OpenDirectory/Modules/AppleID.bundle     
+FDESupport      Unspecified                                                         /System/Library/OpenDirectory/Modules/FDESupport.bundle  
+PlistFile       Authentication, Connection, Modification, Query                     /System/Library/OpenDirectory/Modules/PlistFile.bundle   
+SecureToken     Authentication, Connection                                          /System/Library/OpenDirectory/Modules/SecureToken.bundle 
+SystemCache     Unspecified                                                         /System/Library/OpenDirectory/Modules/SystemCache.bundle 
+dspluginhelperd Connection                                                 X                                                                 
+ldap            Authentication, Connection, Discovery, Modification, Query          /System/Library/OpenDirectory/Modules/ldap.bundle        
+legacy          Unspecified                                                         /System/Library/OpenDirectory/Modules/legacy.bundle      
+search          Connection, Query                                                   /System/Library/OpenDirectory/Modules/search.bundle      
+
+Statistics:
+
+Report for Kernel
+=================
+Counters:
+    Translation (Cache Hit) - 515
+    Translation (Cache Miss) - 7
+    Membership Checks (Cache Hit) - 136
+    Membership Checks (Cache Miss) - 16
+
+Translation (Cache Hit) metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     1 us  |*********
+     2 us  |*
+     4 us  |******
+     8 us  |********
+    16 us  |*********
+    32 us  |*********
+    64 us  |***
+   128 us  |
+   256 us  |
+   512 us  |
+     1 ms  |
+     2 ms  |
+     4 ms  |
+     8 ms  |*
+    16 ms  |
+    32 ms  |
+    64 ms  |
+   128 ms  |
+   256 ms  |
+   512 ms  |
+     1 s   |
+
+Translation (Cache Miss) metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     1 us  |*******
+     2 us  |
+     4 us  |
+     8 us  |
+    16 us  |
+    32 us  |
+    64 us  |
+   128 us  |
+   256 us  |
+   512 us  |
+     1 ms  |
+     2 ms  |
+     4 ms  |*******
+     8 ms  |****************************
+    16 ms  |
+    32 ms  |
+    64 ms  |
+   128 ms  |
+   256 ms  |
+   512 ms  |
+     1 s   |*******
+
+Membership Checks (Cache Hit) metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     8 us  |*****
+    16 us  |*****************
+    32 us  |*******************
+    64 us  |
+   128 us  |*
+   256 us  |
+   512 us  |
+     1 ms  |
+     2 ms  |
+     4 ms  |
+     8 ms  |**
+    16 ms  |*
+    32 ms  |
+    64 ms  |*
+
+Membership Checks (Cache Miss) metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     1 ms  |*********
+     2 ms  |************
+     4 ms  |*********
+     8 ms  |***
+    16 ms  |******
+    32 ms  |***
+    64 ms  |
+   128 ms  |***
+   256 ms  |***
+
+Report for Userland
+=================
+Counters:
+    Translation (Cache Hit) - 702
+    Translation (Cache Miss) - 0
+    Membership Checks (Cache Hit) - 196
+    Membership Checks (Cache Miss) - 5
+    GetGrouplist (Cache Hit) - 441
+    GetGrouplist (Cache Miss) - 12
+
+Translation (Cache Hit) metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+    16 us  |
+    32 us  |**************
+    64 us  |**********
+   128 us  |**********************
+   256 us  |**
+   512 us  |
+     1 ms  |
+     2 ms  |
+     4 ms  |
+     8 ms  |
+    16 ms  |
+    32 ms  |
+
+Translation (Cache Miss) metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     1 us  |
+
+Membership Checks (Cache Hit) metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     4 us  |****
+     8 us  |************
+    16 us  |***************
+    32 us  |***************
+    64 us  |**
+   128 us  |
+   256 us  |
+   512 us  |
+     1 ms  |
+     2 ms  |
+     4 ms  |
+     8 ms  |
+    16 ms  |
+    32 ms  |
+
+Membership Checks (Cache Miss) metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     4 ms  |********************
+     8 ms  |
+    16 ms  |********************
+    32 ms  |
+    64 ms  |**********
+
+GetGrouplist (Cache Hit) metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+    16 us  |*************
+    32 us  |******
+    64 us  |***************************
+   128 us  |*
+   256 us  |*
+   512 us  |
+     1 ms  |
+     2 ms  |
+     4 ms  |
+     8 ms  |
+
+GetGrouplist (Cache Miss) metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+   512 us  |********
+     1 ms  |****
+     2 ms  |****************
+     4 ms  |****
+     8 ms  |****
+    16 ms  |********
+    32 ms  |****
+
+Report for Queries
+=================
+Counters:
+    Total Queries - 8
+    Failed Queries - 184
+    GroupMembership - 23
+    GroupMembers - 5
+    NestedGroups - 17
+
+Total Queries metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     1 ms  |******************
+     2 ms  |******
+     4 ms  |******************
+     8 ms  |******
+
+Failed Queries metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     1 ms  |**
+     2 ms  |******
+     4 ms  |*****************
+     8 ms  |**************
+    16 ms  |******
+    32 ms  |
+    64 ms  |*
+   128 ms  |
+   256 ms  |
+   512 ms  |
+     1 s   |
+
+GroupMembership metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     1 ms  |******
+     2 ms  |*******************
+     4 ms  |**********
+     8 ms  |******
+    16 ms  |**
+    32 ms  |**
+    64 ms  |**
+
+GroupMembers metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     2 ms  |******************************
+     4 ms  |**********
+     8 ms  |
+    16 ms  |
+    32 ms  |**********
+
+NestedGroups metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     1 ms  |**************
+     2 ms  |
+     4 ms  |*****************
+     8 ms  |
+    16 ms  |*****************
+
+

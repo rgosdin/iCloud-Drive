@@ -1,0 +1,31 @@
+		path: ""
+		identifier: "_SYSTEM_CENTER_:com.apple.CalendarNotification.CalNCService"
+		daemon launching messages
+			[ ]
+		access count: 4
+		prefs:
+			app_prefs_badge_icon: true
+			app_content_hidden: false
+			app_uses_modern_api: false
+			app_shows_summary: true
+			app_content_hidden_lockscreen: true
+			app_pref_notifications_to_show: 20
+			app_pref_shows_in_notification_center: false
+			app_prefs_alert_style: 2
+			app_type: 2
+			app_prefs_play_sounds: true
+			app_hidden_from_ls: false
+			app_authorizations: 7
+		tomorrow summary:
+			================================
+				uuid: 3AE7CB54-F0CD-49FC-99E5-4E66494E3556
+				title: "<hidden>"
+				subtitle: "<hidden>"
+				body: "<hidden>"
+				badge: nil
+				attachments: []
+				category: nil
+				userInfo: [:]
+				trigger: nil
+			================================
+

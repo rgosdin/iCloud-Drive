@@ -1,0 +1,1013 @@
+daemon status:                                Running
+startup time:                                 Dec 31, 2000 at 7:01:08 PM (2165.75 seconds ago)
+status counters last reset:                   Dec 31, 2000 at 7:01:08 PM (2165.75 seconds ago)
+certificate status:                           Provisioned, using existing certificate
+app refresh activity:                         Yes
+connection environment:                       development
+   courier status:                            Not connected because there are no eligible topics
+      enabled:                                Yes
+      stream connected:                       No
+      connected to service:                   No
+      users not connected:                    0 0 darkWakeEnabled 235 235 darkWakeEnabled 501 501 darkWakeEnabled
+      keep alive proxying:                    Disabled
+   application port name:                     com.apple.icloud.findmydeviced.aps-development
+      process:                                findmydeviced
+      persistent connection status:           No listening topics, will not send or receive push notifications
+      persistent connection created:          Dec 31, 2000 at 7:07:11 PM (1802.98 seconds ago)
+      user:                                   0 darkWakeEnabled
+      token:                                  Missing
+      status change notifications:            Disabled
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               1
+         last ipc action:                     Dec 31, 2000 at 7:07:11 PM (1802.97 seconds ago)
+         ipc messages sent:                   1
+         last ipc message sent:               Dec 31, 2000 at 7:07:11 PM (1802.97 seconds ago)
+         ipc messages queued:                 1
+         ipc messages waiting in queue:       0
+         ipc messages acknowledged:           1
+         last ack from application:           Dec 31, 2000 at 7:07:11 PM (1802.96 seconds ago)
+         ipc delivery success rate:           100% (1 of 1)
+   application port name:                     com.apple.mdmclient.agent.push.development
+      process:                                mdmclient
+      persistent connection status:           No listening topics, will not send or receive push notifications
+      persistent connection created:          Dec 31, 2000 at 7:29:17 PM (477.43 seconds ago)
+      user:                                   501 darkWakeEnabled
+      token:                                  Missing
+      status change notifications:            Disabled
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               1
+         last ipc action:                     Dec 31, 2000 at 7:29:17 PM (477.43 seconds ago)
+         ipc messages sent:                   1
+         last ipc message sent:               Dec 31, 2000 at 7:29:17 PM (477.43 seconds ago)
+         ipc messages queued:                 1
+         ipc messages waiting in queue:       0
+         ipc messages acknowledged:           1
+         last ack from application:           Dec 31, 2000 at 7:29:17 PM (477.43 seconds ago)
+         ipc delivery success rate:           100% (1 of 1)
+connection environment:                       production
+   courier status:                            Will reattempt to connect
+      enabled:                                Yes
+      stream connected:                       No
+      connected to service:                   No
+         consecutive connection failures:     34
+         last connection attempt:             Dec 31, 2000 at 7:34:53 PM (140.67 seconds ago)
+      users not connected:                    0 0 darkWakeEnabled 235 235 darkWakeEnabled 501 501 darkWakeEnabled
+      keep alive proxying:                    Disabled
+   process:                                   AssetCache
+      process connection status:              Not connected to service
+      process connected:                      Dec 31, 2000 at 7:01:09 PM (2165.51 seconds ago)
+      user:                                   235
+      token:                                  Yes, <f0d2b960 b6eca1bd 2c0a4fc5 dff4e0ce 2a3a9138 a9e7ff09 56f2b0d5 023347ee>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.apple.assetcache
+            status:                           Waiting for push notifications
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               37
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages sent:                   35
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages queued:                 35
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                2
+         ipc messages acknowledged:           35
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc delivery success rate:           100% (35 of 35)
+   application port name:                     com.apple.siriknowledged.aps
+      process:                                siriknowledged
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:02:42 PM (2072.46 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.apple.icloud-container.com.apple.siriknowledged
+            status:                           Waiting for push notifications
+      ipc message queue status:               No ipc messages have been sent
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages sent:                   0
+         ipc messages skipped:                34
+         ipc messages acknowledged:           0
+   application port name:                     com.apple.keyboardServices.textReplacementServer.aps
+      process:                                keyboardservicesd
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:02:42 PM (2072.44 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.apple.icloud-container.com.apple.keyboardservicesd
+            status:                           Waiting for push notifications
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages sent:                   20
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages queued:                 20
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                14
+         ipc messages acknowledged:           20
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc delivery success rate:           100% (20 of 20)
+   application port name:                     com.apple.SafariCloudHistoryPushAgent.Push
+      process:                                SafariCloudHistoryPushAgent
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:02:42 PM (2071.94 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.apple.icloud-container.com.apple.Safari
+            status:                           Waiting for push notifications
+      ipc message queue status:               No ipc messages have been sent
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages sent:                   0
+         ipc messages skipped:                34
+         ipc messages acknowledged:           0
+   application port name:                     com.apple.assistantd.aps
+      process:                                assistantd
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:02:43 PM (2071.27 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.apple.icloud-container.com.apple.assistant.assistantd
+            status:                           Waiting for push notifications
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages sent:                   22
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages queued:                 22
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                12
+         ipc messages acknowledged:           22
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc delivery success rate:           100% (22 of 22)
+   application port name:                     com.apple.ak.aps
+      process:                                akd
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:02:43 PM (2070.99 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Enabled
+      enabled topics:                         1
+         topic:                               com.apple.idmsauth
+            status:                           Waiting for push notifications
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages sent:                   30
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages queued:                 30
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                4
+         ipc messages acknowledged:           30
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc delivery success rate:           100% (30 of 30)
+   application port name:                     com.apple.AdSheetPhone.push
+      process:                                adprivacyd
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:02:43 PM (2070.71 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.apple.icloud-container.com.apple.AdSheetPhone
+            status:                           Waiting for push notifications
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages sent:                   25
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages queued:                 25
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                9
+         ipc messages acknowledged:           25
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc delivery success rate:           100% (25 of 25)
+   application port name:                     com.apple.CallHistorySyncHelper.aps
+      process:                                CallHistorySyncHelper
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:02:54 PM (2059.85 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.apple.icloud-container.com.apple.callhistory.sync-helper
+            status:                           Waiting for push notifications
+            app token:                        , not yet acquired
+      ipc message queue status:               No ipc messages have been sent
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages sent:                   0
+         ipc messages skipped:                34
+         ipc messages acknowledged:           0
+   application port name:                     com.apple.gamed.aps
+      process:                                gamed
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:03:00 PM (2054.23 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.apple.gamed
+            status:                           Waiting for push notifications
+      ipc message queue status:               No ipc messages have been sent
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages sent:                   0
+         ipc messages skipped:                34
+         ipc messages acknowledged:           0
+   application port name:                     com.apple.askpermission.aps
+      process:                                askpermissiond
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:03:00 PM (2054.18 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.icloud.askpermission
+            status:                           Waiting for push notifications
+      ipc message queue status:               No ipc messages have been sent
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages sent:                   0
+         ipc messages skipped:                34
+         ipc messages acknowledged:           0
+   application port name:                     com.apple.aps.assistantd.fmip
+      process:                                assistantd
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:03:01 PM (2053.60 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.apple.icloud.fmip.voiceassistantsync
+            status:                           Waiting for push notifications
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages sent:                   22
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages queued:                 22
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                12
+         ipc messages acknowledged:           22
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc delivery success rate:           100% (22 of 22)
+   application port name:                     com.apple.SafariBookmarksSyncAgent.Push
+      process:                                SafariBookmarksSyncAgent
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:03:01 PM (2053.57 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.apple.icloud-container.com.apple.SafariBookmarksSyncAgent
+            status:                           Waiting for push notifications
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages sent:                   25
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages queued:                 25
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                9
+         ipc messages acknowledged:           25
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc delivery success rate:           100% (25 of 25)
+   application port name:                     com.apple.homed.aps
+      process:                                homed
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:03:01 PM (2053.54 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.apple.icloud-container.com.apple.willowd
+            status:                           Waiting for push notifications
+            app token:                        , not yet acquired
+      ipc message queue status:               No ipc messages have been sent
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages sent:                   0
+         ipc messages skipped:                34
+         ipc messages acknowledged:           0
+   application port name:                     com.apple.AOSPushRelay.push
+      process:                                AOSPushRelay
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:03:01 PM (2053.14 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      enabled topics:                         3
+         topic:                               com.icloud.family
+            status:                           Waiting for push notifications
+         topic:                               com.icloud.quota
+            status:                           Waiting for push notifications
+         topic:                               com.me.setupservice
+            status:                           Waiting for push notifications
+      ipc message queue status:               No ipc messages have been sent
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages sent:                   0
+         ipc messages skipped:                34
+         ipc messages acknowledged:           0
+   application port name:                     com.apple.coreservices.appleid.aps
+      process:                                sharingd
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:03:02 PM (2052.52 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.apple.idmsauthagent
+            status:                           Waiting for push notifications
+            app token:                        , not yet acquired
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages sent:                   31
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages queued:                 31
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                3
+         ipc messages acknowledged:           31
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc delivery success rate:           100% (31 of 31)
+   application port name:                     com.apple.suggestd.aps
+      process:                                suggestd
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:03:02 PM (2052.40 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Enabled
+      enabled topics:                         1
+         topic:                               com.apple.icloud-container.com.apple.suggestd
+            status:                           Waiting for push notifications
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages sent:                   20
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages queued:                 20
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                14
+         ipc messages acknowledged:           20
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc delivery success rate:           100% (20 of 20)
+   application port name:                     com.apple.securityd.aps
+      process:                                secd
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:03:02 PM (2052.35 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.apple.icloud-container.com.apple.securityd
+            status:                           Waiting for push notifications
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages sent:                   30
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages queued:                 30
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                4
+         ipc messages acknowledged:           30
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc delivery success rate:           100% (30 of 30)
+   application port name:                     com.apple.passd.aps
+      process:                                passd
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:03:02 PM (2052.07 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      enabled topics:                         4
+         topic:                               com.apple.account.service
+            status:                           Waiting for push notifications
+         topic:                               com.apple.apply.service
+            status:                           Waiting for push notifications
+         topic:                               com.apple.passd
+            status:                           Waiting for push notifications
+         topic:                               com.apple.peerpayment
+            status:                           Waiting for push notifications
+      ipc message queue status:               No ipc messages have been sent
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   0
+         ipc messages skipped:                34
+         ipc messages acknowledged:           0
+   application port name:                     com.apple.icloud.fmfd.aps
+      process:                                fmfd
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:03:02 PM (2051.99 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.apple.mobileme.fmf3
+            status:                           Waiting for push notifications
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   29
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages queued:                 29
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                5
+         ipc messages acknowledged:           29
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc delivery success rate:           100% (29 of 29)
+   application port name:                     com.apple.bird.push
+      process:                                bird
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:03:03 PM (2051.56 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      enabled topics:                         39
+         topic:                               com.apple.icloud-container.clouddocs.3L68KQB4HG.com.readdle.CommonDocuments
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.6HB5Y2QTA3.com.hp.printer.control
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.9J2S3R248W.com.eightythree.iPhoneDrive
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.F3LWYJ7GM7.com.apple.garageband10
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.F3LWYJ7GM7.com.apple.mobilegarageband
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.F6266T9T75.com.apple.iMovie
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.P76F7CDB9L.com.imoreapps.portabledisk
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.com.apple.Automator
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.com.apple.CloudDocs
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.com.apple.CloudDocs.container-metadata
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.com.apple.CloudDocs.health
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.com.apple.Desktop
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.com.apple.Documents
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.com.apple.Keynote
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.com.apple.Numbers
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.com.apple.Pages
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.com.apple.Preview
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.com.apple.QuickTimePlayerX
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.com.apple.ScriptEditor2
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.com.apple.TextEdit
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.com.apple.TextInput
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.com.apple.mail
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.com.apple.shoebox
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.iCloud.com.allbond.protocol09
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.iCloud.com.apple.configurator.ui
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.iCloud.com.apple.iBooks
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.iCloud.com.apple.iBooks.iTunesU
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.iCloud.com.artproweb.smartjsoneditor
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.iCloud.com.macsoftex.rmanager.free
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.iCloud.com.nssurge.inc
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.iCloud.com.skyjos.fileexplorer
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.iCloud.com.skyjos.fileexplorer.icloud
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.iCloud.com.skyjos.fileexplorerfree.icloud
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.iCloud.com.stm.filesharing
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.iCloud.com.stratospherix.filebrowserlite
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.iCloud.com.translatoria.scanandtranslatefree2
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.iCloud.dk.simonbs.Jayson
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.iCloud.dk.simonbs.Scriptable
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.clouddocs.iCloud.org.smartdisk
+            status:                           Waiting for push notifications
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   28
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc messages queued:                 28
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                6
+         ipc messages acknowledged:           28
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc delivery success rate:           100% (28 of 28)
+   process:                                   commerce
+      process connection status:              Not connected to service
+      process connected:                      Dec 31, 2000 at 7:04:48 PM (1945.92 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.apple.maspushagent
+            status:                           Waiting for push notifications
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               32
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   30
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages queued:                 30
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                2
+         ipc messages acknowledged:           30
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc delivery success rate:           100% (30 of 30)
+   process:                                   cloudpaird
+      process connection status:              Not connected to service
+      process connected:                      Dec 31, 2000 at 7:06:51 PM (1823.30 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.apple.icloud-container.com.apple.cloudpaird
+            status:                           Waiting for push notifications
+            app token:                        , not yet acquired
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               28
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   26
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages queued:                 26
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                2
+         ipc messages acknowledged:           26
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc delivery success rate:           100% (26 of 26)
+   application port name:                     com.apple.appstoreagent.aps
+      process:                                appstoreagent
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:09:58 PM (1635.99 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.apple.appstored
+            status:                           Waiting for push notifications
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               23
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   23
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages queued:                 23
+         ipc messages waiting in queue:       0
+         ipc messages acknowledged:           23
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc delivery success rate:           100% (23 of 23)
+   process:                                   ProtectedCloudKeySyncing
+      process connection status:              Not connected to service
+      process connected:                      Dec 31, 2000 at 7:31:18 PM (356.54 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.apple.icloud-container.com.apple.protectedcloudstorage.protectedcloudkeysyncing
+            status:                           Waiting for push notifications
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               9
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   7
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages queued:                 7
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                2
+         ipc messages acknowledged:           7
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc delivery success rate:           100% (7 of 7)
+   process:                                   com.apple.iCloudHelper
+      process connection status:              No listening topics, will not send or receive push notifications
+      process connected:                      Dec 31, 2000 at 7:33:30 PM (224.27 seconds ago)
+      user:                                   501
+      token:                                  Yes, <5990a0d6 b0073338 3ad70804 958eb8ee 80a7b11c 17078ce3 32b00e78 44691b45>
+      status change notifications:            Disabled
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               5
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   3
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages queued:                 3
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                2
+         ipc messages acknowledged:           3
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc delivery success rate:           100% (3 of 3)
+   application port name:                     com.apple.icloud.findmydeviced.aps-production
+      process:                                findmydeviced
+      persistent connection status:           No listening topics, will not send or receive push notifications
+      persistent connection created:          Dec 31, 2000 at 7:07:11 PM (1803.17 seconds ago)
+      user:                                   0 darkWakeEnabled
+      token:                                  Yes, <b6f92ae1 8685a4ec 22f2264b 542d616d b22ace98 a74792a3 faf3906a 982dc3c8>
+      status change notifications:            Disabled
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               26
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   26
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages queued:                 26
+         ipc messages waiting in queue:       0
+         ipc messages acknowledged:           26
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.67 seconds ago)
+         ipc delivery success rate:           100% (26 of 26)
+   application port name:                     com.apple.identityservicesd.aps
+      process:                                identityservicesd
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:01:36 PM (2138.24 seconds ago)
+      user:                                   501 darkWakeEnabled
+      token:                                  Yes, <6610428d fdf4b074 52583296 07fab108 4170a077 45837c36 2b9f5b76 01e18f1d>
+      status change notifications:            Enabled
+      enabled topics:                         41
+         topic:                               com.apple.ess
+            status:                           Waiting for push notifications
+         topic:                               com.apple.madrid
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.ac
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.accessibility.switchcontrol
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.applepay
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.autobugcapture
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.avconference.avctester
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.avconference.icloud
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.biz
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.continuity.activity
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.continuity.encryption
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.continuity.tethering
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.continuity.unlock
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.digitalhealth
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.electrictouch
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.facetime.audio
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.facetime.lp
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.facetime.multi
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.facetime.mw
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.facetime.video
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.fmf
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.gamecenter
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.icloudpairing
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.iosdiagnostics.icloud
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.maps
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.messagenotification
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.nearby
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.phone.auth
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.phonecontinuity
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.photostream
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.proxiedcrashcopier.icloud
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.quickrelay
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.safeview
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.screensharing
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.screensharing.qr
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.sms
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.thumper.keys
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.toolchestlite
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.willow
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.alloy.willow.stream
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.ids
+            status:                           Waiting for push notifications
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               35
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   35
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages queued:                 35
+         ipc messages waiting in queue:       0
+         ipc messages acknowledged:           35
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc delivery success rate:           100% (35 of 35)
+   application port name:                     com.apple.syncdefaultsd.push
+      process:                                syncdefaultsd
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:01:38 PM (2136.51 seconds ago)
+      user:                                   501 darkWakeEnabled
+      token:                                  Yes, <6610428d fdf4b074 52583296 07fab108 4170a077 45837c36 2b9f5b76 01e18f1d>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.me.keyvalueservice
+            status:                           Waiting for push notifications
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               35
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   14
+         last ipc message sent:               Dec 31, 2000 at 7:34:53 PM (140.68 seconds ago)
+         ipc messages queued:                 14
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                21
+         ipc messages acknowledged:           14
+         last ack from application:           Dec 31, 2000 at 7:34:53 PM (140.68 seconds ago)
+         ipc delivery success rate:           100% (14 of 14)
+   process:                                   identityservicesd
+      process connection status:              No listening topics, will not send or receive push notifications
+      process connected:                      Dec 31, 2000 at 7:01:38 PM (2136.41 seconds ago)
+      user:                                   501 darkWakeEnabled
+      token:                                  Yes, <6610428d fdf4b074 52583296 07fab108 4170a077 45837c36 2b9f5b76 01e18f1d>
+      status change notifications:            Enabled
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               37
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   35
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages queued:                 35
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                2
+         ipc messages acknowledged:           35
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc delivery success rate:           100% (35 of 35)
+   process:                                   identityservicesd
+      process connection status:              No listening topics, will not send or receive push notifications
+      process connected:                      Dec 31, 2000 at 7:01:38 PM (2135.64 seconds ago)
+      user:                                   501 darkWakeEnabled
+      token:                                  Yes, <6610428d fdf4b074 52583296 07fab108 4170a077 45837c36 2b9f5b76 01e18f1d>
+      status change notifications:            Enabled
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               37
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   35
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages queued:                 35
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                2
+         ipc messages acknowledged:           35
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc delivery success rate:           100% (35 of 35)
+   process:                                   usernoted
+      process connection status:              Not connected to service
+      process connected:                      Dec 31, 2000 at 7:01:40 PM (2133.91 seconds ago)
+      user:                                   501 darkWakeEnabled
+      token:                                  Yes, <6610428d fdf4b074 52583296 07fab108 4170a077 45837c36 2b9f5b76 01e18f1d>
+      status change notifications:            Disabled
+      opportunistic topics:                   2
+         topic:                               com.apple.Notes
+            status:                           Waiting for push notifications
+         topic:                               com.apple.icloud-container.com.apple.Notes
+            status:                           Waiting for push notifications
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               36
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   34
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages queued:                 34
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                2
+         ipc messages acknowledged:           34
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc delivery success rate:           100% (34 of 34)
+   application port name:                     com.apple.Maps.mapspushd.icloud
+      process:                                mapspushd
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:02:39 PM (2074.81 seconds ago)
+      user:                                   501 darkWakeEnabled
+      token:                                  Yes, <6610428d fdf4b074 52583296 07fab108 4170a077 45837c36 2b9f5b76 01e18f1d>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.apple.maps.icloud
+            status:                           Waiting for push notifications
+      ipc message queue status:               No ipc messages have been sent
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   0
+         ipc messages skipped:                34
+         ipc messages acknowledged:           0
+   application port name:                     com.apple.coreduet.knowledge.sync.push
+      process:                                knowledge-agent
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:02:40 PM (2074.37 seconds ago)
+      user:                                   501 darkWakeEnabled
+      token:                                  Yes, <6610428d fdf4b074 52583296 07fab108 4170a077 45837c36 2b9f5b76 01e18f1d>
+      status change notifications:            Disabled
+      opportunistic topics:                   1
+         topic:                               com.apple.icloud-container.com.apple.knowledge-agent
+            status:                           Waiting for push notifications
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   24
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages queued:                 24
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                10
+         ipc messages acknowledged:           24
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc delivery success rate:           100% (24 of 24)
+   application port name:                     com.apple.cloudphotosd.push
+      process:                                cloudphotosd
+      persistent connection status:           Not connected to service
+      persistent connection created:          Dec 31, 2000 at 7:02:41 PM (2072.91 seconds ago)
+      user:                                   501 darkWakeEnabled
+      token:                                  Yes, <6610428d fdf4b074 52583296 07fab108 4170a077 45837c36 2b9f5b76 01e18f1d>
+      status change notifications:            Disabled
+      enabled topics:                         3
+         topic:                               com.apple.icloud-container.com.apple.photos.cloud
+            status:                           Waiting for push notifications
+            app token:                        , not yet acquired
+         topic:                               com.apple.mediastream.subscription.push
+            status:                           Waiting for push notifications
+         topic:                               com.apple.sharedstreams
+            status:                           Waiting for push notifications
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   20
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages queued:                 20
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                14
+         ipc messages acknowledged:           20
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc delivery success rate:           100% (20 of 20)
+   process:                                   imagent
+      process connection status:              Not connected to service
+      process connected:                      Dec 31, 2000 at 7:03:29 PM (2024.62 seconds ago)
+      user:                                   501 darkWakeEnabled
+      token:                                  Yes, <6610428d fdf4b074 52583296 07fab108 4170a077 45837c36 2b9f5b76 01e18f1d>
+      status change notifications:            Enabled
+      enabled topics:                         2
+         topic:                               com.apple.ess
+            status:                           Waiting for push notifications
+         topic:                               com.apple.private.ac
+            status:                           Waiting for push notifications
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   32
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages queued:                 32
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                2
+         ipc messages acknowledged:           32
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc delivery success rate:           100% (32 of 32)
+   process:                                   imagent
+      process connection status:              No listening topics, will not send or receive push notifications
+      process connected:                      Dec 31, 2000 at 7:03:31 PM (2023.41 seconds ago)
+      user:                                   501 darkWakeEnabled
+      token:                                  Yes, <6610428d fdf4b074 52583296 07fab108 4170a077 45837c36 2b9f5b76 01e18f1d>
+      status change notifications:            Enabled
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   32
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages queued:                 32
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                2
+         ipc messages acknowledged:           32
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc delivery success rate:           100% (32 of 32)
+   process:                                   imagent
+      process connection status:              Not connected to service
+      process connected:                      Dec 31, 2000 at 7:03:34 PM (2020.37 seconds ago)
+      user:                                   501 darkWakeEnabled
+      token:                                  Yes, <6610428d fdf4b074 52583296 07fab108 4170a077 45837c36 2b9f5b76 01e18f1d>
+      status change notifications:            Disabled
+      enabled topics:                         1
+         topic:                               com.apple.icloud-container.com.apple.imagent
+            status:                           Waiting for push notifications
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               34
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   32
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages queued:                 32
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                2
+         ipc messages acknowledged:           32
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc delivery success rate:           100% (32 of 32)
+   application port name:                     com.apple.mdmclient.agent.push.production
+      process:                                mdmclient
+      persistent connection status:           No listening topics, will not send or receive push notifications
+      persistent connection created:          Dec 31, 2000 at 7:29:17 PM (477.45 seconds ago)
+      user:                                   501 darkWakeEnabled
+      token:                                  Yes, <6610428d fdf4b074 52583296 07fab108 4170a077 45837c36 2b9f5b76 01e18f1d>
+      status change notifications:            Disabled
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               10
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   1
+         last ipc message sent:               Dec 31, 2000 at 7:29:17 PM (477.45 seconds ago)
+         ipc messages queued:                 1
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                9
+         ipc messages acknowledged:           1
+         last ack from application:           Dec 31, 2000 at 7:29:17 PM (477.45 seconds ago)
+         ipc delivery success rate:           100% (1 of 1)
+   process:                                   identityservicesd
+      process connection status:              No listening topics, will not send or receive push notifications
+      process connected:                      Dec 31, 2000 at 7:31:35 PM (338.69 seconds ago)
+      user:                                   501 darkWakeEnabled
+      token:                                  Yes, <6610428d fdf4b074 52583296 07fab108 4170a077 45837c36 2b9f5b76 01e18f1d>
+      status change notifications:            Enabled
+      ipc message queue status:               Ok
+         push notifications:                  0
+         non-push ipc messages:               8
+         last ipc action:                     Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages sent:                   6
+         last ipc message sent:               Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc messages queued:                 6
+         ipc messages waiting in queue:       0
+         ipc messages skipped:                2
+         ipc messages acknowledged:           6
+         last ack from application:           Dec 31, 2000 at 7:35:23 PM (110.68 seconds ago)
+         ipc delivery success rate:           100% (6 of 6)

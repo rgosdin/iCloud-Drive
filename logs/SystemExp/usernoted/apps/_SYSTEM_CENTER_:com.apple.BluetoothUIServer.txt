@@ -1,0 +1,18 @@
+		path: ""
+		identifier: "_SYSTEM_CENTER_:com.apple.BluetoothUIServer"
+		daemon launching messages
+			[ .Activate .DismissAlert ]
+		access count: 0
+		prefs:
+			app_prefs_play_sounds: true
+			app_authorizations: 7
+			app_type: 2
+			app_pref_shows_in_notification_center: false
+			app_prefs_badge_icon: true
+			app_content_hidden_lockscreen: true
+			app_content_hidden: false
+			app_prefs_alert_style: 2
+			app_pref_notifications_to_show: 20
+			app_hidden_from_ls: false
+			app_uses_modern_api: false
+			app_shows_summary: false

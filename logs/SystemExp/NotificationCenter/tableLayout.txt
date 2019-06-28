@@ -1,0 +1,7 @@
+
+<NCTableView: 0x7f9df770fde0> (322.0, 400.0)
+<NSLayoutConstraint:0x6000011f05a0 NCTableView:0x7f9df770fde0.leading == NSTextField:0x7f9df770cb70.leading   (active)>
+<NSLayoutConstraint:0x6000011f1540 NSTextField:0x7f9df770cb70.trailing == NCTableView:0x7f9df770fde0.trailing   (active)>
+<NSLayoutConstraint:0x6000011f06e0 NCTableView:0x7f9df770fde0.centerY == NSTextField:0x7f9df770cb70.centerY   (active)>
+
+    <NSTextField: 0x7f9df770cb70> (324.0, 17.0)

@@ -1,0 +1,10 @@
+efi-boot-device	<array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>ED6ECD85-3E4D-443D-BC4B-7A7C9041F05C</string></dict></dict><key>BLLastBSDName</key><string>disk1s2</string></dict><dict><key>IOEFIDevicePathType</key><string>MediaFilePath</string><key>Path</key><string>\515057A2-DE46-47AD-A732-F377E26D3889\System\Library\CoreServices\boot.efi</string></dict></array>%00
+boot-gamma	%10%06%00%00%c5%9c%00%00%00%00%00%00n%00%00%00%00%00%00%00%07%00%04%04%db%05%0b%0b%b2%0e%1e%1e%95$66m>WWO`ww%09%80%a1%a1%87%a8%07%00%04%04%db%05%0b%0b%b2%0e%1e%1e%95$66m>WWO`ww%09%80%a1%a1%87%a8%07%00%04%04%db%05%0b%0b%b2%0e%1e%1e%95$66m>WWO`ww%09%80%a1%a1%87%a8
+bluetoothInternalControllerInfo	%1a%82%ac%05%000%11%fa%e0%f8G%07%af%ed
+fmm-computer-name	MacBook of Ryan
+bluetoothActiveControllerInfo	%1a%82%ac%05%00%00%000%11%fa%e0%f8G%07%af%ed
+SystemAudioVolumeDB	%f6
+SystemAudioVolume	_
+efi-boot-device-data	%02%01%0c%00%d0A%03%0a%00%00%00%00%01%01%06%00%02%1f%03%12%0a%00%00%00%00%00%00%00%04%01*%00%02%00%00%00(@%06%00%00%00%00%00`%04%ec%1b%00%00%00%00%df%8fP%12%07%b6%feB%9e%fcM%a2?o%bbL%02%02%04%03$%00%f7%fct%be|%0b%f3I%91G%01%f4%04.hB%85%cdn%edM>=D%bcKz|%90A%f0\%04%04%9a%00\%005%001%005%000%005%007%00A%002%00-%00D%00E%004%006%00-%004%007%00A%00D%00-%00A%007%003%002%00-%00F%003%007%007%00E%002%006%00D%003%008%008%009%00\%00S%00y%00s%00t%00e%00m%00\%00L%00i%00b%00r%00a%00r%00y%00\%00C%00o%00r%00e%00S%00e%00r%00v%00i%00c%00e%00s%00\%00b%00o%00o%00t%00.%00e%00f%00i%00%00%00%7f%ff%04%00
+LocationServicesEnabled	%01
+backlight-level	%f9%00

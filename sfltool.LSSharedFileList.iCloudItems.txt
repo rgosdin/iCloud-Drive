@@ -1,0 +1,28 @@
+com.apple.LSSharedFileList.iCloudItems - [modernized]
+Properties: {
+}
+- Item: 0
+	UUID: 4039D56A-53B9-45FE-B2F0-9606425D9022
+	Item ID: 1792358720
+	Display name: iCloud
+	URL: x-apple-finder:icloud
+	Icon binding: FileInfoBinding [0x103] - extension: (NULL), UTI: (null), fileType: ????
+	Properties: {
+		 kLSSharedFileListItemUserIsiCloud : 1
+	}
+- Item: 1
+	UUID: BF88D581-E634-480E-8DAD-F4BA0271A3EF
+	Item ID: -2116712257
+	Display name: Documents
+	URL: file:///Users/ryangosdin/Documents/
+	Icon binding: FileInfoBinding [0x105] - extension: (NULL), UTI: public.directory, fileType: ????
+	Properties: {
+	}
+- Item: 2
+	UUID: 6DEBE8BA-F8A0-4061-95DE-FB7F71B985F9
+	Item ID: -1159140499
+	Display name: Desktop
+	URL: file:///Users/ryangosdin/Desktop/
+	Icon binding: FileInfoBinding [0x107] - extension: (NULL), UTI: public.directory, fileType: ????
+	Properties: {
+	}

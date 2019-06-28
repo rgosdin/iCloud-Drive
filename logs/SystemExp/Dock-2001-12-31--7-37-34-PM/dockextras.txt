@@ -1,0 +1,7 @@
+<DockExtraServer 0x600002010080> {path=/Applications/App Store.app, lastConnectionAttempt=1926.482861, reconnects=0, reconnectTime=1, connecting=0, connected=1, connectionInvalid=0}
+<DockExtraServer 0x600002018480> {path=/Applications/iTunes.app, lastConnectionAttempt=1926.482806, reconnects=0, reconnectTime=1, connecting=0, connected=1, connectionInvalid=0}
+<DockExtraServer 0x600002011600> {path=/Applications/FaceTime.app, lastConnectionAttempt=1926.482641, reconnects=0, reconnectTime=1, connecting=0, connected=1, connectionInvalid=0}
+<DockExtraServer 0x60000201c500> {path=/Applications/Calendar.app, lastConnectionAttempt=1926.482745, reconnects=0, reconnectTime=1, connecting=0, connected=1, connectionInvalid=0}
+<DockExtraServer 0x600002019c80> {path=/Applications/Reminders.app, lastConnectionAttempt=1926.482329, reconnects=0, reconnectTime=1, connecting=0, connected=1, connectionInvalid=0}
+<DockExtraServer 0x60000201ca80> {path=/Applications/Messages.app, lastConnectionAttempt=1926.482939, reconnects=0, reconnectTime=1, connecting=0, connected=1, connectionInvalid=0}
+<DockExtraServer 0x600002018300> {path=/Applications/System Preferences.app, lastConnectionAttempt=1926.482515, reconnects=0, reconnectTime=1, connecting=0, connected=1, connectionInvalid=0}

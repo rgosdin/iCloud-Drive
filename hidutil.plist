@@ -1,0 +1,5710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ClientRecords</key>
+	<array>
+		<dict>
+			<key>Services</key>
+			<array>
+				<dict>
+					<key>BatchInterval</key>
+					<integer>1</integer>
+					<key>Built-In</key>
+					<false/>
+					<key>DeviceUsagePairs</key>
+					<array>
+						<dict>
+							<key>DeviceUsage</key>
+							<integer>1</integer>
+							<key>DeviceUsagePage</key>
+							<integer>12</integer>
+						</dict>
+					</array>
+					<key>IOClass</key>
+					<string>AppleIRHIDEventDriver</string>
+					<key>IORegistryEntryID</key>
+					<integer>4294968080</integer>
+					<key>PrimaryUsage</key>
+					<integer>1</integer>
+					<key>PrimaryUsagePage</key>
+					<integer>12</integer>
+					<key>ReportInterval</key>
+					<integer>0</integer>
+					<key>Transport</key>
+					<string>USB</string>
+				</dict>
+				<dict>
+					<key>BatchInterval</key>
+					<integer>0</integer>
+					<key>Built-In</key>
+					<true/>
+					<key>DeviceUsagePairs</key>
+					<array>
+						<dict>
+							<key>DeviceUsage</key>
+							<integer>12</integer>
+							<key>DeviceUsagePage</key>
+							<integer>13</integer>
+						</dict>
+						<dict>
+							<key>DeviceUsage</key>
+							<integer>1</integer>
+							<key>DeviceUsagePage</key>
+							<integer>65280</integer>
+						</dict>
+						<dict>
+							<key>DeviceUsage</key>
+							<integer>12</integer>
+							<key>DeviceUsagePage</key>
+							<integer>65280</integer>
+						</dict>
+						<dict>
+							<key>DeviceUsage</key>
+							<integer>1</integer>
+							<key>DeviceUsagePage</key>
+							<integer>1</integer>
+						</dict>
+						<dict>
+							<key>DeviceUsage</key>
+							<integer>2</integer>
+							<key>DeviceUsagePage</key>
+							<integer>1</integer>
+						</dict>
+						<dict>
+							<key>DeviceUsage</key>
+							<integer>5</integer>
+							<key>DeviceUsagePage</key>
+							<integer>13</integer>
+						</dict>
+					</array>
+					<key>IOClass</key>
+					<string>AppleUSBMultitouchDriver</string>
+					<key>IORegistryEntryID</key>
+					<integer>4294968102</integer>
+					<key>PrimaryUsage</key>
+					<integer>12</integer>
+					<key>PrimaryUsagePage</key>
+					<integer>13</integer>
+					<key>ReportInterval</key>
+					<integer>0</integer>
+					<key>Transport</key>
+					<string>USB</string>
+				</dict>
+				<dict>
+					<key>BatchInterval</key>
+					<integer>1</integer>
+					<key>Built-In</key>
+					<true/>
+					<key>DeviceUsagePairs</key>
+					<array>
+						<dict>
+							<key>DeviceUsage</key>
+							<integer>6</integer>
+							<key>DeviceUsagePage</key>
+							<integer>1</integer>
+						</dict>
+						<dict>
+							<key>DeviceUsage</key>
+							<integer>1</integer>
+							<key>DeviceUsagePage</key>
+							<integer>12</integer>
+						</dict>
+					</array>
+					<key>IOClass</key>
+					<string>AppleEmbeddedKeyboard</string>
+					<key>IORegistryEntryID</key>
+					<integer>4294968111</integer>
+					<key>PrimaryUsage</key>
+					<integer>6</integer>
+					<key>PrimaryUsagePage</key>
+					<integer>1</integer>
+					<key>ReportInterval</key>
+					<integer>0</integer>
+					<key>Transport</key>
+					<string>USB</string>
+				</dict>
+				<dict>
+					<key>BatchInterval</key>
+					<integer>1</integer>
+					<key>Built-In</key>
+					<true/>
+					<key>DeviceUsagePairs</key>
+					<array>
+						<dict>
+							<key>DeviceUsage</key>
+							<integer>1</integer>
+							<key>DeviceUsagePage</key>
+							<integer>12</integer>
+						</dict>
+					</array>
+					<key>IOClass</key>
+					<string>AppleACPIButton</string>
+					<key>IORegistryEntryID</key>
+					<integer>4294967785</integer>
+					<key>PrimaryUsage</key>
+					<integer>1</integer>
+					<key>PrimaryUsagePage</key>
+					<integer>12</integer>
+					<key>ReportInterval</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>BatchInterval</key>
+					<integer>1</integer>
+					<key>Built-In</key>
+					<true/>
+					<key>DeviceUsagePairs</key>
+					<array>
+						<dict>
+							<key>DeviceUsage</key>
+							<integer>1</integer>
+							<key>DeviceUsagePage</key>
+							<integer>12</integer>
+						</dict>
+					</array>
+					<key>IOClass</key>
+					<string>AppleACPIButton</string>
+					<key>IORegistryEntryID</key>
+					<integer>4294967782</integer>
+					<key>PrimaryUsage</key>
+					<integer>1</integer>
+					<key>PrimaryUsagePage</key>
+					<integer>12</integer>
+					<key>ReportInterval</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>BatchInterval</key>
+					<integer>1</integer>
+					<key>Built-In</key>
+					<false/>
+					<key>IOClass</key>
+					<string>AppleLMUController</string>
+					<key>IORegistryEntryID</key>
+					<integer>4294968219</integer>
+					<key>PrimaryUsage</key>
+					<integer>4</integer>
+					<key>PrimaryUsagePage</key>
+					<integer>65280</integer>
+					<key>ReportInterval</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>BatchInterval</key>
+					<integer>1</integer>
+					<key>Built-In</key>
+					<false/>
+					<key>DeviceUsagePairs</key>
+					<array>
+						<dict>
+							<key>DeviceUsage</key>
+							<integer>1</integer>
+							<key>DeviceUsagePage</key>
+							<integer>12</integer>
+						</dict>
+					</array>
+					<key>IOClass</key>
+					<string>IOHIDEventDriver</string>
+					<key>IORegistryEntryID</key>
+					<integer>4294968314</integer>
+					<key>PrimaryUsage</key>
+					<integer>1</integer>
+					<key>PrimaryUsagePage</key>
+					<integer>12</integer>
+					<key>ReportInterval</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>BatchInterval</key>
+					<integer>1</integer>
+					<key>Built-In</key>
+					<false/>
+					<key>DeviceUsagePairs</key>
+					<array>
+						<dict>
+							<key>DeviceUsage</key>
+							<integer>2</integer>
+							<key>DeviceUsagePage</key>
+							<integer>1</integer>
+						</dict>
+						<dict>
+							<key>DeviceUsage</key>
+							<integer>1</integer>
+							<key>DeviceUsagePage</key>
+							<integer>1</integer>
+						</dict>
+					</array>
+					<key>IOClass</key>
+					<string>IOHIDEventDriver</string>
+					<key>IORegistryEntryID</key>
+					<integer>4294968109</integer>
+					<key>PrimaryUsage</key>
+					<integer>2</integer>
+					<key>PrimaryUsagePage</key>
+					<integer>1</integer>
+					<key>ReportInterval</key>
+					<integer>0</integer>
+					<key>Transport</key>
+					<string>USB</string>
+				</dict>
+				<dict>
+					<key>BatchInterval</key>
+					<integer>1</integer>
+					<key>Built-In</key>
+					<false/>
+					<key>IOClass</key>
+					<string>IOHIDSystem</string>
+					<key>IORegistryEntryID</key>
+					<integer>4294967936</integer>
+					<key>PrimaryUsage</key>
+					<integer>23</integer>
+					<key>PrimaryUsagePage</key>
+					<integer>65280</integer>
+					<key>ReportInterval</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>logd: logd + 32350</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>58</integer>
+			<key>ProcessName</key>
+			<string>logd</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>3</integer>
+			<key>UUID</key>
+			<string>DB1C2EBE-E775-4061-8B26-26845F13BF97</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>libdispatch.dylib: _dispatch_client_callout + 8</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>97</integer>
+			<key>ProcessName</key>
+			<string>corebrightnessd</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>3</integer>
+			<key>UUID</key>
+			<string>E03D6ACA-DB25-4EA0-8563-F854176BADAE</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>SkyLight: _ZN29WSSessionStructuralRegionData26rebuild_force_config_stackEv + 684</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<true/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>131</integer>
+			<key>ProcessName</key>
+			<string>WindowServer</string>
+			<key>ProtectedServicesDisabled</key>
+			<false/>
+			<key>Type</key>
+			<integer>3</integer>
+			<key>UUID</key>
+			<string>E4C93FE1-27AE-4080-9106-CAFC8419AE9A</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityLog</key>
+			<array>
+				<dict>
+					<key>ActivityState</key>
+					<integer>1</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:00:26.242671</string>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>0</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:02:40.374838</string>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>1</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:02:53.165276</string>
+					<key>EventType</key>
+					<integer>11</integer>
+					<key>ServiceID</key>
+					<integer>4294968102</integer>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>0</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:03:03.876324</string>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>1</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:03:04.399884</string>
+					<key>EventType</key>
+					<integer>11</integer>
+					<key>ServiceID</key>
+					<integer>4294968102</integer>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>0</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:03:16.660847</string>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>1</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:03:26.078443</string>
+					<key>EventType</key>
+					<integer>11</integer>
+					<key>ServiceID</key>
+					<integer>4294968102</integer>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>0</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:04:12.195984</string>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>1</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:04:17.500826</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>ServiceID</key>
+					<integer>4294968111</integer>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>0</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:04:41.453410</string>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>1</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:04:43.632870</string>
+					<key>EventType</key>
+					<integer>11</integer>
+					<key>ServiceID</key>
+					<integer>4294968102</integer>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>0</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:04:55.310099</string>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>1</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:05:04.155934</string>
+					<key>EventType</key>
+					<integer>11</integer>
+					<key>ServiceID</key>
+					<integer>4294968102</integer>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>0</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:07:28.943123</string>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>1</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:07:30.292589</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>ServiceID</key>
+					<integer>4294968111</integer>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>0</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:07:42.054049</string>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>1</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:07:44.534616</string>
+					<key>EventType</key>
+					<integer>11</integer>
+					<key>ServiceID</key>
+					<integer>4294968102</integer>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>0</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:14:02.069488</string>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>1</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:14:06.329145</string>
+					<key>EventType</key>
+					<integer>11</integer>
+					<key>ServiceID</key>
+					<integer>4294968102</integer>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>0</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:25:24.062979</string>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>1</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:25:29.618540</string>
+					<key>EventType</key>
+					<integer>11</integer>
+					<key>ServiceID</key>
+					<integer>4294968102</integer>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>0</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:30:58.735501</string>
+				</dict>
+				<dict>
+					<key>ActivityState</key>
+					<integer>1</integer>
+					<key>ActivityTime</key>
+					<string>2000-12-31 19:31:08.080283</string>
+					<key>EventType</key>
+					<integer>11</integer>
+					<key>ServiceID</key>
+					<integer>4294968102</integer>
+				</dict>
+			</array>
+			<key>ActivityState</key>
+			<integer>1</integer>
+			<key>Caller</key>
+			<string>powerd: powerd + 142113</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>616393973</integer>
+			<key>PID</key>
+			<integer>55</integer>
+			<key>ProcessName</key>
+			<string>powerd</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>1</integer>
+			<key>UUID</key>
+			<string>11C84C1E-D82B-4F18-A260-67E5E0489216</string>
+			<key>activityStateChangeCount</key>
+			<integer>23</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>PowerlogLiteOperators: -[PLDisplayAgent initOperatorDependancies] + 812</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<true/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>4096</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>131138</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>131138</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>248</integer>
+			<key>ProcessName</key>
+			<string>PerfPowerServices</string>
+			<key>ProtectedServicesDisabled</key>
+			<false/>
+			<key>Type</key>
+			<integer>3</integer>
+			<key>UUID</key>
+			<string>0721AE87-33B9-4EEE-A022-0C842EC51DC4</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>libdispatch.dylib: _dispatch_client_callout + 8</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>497</integer>
+			<key>ProcessName</key>
+			<string>System Preferences</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>3</integer>
+			<key>UUID</key>
+			<string>73C67B75-A70C-47E8-8922-771882808C41</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>libdispatch.dylib: _dispatch_client_callout + 8</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>89</integer>
+			<key>ProcessName</key>
+			<string>loginwindow</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>3</integer>
+			<key>UUID</key>
+			<string>4BE6F560-AFAE-4793-B9E1-44CDA979556C</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>systemstats: systemstats + 664728</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>4096</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>113563</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>113563</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>52</integer>
+			<key>ProcessName</key>
+			<string>systemstats</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>3</integer>
+			<key>UUID</key>
+			<string>4611FEA3-4BEC-483F-BA27-BEFDC6D6AACF</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>TouchBarEvent.bundle: globalinit_33_C9E269C22E912565FB1025FA05BCFA2C_func1 + 1345</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<true/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>131</integer>
+			<key>ProcessName</key>
+			<string>WindowServer</string>
+			<key>ProtectedServicesDisabled</key>
+			<false/>
+			<key>Type</key>
+			<integer>1</integer>
+			<key>UUID</key>
+			<string>9AB7169A-837D-4329-B006-66263D6B1314</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>CoreBrightness: -[BLControl initialiseHidEventSystemClient] + 59</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>345445</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>345445</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>97</integer>
+			<key>ProcessName</key>
+			<string>corebrightnessd</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>1</integer>
+			<key>UUID</key>
+			<string>D469C8ED-D6B8-4EAB-A750-CBD75A13EE3C</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>libdispatch.dylib: _dispatch_call_block_and_release + 12</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<true/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>616850410</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>616850410</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>412572</integer>
+			<key>PID</key>
+			<integer>131</integer>
+			<key>ProcessName</key>
+			<string>WindowServer</string>
+			<key>ProtectedServicesDisabled</key>
+			<false/>
+			<key>Type</key>
+			<integer>3</integer>
+			<key>UUID</key>
+			<string>98FABA8A-AFB8-49F3-B64B-C4914B276085</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>libdispatch.dylib: _dispatch_call_block_and_release + 12</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<true/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>131</integer>
+			<key>ProcessName</key>
+			<string>WindowServer</string>
+			<key>ProtectedServicesDisabled</key>
+			<false/>
+			<key>Type</key>
+			<integer>3</integer>
+			<key>UUID</key>
+			<string>74724034-D35F-4C37-AB2C-E920DEA18FBB</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>com.apple.rcdevent.matching: initRCDEventPlugin + 324</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>265</integer>
+			<key>ProcessName</key>
+			<string>UserEventAgent</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>3</integer>
+			<key>UUID</key>
+			<string>D3DA2E4B-F500-4D16-8146-60084DC372CC</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>BezelServices: ESDisposeContext + 20717</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>404364</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>404364</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>89</integer>
+			<key>ProcessName</key>
+			<string>loginwindow</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>3</integer>
+			<key>UUID</key>
+			<string>DBBAB245-CB94-4F6B-AA91-ECC5FD878A34</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>libdispatch.dylib: _dispatch_client_callout + 8</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<true/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>131</integer>
+			<key>ProcessName</key>
+			<string>WindowServer</string>
+			<key>ProtectedServicesDisabled</key>
+			<false/>
+			<key>Type</key>
+			<integer>3</integer>
+			<key>UUID</key>
+			<string>D812FB57-7527-4B47-9D1A-CA61EA146DFF</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>HIToolbox: ___GetIOHIDEventSystemClient_block_invoke + 26</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>507</integer>
+			<key>ProcessName</key>
+			<string>com.apple.preferences.sharing.r</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>2</integer>
+			<key>UUID</key>
+			<string>0AE4C3D6-25E5-43CA-9550-6984801C75B8</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>HIToolbox: ___GetIOHIDEventSystemClient_block_invoke + 26</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>89</integer>
+			<key>ProcessName</key>
+			<string>loginwindow</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>2</integer>
+			<key>UUID</key>
+			<string>A48F8E6D-E45D-4FC5-9076-CD088ED7294E</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>com.apple.hiservices-xpcservice: com.apple.hiservices-xpcservice + 14527</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>412</integer>
+			<key>ProcessName</key>
+			<string>com.apple.hiservices-xpcservice</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>2</integer>
+			<key>UUID</key>
+			<string>489015B6-B9FB-4C03-A584-CD28BA119409</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>HIToolbox: ___GetIOHIDEventSystemClient_block_invoke + 26</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>532</integer>
+			<key>ProcessName</key>
+			<string>com.apple.preference.universala</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>2</integer>
+			<key>UUID</key>
+			<string>14E6B19E-ED7B-4B89-A7A7-27015C599087</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>HIToolbox: ___GetIOHIDEventSystemClient_block_invoke + 26</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>643</integer>
+			<key>ProcessName</key>
+			<string>Activity Monitor</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>2</integer>
+			<key>UUID</key>
+			<string>775EAD1F-4E71-4536-A2E5-BD61D0D5A0A3</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>loginwindow: loginwindow + 37754</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>89</integer>
+			<key>ProcessName</key>
+			<string>loginwindow</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>2</integer>
+			<key>UUID</key>
+			<string>2F1FE4F2-53A8-42ED-95FD-30246E589F24</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>HIToolbox: ___GetIOHIDEventSystemClient_block_invoke + 26</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>556</integer>
+			<key>ProcessName</key>
+			<string>HelpViewer</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>2</integer>
+			<key>UUID</key>
+			<string>2AF71C16-B6D3-4928-9A11-3CB40B330E05</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>HIToolbox: ___GetIOHIDEventSystemClient_block_invoke + 26</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>1302</integer>
+			<key>ProcessName</key>
+			<string>com.apple.preferences.extension</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>2</integer>
+			<key>UUID</key>
+			<string>CEBA1230-91BC-4320-A8CF-535336545479</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>HIToolbox: ___GetIOHIDEventSystemClient_block_invoke + 26</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>561</integer>
+			<key>ProcessName</key>
+			<string>com.apple.preference.network.re</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>2</integer>
+			<key>UUID</key>
+			<string>7AA80355-25CF-40F4-BAB1-1395D7DBB0CA</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>HIToolbox: ___GetIOHIDEventSystemClient_block_invoke + 26</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>299</integer>
+			<key>ProcessName</key>
+			<string>Spotlight</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>2</integer>
+			<key>UUID</key>
+			<string>5D1C385C-8E2B-4F33-944F-3A4D30ABD161</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>HIToolbox: ___GetIOHIDEventSystemClient_block_invoke + 26</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>497</integer>
+			<key>ProcessName</key>
+			<string>System Preferences</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>2</integer>
+			<key>UUID</key>
+			<string>B5D01559-D5E5-467A-912A-C1D86315115A</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>HIToolbox: ___GetIOHIDEventSystemClient_block_invoke + 26</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>506</integer>
+			<key>ProcessName</key>
+			<string>com.apple.preference.displays.A</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>2</integer>
+			<key>UUID</key>
+			<string>543C18D8-47F0-458C-9922-3A727B244C43</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>HIToolbox: ___GetIOHIDEventSystemClient_block_invoke + 26</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>1247</integer>
+			<key>ProcessName</key>
+			<string>Finder</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>2</integer>
+			<key>UUID</key>
+			<string>4FE59538-C0DD-4B70-B953-6CC8C9B650A9</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>ActivityState</key>
+			<integer>2</integer>
+			<key>Caller</key>
+			<string>HIToolbox: ___GetIOHIDEventSystemClient_block_invoke + 26</string>
+			<key>DroppedEventCount</key>
+			<integer>0</integer>
+			<key>DroppedEventMask</key>
+			<integer>0</integer>
+			<key>Entitlements</key>
+			<dict>
+				<key>com.apple.private.hid.client.admin</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-dispatch</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-filter</key>
+				<false/>
+				<key>com.apple.private.hid.client.event-monitor</key>
+				<false/>
+				<key>com.apple.private.hid.client.service-protected</key>
+				<false/>
+			</dict>
+			<key>EventFilterMask</key>
+			<integer>-1</integer>
+			<key>EventFilterTimeoutCount</key>
+			<integer>0</integer>
+			<key>EventFilteredCount</key>
+			<integer>0</integer>
+			<key>IdleNotificationTime</key>
+			<integer>0</integer>
+			<key>IsInactive</key>
+			<false/>
+			<key>MaxEventLatency</key>
+			<integer>0</integer>
+			<key>MaxPropertyNotificationHandlingTime</key>
+			<integer>0</integer>
+			<key>PID</key>
+			<integer>563</integer>
+			<key>ProcessName</key>
+			<string>localAuthenticationRemoteServic</string>
+			<key>ProtectedServicesDisabled</key>
+			<true/>
+			<key>Type</key>
+			<integer>2</integer>
+			<key>UUID</key>
+			<string>DF984410-6775-476A-81D4-548164A643C1</string>
+			<key>activityStateChangeCount</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>ServiceRecords</key>
+	<array>
+		<dict>
+			<key>BatchInterval</key>
+			<integer>1</integer>
+			<key>Built-In</key>
+			<false/>
+			<key>Connections</key>
+			<array>
+				<string>98FABA8A-AFB8-49F3-B64B-C4914B276085</string>
+				<string>E4C93FE1-27AE-4080-9106-CAFC8419AE9A</string>
+				<string>D3DA2E4B-F500-4D16-8146-60084DC372CC</string>
+				<string>FCBB8D52-B9BB-4BA5-A56A-938EA42573A0</string>
+				<string>DB1C2EBE-E775-4061-8B26-26845F13BF97</string>
+			</array>
+			<key>DeviceUsagePairs</key>
+			<array>
+				<dict>
+					<key>DeviceUsage</key>
+					<integer>1</integer>
+					<key>DeviceUsagePage</key>
+					<integer>12</integer>
+				</dict>
+			</array>
+			<key>Filters</key>
+			<array/>
+			<key>IOClass</key>
+			<string>AppleIRHIDEventDriver</string>
+			<key>IORegistryEntryID</key>
+			<integer>4294968080</integer>
+			<key>MaxPropertyGetTime</key>
+			<integer>1119470</integer>
+			<key>MaxPropertySetTime</key>
+			<integer>41731972</integer>
+			<key>PrimaryUsage</key>
+			<integer>1</integer>
+			<key>PrimaryUsagePage</key>
+			<integer>12</integer>
+			<key>ReportInterval</key>
+			<integer>0</integer>
+			<key>ServiceFilterDebug</key>
+			<array>
+				<dict>
+					<key>CapsLockState</key>
+					<integer>0</integer>
+					<key>Class</key>
+					<string>IOHIDKeyboardFilter</string>
+					<key>FnFunctionUsageMap</key>
+					<array/>
+					<key>FnKeyboardUsageMap</key>
+					<array/>
+					<key>HIDInitialKeyRepeat</key>
+					<integer>500</integer>
+					<key>HIDKeyRepeat</key>
+					<integer>83</integer>
+					<key>HIDKeyboardModifierMappingPairs</key>
+					<array/>
+					<key>MatchScore</key>
+					<integer>300</integer>
+					<key>NumLockKeyboardUsageMap</key>
+					<array/>
+					<key>UserKeyMapping</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>IOHIDEventProcessor</string>
+					<key>DoubleTapTimeout</key>
+					<integer>0</integer>
+					<key>LongPressTimeout</key>
+					<integer>0</integer>
+					<key>MatchScore</key>
+					<integer>200</integer>
+					<key>PressCountDoublePressTimeout</key>
+					<integer>1</integer>
+					<key>PressCountTrackingEnabled</key>
+					<integer>1</integer>
+					<key>PressCountTriplePressTimeout</key>
+					<integer>0</integer>
+					<key>PressCountUsagePairs</key>
+					<array>
+						<integer>786637</integer>
+					</array>
+					<key>TapTrackingEnabled</key>
+					<integer>0</integer>
+					<key>TripleTapTimeout</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>IOHIDNXEventTranslatorServiceFilter</string>
+					<key>MatchScore</key>
+					<integer>100</integer>
+				</dict>
+			</array>
+			<key>ServicePluginDebug</key>
+			<dict>
+				<key>Class</key>
+				<string>IOHIDEventServiceClass</string>
+			</dict>
+			<key>Transport</key>
+			<string>USB</string>
+		</dict>
+		<dict>
+			<key>BatchInterval</key>
+			<integer>0</integer>
+			<key>Built-In</key>
+			<true/>
+			<key>Connections</key>
+			<array>
+				<string>98FABA8A-AFB8-49F3-B64B-C4914B276085</string>
+				<string>74724034-D35F-4C37-AB2C-E920DEA18FBB</string>
+				<string>E4C93FE1-27AE-4080-9106-CAFC8419AE9A</string>
+				<string>FCBB8D52-B9BB-4BA5-A56A-938EA42573A0</string>
+			</array>
+			<key>DeviceUsagePairs</key>
+			<array>
+				<dict>
+					<key>DeviceUsage</key>
+					<integer>12</integer>
+					<key>DeviceUsagePage</key>
+					<integer>13</integer>
+				</dict>
+				<dict>
+					<key>DeviceUsage</key>
+					<integer>1</integer>
+					<key>DeviceUsagePage</key>
+					<integer>65280</integer>
+				</dict>
+				<dict>
+					<key>DeviceUsage</key>
+					<integer>12</integer>
+					<key>DeviceUsagePage</key>
+					<integer>65280</integer>
+				</dict>
+				<dict>
+					<key>DeviceUsage</key>
+					<integer>1</integer>
+					<key>DeviceUsagePage</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>DeviceUsage</key>
+					<integer>2</integer>
+					<key>DeviceUsagePage</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>DeviceUsage</key>
+					<integer>5</integer>
+					<key>DeviceUsagePage</key>
+					<integer>13</integer>
+				</dict>
+			</array>
+			<key>EventLog</key>
+			<array>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.570223</string>
+					<key>EventType</key>
+					<integer>17</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.570271</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.578199</string>
+					<key>EventType</key>
+					<integer>17</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.578263</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.586140</string>
+					<key>EventType</key>
+					<integer>17</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.586183</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.594291</string>
+					<key>EventType</key>
+					<integer>17</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.594343</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.602201</string>
+					<key>EventType</key>
+					<integer>17</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.602258</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.610145</string>
+					<key>EventType</key>
+					<integer>17</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.610187</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.618275</string>
+					<key>EventType</key>
+					<integer>17</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.618326</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.626143</string>
+					<key>EventType</key>
+					<integer>17</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.626188</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.634144</string>
+					<key>EventType</key>
+					<integer>17</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.634191</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.642144</string>
+					<key>EventType</key>
+					<integer>17</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.642188</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.650282</string>
+					<key>EventType</key>
+					<integer>17</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.650331</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.658215</string>
+					<key>EventType</key>
+					<integer>17</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.658259</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.712083</string>
+					<key>EventType</key>
+					<integer>17</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.712205</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.720159</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.728172</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.736168</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.744161</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.752155</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.760196</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.768193</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.776657</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.784654</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.792573</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.800564</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.808658</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.816656</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.832302</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.840244</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.848212</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.854296</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.862151</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.870116</string>
+					<key>EventType</key>
+					<integer>17</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.870237</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.878121</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.886143</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.894120</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.902182</string>
+					<key>EventType</key>
+					<integer>11</integer>
+				</dict>
+			</array>
+			<key>EventTypeCounts</key>
+			<dict>
+				<key>Digitizer</key>
+				<integer>82081</integer>
+				<key>Pointer</key>
+				<integer>66699</integer>
+				<key>Scroll</key>
+				<integer>4256</integer>
+			</dict>
+			<key>Filters</key>
+			<array/>
+			<key>IOClass</key>
+			<string>AppleUSBMultitouchDriver</string>
+			<key>IORegistryEntryID</key>
+			<integer>4294968102</integer>
+			<key>MaxPropertyGetTime</key>
+			<integer>41018509</integer>
+			<key>MaxPropertySetTime</key>
+			<integer>78576887</integer>
+			<key>PrimaryUsage</key>
+			<integer>12</integer>
+			<key>PrimaryUsagePage</key>
+			<integer>13</integer>
+			<key>ReportInterval</key>
+			<integer>0</integer>
+			<key>ServiceFilterDebug</key>
+			<array>
+				<dict>
+					<key>Class</key>
+					<string>IOHIDEventProcessor</string>
+					<key>DoubleTapTimeout</key>
+					<integer>0</integer>
+					<key>LongPressTimeout</key>
+					<integer>0</integer>
+					<key>MatchScore</key>
+					<integer>200</integer>
+					<key>PressCountDoublePressTimeout</key>
+					<integer>0</integer>
+					<key>PressCountTrackingEnabled</key>
+					<integer>0</integer>
+					<key>PressCountTriplePressTimeout</key>
+					<integer>0</integer>
+					<key>TapTrackingEnabled</key>
+					<integer>0</integer>
+					<key>TripleTapTimeout</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>IOHIDPointerScrollFilter</string>
+					<key>HIDPointerAccelerationType</key>
+					<string>HIDTrackpadAcceleration</string>
+					<key>HIDScrollAccelerationType</key>
+					<string>HIDTrackpadScrollAcceleration</string>
+					<key>MatchScore</key>
+					<integer>100</integer>
+					<key>Pointer Accelerator</key>
+					<dict>
+						<key>Accelerator</key>
+						<dict>
+							<key>AccelIndex</key>
+							<integer>45056</integer>
+							<key>Class</key>
+							<string>IOHIDParametricAcceleration</string>
+							<key>GainCubic</key>
+							<integer>7864</integer>
+							<key>GainLinear</key>
+							<integer>81265</integer>
+							<key>TangentSpeedLinear</key>
+							<integer>465306</integer>
+							<key>TangentSpeedParabolicRoot</key>
+							<integer>1179648</integer>
+						</dict>
+						<key>Class</key>
+						<string>IOHIDPointerAccelerator</string>
+						<key>Rate</key>
+						<integer>0</integer>
+						<key>Resolution</key>
+						<integer>26214400</integer>
+					</dict>
+					<key>PointerAccelerationValue</key>
+					<integer>45056</integer>
+					<key>Scroll Accelerator ( axis: X)</key>
+					<dict>
+						<key>Accelerator</key>
+						<dict>
+							<key>AccelIndex</key>
+							<integer>20480</integer>
+							<key>Class</key>
+							<string>IOHIDParametricAcceleration</string>
+							<key>GainCubic</key>
+							<integer>0</integer>
+							<key>GainLinear</key>
+							<integer>104858</integer>
+							<key>TangentSpeedLinear</key>
+							<integer>720896</integer>
+							<key>TangentSpeedParabolicRoot</key>
+							<integer>1179648</integer>
+						</dict>
+						<key>Class</key>
+						<string>IOHIDScrollAccelerator</string>
+						<key>Rate</key>
+						<integer>4390912</integer>
+						<key>Resolution</key>
+						<integer>26214400</integer>
+					</dict>
+					<key>Scroll Accelerator ( axis: Y)</key>
+					<dict>
+						<key>Accelerator</key>
+						<dict>
+							<key>AccelIndex</key>
+							<integer>20480</integer>
+							<key>Class</key>
+							<string>IOHIDParametricAcceleration</string>
+							<key>GainCubic</key>
+							<integer>0</integer>
+							<key>GainLinear</key>
+							<integer>104858</integer>
+							<key>TangentSpeedLinear</key>
+							<integer>720896</integer>
+							<key>TangentSpeedParabolicRoot</key>
+							<integer>1179648</integer>
+						</dict>
+						<key>Class</key>
+						<string>IOHIDScrollAccelerator</string>
+						<key>Rate</key>
+						<integer>4390912</integer>
+						<key>Resolution</key>
+						<integer>26214400</integer>
+					</dict>
+					<key>Scroll Accelerator ( axis: Z)</key>
+					<dict>
+						<key>Accelerator</key>
+						<dict>
+							<key>AccelIndex</key>
+							<integer>20480</integer>
+							<key>Class</key>
+							<string>IOHIDParametricAcceleration</string>
+							<key>GainCubic</key>
+							<integer>0</integer>
+							<key>GainLinear</key>
+							<integer>104858</integer>
+							<key>TangentSpeedLinear</key>
+							<integer>720896</integer>
+							<key>TangentSpeedParabolicRoot</key>
+							<integer>1179648</integer>
+						</dict>
+						<key>Class</key>
+						<string>IOHIDScrollAccelerator</string>
+						<key>Rate</key>
+						<integer>4390912</integer>
+						<key>Resolution</key>
+						<integer>26214400</integer>
+					</dict>
+					<key>ScrollAccelerationValue</key>
+					<integer>20480</integer>
+				</dict>
+			</array>
+			<key>ServicePluginDebug</key>
+			<dict>
+				<key>Critical errors</key>
+				<integer>2083</integer>
+				<key>Event dispatch</key>
+				<dict>
+					<key>Gesture events</key>
+					<array/>
+					<key>Scroll</key>
+					<array>
+						<string>2000-12-31 19:23:20 GMT-05:00</string>
+						<string>2000-12-31 19:23:20 GMT-05:00</string>
+						<string>2000-12-31 19:23:23 GMT-05:00</string>
+						<string>2000-12-31 19:23:23 GMT-05:00</string>
+						<string>2000-12-31 19:23:24 GMT-05:00</string>
+						<string>2000-12-31 19:23:24 GMT-05:00</string>
+						<string>2000-12-31 19:25:33 GMT-05:00</string>
+						<string>2000-12-31 19:25:33 GMT-05:00</string>
+						<string>2000-12-31 19:25:34 GMT-05:00</string>
+						<string>2000-12-31 19:25:34 GMT-05:00</string>
+						<string>2000-12-31 19:25:37 GMT-05:00</string>
+						<string>2000-12-31 19:25:37 GMT-05:00</string>
+						<string>2000-12-31 19:26:27 GMT-05:00</string>
+						<string>2000-12-31 19:26:27 GMT-05:00</string>
+						<string>2000-12-31 19:26:34 GMT-05:00</string>
+						<string>2000-12-31 19:26:34 GMT-05:00</string>
+						<string>2000-12-31 19:26:36 GMT-05:00</string>
+						<string>2000-12-31 19:26:36 GMT-05:00</string>
+						<string>2000-12-31 19:28:47 GMT-05:00</string>
+						<string>2000-12-31 19:28:47 GMT-05:00</string>
+						<string>2000-12-31 19:28:49 GMT-05:00</string>
+						<string>2000-12-31 19:28:49 GMT-05:00</string>
+						<string>2000-12-31 19:29:01 GMT-05:00</string>
+						<string>2000-12-31 19:29:01 GMT-05:00</string>
+						<string>2000-12-31 19:29:03 GMT-05:00</string>
+						<string>2000-12-31 19:29:03 GMT-05:00</string>
+						<string>2000-12-31 19:29:08 GMT-05:00</string>
+						<string>2000-12-31 19:29:08 GMT-05:00</string>
+						<string>2000-12-31 19:29:56 GMT-05:00</string>
+						<string>2000-12-31 19:29:56 GMT-05:00</string>
+						<string>2000-12-31 19:29:57 GMT-05:00</string>
+						<string>2000-12-31 19:29:57 GMT-05:00</string>
+						<string>2000-12-31 19:30:00 GMT-05:00</string>
+						<string>2000-12-31 19:30:00 GMT-05:00</string>
+						<string>2000-12-31 19:30:08 GMT-05:00</string>
+						<string>2000-12-31 19:30:08 GMT-05:00</string>
+						<string>2000-12-31 19:30:09 GMT-05:00</string>
+						<string>2000-12-31 19:30:09 GMT-05:00</string>
+						<string>2000-12-31 19:30:42 GMT-05:00</string>
+						<string>2000-12-31 19:30:42 GMT-05:00</string>
+						<string>2000-12-31 19:30:43 GMT-05:00</string>
+						<string>2000-12-31 19:30:43 GMT-05:00</string>
+						<string>2000-12-31 19:31:08 GMT-05:00</string>
+						<string>2000-12-31 19:31:08 GMT-05:00</string>
+						<string>2000-12-31 19:31:23 GMT-05:00</string>
+						<string>2000-12-31 19:31:23 GMT-05:00</string>
+						<string>2000-12-31 19:31:40 GMT-05:00</string>
+						<string>2000-12-31 19:31:40 GMT-05:00</string>
+						<string>2000-12-31 19:31:41 GMT-05:00</string>
+						<string>2000-12-31 19:31:41 GMT-05:00</string>
+						<string>2000-12-31 19:31:43 GMT-05:00</string>
+						<string>2000-12-31 19:31:43 GMT-05:00</string>
+						<string>2000-12-31 19:32:11 GMT-05:00</string>
+						<string>2000-12-31 19:32:11 GMT-05:00</string>
+						<string>2000-12-31 19:32:14 GMT-05:00</string>
+						<string>2000-12-31 19:32:14 GMT-05:00</string>
+						<string>2000-12-31 19:32:18 GMT-05:00</string>
+						<string>2000-12-31 19:32:18 GMT-05:00</string>
+						<string>2000-12-31 19:32:30 GMT-05:00</string>
+						<string>2000-12-31 19:32:30 GMT-05:00</string>
+						<string>2000-12-31 19:32:38 GMT-05:00</string>
+						<string>2000-12-31 19:32:38 GMT-05:00</string>
+						<string>2000-12-31 19:32:39 GMT-05:00</string>
+						<string>2000-12-31 19:32:39 GMT-05:00</string>
+						<string>2000-12-31 19:32:40 GMT-05:00</string>
+						<string>2000-12-31 19:32:40 GMT-05:00</string>
+						<string>2000-12-31 19:32:42 GMT-05:00</string>
+						<string>2000-12-31 19:32:42 GMT-05:00</string>
+						<string>2000-12-31 19:32:48 GMT-05:00</string>
+						<string>2000-12-31 19:32:48 GMT-05:00</string>
+						<string>2000-12-31 19:32:49 GMT-05:00</string>
+						<string>2000-12-31 19:32:49 GMT-05:00</string>
+						<string>2000-12-31 19:32:54 GMT-05:00</string>
+						<string>2000-12-31 19:32:54 GMT-05:00</string>
+						<string>2000-12-31 19:32:56 GMT-05:00</string>
+						<string>2000-12-31 19:32:56 GMT-05:00</string>
+						<string>2000-12-31 19:32:59 GMT-05:00</string>
+						<string>2000-12-31 19:32:59 GMT-05:00</string>
+						<string>2000-12-31 19:33:05 GMT-05:00</string>
+						<string>2000-12-31 19:33:05 GMT-05:00</string>
+						<string>2000-12-31 19:33:09 GMT-05:00</string>
+						<string>2000-12-31 19:33:09 GMT-05:00</string>
+						<string>2000-12-31 19:33:11 GMT-05:00</string>
+						<string>2000-12-31 19:33:11 GMT-05:00</string>
+						<string>2000-12-31 19:33:13 GMT-05:00</string>
+						<string>2000-12-31 19:33:13 GMT-05:00</string>
+						<string>2000-12-31 19:33:25 GMT-05:00</string>
+						<string>2000-12-31 19:33:25 GMT-05:00</string>
+						<string>2000-12-31 19:33:26 GMT-05:00</string>
+						<string>2000-12-31 19:33:26 GMT-05:00</string>
+						<string>2000-12-31 19:34:09 GMT-05:00</string>
+						<string>2000-12-31 19:34:09 GMT-05:00</string>
+						<string>2000-12-31 19:34:12 GMT-05:00</string>
+						<string>2000-12-31 19:34:12 GMT-05:00</string>
+						<string>2000-12-31 19:34:15 GMT-05:00</string>
+						<string>2000-12-31 19:34:15 GMT-05:00</string>
+						<string>2000-12-31 19:36:52 GMT-05:00</string>
+						<string>2000-12-31 19:36:52 GMT-05:00</string>
+						<string>2000-12-31 19:36:53 GMT-05:00</string>
+						<string>2000-12-31 19:36:53 GMT-05:00</string>
+					</array>
+					<key>Velocity</key>
+					<array>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+					</array>
+					<key>VendorDefined</key>
+					<array>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+						<string>2000-12-31 19:37:13 GMT-05:00</string>
+					</array>
+				</dict>
+				<key>Host Click Mode Enabled</key>
+				<false/>
+				<key>Recent set properties</key>
+				<array>
+					<dict>
+						<key>key</key>
+						<string>HIDMouseKeysOn</string>
+						<key>set time</key>
+						<string>2000-12-31 19:00:45 GMT-05:00</string>
+						<key>value</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>MouseKeysStopsTrackpad</string>
+						<key>set time</key>
+						<string>2000-12-31 19:00:45 GMT-05:00</string>
+						<key>value</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>HIDScrollZoomModifierMask</string>
+						<key>set time</key>
+						<string>2000-12-31 19:00:45 GMT-05:00</string>
+						<key>value</key>
+						<integer>262144</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>HIDMouseKeysOn</string>
+						<key>set time</key>
+						<string>2000-12-31 19:00:49 GMT-05:00</string>
+						<key>value</key>
+						<integer>1</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>MouseKeysStopsTrackpad</string>
+						<key>set time</key>
+						<string>2000-12-31 19:00:49 GMT-05:00</string>
+						<key>value</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>HIDScrollZoomModifierMask</string>
+						<key>set time</key>
+						<string>2000-12-31 19:00:49 GMT-05:00</string>
+						<key>value</key>
+						<integer>262144</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>HIDMouseKeysOn</string>
+						<key>set time</key>
+						<string>2000-12-31 19:00:49 GMT-05:00</string>
+						<key>value</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>HIDMouseKeysOn</string>
+						<key>set time</key>
+						<string>2000-12-31 19:00:49 GMT-05:00</string>
+						<key>value</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>HIDMouseKeysOn</string>
+						<key>set time</key>
+						<string>2000-12-31 19:00:50 GMT-05:00</string>
+						<key>value</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>HIDMouseKeysOn</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:33 GMT-05:00</string>
+						<key>value</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>MouseKeysStopsTrackpad</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:33 GMT-05:00</string>
+						<key>value</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>HIDScrollZoomModifierMask</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:33 GMT-05:00</string>
+						<key>value</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>TrackpadFourFingerHorizSwipeGesture</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<integer>2</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>TrackpadPinch</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<integer>1</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>USBMouseStopsTrackpad</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>TrackpadFourFingerVertSwipeGesture</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<integer>2</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>ActuateDetents</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<integer>1</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>FirstClickThreshold</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<integer>1</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>SecondClickThreshold</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<integer>1</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>TrackpadTwoFingerDoubleTapGesture</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<integer>1</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>TrackpadHorizScroll</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<integer>1</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>TrackpadMomentumScroll</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>TrackpadFourFingerPinchGesture</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<integer>2</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>TrackpadRotate</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<integer>1</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>Clicking</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>TrackpadThreeFingerTapGesture</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<integer>2</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>TrackpadThreeFingerHorizSwipeGesture</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<integer>2</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>TrackpadScroll</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>DragLock</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>TrackpadFiveFingerPinchGesture</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<integer>2</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>ForceSuppressed</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>TrackpadThreeFingerVertSwipeGesture</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<integer>2</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>TrackpadTwoFingerFromRightEdgeSwipeGesture</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<integer>3</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>Dragging</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>TrackpadCornerSecondaryClick</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>TrackpadRightClick</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:35 GMT-05:00</string>
+						<key>value</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>TrackpadThreeFingerDrag</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:36 GMT-05:00</string>
+						<key>value</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>key</key>
+						<string>HIDScrollZoomModifierMask</string>
+						<key>set time</key>
+						<string>2000-12-31 19:01:36 GMT-05:00</string>
+						<key>value</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>Service properties</key>
+				<dict>
+					<key>Built-In</key>
+					<true/>
+					<key>DeviceIsReady</key>
+					<true/>
+					<key>DeviceUsagePairs</key>
+					<array>
+						<dict>
+							<key>DeviceUsage</key>
+							<integer>12</integer>
+							<key>DeviceUsagePage</key>
+							<integer>13</integer>
+						</dict>
+						<dict>
+							<key>DeviceUsage</key>
+							<integer>1</integer>
+							<key>DeviceUsagePage</key>
+							<integer>65280</integer>
+						</dict>
+						<dict>
+							<key>DeviceUsage</key>
+							<integer>12</integer>
+							<key>DeviceUsagePage</key>
+							<integer>65280</integer>
+						</dict>
+						<dict>
+							<key>DeviceUsage</key>
+							<integer>1</integer>
+							<key>DeviceUsagePage</key>
+							<integer>1</integer>
+						</dict>
+						<dict>
+							<key>DeviceUsage</key>
+							<integer>2</integer>
+							<key>DeviceUsagePage</key>
+							<integer>1</integer>
+						</dict>
+						<dict>
+							<key>DeviceUsage</key>
+							<integer>5</integer>
+							<key>DeviceUsagePage</key>
+							<integer>13</integer>
+						</dict>
+					</array>
+					<key>DisplayIntegrated</key>
+					<false/>
+					<key>HIDAccelCurves</key>
+					<array>
+						<dict>
+							<key>HIDAccelGainLinear</key>
+							<integer>65536</integer>
+							<key>HIDAccelIndex</key>
+							<integer>0</integer>
+							<key>HIDAccelTangentSpeedLinear</key>
+							<integer>484966</integer>
+							<key>HIDAccelTangentSpeedParabolicRoot</key>
+							<integer>1376256</integer>
+						</dict>
+						<dict>
+							<key>HIDAccelGainCubic</key>
+							<integer>5243</integer>
+							<key>HIDAccelGainLinear</key>
+							<integer>70779</integer>
+							<key>HIDAccelGainParabolic</key>
+							<integer>32768</integer>
+							<key>HIDAccelIndex</key>
+							<integer>8192</integer>
+							<key>HIDAccelTangentSpeedLinear</key>
+							<integer>478413</integer>
+							<key>HIDAccelTangentSpeedParabolicRoot</key>
+							<integer>1310720</integer>
+						</dict>
+						<dict>
+							<key>HIDAccelGainCubic</key>
+							<integer>6554</integer>
+							<key>HIDAccelGainLinear</key>
+							<integer>76022</integer>
+							<key>HIDAccelGainParabolic</key>
+							<integer>43254</integer>
+							<key>HIDAccelIndex</key>
+							<integer>32768</integer>
+							<key>HIDAccelTangentSpeedLinear</key>
+							<integer>471859</integer>
+							<key>HIDAccelTangentSpeedParabolicRoot</key>
+							<integer>1245184</integer>
+						</dict>
+						<dict>
+							<key>HIDAccelGainCubic</key>
+							<integer>7864</integer>
+							<key>HIDAccelGainLinear</key>
+							<integer>81265</integer>
+							<key>HIDAccelGainParabolic</key>
+							<integer>54395</integer>
+							<key>HIDAccelIndex</key>
+							<integer>45056</integer>
+							<key>HIDAccelTangentSpeedLinear</key>
+							<integer>465306</integer>
+							<key>HIDAccelTangentSpeedParabolicRoot</key>
+							<integer>1179648</integer>
+						</dict>
+						<dict>
+							<key>HIDAccelGainCubic</key>
+							<integer>9830</integer>
+							<key>HIDAccelGainLinear</key>
+							<integer>86508</integer>
+							<key>HIDAccelGainParabolic</key>
+							<integer>65536</integer>
+							<key>HIDAccelIndex</key>
+							<integer>57344</integer>
+							<key>HIDAccelTangentSpeedLinear</key>
+							<integer>458752</integer>
+							<key>HIDAccelTangentSpeedParabolicRoot</key>
+							<integer>1114112</integer>
+						</dict>
+						<dict>
+							<key>HIDAccelGainCubic</key>
+							<integer>11796</integer>
+							<key>HIDAccelGainLinear</key>
+							<integer>91750</integer>
+							<key>HIDAccelGainParabolic</key>
+							<integer>75366</integer>
+							<key>HIDAccelIndex</key>
+							<integer>65536</integer>
+							<key>HIDAccelTangentSpeedLinear</key>
+							<integer>458752</integer>
+							<key>HIDAccelTangentSpeedParabolicRoot</key>
+							<integer>1048576</integer>
+						</dict>
+						<dict>
+							<key>HIDAccelGainCubic</key>
+							<integer>13763</integer>
+							<key>HIDAccelGainLinear</key>
+							<integer>96993</integer>
+							<key>HIDAccelGainParabolic</key>
+							<integer>85197</integer>
+							<key>HIDAccelIndex</key>
+							<integer>98304</integer>
+							<key>HIDAccelTangentSpeedLinear</key>
+							<integer>458752</integer>
+							<key>HIDAccelTangentSpeedParabolicRoot</key>
+							<integer>983040</integer>
+						</dict>
+						<dict>
+							<key>HIDAccelGainCubic</key>
+							<integer>15729</integer>
+							<key>HIDAccelGainLinear</key>
+							<integer>102236</integer>
+							<key>HIDAccelGainParabolic</key>
+							<integer>95027</integer>
+							<key>HIDAccelIndex</key>
+							<integer>131072</integer>
+							<key>HIDAccelTangentSpeedLinear</key>
+							<integer>458752</integer>
+							<key>HIDAccelTangentSpeedParabolicRoot</key>
+							<integer>917504</integer>
+						</dict>
+						<dict>
+							<key>HIDAccelGainCubic</key>
+							<integer>18350</integer>
+							<key>HIDAccelGainLinear</key>
+							<integer>106824</integer>
+							<key>HIDAccelGainParabolic</key>
+							<integer>108790</integer>
+							<key>HIDAccelIndex</key>
+							<integer>163840</integer>
+							<key>HIDAccelTangentSpeedLinear</key>
+							<integer>458752</integer>
+							<key>HIDAccelTangentSpeedParabolicRoot</key>
+							<integer>851968</integer>
+						</dict>
+						<dict>
+							<key>HIDAccelGainCubic</key>
+							<integer>23593</integer>
+							<key>HIDAccelGainLinear</key>
+							<integer>111411</integer>
+							<key>HIDAccelGainParabolic</key>
+							<integer>123208</integer>
+							<key>HIDAccelIndex</key>
+							<integer>196608</integer>
+							<key>HIDAccelTangentSpeedLinear</key>
+							<integer>458752</integer>
+							<key>HIDAccelTangentSpeedParabolicRoot</key>
+							<integer>786432</integer>
+						</dict>
+					</array>
+					<key>HIDMouseScrollAcceleration</key>
+					<integer>20480</integer>
+					<key>HIDPointerAccelerationType</key>
+					<string>HIDTrackpadAcceleration</string>
+					<key>HIDScrollAccelCurves</key>
+					<array>
+						<dict>
+							<key>HIDAccelGainLinear</key>
+							<integer>85197</integer>
+							<key>HIDAccelGainParabolic</key>
+							<integer>13107</integer>
+							<key>HIDAccelIndex</key>
+							<integer>8192</integer>
+							<key>HIDAccelTangentSpeedLinear</key>
+							<integer>851968</integer>
+							<key>HIDAccelTangentSpeedParabolicRoot</key>
+							<integer>1310720</integer>
+						</dict>
+						<dict>
+							<key>HIDAccelGainLinear</key>
+							<integer>95027</integer>
+							<key>HIDAccelGainParabolic</key>
+							<integer>32768</integer>
+							<key>HIDAccelIndex</key>
+							<integer>14090</integer>
+							<key>HIDAccelTangentSpeedLinear</key>
+							<integer>786432</integer>
+							<key>HIDAccelTangentSpeedParabolicRoot</key>
+							<integer>1245184</integer>
+						</dict>
+						<dict>
+							<key>HIDAccelGainLinear</key>
+							<integer>104858</integer>
+							<key>HIDAccelGainParabolic</key>
+							<integer>45875</integer>
+							<key>HIDAccelIndex</key>
+							<integer>20480</integer>
+							<key>HIDAccelTangentSpeedLinear</key>
+							<integer>720896</integer>
+							<key>HIDAccelTangentSpeedParabolicRoot</key>
+							<integer>1179648</integer>
+						</dict>
+						<dict>
+							<key>HIDAccelGainLinear</key>
+							<integer>114688</integer>
+							<key>HIDAccelGainParabolic</key>
+							<integer>57017</integer>
+							<key>HIDAccelIndex</key>
+							<integer>32768</integer>
+							<key>HIDAccelTangentSpeedLinear</key>
+							<integer>655360</integer>
+							<key>HIDAccelTangentSpeedParabolicRoot</key>
+							<integer>1114112</integer>
+						</dict>
+						<dict>
+							<key>HIDAccelGainLinear</key>
+							<integer>124519</integer>
+							<key>HIDAccelGainParabolic</key>
+							<integer>68813</integer>
+							<key>HIDAccelIndex</key>
+							<integer>49152</integer>
+							<key>HIDAccelTangentSpeedLinear</key>
+							<integer>589824</integer>
+							<key>HIDAccelTangentSpeedParabolicRoot</key>
+							<integer>1048576</integer>
+						</dict>
+						<dict>
+							<key>HIDAccelGainLinear</key>
+							<integer>134349</integer>
+							<key>HIDAccelGainParabolic</key>
+							<integer>81920</integer>
+							<key>HIDAccelIndex</key>
+							<integer>65536</integer>
+							<key>HIDAccelTangentSpeedLinear</key>
+							<integer>524288</integer>
+							<key>HIDAccelTangentSpeedParabolicRoot</key>
+							<integer>983040</integer>
+						</dict>
+						<dict>
+							<key>HIDAccelGainLinear</key>
+							<integer>144179</integer>
+							<key>HIDAccelGainParabolic</key>
+							<integer>98304</integer>
+							<key>HIDAccelIndex</key>
+							<integer>111411</integer>
+							<key>HIDAccelTangentSpeedLinear</key>
+							<integer>458752</integer>
+							<key>HIDAccelTangentSpeedParabolicRoot</key>
+							<integer>917504</integer>
+						</dict>
+					</array>
+					<key>HIDScrollAccelerationType</key>
+					<string>HIDTrackpadScrollAcceleration</string>
+					<key>HIDScrollResolution</key>
+					<integer>26214400</integer>
+					<key>HIDTrackpadAcceleration</key>
+					<integer>45056</integer>
+					<key>HIDTrackpadScrollAcceleration</key>
+					<integer>20480</integer>
+					<key>MTEventSource</key>
+					<true/>
+					<key>PrimaryUsage</key>
+					<integer>12</integer>
+					<key>PrimaryUsagePage</key>
+					<integer>13</integer>
+					<key>PrintHIDEvents</key>
+					<false/>
+					<key>SupportsGestureScrolling</key>
+					<true/>
+				</dict>
+				<key>Trackpad HID pref</key>
+				<dict>
+					<key>ActuateDetents</key>
+					<integer>1</integer>
+					<key>Clicking</key>
+					<integer>0</integer>
+					<key>DragLock</key>
+					<integer>0</integer>
+					<key>Dragging</key>
+					<integer>0</integer>
+					<key>FirstClickThreshold</key>
+					<integer>1</integer>
+					<key>ForceSuppressed</key>
+					<false/>
+					<key>HIDMouseKeysOn</key>
+					<integer>0</integer>
+					<key>HIDScrollZoomModifierMask</key>
+					<integer>0</integer>
+					<key>JitterNoClick</key>
+					<true/>
+					<key>JitterNoMove</key>
+					<true/>
+					<key>MouseKeysStopsTrackpad</key>
+					<integer>0</integer>
+					<key>SecondClickThreshold</key>
+					<integer>1</integer>
+					<key>TrackpadCornerSecondaryClick</key>
+					<integer>0</integer>
+					<key>TrackpadFiveFingerPinchGesture</key>
+					<integer>2</integer>
+					<key>TrackpadFourFingerHorizSwipeGesture</key>
+					<integer>2</integer>
+					<key>TrackpadFourFingerPinchGesture</key>
+					<integer>2</integer>
+					<key>TrackpadFourFingerVertSwipeGesture</key>
+					<integer>2</integer>
+					<key>TrackpadHorizScroll</key>
+					<integer>1</integer>
+					<key>TrackpadMomentumScroll</key>
+					<true/>
+					<key>TrackpadPinch</key>
+					<integer>1</integer>
+					<key>TrackpadRightClick</key>
+					<true/>
+					<key>TrackpadRotate</key>
+					<integer>1</integer>
+					<key>TrackpadScroll</key>
+					<true/>
+					<key>TrackpadThreeFingerDrag</key>
+					<false/>
+					<key>TrackpadThreeFingerHorizSwipeGesture</key>
+					<integer>2</integer>
+					<key>TrackpadThreeFingerTapGesture</key>
+					<integer>2</integer>
+					<key>TrackpadThreeFingerVertSwipeGesture</key>
+					<integer>2</integer>
+					<key>TrackpadTwoFingerDoubleTapGesture</key>
+					<integer>1</integer>
+					<key>TrackpadTwoFingerFromRightEdgeSwipeGesture</key>
+					<integer>3</integer>
+					<key>USBMouseStopsTrackpad</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>Transport</key>
+			<string>USB</string>
+		</dict>
+		<dict>
+			<key>BatchInterval</key>
+			<integer>1</integer>
+			<key>Built-In</key>
+			<true/>
+			<key>Connections</key>
+			<array>
+				<string>98FABA8A-AFB8-49F3-B64B-C4914B276085</string>
+				<string>74724034-D35F-4C37-AB2C-E920DEA18FBB</string>
+				<string>E4C93FE1-27AE-4080-9106-CAFC8419AE9A</string>
+				<string>FCBB8D52-B9BB-4BA5-A56A-938EA42573A0</string>
+			</array>
+			<key>DeviceUsagePairs</key>
+			<array>
+				<dict>
+					<key>DeviceUsage</key>
+					<integer>6</integer>
+					<key>DeviceUsagePage</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>DeviceUsage</key>
+					<integer>1</integer>
+					<key>DeviceUsagePage</key>
+					<integer>12</integer>
+				</dict>
+			</array>
+			<key>EventLog</key>
+			<array>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:31.688463</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:32.336387</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:32.952366</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:34.448524</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:36.160471</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:37.616533</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:53.952466</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:54.680567</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:54.816529</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:54.952567</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:55.040530</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:55.112529</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:55.200520</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:55.248570</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:55.376525</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:55.936625</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:56.040531</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:56.184564</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:56.328533</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:56.464532</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:56.536529</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:56.600527</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:56.696531</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:56.816539</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:33:56.952115</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:35:33.248533</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:35:33.368557</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:35:33.488522</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:35:33.568530</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:35:33.624564</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:35:33.712522</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:35:33.736527</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:35:33.824529</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:35:33.960527</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:35:34.056536</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:35:34.264293</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:35:34.400536</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:35:34.576534</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:35:34.656529</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:35:34.712588</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:35:34.800510</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:35:34.920535</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:35:35.048177</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:35:57.064521</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:00.688091</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:06.888212</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:10.112194</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.272113</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>0</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:13.296155</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Down</key>
+					<integer>1</integer>
+					<key>EventTime</key>
+					<string>2000-12-31 19:37:14.616122</string>
+					<key>EventType</key>
+					<integer>3</integer>
+					<key>LongPress</key>
+					<integer>0</integer>
+					<key>Phase</key>
+					<string></string>
+					<key>PressCount</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+			<key>EventTypeCounts</key>
+			<dict>
+				<key>Keyboard</key>
+				<integer>581</integer>
+			</dict>
+			<key>Filters</key>
+			<array/>
+			<key>IOClass</key>
+			<string>AppleEmbeddedKeyboard</string>
+			<key>IORegistryEntryID</key>
+			<integer>4294968111</integer>
+			<key>MaxPropertyGetTime</key>
+			<integer>100411497</integer>
+			<key>MaxPropertySetTime</key>
+			<integer>50812231</integer>
+			<key>PrimaryUsage</key>
+			<integer>6</integer>
+			<key>PrimaryUsagePage</key>
+			<integer>1</integer>
+			<key>ReportInterval</key>
+			<integer>0</integer>
+			<key>ServiceFilterDebug</key>
+			<array>
+				<dict>
+					<key>CapsLockState</key>
+					<integer>0</integer>
+					<key>Class</key>
+					<string>IOHIDKeyboardFilter</string>
+					<key>FnFunctionUsageMap</key>
+					<array>
+						<dict>
+							<key>Dst</key>
+							<integer>1095216660485</integer>
+							<key>Src</key>
+							<integer>30064771130</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>1095216660484</integer>
+							<key>Src</key>
+							<integer>30064771131</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>280379760050192</integer>
+							<key>Src</key>
+							<integer>30064771132</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>280379760050178</integer>
+							<key>Src</key>
+							<integer>30064771133</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>1095216660489</integer>
+							<key>Src</key>
+							<integer>30064771134</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>1095216660488</integer>
+							<key>Src</key>
+							<integer>30064771135</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>51539607732</integer>
+							<key>Src</key>
+							<integer>30064771136</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>51539607757</integer>
+							<key>Src</key>
+							<integer>30064771137</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>51539607731</integer>
+							<key>Src</key>
+							<integer>30064771138</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>51539607778</integer>
+							<key>Src</key>
+							<integer>30064771139</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>51539607786</integer>
+							<key>Src</key>
+							<integer>30064771140</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>51539607785</integer>
+							<key>Src</key>
+							<integer>30064771141</integer>
+						</dict>
+					</array>
+					<key>FnKeyboardUsageMap</key>
+					<array>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771160</integer>
+							<key>Src</key>
+							<integer>30064771112</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771148</integer>
+							<key>Src</key>
+							<integer>30064771114</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771149</integer>
+							<key>Src</key>
+							<integer>30064771151</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771146</integer>
+							<key>Src</key>
+							<integer>30064771152</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771150</integer>
+							<key>Src</key>
+							<integer>30064771153</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771147</integer>
+							<key>Src</key>
+							<integer>30064771154</integer>
+						</dict>
+					</array>
+					<key>HIDInitialKeyRepeat</key>
+					<integer>500</integer>
+					<key>HIDKeyRepeat</key>
+					<integer>83</integer>
+					<key>HIDKeyboardModifierMappingPairs</key>
+					<array/>
+					<key>MatchScore</key>
+					<integer>300</integer>
+					<key>NumLockKeyboardUsageMap</key>
+					<array>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771165</integer>
+							<key>Src</key>
+							<integer>30064771084</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771161</integer>
+							<key>Src</key>
+							<integer>30064771085</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771162</integer>
+							<key>Src</key>
+							<integer>30064771086</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771163</integer>
+							<key>Src</key>
+							<integer>30064771087</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771170</integer>
+							<key>Src</key>
+							<integer>30064771088</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771166</integer>
+							<key>Src</key>
+							<integer>30064771090</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771164</integer>
+							<key>Src</key>
+							<integer>30064771096</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771167</integer>
+							<key>Src</key>
+							<integer>30064771108</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771168</integer>
+							<key>Src</key>
+							<integer>30064771109</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771169</integer>
+							<key>Src</key>
+							<integer>30064771110</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771113</integer>
+							<key>Src</key>
+							<integer>30064771113</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771114</integer>
+							<key>Src</key>
+							<integer>30064771114</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771115</integer>
+							<key>Src</key>
+							<integer>30064771115</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771171</integer>
+							<key>Src</key>
+							<integer>30064771127</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771130</integer>
+							<key>Src</key>
+							<integer>30064771130</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771131</integer>
+							<key>Src</key>
+							<integer>30064771131</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771132</integer>
+							<key>Src</key>
+							<integer>30064771132</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771133</integer>
+							<key>Src</key>
+							<integer>30064771133</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771134</integer>
+							<key>Src</key>
+							<integer>30064771134</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771135</integer>
+							<key>Src</key>
+							<integer>30064771135</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771136</integer>
+							<key>Src</key>
+							<integer>30064771136</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771137</integer>
+							<key>Src</key>
+							<integer>30064771137</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771138</integer>
+							<key>Src</key>
+							<integer>30064771138</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771139</integer>
+							<key>Src</key>
+							<integer>30064771139</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771140</integer>
+							<key>Src</key>
+							<integer>30064771140</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771141</integer>
+							<key>Src</key>
+							<integer>30064771141</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771146</integer>
+							<key>Src</key>
+							<integer>30064771146</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771147</integer>
+							<key>Src</key>
+							<integer>30064771147</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771148</integer>
+							<key>Src</key>
+							<integer>30064771148</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771149</integer>
+							<key>Src</key>
+							<integer>30064771149</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771150</integer>
+							<key>Src</key>
+							<integer>30064771150</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771151</integer>
+							<key>Src</key>
+							<integer>30064771151</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771152</integer>
+							<key>Src</key>
+							<integer>30064771152</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771153</integer>
+							<key>Src</key>
+							<integer>30064771153</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771154</integer>
+							<key>Src</key>
+							<integer>30064771154</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771202</integer>
+							<key>Src</key>
+							<integer>30064771202</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771296</integer>
+							<key>Src</key>
+							<integer>30064771296</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771297</integer>
+							<key>Src</key>
+							<integer>30064771297</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771298</integer>
+							<key>Src</key>
+							<integer>30064771298</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771299</integer>
+							<key>Src</key>
+							<integer>30064771299</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771300</integer>
+							<key>Src</key>
+							<integer>30064771300</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771301</integer>
+							<key>Src</key>
+							<integer>30064771301</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771302</integer>
+							<key>Src</key>
+							<integer>30064771302</integer>
+						</dict>
+						<dict>
+							<key>Dst</key>
+							<integer>30064771303</integer>
+							<key>Src</key>
+							<integer>30064771303</integer>
+						</dict>
+					</array>
+					<key>UserKeyMapping</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>IOHIDEventProcessor</string>
+					<key>DoubleTapTimeout</key>
+					<integer>0</integer>
+					<key>LongPressTimeout</key>
+					<integer>0</integer>
+					<key>MatchScore</key>
+					<integer>200</integer>
+					<key>PressCountDoublePressTimeout</key>
+					<integer>0</integer>
+					<key>PressCountTrackingEnabled</key>
+					<integer>0</integer>
+					<key>PressCountTriplePressTimeout</key>
+					<integer>0</integer>
+					<key>TapTrackingEnabled</key>
+					<integer>0</integer>
+					<key>TripleTapTimeout</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>IOHIDNXEventTranslatorServiceFilter</string>
+					<key>MatchScore</key>
+					<integer>100</integer>
+				</dict>
+			</array>
+			<key>ServicePluginDebug</key>
+			<dict>
+				<key>Class</key>
+				<string>IOHIDEventServiceClass</string>
+			</dict>
+			<key>Transport</key>
+			<string>USB</string>
+		</dict>
+		<dict>
+			<key>BatchInterval</key>
+			<integer>1</integer>
+			<key>Built-In</key>
+			<true/>
+			<key>Connections</key>
+			<array>
+				<string>98FABA8A-AFB8-49F3-B64B-C4914B276085</string>
+				<string>E4C93FE1-27AE-4080-9106-CAFC8419AE9A</string>
+				<string>D3DA2E4B-F500-4D16-8146-60084DC372CC</string>
+				<string>FCBB8D52-B9BB-4BA5-A56A-938EA42573A0</string>
+				<string>DB1C2EBE-E775-4061-8B26-26845F13BF97</string>
+			</array>
+			<key>DeviceUsagePairs</key>
+			<array>
+				<dict>
+					<key>DeviceUsage</key>
+					<integer>1</integer>
+					<key>DeviceUsagePage</key>
+					<integer>12</integer>
+				</dict>
+			</array>
+			<key>Filters</key>
+			<array/>
+			<key>IOClass</key>
+			<string>AppleACPIButton</string>
+			<key>IORegistryEntryID</key>
+			<integer>4294967785</integer>
+			<key>MaxPropertyGetTime</key>
+			<integer>1096984</integer>
+			<key>MaxPropertySetTime</key>
+			<integer>37643195</integer>
+			<key>PrimaryUsage</key>
+			<integer>1</integer>
+			<key>PrimaryUsagePage</key>
+			<integer>12</integer>
+			<key>ReportInterval</key>
+			<integer>0</integer>
+			<key>ServiceFilterDebug</key>
+			<array>
+				<dict>
+					<key>CapsLockState</key>
+					<integer>0</integer>
+					<key>Class</key>
+					<string>IOHIDKeyboardFilter</string>
+					<key>FnFunctionUsageMap</key>
+					<array/>
+					<key>FnKeyboardUsageMap</key>
+					<array/>
+					<key>HIDInitialKeyRepeat</key>
+					<integer>500</integer>
+					<key>HIDKeyRepeat</key>
+					<integer>83</integer>
+					<key>HIDKeyboardModifierMappingPairs</key>
+					<array/>
+					<key>MatchScore</key>
+					<integer>300</integer>
+					<key>NumLockKeyboardUsageMap</key>
+					<array/>
+					<key>UserKeyMapping</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>IOHIDEventProcessor</string>
+					<key>DoubleTapTimeout</key>
+					<integer>0</integer>
+					<key>LongPressTimeout</key>
+					<integer>0</integer>
+					<key>MatchScore</key>
+					<integer>200</integer>
+					<key>PressCountDoublePressTimeout</key>
+					<integer>300000</integer>
+					<key>PressCountTrackingEnabled</key>
+					<integer>1</integer>
+					<key>PressCountTriplePressTimeout</key>
+					<integer>600000</integer>
+					<key>TapTrackingEnabled</key>
+					<integer>600000</integer>
+					<key>TripleTapTimeout</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>IOHIDNXEventTranslatorServiceFilter</string>
+					<key>MatchScore</key>
+					<integer>100</integer>
+				</dict>
+			</array>
+			<key>ServicePluginDebug</key>
+			<dict>
+				<key>Class</key>
+				<string>IOHIDEventServiceClass</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>BatchInterval</key>
+			<integer>1</integer>
+			<key>Built-In</key>
+			<true/>
+			<key>Connections</key>
+			<array>
+				<string>98FABA8A-AFB8-49F3-B64B-C4914B276085</string>
+				<string>E4C93FE1-27AE-4080-9106-CAFC8419AE9A</string>
+				<string>D3DA2E4B-F500-4D16-8146-60084DC372CC</string>
+				<string>FCBB8D52-B9BB-4BA5-A56A-938EA42573A0</string>
+				<string>DB1C2EBE-E775-4061-8B26-26845F13BF97</string>
+			</array>
+			<key>DeviceUsagePairs</key>
+			<array>
+				<dict>
+					<key>DeviceUsage</key>
+					<integer>1</integer>
+					<key>DeviceUsagePage</key>
+					<integer>12</integer>
+				</dict>
+			</array>
+			<key>Filters</key>
+			<array/>
+			<key>IOClass</key>
+			<string>AppleACPIButton</string>
+			<key>IORegistryEntryID</key>
+			<integer>4294967782</integer>
+			<key>MaxPropertyGetTime</key>
+			<integer>1030979</integer>
+			<key>MaxPropertySetTime</key>
+			<integer>78246120</integer>
+			<key>PrimaryUsage</key>
+			<integer>1</integer>
+			<key>PrimaryUsagePage</key>
+			<integer>12</integer>
+			<key>ReportInterval</key>
+			<integer>0</integer>
+			<key>ServiceFilterDebug</key>
+			<array>
+				<dict>
+					<key>CapsLockState</key>
+					<integer>0</integer>
+					<key>Class</key>
+					<string>IOHIDKeyboardFilter</string>
+					<key>FnFunctionUsageMap</key>
+					<array/>
+					<key>FnKeyboardUsageMap</key>
+					<array/>
+					<key>HIDInitialKeyRepeat</key>
+					<integer>500</integer>
+					<key>HIDKeyRepeat</key>
+					<integer>83</integer>
+					<key>HIDKeyboardModifierMappingPairs</key>
+					<array/>
+					<key>MatchScore</key>
+					<integer>300</integer>
+					<key>NumLockKeyboardUsageMap</key>
+					<array/>
+					<key>UserKeyMapping</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>IOHIDEventProcessor</string>
+					<key>DoubleTapTimeout</key>
+					<integer>0</integer>
+					<key>LongPressTimeout</key>
+					<integer>0</integer>
+					<key>MatchScore</key>
+					<integer>200</integer>
+					<key>PressCountDoublePressTimeout</key>
+					<integer>300000</integer>
+					<key>PressCountTrackingEnabled</key>
+					<integer>1</integer>
+					<key>PressCountTriplePressTimeout</key>
+					<integer>600000</integer>
+					<key>TapTrackingEnabled</key>
+					<integer>600000</integer>
+					<key>TripleTapTimeout</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>IOHIDNXEventTranslatorServiceFilter</string>
+					<key>MatchScore</key>
+					<integer>100</integer>
+				</dict>
+			</array>
+			<key>ServicePluginDebug</key>
+			<dict>
+				<key>Class</key>
+				<string>IOHIDEventServiceClass</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>BatchInterval</key>
+			<integer>1</integer>
+			<key>Built-In</key>
+			<false/>
+			<key>Connections</key>
+			<array>
+				<string>E4C93FE1-27AE-4080-9106-CAFC8419AE9A</string>
+				<string>73C67B75-A70C-47E8-8922-771882808C41</string>
+				<string>D469C8ED-D6B8-4EAB-A750-CBD75A13EE3C</string>
+				<string>FCBB8D52-B9BB-4BA5-A56A-938EA42573A0</string>
+				<string>E03D6ACA-DB25-4EA0-8563-F854176BADAE</string>
+				<string>98FABA8A-AFB8-49F3-B64B-C4914B276085</string>
+				<string>4611FEA3-4BEC-483F-BA27-BEFDC6D6AACF</string>
+				<string>4BE6F560-AFAE-4793-B9E1-44CDA979556C</string>
+				<string>0721AE87-33B9-4EEE-A022-0C842EC51DC4</string>
+				<string>DBBAB245-CB94-4F6B-AA91-ECC5FD878A34</string>
+				<string>D812FB57-7527-4B47-9D1A-CA61EA146DFF</string>
+			</array>
+			<key>EventLog</key>
+			<array>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:00:55.482065</string>
+					<key>EventType</key>
+					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:00:55.672984</string>
+					<key>EventType</key>
+					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:00:55.878548</string>
+					<key>EventType</key>
+					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:00:56.084913</string>
+					<key>EventType</key>
+					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:00:56.288664</string>
+					<key>EventType</key>
+					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:02:05.804570</string>
+					<key>EventType</key>
+					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:02:06.582909</string>
+					<key>EventType</key>
+					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:02:26.096158</string>
+					<key>EventType</key>
+					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:02:54.687558</string>
+					<key>EventType</key>
+					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:03:02.949141</string>
+					<key>EventType</key>
+					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:25:24.585885</string>
+					<key>EventType</key>
+					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:25:24.995349</string>
+					<key>EventType</key>
+					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:25:26.429827</string>
+					<key>EventType</key>
+					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:25:28.073616</string>
+					<key>EventType</key>
+					<integer>12</integer>
+				</dict>
+			</array>
+			<key>EventTypeCounts</key>
+			<dict>
+				<key>AmbientLightSensor</key>
+				<integer>14</integer>
+			</dict>
+			<key>Filters</key>
+			<array/>
+			<key>IOClass</key>
+			<string>AppleLMUController</string>
+			<key>IORegistryEntryID</key>
+			<integer>4294968219</integer>
+			<key>MaxPropertyGetTime</key>
+			<integer>134712</integer>
+			<key>MaxPropertySetTime</key>
+			<integer>835128</integer>
+			<key>PrimaryUsage</key>
+			<integer>4</integer>
+			<key>PrimaryUsagePage</key>
+			<integer>65280</integer>
+			<key>ReportInterval</key>
+			<integer>0</integer>
+			<key>ServiceFilterDebug</key>
+			<array>
+				<dict>
+					<key>Class</key>
+					<string>IOHIDEventProcessor</string>
+					<key>DoubleTapTimeout</key>
+					<integer>0</integer>
+					<key>LongPressTimeout</key>
+					<integer>0</integer>
+					<key>MatchScore</key>
+					<integer>200</integer>
+					<key>PressCountDoublePressTimeout</key>
+					<integer>0</integer>
+					<key>PressCountTrackingEnabled</key>
+					<integer>0</integer>
+					<key>PressCountTriplePressTimeout</key>
+					<integer>0</integer>
+					<key>TapTrackingEnabled</key>
+					<integer>0</integer>
+					<key>TripleTapTimeout</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>BatchInterval</key>
+			<integer>1</integer>
+			<key>Built-In</key>
+			<false/>
+			<key>Connections</key>
+			<array>
+				<string>98FABA8A-AFB8-49F3-B64B-C4914B276085</string>
+				<string>E4C93FE1-27AE-4080-9106-CAFC8419AE9A</string>
+				<string>D3DA2E4B-F500-4D16-8146-60084DC372CC</string>
+				<string>FCBB8D52-B9BB-4BA5-A56A-938EA42573A0</string>
+				<string>DB1C2EBE-E775-4061-8B26-26845F13BF97</string>
+			</array>
+			<key>DeviceUsagePairs</key>
+			<array>
+				<dict>
+					<key>DeviceUsage</key>
+					<integer>1</integer>
+					<key>DeviceUsagePage</key>
+					<integer>12</integer>
+				</dict>
+			</array>
+			<key>Filters</key>
+			<array/>
+			<key>IOClass</key>
+			<string>IOHIDEventDriver</string>
+			<key>IORegistryEntryID</key>
+			<integer>4294968314</integer>
+			<key>MaxPropertyGetTime</key>
+			<integer>11901432</integer>
+			<key>MaxPropertySetTime</key>
+			<integer>20675325</integer>
+			<key>PrimaryUsage</key>
+			<integer>1</integer>
+			<key>PrimaryUsagePage</key>
+			<integer>12</integer>
+			<key>ReportInterval</key>
+			<integer>0</integer>
+			<key>ServiceFilterDebug</key>
+			<array>
+				<dict>
+					<key>CapsLockState</key>
+					<integer>0</integer>
+					<key>Class</key>
+					<string>IOHIDKeyboardFilter</string>
+					<key>FnFunctionUsageMap</key>
+					<array/>
+					<key>FnKeyboardUsageMap</key>
+					<array/>
+					<key>HIDInitialKeyRepeat</key>
+					<integer>500</integer>
+					<key>HIDKeyRepeat</key>
+					<integer>83</integer>
+					<key>HIDKeyboardModifierMappingPairs</key>
+					<array/>
+					<key>MatchScore</key>
+					<integer>300</integer>
+					<key>NumLockKeyboardUsageMap</key>
+					<array/>
+					<key>UserKeyMapping</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>IOHIDEventProcessor</string>
+					<key>DoubleTapTimeout</key>
+					<integer>0</integer>
+					<key>LongPressTimeout</key>
+					<integer>1300000</integer>
+					<key>MatchScore</key>
+					<integer>200</integer>
+					<key>PressCountDoublePressTimeout</key>
+					<integer>600000</integer>
+					<key>PressCountTrackingEnabled</key>
+					<integer>1</integer>
+					<key>PressCountTriplePressTimeout</key>
+					<integer>1000000</integer>
+					<key>PressCountUsagePairs</key>
+					<array>
+						<integer>786637</integer>
+					</array>
+					<key>TapTrackingEnabled</key>
+					<integer>1000000</integer>
+					<key>TripleTapTimeout</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>IOHIDNXEventTranslatorServiceFilter</string>
+					<key>MatchScore</key>
+					<integer>100</integer>
+				</dict>
+			</array>
+			<key>ServicePluginDebug</key>
+			<dict>
+				<key>Class</key>
+				<string>IOHIDEventServiceClass</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>BatchInterval</key>
+			<integer>1</integer>
+			<key>Built-In</key>
+			<false/>
+			<key>Connections</key>
+			<array>
+				<string>98FABA8A-AFB8-49F3-B64B-C4914B276085</string>
+				<string>74724034-D35F-4C37-AB2C-E920DEA18FBB</string>
+				<string>E4C93FE1-27AE-4080-9106-CAFC8419AE9A</string>
+				<string>FCBB8D52-B9BB-4BA5-A56A-938EA42573A0</string>
+			</array>
+			<key>DeviceUsagePairs</key>
+			<array>
+				<dict>
+					<key>DeviceUsage</key>
+					<integer>2</integer>
+					<key>DeviceUsagePage</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>DeviceUsage</key>
+					<integer>1</integer>
+					<key>DeviceUsagePage</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+			<key>Filters</key>
+			<array/>
+			<key>IOClass</key>
+			<string>IOHIDEventDriver</string>
+			<key>IORegistryEntryID</key>
+			<integer>4294968109</integer>
+			<key>MaxPropertyGetTime</key>
+			<integer>25547146</integer>
+			<key>MaxPropertySetTime</key>
+			<integer>54297544</integer>
+			<key>PrimaryUsage</key>
+			<integer>2</integer>
+			<key>PrimaryUsagePage</key>
+			<integer>1</integer>
+			<key>ReportInterval</key>
+			<integer>0</integer>
+			<key>ServiceFilterDebug</key>
+			<array>
+				<dict>
+					<key>Class</key>
+					<string>IOHIDEventProcessor</string>
+					<key>DoubleTapTimeout</key>
+					<integer>0</integer>
+					<key>LongPressTimeout</key>
+					<integer>0</integer>
+					<key>MatchScore</key>
+					<integer>200</integer>
+					<key>PressCountDoublePressTimeout</key>
+					<integer>0</integer>
+					<key>PressCountTrackingEnabled</key>
+					<integer>0</integer>
+					<key>PressCountTriplePressTimeout</key>
+					<integer>0</integer>
+					<key>TapTrackingEnabled</key>
+					<integer>0</integer>
+					<key>TripleTapTimeout</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>IOHIDPointerScrollFilter</string>
+					<key>HIDPointerAccelerationType</key>
+					<string>HIDTrackpadAcceleration</string>
+					<key>MatchScore</key>
+					<integer>100</integer>
+					<key>Pointer Accelerator</key>
+					<dict>
+						<key>Accelerator</key>
+						<dict>
+							<key>Class</key>
+							<string>IOHIDTableAcceleration</string>
+							<key>Curves</key>
+							<array>
+								<dict>
+									<key>b</key>
+									<integer>0</integer>
+									<key>m</key>
+									<integer>15728</integer>
+									<key>x</key>
+									<integer>195629</integer>
+								</dict>
+								<dict>
+									<key>b</key>
+									<integer>-58688</integer>
+									<key>m</key>
+									<integer>35389</integer>
+									<key>x</key>
+									<integer>391259</integer>
+								</dict>
+								<dict>
+									<key>b</key>
+									<integer>-105640</integer>
+									<key>m</key>
+									<integer>43253</integer>
+									<key>x</key>
+									<integer>586889</integer>
+								</dict>
+								<dict>
+									<key>b</key>
+									<integer>-281706</integer>
+									<key>m</key>
+									<integer>62914</integer>
+									<key>x</key>
+									<integer>782519</integer>
+								</dict>
+								<dict>
+									<key>b</key>
+									<integer>-375609</integer>
+									<key>m</key>
+									<integer>70778</integer>
+									<key>x</key>
+									<integer>978149</integer>
+								</dict>
+								<dict>
+									<key>b</key>
+									<integer>-492987</integer>
+									<key>m</key>
+									<integer>78643</integer>
+									<key>x</key>
+									<integer>1173779</integer>
+								</dict>
+								<dict>
+									<key>b</key>
+									<integer>-915547</integer>
+									<key>m</key>
+									<integer>102236</integer>
+									<key>x</key>
+									<integer>1565038</integer>
+								</dict>
+								<dict>
+									<key>b</key>
+									<integer>-1197254</integer>
+									<key>m</key>
+									<integer>114032</integer>
+									<key>x</key>
+									<integer>1956298</integer>
+								</dict>
+								<dict>
+									<key>b</key>
+									<integer>-1666766</integer>
+									<key>m</key>
+									<integer>129761</integer>
+									<key>x</key>
+									<integer>2347558</integer>
+								</dict>
+								<dict>
+									<key>b</key>
+									<integer>-2159753</integer>
+									<key>m</key>
+									<integer>143523</integer>
+									<key>x</key>
+									<integer>3130077</integer>
+								</dict>
+								<dict>
+									<key>b</key>
+									<integer>-1860973</integer>
+									<key>m</key>
+									<integer>137268</integer>
+									<key>x</key>
+									<integer>4206041</integer>
+								</dict>
+								<dict>
+									<key>b</key>
+									<integer>-1351150</integer>
+									<key>m</key>
+									<integer>129324</integer>
+									<key>x</key>
+									<integer>5086376</integer>
+								</dict>
+								<dict>
+									<key>b</key>
+									<integer>-33536</integer>
+									<key>m</key>
+									<integer>112347</integer>
+									<key>x</key>
+									<integer>5771080</integer>
+								</dict>
+								<dict>
+									<key>b</key>
+									<integer>856858</integer>
+									<key>m</key>
+									<integer>102236</integer>
+									<key>x</key>
+									<integer>6357970</integer>
+								</dict>
+								<dict>
+									<key>b</key>
+									<integer>2637090</integer>
+									<key>m</key>
+									<integer>83886</integer>
+									<key>x</key>
+									<integer>6944859</integer>
+								</dict>
+							</array>
+						</dict>
+						<key>Class</key>
+						<string>IOHIDPointerAccelerator</string>
+						<key>Rate</key>
+						<integer>0</integer>
+						<key>Resolution</key>
+						<integer>26214400</integer>
+					</dict>
+					<key>PointerAccelerationValue</key>
+					<integer>45056</integer>
+					<key>ScrollAccelerationValue</key>
+					<integer>20480</integer>
+				</dict>
+			</array>
+			<key>ServicePluginDebug</key>
+			<dict>
+				<key>Class</key>
+				<string>IOHIDEventServiceClass</string>
+			</dict>
+			<key>Transport</key>
+			<string>USB</string>
+		</dict>
+		<dict>
+			<key>BatchInterval</key>
+			<integer>1</integer>
+			<key>Built-In</key>
+			<false/>
+			<key>Connections</key>
+			<array>
+				<string>98FABA8A-AFB8-49F3-B64B-C4914B276085</string>
+				<string>E4C93FE1-27AE-4080-9106-CAFC8419AE9A</string>
+				<string>FCBB8D52-B9BB-4BA5-A56A-938EA42573A0</string>
+			</array>
+			<key>EventLog</key>
+			<array>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:00:42.053050</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:00:50.258258</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:00:50.269314</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:00:50.278986</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:00:50.287150</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:00:59.355630</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:13.025830</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:13.257261</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:18.047911</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:23.651833</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:32.831864</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:33.869713</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:33.878692</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:33.887466</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:33.896681</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:34.040605</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:35.648427</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:35.656824</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:35.665198</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:35.675160</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:35.692237</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:35.704273</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:35.731415</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:35.745565</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:35.761342</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:36.002846</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:36.029821</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:36.052606</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:36.107791</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:01:37.558140</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:02:17.126903</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:02:19.382453</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:02:32.320880</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:03:07.564276</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:03:38.629310</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:03:44.027613</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:04:04.236056</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:04:06.726530</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:04:15.345251</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:04:27.103365</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:07:24.006962</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:07:59.986040</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:09:46.858563</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>EventTime</key>
+					<string>2000-12-31 19:25:40.733548</string>
+					<key>EventType</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+			<key>EventTypeCounts</key>
+			<dict>
+				<key>VendorDefined</key>
+				<integer>44</integer>
+			</dict>
+			<key>Filters</key>
+			<array/>
+			<key>IOClass</key>
+			<string>IOHIDSystem</string>
+			<key>IORegistryEntryID</key>
+			<integer>4294967936</integer>
+			<key>MaxPropertyGetTime</key>
+			<integer>57862142</integer>
+			<key>MaxPropertySetTime</key>
+			<integer>15791196</integer>
+			<key>PrimaryUsage</key>
+			<integer>23</integer>
+			<key>PrimaryUsagePage</key>
+			<integer>65280</integer>
+			<key>ReportInterval</key>
+			<integer>0</integer>
+			<key>ServiceFilterDebug</key>
+			<array>
+				<dict>
+					<key>Class</key>
+					<string>IOHIDEventProcessor</string>
+					<key>DoubleTapTimeout</key>
+					<integer>0</integer>
+					<key>LongPressTimeout</key>
+					<integer>0</integer>
+					<key>MatchScore</key>
+					<integer>200</integer>
+					<key>PressCountDoublePressTimeout</key>
+					<integer>0</integer>
+					<key>PressCountTrackingEnabled</key>
+					<integer>0</integer>
+					<key>PressCountTriplePressTimeout</key>
+					<integer>0</integer>
+					<key>TapTrackingEnabled</key>
+					<integer>0</integer>
+					<key>TripleTapTimeout</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>SessionFilterDebug</key>
+	<array>
+		<dict>
+			<key>CanceledEventCount</key>
+			<integer>0</integer>
+			<key>Class</key>
+			<string>IOHIDNXEventTranslatorSessionFilter</string>
+			<key>CompanionMap</key>
+			<array/>
+			<key>DeclareActivityThreshold</key>
+			<integer>250000000</integer>
+			<key>DisplayPowerState</key>
+			<integer>2</integer>
+			<key>DisplayPowerStateChangeTime</key>
+			<integer>2221864</integer>
+			<key>DisplayWrangelServiceObject</key>
+			<integer>36355</integer>
+			<key>ReportGlobalModifiers</key>
+			<array>
+				<integer>4294967936</integer>
+			</array>
+			<key>SystemPowerState</key>
+			<integer>0</integer>
+			<key>SystemPowerStateChangeTime</key>
+			<integer>2221864</integer>
+			<key>TranslateWithGlobalModifiers</key>
+			<array>
+				<integer>4294967785</integer>
+				<integer>4294967782</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>Biometric Cancel Threshold (ms)</key>
+			<integer>100</integer>
+			<key>Biometry in Progress</key>
+			<integer>0</integer>
+			<key>Cancellation in Progress</key>
+			<integer>0</integer>
+			<key>Cancelled Event Count</key>
+			<integer>0</integer>
+			<key>Class</key>
+			<string>IOHIDDFREventFilter</string>
+			<key>DFR Touch Cancel Threshold (ms)</key>
+			<integer>100</integer>
+			<key>Keyboard Cancel Threshold (ms)</key>
+			<integer>100</integer>
+			<key>Keyboard Filter Enabled</key>
+			<integer>1</integer>
+			<key>Touch in Progress</key>
+			<integer>0</integer>
+			<key>TouchID Filter Enabled</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+
+MEDIA: ""; Size 224 GB [468862128 x 512]; Max Transfer Blocks 2048
+SCHEME: 1 GPT, "GPT Partition Scheme" [16]
+SECTION: 1 Type:'MAP'; Size 224 GB [468862128 x 512]; Offset 34 Blocks (468862061 + 67) x 512; UUID: 094A19CF-DB8D-4004-871E-9F01FBD9F70A
+
+ID Type                 Offset       Size         End          Name                      (2)
+-- -------------------- ------------ ------------ ------------ -------------------- --------
+ 1 EFI                            40       409600       409639 EFI System Partition 9B24595B-BD4E-4B6D-B184-68D9A46D8A2E
+ 2 Apple_APFS                 409640    468452448    468862087 12508FDF-B607-42FE-9EFC-4DA23F6FBB4C
+
+scheme:     none
+block size: 512
+_ ## Type_________________ Name_________________ Start___ Size____
++    Apple_APFS            whole disk                   0 468452448 
+
++ synthesized

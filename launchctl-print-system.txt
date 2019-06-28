@@ -1,0 +1,911 @@
+com.apple.xpc.launchd.domain.system = {
+	type = system
+	handle = 0
+	active count = 432
+	on-demand count = 0
+	service count = 316
+	active service count = 120
+	activity ratio = 0.38
+	maximum allowed shutdown time = 65 s
+	creator = launchd.1
+	creator euid = 0
+	external activation count = 0
+	security context = {
+		uid unset
+		asid = 0
+	}
+
+	bringup time = 286 ms
+	death port = 0x1103
+
+	in-progress bootstraps = 0
+	pended requests = 0
+	pending requests = {
+	}
+	subdomains = {
+		com.apple.xpc.launchd.domain.pid.remoteservice.1302
+		com.apple.xpc.launchd.domain.pid.helper.1280
+		com.apple.xpc.launchd.domain.pid.SharePointManagementService.1271
+		com.apple.xpc.launchd.domain.pid.iCloudHelper.1270
+		com.apple.xpc.launchd.domain.pid.sbd.1264
+		com.apple.xpc.launchd.domain.pid.EscrowSecurityAlert.1262
+		com.apple.xpc.launchd.domain.pid.Keychain Circle Notification.1263
+		com.apple.xpc.launchd.domain.pid.ContainerMetadataExtractor.1258
+		com.apple.xpc.launchd.domain.pid.bird.1256
+		com.apple.xpc.launchd.domain.pid.quicklookd.1253
+		com.apple.xpc.launchd.domain.pid.Finder.1247
+		com.apple.xpc.launchd.domain.pid.nbagent.1245
+		com.apple.xpc.launchd.domain.pid.studentd.1244
+		com.apple.xpc.launchd.domain.pid.extra.1243
+		com.apple.xpc.launchd.domain.pid.LoginUserService.1241
+		com.apple.xpc.launchd.domain.pid.WiFiProxy.1240
+		com.apple.xpc.launchd.domain.pid.SystemUIServer.1237
+		com.apple.xpc.launchd.domain.pid.ViewBridgeAuxiliary.1236
+		com.apple.xpc.launchd.domain.pid.CoreServicesUIAgent.1231
+		com.apple.xpc.launchd.domain.pid.AirPlayUIAgent.1230
+		com.apple.xpc.launchd.domain.pid.soagent.1106
+		com.apple.xpc.launchd.domain.pid.SSMenuAgent.745
+		com.apple.xpc.launchd.domain.pid.Activity Monitor.643
+		com.apple.xpc.launchd.domain.pid.wifivelocityd.568
+		com.apple.xpc.launchd.domain.pid.localAuthenticationRemoteService.563
+		com.apple.xpc.launchd.domain.pid.remoteservice.561
+		com.apple.xpc.launchd.domain.pid.HelpViewer.556
+		com.apple.xpc.launchd.domain.pid.ColorSyncXPCAgent.552
+		com.apple.xpc.launchd.domain.pid.remoteservice.532
+		com.apple.xpc.launchd.domain.pid.TextEdit.526
+		com.apple.xpc.launchd.domain.pid.MediaLibraryService.518
+		com.apple.xpc.launchd.domain.pid.deleted.399
+		com.apple.xpc.launchd.domain.pid.remoteservice.507
+		com.apple.xpc.launchd.domain.pid.AirPlayDeviceMenuService.506
+		com.apple.xpc.launchd.domain.pid.System Preferences.497
+		com.apple.xpc.launchd.domain.pid.Firewall.496
+		com.apple.xpc.launchd.domain.pid.photoanalysisd.488
+		com.apple.xpc.launchd.domain.pid.PhotoIngestService.486
+		com.apple.xpc.launchd.domain.pid.photomoments.484
+		com.apple.xpc.launchd.domain.pid.photolibraryd.483
+		com.apple.xpc.launchd.domain.pid.CloudPhotosConfiguration.481
+		com.apple.xpc.launchd.domain.pid.cloudphotosd.479
+		com.apple.xpc.launchd.domain.pid.SafariServices.462
+		com.apple.xpc.launchd.domain.pid.DictionaryServiceHelper.458
+		com.apple.xpc.launchd.domain.pid.AppleSpell.455
+		com.apple.xpc.launchd.domain.pid.suggestd.453
+		com.apple.xpc.launchd.domain.pid.MobileDocumentsFileProvider.449
+		com.apple.xpc.launchd.domain.pid.storeassetd.446
+		com.apple.xpc.launchd.domain.pid.storedownloadd.442
+		com.apple.xpc.launchd.domain.pid.IMRemoteURLConnectionAgent.444
+		com.apple.xpc.launchd.domain.pid.callservicesd.408
+		com.apple.xpc.launchd.domain.pid.writeconfig.428
+		com.apple.xpc.launchd.domain.pid.hiservices-xpcservice.412
+		com.apple.xpc.launchd.domain.pid.WiFiAgent.387
+		com.apple.xpc.launchd.domain.pid.LocationMenu.403
+		com.apple.xpc.launchd.domain.pid.fileproviderd.394
+		com.apple.xpc.launchd.domain.pid.SafeEjectGPUService.390
+		com.apple.xpc.launchd.domain.pid.SafeEjectGPUAgent.389
+		com.apple.xpc.launchd.domain.pid.routined.331
+		com.apple.xpc.launchd.domain.pid.UserEventAgent.265
+		com.apple.xpc.launchd.domain.pid.storeaccountd.328
+		com.apple.xpc.launchd.domain.pid.familycircled.376
+		com.apple.xpc.launchd.domain.pid.fmfd.361
+		com.apple.xpc.launchd.domain.pid.IMRemoteURLConnectionAgent.362
+		com.apple.xpc.launchd.domain.pid.sharingd.310
+		com.apple.xpc.launchd.domain.pid.ContactsAccountsService.358
+		com.apple.xpc.launchd.domain.pid.IMDPersistenceAgent.355
+		com.apple.xpc.launchd.domain.pid.CalNCService.351
+		com.apple.xpc.launchd.domain.pid.imagent.342
+		com.apple.xpc.launchd.domain.pid.WeatherSummary.329
+		com.apple.xpc.launchd.domain.pid.CalendarAgent.325
+		com.apple.xpc.launchd.domain.pid.NotificationCenter.307
+		com.apple.xpc.launchd.domain.pid.geod.317
+		com.apple.xpc.launchd.domain.pid.Spotlight.299
+		com.apple.xpc.launchd.domain.pid.parsecd.305
+		com.apple.xpc.launchd.domain.pid.IMRemoteURLConnectionAgent.309
+		com.apple.xpc.launchd.domain.pid.Dock.270
+		com.apple.xpc.launchd.domain.pid.identityservicesd.280
+		com.apple.xpc.launchd.domain.pid.talagent.269
+		com.apple.xpc.launchd.domain.pid.diskarbitrationd.67
+		com.apple.xpc.launchd.domain.user.501
+		com.apple.xpc.launchd.domain.pid.registerassistantservice.252
+		com.apple.xpc.launchd.domain.pid.systemstats.251
+		com.apple.xpc.launchd.domain.pid.geod.243
+		com.apple.xpc.launchd.domain.user.235
+		com.apple.xpc.launchd.domain.user.205
+		com.apple.xpc.launchd.domain.pid.locationd.82
+		com.apple.xpc.launchd.domain.pid.systemsoundserverd.225
+		com.apple.xpc.launchd.domain.pid.AccountPolicyHelper.229
+		com.apple.xpc.launchd.domain.pid.opendirectoryd.74
+		com.apple.xpc.launchd.domain.pid.animationperfd.227
+		com.apple.xpc.launchd.domain.pid.AmbientDisplayAgent.222
+		com.apple.xpc.launchd.domain.pid.ViewBridgeAuxiliary.221
+		com.apple.xpc.launchd.domain.user.89
+		com.apple.xpc.launchd.domain.user.55
+		com.apple.xpc.launchd.domain.pid.appleeventsd.51
+		com.apple.xpc.launchd.domain.user.92
+		com.apple.xpc.launchd.domain.pid.loginwindow.89
+		com.apple.xpc.launchd.domain.pid.SandboxHelper.204
+		com.apple.xpc.launchd.domain.pid.CodeSigningHelper.199
+		com.apple.xpc.launchd.domain.pid.ColorSyncXPCAgent.192
+		com.apple.xpc.launchd.domain.pid.launchservicesd.77
+		com.apple.xpc.launchd.domain.pid.colorsync.displayservices.189
+		com.apple.xpc.launchd.domain.user.212
+		com.apple.xpc.launchd.domain.user.88
+		com.apple.xpc.launchd.domain.pid.WindowServer.131
+		com.apple.xpc.launchd.domain.pid.airportd.155
+		com.apple.xpc.launchd.domain.pid.socketfilterfw.172
+		com.apple.xpc.launchd.domain.pid.DriverHelper.128
+		com.apple.xpc.launchd.domain.user.202
+		com.apple.xpc.launchd.domain.pid.coreaudiod.111
+		com.apple.xpc.launchd.domain.pid.ctkpcscd.121
+		com.apple.xpc.launchd.domain.pid.authd.105
+		com.apple.xpc.launchd.domain.pid.securityd.79
+		com.apple.xpc.launchd.domain.user.0
+	}
+	pending attachments = {
+	}
+	pending global attachments = {
+	}
+
+	environment = {
+	}
+
+	services = {
+		    (dp)      0 	com.apple.wifiFirmwareLoader
+		      44      - 	com.apple.uninstalld
+		      45      - 	com.apple.kextd
+		       0      - 	com.apple.diagnosticextensions.osx.spotlight.helper
+		       0      - 	com.apple.tzlinkd
+		       0      - 	com.apple.diagnosticextensions.osx.timemachine.helper
+		       0      - 	com.apple.kcproxy
+		      46      - 	com.apple.fseventsd
+		       0      - 	com.apple.storedownloadd.daemon
+		     228      - 	com.apple.CoreAuthentication.daemon
+		       0      0 	com.apple.Kerberos.digest-service
+		    (dp)      0 	com.apple.CoreRAID
+		       0      - 	com.apple.systempreferences.cacheAssistant
+		    1234      0 	com.apple.automountd
+		       0      - 	com.apple.TrustEvaluationAgent.system
+		     108      - 	com.apple.coreservicesd
+		       0      0 	com.apple.newsyslog
+		      48      - 	com.apple.mediaremoted
+		    (dp)      0 	com.apple.applefileutil
+		     364      - 	com.apple.adid
+		     222      0 	com.apple.AmbientDisplayAgent
+		       0      - 	com.vix.cron
+		       0      - 	com.apple.storeagent.daemon
+		    (dp)      0 	com.apple.MRTd
+		       0      - 	com.apple.touchbarserver
+		       0      - 	com.apple.mbusertrampoline
+		       0      - 	com.apple.thermald
+		     306      - 	com.apple.FileCoordination
+		     349      - 	com.apple.taskgated
+		     258      - 	com.apple.GSSCred
+		     225      - 	com.apple.audio.systemsoundserverd
+		       0      - 	com.apple.RemoteDesktop.PrivilegeProxy
+		     189      - 	com.apple.colorsync.displayservices
+		       0      - 	com.apple.avbdeviced
+		       0      - 	com.apple.AEServer
+		      51      - 	com.apple.coreservices.appleevents
+		     188      - 	com.apple.cvmsServ
+		      52      - 	com.apple.systemstats.analysis
+		       0      - 	com.apple.eapolcfg_auth
+		     431      - 	com.apple.xpc.smd
+		       0      - 	com.apple.diagnosticd
+		     420      - 	com.apple.AssetCacheTetheratorService
+		       0      - 	com.apple.gkreport
+		     568      - 	com.apple.wifivelocityd
+		       0      0 	com.apple.FontWorker
+		      54      - 	com.apple.configd
+		       0      - 	com.apple.installandsetup.systemmigrationd
+		       0      - 	com.apple.applessdstatistics
+		     238      - 	com.apple.captiveagent
+		     515      - 	com.apple.sysdiagnose
+		     191      - 	com.apple.colorsyncd
+		       0      - 	com.apple.hdiejectd
+		       0      0 	com.apple.backupd
+		       0      - 	com.apple.metadata.mds.spindump
+		       0      - 	com.apple.Kerberos.kpasswdd
+		     514      - 	com.apple.installd
+		      55      - 	com.apple.powerd
+		       0      - 	com.apple.corestorage.corestoraged
+		     516      - 	com.apple.system_installd
+		       0      - 	com.apple.storagekitd
+		       0      - 	com.apple.diagnosticextensions.osx.getmobilityinfo.helper
+		       0      - 	com.apple.WirelessRadioManager
+		     255      - 	com.apple.mobileassetd
+		     203      - 	com.apple.audio.AudioComponentRegistrar
+		     229      - 	com.apple.AccountPolicyHelper
+		       0      - 	com.apple.EmbeddedOSInstallService
+		     105      - 	com.apple.authd
+		     414      - 	com.apple.dmd
+		     174      - 	com.apple.driver.ethcheck
+		       0      - 	com.apple.InstallerDiagnostics.installerdiagwatcher
+		       0      - 	com.apple.dvdplayback.setregion
+		       0      - 	com.apple.eoshostd
+		       0      - 	com.apple.airport.wps
+		       0      - 	com.apple.AssetCacheLocatorService
+		       0      0 	com.apple.SafeEjectGPUStartupDaemon
+		       0      - 	com.apple.fontmover
+		       0      - 	com.apple.MobileFileIntegrity
+		    (dp)      0 	com.apple.DumpPanic
+		       0      - 	com.apple.msrpc.wkssvc
+		       0      - 	com.apple.netauth.sys.auth
+		     112      - 	com.apple.nehelper
+		       0      0 	com.apple.UserNotificationCenter
+		       0      - 	com.apple.testmanagerd
+		       0      - 	com.apple.boswatcher
+		       0      - 	com.apple.wifid
+		       0      - 	com.apple.InstallerDiagnostics.installerdiagd
+		       0      - 	com.apple.awacsd
+		    (dp)      0 	com.apple.nfsconf
+		       0      - 	com.apple.storereceiptinstaller
+		       0      - 	com.apple.mobileactivationd
+		      58      - 	com.apple.logd
+		      59      - 	com.apple.mobile.keybagd
+		       0      - 	com.apple.softwareupdated
+		       0      - 	com.apple.iBooksX-SecureUserDefaults
+		     428      - 	com.apple.systemadministration.writeconfig
+		       0      - 	com.apple.vsdbutil
+		    (dp)      0 	com.apple.MobileAccessoryUpdater
+		     190      - 	com.apple.tccd.system
+		       0      - 	com.apple.diskmanagementstartup
+		       0      - 	com.apple.seld
+		       0      - 	com.apple.nfsd
+		       0      - 	com.apple.accessoryd
+		       0      - 	com.apple.appleseed.fbahelperd
+		     155      - 	com.apple.airportd
+		       0      - 	com.apple.configureLocalKDC
+		     301      - 	com.apple.icloud.findmydeviced
+		     111      - 	com.apple.audio.coreaudiod
+		       0      - 	com.apple.akd
+		     217      - 	com.apple.spindump
+		       0      - 	com.apple.lockd
+		       0      - 	com.apple.speech.speechsynthesisd
+		     652      - 	com.apple.nfcd
+		       0      - 	com.apple.signpost.signpost_reporter
+		       0      - 	com.apple.postfix.master
+		       0      - 	com.apple.emond.aslmanager
+		    (dp)      0 	com.apple.IFCStart
+		     183      - 	com.apple.watchdogd
+		    (dp)      0 	com.apple.warmd
+		       0      - 	com.apple.pfd
+		      65      - 	com.apple.metadata.mds
+		     220      - 	com.apple.SubmitDiagInfo
+		       0      - 	com.apple.powerd.swd
+		       0      0 	com.apple.ManagedClient
+		       0      - 	com.apple.emond
+		       0      - 	com.apple.wwand
+		     175      - 	com.apple.cmio.VDCAssistant
+		      66      - 	com.apple.iconservices.iconservicesd
+		       0      - 	com.apple.driver.eficheck
+		       0      - 	com.apple.AppleQEMUGuestAgent
+		       0      - 	com.apple.ProcessPanicReport
+		       0      - 	com.apple.iconservices.iconservicesagent
+		       0      - 	com.apple.xpc.uscwoap
+		      67      - 	com.apple.diskarbitrationd
+		       0      - 	com.apple.rpcbind
+		       0      - 	com.apple.printtool.daemon
+		    (dp)      0 	com.apple.InstallerProgress
+		       0      - 	com.apple.nlcd
+		    (dp)      0 	com.apple.pfctl
+		       0      - 	com.apple.security.authhost
+		       0      - 	com.apple.mdmclient.daemon
+		    1289      - 	com.apple.dprivacyd
+		       0      - 	com.apple.logkextloadsd
+		       0      0 	com.apple.systemkeychain
+		      70      - 	com.apple.backupd-helper
+		     127      - 	com.apple.ctkd
+		     205      - 	com.apple.bootinstalld
+		      71      - 	com.apple.coreduetd
+		       0      - 	com.apple.CommCenterRootHelper
+		       0      - 	com.apple.security.agent.login
+		       0      - 	com.apple.diagnosticextensions.osx.bluetooth.helper
+		       0      - 	com.apple.bluetoothReporter
+		       0      - 	com.apple.softwareupdate_download_service
+		      40      - 	com.apple.syslogd
+		       0      - 	com.apple.mbsystemadministration
+		       0      - 	com.apple.DesktopServicesHelper
+		     131      - 	com.apple.WindowServer
+		    (dp)      0 	com.apple.ucupdate.plist
+		       0      - 	com.apple.netauth.sys.gui
+		     728      - 	com.apple.sysdiagnose_helper
+		       0      - 	com.apple.postfix.newaliases
+		    1281      - 	com.apple.xpc.roleaccountd
+		    (dp)      0 	com.apple.ionodecache
+		     164      - 	com.apple.nsurlsessiond_privileged
+		       0      - 	com.apple.gssd
+		     184      - 	com.apple.awdd
+		     106      - 	com.apple.contextstored
+		       0      - 	com.apple.systemstats.daily
+		       0      - 	com.apple.ManagedClient.enroll
+		       0      - 	com.apple.cmio.AppleCameraAssistant
+		       0      0 	com.apple.netbiosd
+		       0      - 	com.apple.msrpc.mdssvc
+		       0      - 	com.apple.remotemanagementd
+		       0      - 	com.apple.NetworkSharing
+		       0      - 	com.apple.afpfs_checkafp
+		       0      0 	com.apple.bluetoothaudiod
+		       0      - 	com.apple.startupdiskhelper
+		     230      - 	com.apple.CryptoTokenKit.ahp
+		       0      0 	com.apple.SCHelper
+		     156      - 	com.apple.mDNSResponderHelper.reloaded
+		       0      - 	com.apple.dpd
+		       0      - 	com.apple.softwareupdate_firstrun_tasks
+		       0      - 	com.apple.timezoneupdates.tzd
+		     165      - 	com.apple.ifdreader
+		       0      - 	com.apple.diagnosticextensions.osx.wifi.helper
+		      74      - 	com.apple.opendirectoryd
+		       0      - 	com.apple.periodic-weekly
+		     162      - 	com.apple.AssetCache.builtin
+		     227      - 	com.apple.PerformanceAnalysis.animationperfd
+		       0      - 	com.apple.corestorage.corestoragehelperd
+		       0      - 	com.apple.periodic-monthly
+		     254      - 	com.apple.nsurlstoraged
+		       0      - 	com.apple.preferences.timezone.admintool
+		     302      - 	com.apple.wirelessproxd
+		       0      - 	com.apple.DataDetectorsSourceAccess
+		       0      - 	com.apple.rootless.init
+		       0      - 	com.apple.statd.notify
+		       0      - 	com.apple.storeinstalld
+		     250      0 	com.apple.apsd
+		     163      - 	org.cups.cupsd
+		       0      - 	com.apple.findmymacmessenger
+		       0      0 	com.apple.security.agent.login.00000000-0000-0000-0000-0000000186A7
+		       0      - 	com.apple.internal.aupbregistrarservice
+		     477      - 	com.apple.ReportCrash.Root
+		      76      - 	com.apple.noticeboard.state
+		     185      - 	com.apple.lsd
+		       0      - 	com.apple.afpfs_afpLoad
+		     206      - 	com.apple.metadata.mds.index
+		      77      - 	com.apple.coreservices.launchservicesd
+		     126      - 	com.apple.trustd
+		      78      - 	com.apple.timed
+		       0      - 	com.apple.multiversed
+		       0      - 	com.apple.siri.acousticsignature
+		      79      - 	com.apple.securityd
+		       0      - 	com.apple.cmio.IIDCVideoAssistant
+		      80      - 	com.apple.usbmuxd
+		       0      - 	com.apple.IOBluetoothUSBDFU
+		       0      - 	com.apple.ManagedClient.cloudconfigurationd
+		       0      - 	com.apple.biokitaggdd
+		       0      - 	com.apple.auditd
+		    (dp)      0 	com.apple.dynamic_pager
+		      82      - 	com.apple.locationd
+		       0      - 	com.apple.nesessionmanager
+		       0      - 	com.apple.var-db-dslocal-backup
+		      99      - 	com.apple.security.syspolicy
+		       0      - 	com.apple.GameController.gamecontrollerd
+		     386      - 	com.apple.CrashReporterSupportHelper
+		       0      - 	com.apple.PCIELaneConfigTool
+		       0      - 	com.apple.rtcreportingd
+		       0      - 	com.apple.defragx
+		       0      - 	com.apple.cfnetwork.cfnetworkagent
+		     544      0 	com.apple.ocspd
+		     129      - 	com.apple.symptomsd
+		       0      0 	com.apple.security.authhost.00000000-0000-0000-0000-0000000186A7
+		       0      - 	com.apple.biometrickitd
+		      83      - 	com.apple.autofsd
+		       0      - 	com.apple.DumpGPURestart
+		     187      - 	com.apple.secinitd
+		      84      - 	com.apple.displaypolicyd
+		       0      - 	com.apple.ReportCrash.Root.Self
+		     166      - 	com.apple.apfsd
+		       0      - 	com.apple.csrutil.report
+		       0      - 	com.apple.iokit.ioserviceauthorized
+		      41      - 	com.apple.UserEventAgent-System
+		      85      - 	com.apple.dasd
+		       0      - 	com.apple.kuncd
+		       0      0 	com.apple.Kerberos.kcm
+		    1694      0 	com.apple.corecaptured
+		     173      - 	com.apple.usbd
+		       0      - 	com.apple.sessionlogoutd
+		     433      - 	com.apple.Kerberos.kdc
+		     216      - 	com.apple.coreservices.sharedfilelistd
+		    (dp)      0 	com.apple.scsid
+		     419      - 	com.apple.AssetCacheManagerService
+		       0      - 	com.apple.Kerberos.kadmind
+		       0      - 	com.openssh.sshd
+		       0      - 	com.apple.IOAccelMemoryInfoCollector
+		     101      - 	com.apple.distnoted.xpc.daemon
+		     264      - 	com.apple.securityd_service
+		       0      0 	com.apple.xtyped
+		     154      - 	com.apple.mDNSResponder.reloaded
+		       0      - 	com.apple.periodic-daily
+		     248      1 	com.apple.PerfPowerServices
+		     172      - 	com.apple.alf
+		       0      - 	com.apple.nfrestore
+		       0      - 	com.apple.bridgeOSUpdateProxy
+		       0      - 	com.apple.storeaccountd.daemon
+		     226      - 	com.apple.coresymbolicationd
+		    (dp)      0 	com.apple.bsd.dirhelper
+		       0      - 	com.apple.cmio.AVCAssistant
+		       0      - 	com.apple.msrpc.srvsvc
+		       0      - 	com.apple.msrpc.lsarpc
+		       0      - 	com.apple.dspluginhelperd
+		       0      - 	com.apple.efilogin-helper
+		      89      - 	com.apple.loginwindow
+		      90      - 	com.apple.logind
+		       0      0 	com.apple.ReportMemoryException
+		       0      - 	com.apple.PerfPowerServicesExtended
+		      91      - 	com.apple.revisiond
+		       0      - 	com.apple.suhelperd
+		      92      - 	com.apple.KernelEventAgent
+		       0      - 	com.apple.commerced
+		       0      - 	com.apple.cmio.iOSScreenCaptureAssistant
+		     104      - 	com.apple.aslmanager
+		       0      - 	com.apple.RFBEventHelper
+		    (dp)      0 	com.apple.smb.preferences
+		       0      - 	com.apple.rapportd
+		     244      - 	com.apple.analyticsd
+		       0      - 	com.apple.osanalytics.osanalyticshelper
+		       0      - 	com.apple.findmymacd
+		      94      - 	com.apple.bluetoothd
+		       0      - 	com.apple.racoon
+		    1274      0 	com.apple.msrpc.netlogon
+		       0      - 	com.apple.taskgated-helper
+		     102      - 	com.apple.cfprefsd.xpc.daemon
+		       0      - 	com.apple.bnepd
+		       0      - 	com.apple.bosreporter
+		     100      - 	com.apple.notifyd
+		       0      0 	com.apple.diskmanagementd
+		     252      - 	com.apple.cmio.registerassistantservice
+		       0      - 	com.apple.Localization.SetDefaultsService
+		     199      - 	com.apple.CodeSigningHelper
+		       0      - 	com.apple.xartstorageremoted
+		      95      - 	com.apple.hidd
+		     354    -14 	com.apple.sandboxd
+		     249      - 	com.apple.sysmond
+		      97      - 	com.apple.corebrightnessd
+		       0      - 	com.apple.unmountassistant.sysagent
+		       0      0 	com.apple.metadata.mds.scan
+		       0      - 	com.apple.RemotePairTool
+		       0      - 	com.apple.dpaudiothru
+		     727      - 	com.apple.tailspind
+		       0      - 	com.apple.fpsd
+		      98      - 	com.apple.AirPlayXPCHelper
+		       0      - 	com.apple.storeassetd.daemon
+		       0      - 	com.apple.familycontrols
+		       0      - 	com.apple.ReportPanicService
+	}
+
+	unmanaged processes = {
+	}
+
+	endpoints = {
+		 0x4b213    U   A   com.apple.CARenderServer
+		 0x22107    U   A   com.apple.VirtualDisplay
+		 0x18703    M   A   com.apple.nehelper
+		 0x1c703    M   D   com.apple.lsd.openurl
+		 0x1dc03    M   A   com.apple.colorsyncd
+		 0x10303    M   D   com.apple.fonts
+		 0x10b03    M   D   com.apple.wifid
+		 0x12703    M   D   com.apple.backupd-auto
+		  0xce03    M   A   com.apple.nsurlsessiond-launchondemand
+		  0xbd03    M   D   com.apple.pfd
+		  0x7a03    M   D   com.apple.timezoneupdates.tzd.server
+		  0x3003    M   A   com.apple.CoreAuthentication.daemon.libxpc
+		 0x20703    M   A   com.apple.security.AppleSystemPolicy.mig
+		 0x17803    M   D   com.apple.lsd.xpc
+		 0x1e703    M   D   com.apple.testmanagerd
+		 0x1ed03    M   D   com.apple.dvdplayback.setregion_service
+		 0x10403    M   A   com.apple.xpc.roleaccountd
+		  0xbc03    M   A   com.apple.coreservices.sharedfilelistd.xpc
+		  0xb803    M   D   com.apple.diagnosticextensions.osx.bluetooth.helper
+		  0xaa03    M   D   com.apple.audio.AUPBRegistrar
+		  0x7203    M   A   com.apple.cfprefsd.daemon
+		  0x9d03    M   A   com.apple.logd.events
+		  0x5f03    M   D   com.apple.bosreporter
+		  0x3903    M   A   com.apple.system.opendirectoryd.api
+		 0x2a103    M   A   com.apple.spindump
+		 0x2a803    M   A   com.apple.captiveagent
+		 0x17e03    M   A   com.apple.systemstats.analysis
+		 0x17c03    M   A   com.apple.lsd.mapdb
+		 0x1d503    M   A   com.apple.secinitd.fileoperations
+		 0x16c03    M   D   com.apple.remotemanagementd.admin-persistence-xpc
+		 0x16503    M   D   com.apple.netauth.sys.gui
+		 0x1ff03    M   D   com.apple.seld.aps
+		 0x11803    M   D   com.apple.accessories.hid
+		 0x11d03    M   A   com.apple.wirelessproxd
+		  0xdd03    M   A   com.apple.coremedia.volumecontroller.xpc
+		  0xd803    M   D   com.apple.diagnosticd
+		  0xcb03    M   D   com.apple.SystemConfiguration.helper
+		  0x8503    M   D   com.apple.suhelperd
+		  0x9403    M   D   com.apple.FontWorker
+		  0x3a03    M   A   com.apple.system.DirectoryService.membership_v1
+		  0x5103    M   D   com.apple.diskmanagementd
+		  0x5203    M   D   org.h5l.ntlm-service
+		 0x1af0b    M   A   com.apple.CodeSigningHelper
+		 0x1b203    M   A   com.apple.sysdiagnose.kernel.ipc
+		 0x16803    M   D   com.apple.ManagedClient.cloudconfigurationd
+		 0x1e803    M   D   com.apple.testmanagerd.control
+		 0x12e03    M   A   com.apple.coremedia.endpointpicker.xpc
+		  0xc403    M   A   com.apple.coreduetd
+		 0x14903    M   D   com.apple.dpd
+		 0x14b03    M   A   com.apple.metadata.mds.cachedelete
+		  0x2403    M   A   com.apple.resource_notify.host
+		 0x1ad03    M   A   com.apple.sandboxd
+		 0x19903    M   D   com.apple.gpumemd.source
+		 0x18c03    M   A   com.apple.xpc.activity.control
+		 0x1c203    M   A   com.apple.cookied
+		 0x1db03    M   D   com.apple.diagnosticextensions.osx.spotlight.helper
+		 0x15e0b    M   D   com.apple.backupd.status.xpc
+		 0x92d9f    M   D   com.apple.metadata.mds.scan
+		  0xef03    M   D   com.apple.accessories.transport-server
+		 0x12203    M   A   com.apple.airportd
+		 0x12903    M   A   com.apple.TMCacheDelete
+		  0xb703    M   A   com.apple.metadata.mds
+		  0x3103    M   A   com.apple.LocalAuthentication.AuthenticationHintsProvider
+		  0x5003    M   A   com.apple.activity_tracing.cache-delete
+		 0x1a003    M   D   com.apple.emond.evtq
+		 0x1b103    M   A   com.apple.cvmsServ
+		 0x18103    M   D   com.apple.daemon.vpp.storeagent-xpc
+		 0x17603    M   D   com.apple.lsd.installation
+		 0x16203    M   D   com.apple.system.hdiejectd.xpc
+		  0xf403    M   A   com.apple.CryptoTokenKit.AuthenticationHintsProvider.daemon.libxpc
+		 0x13f03    M   A   com.apple.coreduetd.people
+		  0x8703    M   D   com.apple.WirelessCoexManager
+		  0xa903    M   D   com.apple.InstallerProgress
+		 0x19603    M   A   com.apple.cmio.VDCAssistant
+		 0x18d03    M   A   com.apple.remoted
+		 0x18a03    M   A   com.apple.windowserver
+		 0x1c803    M   A   com.apple.lsd.trustedsignatures
+		 0x16d03    M   D   com.apple.unmountassistant.sysagent
+		 0x1610b    M   D   com.apple.backupd-status
+		 0x15a03    M   D   com.apple.auditd
+		  0xfd03    M   D   com.apple.bluetoothaudiod
+		  0xec03    M   D   com.apple.ReportMemoryException
+		 0x12a03    M   D   com.apple.warmd.server
+		 0x13b03    M   A   com.apple.system_installd.CacheDelete
+		  0xbf03    M   A   com.apple.coreservices.launchservicesd
+		  0xba03    M   D   com.apple.security.agent.login
+		  0x9703    M   A   com.apple.SystemConfiguration.IPMonitorControl
+		  0x5903    M   D   com.apple.installandsetup.systemmigrationd.Progress
+		 0x54943    M   A   com.apple.cmio.registerassistantservice
+		 0x54b67    M   D   com.apple.Localization.SetDefaultsService
+		 0x2d83f    U   A   com.apple.CoreDisplay.Notification
+		 0x29d03    M   D   com.apple.corestorage.corestoragehelperd
+		 0x18403    M   A   com.apple.duetactivityscheduler
+		 0x17a03    M   A   com.apple.lsd.modifydb
+		 0x1e403    M   D   com.apple.UNCUserNotification
+		 0x15903    M   D   com.apple.NetworkSharing
+		 0x15503    M   D   com.apple.seld.tsmmanager
+		 0x10a03    M   A   com.apple.locationd.simulation
+		 0x10803    M   A   com.apple.locationd.desktop.registration
+		 0x12803    M   A   com.apple.backupd-helper.status
+		  0xde03    M   A   com.apple.coremedia.routediscoverer.xpc
+		 0x13c07    M   A   com.apple.system_installd
+		  0x8203    M   D   com.apple.storeaccountd.daemon
+		  0x8a03    M   A   com.apple.timed.xpc
+		  0x8c03    M   A   com.apple.AssetCacheManagerService
+		  0x8d03    M   D   com.apple.cfnetwork.cfnetworkagent
+		  0x5703    M   D   com.apple.installandsetup.systemmigrationd.MigrateFrom
+		  0x2f03    M   A   com.apple.aslmanager
+		 0x22a07    M   A   com.apple.PerformanceAnalysis.animationperfd
+		 0x19003    M   A   com.apple.sysdiagnose.service.xpc
+		 0x18903    M   A   com.apple.windowserver.active
+		 0x1be03    M   A   com.apple.uninstalld
+		 0x1c003    M   A   com.apple.KernelExtensionServer
+		 0x1cc03    M   A   com.apple.distributed_notifications@0v3
+		 0x10903    M   A   com.apple.locationd.desktop.agent
+		 0x11f03    M   A   com.apple.DiskArbitration.diskarbitrationd
+		  0xe203    M   A   com.apple.metadata.mds.index
+		  0xe003    M   A   com.apple.coremedia.endpointremotecontrolsession.xpc
+		  0xd903    M   D   com.apple.kcproxy
+		 0x13e03    M   D   com.apple.airport.wps
+		 0x14003    M   A   com.apple.FSEvents
+		  0xbe03    M   A   com.apple.mDNSResponder_Helper
+		  0x8903    M   A   com.apple.coresymbolicationd
+		  0x6f03    M   A   com.apple.network.EAPOLController
+		  0x7003    M   A   com.apple.network.IPConfiguration
+		  0x9603    M   A   com.apple.SystemConfiguration.PPPController-priv
+		  0x9a03    M   A   com.apple.mobileassetd.v2
+		  0xa103    M   D   com.apple.diagnosticextensions.osx.wifi.helper
+		  0xa803    M   D   com.apple.installandsetup.systemmigrationd.Debug
+		  0x4803    M   A   com.apple.system.logger
+		 0x20e03    M   D   com.apple.iokit.ioserviceauthorized
+		 0x27717    M   A   com.apple.iohideventsystem
+		 0x19b03    M   A   com.apple.ReportCrash.DirectoryService
+		 0x17403    M   D   com.apple.system.Kernel[UNC]Notifications
+		 0x1d703    M   D   com.apple.remotemanagementd.http.configuration
+		 0x1d603    M   D   com.apple.remotemanagementd.http.status
+		 0x16403    M   A   com.apple.tccd.system
+		 0x1f303    M   D   com.apple.tzlink
+		 0x10103    M   A   com.apple.taskgated
+		  0xfb03    M   D   com.apple.locationd.desktop.spi
+		 0x11b03    M   D   com.apple.preferences.timezone.admintool
+		  0xc303    M   A   com.apple.corespotlight.receiver.coreduet
+		  0xc003    M   D   com.apple.printtool.daemon
+		  0xae03    M   D   com.apple.bridgeOSUpdateProxy
+		  0x7e03    M   D   com.apple.storeinstalld
+		  0x7903    M   D   com.apple.mobileactivationd
+		  0x4603    M   A   com.apple.adid
+		 0x19c03    M   A   com.apple.dmd.policy
+		 0x1d103    M   D   com.apple.MobileAccessoryUpdater
+		 0x17203    M   A   com.apple.analyticsd
+		 0x1600b    M   D   com.apple.backupd.xpc
+		 0x10c03    M   D   com.apple.sessionlogoutd
+		 0x13303    M   A   com.apple.coremedia.endpointstream.xpc
+		 0x13503    M   A   com.apple.ctkd.slot-client
+		 0x13703    M   A   com.apple.server.bluetooth.le.pipe.xpc
+		 0x14607    M   D   com.apple.commcenter.root-helper
+		  0x8803    M   A   com.apple.SubmitDiagInfo
+		  0x2d03    M   A   com.apple.AssetCache.builtin
+		 0x1d803    M   D   com.apple.remotemanagementd.personal.status
+		 0x1e207    M   D   com.apple.metadata.mds.spindump
+		  0xf303    M   D   com.apple.eapolcfg_auth
+		  0xda03    M   D   com.apple.nesessionmanager
+		  0xd603    M   A   com.apple.ctkd.slot-registry
+		  0xcd03    M   A   com.apple.nsurlsessiond
+		  0x7d07    M   D   com.apple.softwareupdate_download_service
+		  0x5a03    M   D   com.apple.bsd.dirhelper
+		  0x3803    M   A   com.apple.system.opendirectoryd.libinfo
+		  0x3703    M   D   com.apple.cmio.iOSScreenCaptureAssistant
+		  0x2603    M   D   com.apple.CoreRAID
+		 0x29403    M   D   com.apple.internal.aupbregistrarservice
+		 0x1a703    M   D   com.apple.speech.speechsynthesisd
+		 0x1cb03    M   A   com.apple.distributed_notifications@1v3
+		 0x1de0b    M   D   com.apple.backupd.sandbox.xpc
+		 0x1f803    M   A   com.apple.automountd
+		  0xf507    M   A   com.apple.iokit.powerdxpc
+		 0x12103    M   A   com.apple.xpc.smd
+		 0x12b03    M   A   com.apple.metadata.mds.index.xpc
+		 0x13603    M   A   com.apple.bootinstalld
+		  0xc703    M   D   com.apple.AssetCacheLocatorService
+		  0xbb07    M   D   com.apple.abm.helper.root
+		  0xb903    M   D   com.apple.RemoteDesktop.PrivilegeProxy
+		 0x14a03    M   A   com.apple.metadata.mds.xpcs
+		  0x4b03    M   A   com.apple.CoreAuthentication.daemon
+		  0x5403    M   A   com.apple.AssetCacheC.builtin
+		  0x2503    M   A   com.apple.symptoms.symptomsd.managed_events
+		 0x3c007    M   D   com.apple.EmbeddedOSInstallService
+		 0x1a303    M   D   com.apple.ManagedClient.agent
+		 0x19203    M   A   com.apple.sysmond
+		 0x1c303    M   D   com.apple.touchbarserver.plugin
+		 0x1e303    M   D   com.apple.security.authhost
+		 0x11203    M   A   org.h5l.kdc
+		 0x11603    M   D   com.apple.accessories.now-playing
+		  0xd403    M   A   com.apple.audio.SystemSoundServer-OSX
+		  0xc203    M   A   com.apple.wifivelocityd
+		  0x7703    M   D   com.apple.remote-text-editing
+		  0x7603    M   D   com.apple.familycontrols
+		  0x9503    M   D   com.apple.gssd
+		  0x9e03    M   A   com.apple.logd
+		  0xa303    M   A   com.apple.awdd
+		  0xa703    M   D   com.apple.installandsetup.systemmigrationd.Customize
+		  0x4703    M   D   com.apple.softwareupdated
+		  0x4f03    M   D   com.apple.cmio.AVCAssistant
+		 0x1d903    M   D   com.apple.remotemanagementd.http.apns-dev
+		 0x1e003    M   D   com.apple.ExpansionSlotUtility.PCIELaneConfigTool
+		 0x15b03    M   A   com.apple.sysdiagnose_helper
+		  0xfa07    M   A   com.apple.CoreServices.coreservicesd
+		 0x11703    M   D   com.apple.accessories.externalaccessory-server
+		 0x14403    M   D   com.apple.nfrestore
+		 0x14c03    M   D   com.apple.diagnosticextensions.osx.getmobilityinfo.helper
+		  0x8603    M   D   com.apple.WirelessRadioManager
+		  0x9b03    M   A   com.apple.mobileassetd.cache-delete
+		  0x4503    M   A   com.apple.ocspd
+		  0x2303    M   A   com.apple.symptom_analytics
+		 0x4bec7    M   D   com.apple.systempreferences.cacheAssistant
+		 0x3424f    U   A   com.apple.d2d.ipc
+		 0x29603    M   A   com.apple.authd
+		 0x29e03    M   D   com.apple.GameController.gamecontrollerd
+		 0x19803    M   D   com.apple.gpumemd.client
+		 0x1c503    M   D   com.apple.touchbarserver.mig
+		 0x1da03    M   D   com.apple.remotemanagementd.http.apns-prod
+		 0x16903    M   D   com.apple.remotemanagementd.ask
+		 0x12303    M   D   com.apple.diagnosticextensions.osx.timemachine.helper
+		  0xd503    M   D   com.apple.storeassetd.daemon
+		  0x9c03    M   A   com.apple.colorsync.displayservices
+		  0x5d03    M   A   com.apple.apsd
+		  0x4d03    M   D   com.apple.avbdeviced
+		 0x29f03    M   D   com.apple.DesktopServicesHelper
+		 0x1a103    M   D   com.apple.nfcd
+		 0x18003    M   D   com.apple.AutoUnlock.System.AuthenticationHintsProvider
+		 0x16a03    M   D   com.apple.remotemanagementd.tool
+		 0x10703    M   A   com.apple.locationd.desktop.synchronous
+		  0xf603    M   D   com.apple.startupdiskhelper
+		 0x12f03    M   D   com.apple.coremedia.endpointgroup.xpc
+		 0x13a03    M   D   com.apple.alf
+		 0x14203    M   A   com.apple.revisiond.cache-delete
+		  0x6903    M   A   com.apple.mobileassetd
+		  0x3203    M   A   com.apple.system.notification_center
+		 0x1bb03    M   A   com.apple.noticeboard.state
+		 0x18303    M   D   com.apple.DuetHeuristic-BM
+		 0x1c407    M   D   com.apple.touchbarserver.render
+		 0x1c903    M   D   com.apple.lsd.plugin
+		 0x16603    M   D   com.apple.iconservices
+		 0x10f03    M   A   com.apple.CryptoTokenKit.AuthenticationHintsProvider
+		  0xee03    M   A   com.apple.mDNSResponder.dnsctl
+		 0x12403    M   A   com.apple.powerlog.plxpclogger.xpc
+		  0xc503    M   A   com.apple.coreduetd.knowledge
+		 0x14503    M   D   com.apple.SecureNetworking.IPSec
+		  0x9303    M   D   com.apple.familycontrols.authorizer
+		  0x9903    M   D   com.apple.commerced
+		  0x4203    M   A   com.apple.private.opendirectoryd.rpc
+		  0x2c03    M   A   com.apple.AssetCache.builtin.CacheDelete
+		  0x2a03    M   D   com.apple.mbsystemadministration
+		 0x979b7    M   D   com.apple.coreservices.appleevents.aeserver
+		 0x50f03    M   D   com.apple.siri.acousticsignature
+		 0x1a603    M   D   com.apple.NetworkLinkConditioner
+		 0x1a803    M   A   com.apple.nfcd.hwmanager
+		 0x18f03    M   A   com.apple.sysdiagnose.CacheDelete
+		  0xf903    M   D   com.apple.RemotePairTool
+		 0x13003    M   A   com.apple.coremedia.routingcontext.xpc
+		 0x15003    M   A   com.apple.icloud.findmydeviced
+		 0x15303    M   D   com.apple.bluetoothReporter
+		 0x2bc1f    M   A   com.apple.AccountPolicyHelper
+		 0x39603    M   A   com.apple.systemadministration.writeconfig
+		 0x29a03    M   A   com.apple.security.syspolicy.kext
+		 0x2a403    M   D   com.apple.biometrickitd
+		 0x2a603    M   D   com.apple.lockd
+		 0x1b403    M   A   com.apple.xpc.activity.unmanaged
+		 0x1e503    M   A   com.apple.FileCoordination
+		 0x1f403    M   D   com.apple.mdmclient.daemon
+		  0xe103    M   A   com.apple.coremedia.endpointplaybacksession.xpc
+		 0x13803    M   A   com.apple.blued
+		 0x14107    M   A   com.apple.revisiond
+		  0x7803    M   A   com.apple.mediaremoted.xpc
+		  0x7403    M   D   com.apple.taskgated.helper
+		  0x6c03    M   A   com.apple.SystemConfiguration.PPPController
+		  0x4003    M   D   com.apple.system.libinfo.muser
+		 0x16303    M   D   com.apple.system.hdiejectd
+		  0xe803    M   D   com.apple.appleseed.fbahelperd
+		  0xe403    M   A   com.apple.powerlog_mover
+		  0xca03    M   A   com.apple.AssetCacheTetheratorService
+		  0xb103    M   A   com.apple.icloud.findmydeviced.ua-services
+		  0x8103    M   A   com.apple.coresymbolicationd.cache-delete
+		  0x1a03    M   A   com.apple.usymptomsd
+		 0x17903    M   D   com.apple.lsd.advertisingidentifiers
+		 0x1d203    M   D   com.apple.system.DirectoryService.legacy
+		 0x1d303    M   D   com.apple.afpfs_afpLoad
+		 0x16e03    M   A   com.apple.secinitd
+		 0x86def    M   D   com.apple.backupd
+		 0x1ec03    M   D   com.apple.osanalytics.osanalyticshelper
+		 0x15703    M   D   org.h5l.kcm
+		 0x1ee07    M   A   com.apple.installd
+		 0x13103    M   A   com.apple.coremedia.endpointmanager.xpc
+		  0xdf03    M   A   com.apple.coremedia.endpointuiagent.xpc
+		  0xdb03    M   D   com.apple.nesessionmanager.flow-divert-token
+		  0x9803    M   A   com.apple.networking.captivenetworksupport
+		  0x7103    M   A   com.apple.SystemConfiguration.configd
+		  0x5c03    M   D   com.apple.ak.auth.xpc
+		  0x4103    M   D   com.apple.mobile.keybagd.UserManager.xpc
+		  0x4403    M   A   com.apple.system.DirectoryService.libinfo_v1
+		  0x2b03    M   D   com.apple.ManagedClient.enroll
+		 0x20003    M   D   com.apple.MobileFileIntegrity
+		 0x10d03    M   D   com.apple.rtcreportingd
+		 0x11403    M   A   com.apple.tailspind.ktrace_background
+		 0x12003    M   D   com.apple.awacs
+		  0xdc03    M   D   com.apple.findmymacd
+		  0xc103    M   D   com.apple.storagekitd
+		  0xac07    M   A   com.apple.audio.coreaudiod
+		  0x5b03    M   D   com.apple.ak.anisette.xpc
+		  0x5603    M   D   com.apple.installandsetup.systemmigrationd.ODUtils
+		  0x1e03    M   D   com.apple.RFBEventHelper
+		 0x29b03    M   A   com.apple.security.syspolicy.exec
+		 0x2a703    M   D   com.apple.cmio.AppleCameraAssistant
+		 0x1b503    M   A   com.apple.remoted.control
+		 0x17d03    M   A   com.apple.nsurlstorage-cache
+		 0x1c603    M   D   com.apple.touchbarserver
+		 0x1cf03    M   D   com.apple.mbusertrampoline
+		 0x1d003    M   D   com.apple.MobileAccessoryUpdater.defaultClient
+		  0xe903    M   D   com.apple.InstallerDiagnostics.installerdiagd
+		  0xe303    M   D   com.apple.powerlogd.XPCService.xpc
+		 0x13903    M   A   com.apple.bluetoothd
+		  0xb303    M   A   com.apple.icloud.findmydeviced.aps-production
+		 0x15203    M   D   com.apple.iokit.scsid
+		 0x15403    M   D   com.apple.ReportCrash.Root.Self
+		 0x20603    M   A   com.apple.security.syspolicy
+		 0x19e03    M   D   com.apple.cmio.IIDCVideoAssistant
+		 0x17703    M   A   com.apple.lsd.open
+		 0x1ca03    M   A   com.apple.backlightd
+		 0x1f703    M   D   com.apple.mdmclient.daemon.unrestricted
+		 0x10203    M   D   com.apple.fonts.atsbridge
+		 0x10003    M   A   com.apple.PowerManagement.control
+		  0xed03    M   D   com.apple.ReportMemoryException.CacheDelete
+		 0x11c03    M   D   com.apple.fpsd
+		  0xd703    M   D   com.apple.diagnosticd.cache-delete
+		  0xd103    M   A   com.apple.bluetooth.nsxpc
+		 0x15103    M   A   com.apple.icloud.findmydeviced.aps-demo
+		  0xab07    M   A   com.apple.audio.audiohald
+		  0x8303    M   A   com.apple.OSASyncProxy.client
+		  0x7503    M   D   com.apple.FontWorker.ATS
+		  0xa203    M   D   com.apple.bnepd
+		  0x4903    M   D   com.apple.ReportPanicService
+		 0x8da03    M   D   com.apple.iBooksX-SecureUserDefaults
+		 0x1a207    M   A   com.apple.SecurityServer
+		 0x16b03    M   D   com.apple.remotemanagementd.management-state
+		  0xff03    M   A   com.apple.dprivacyd
+		  0xe703    M   A   com.apple.GSSCred
+		  0xd207    M   A   com.apple.BluetoothDOServer
+		 0x14703    M   D   com.apple.storereceiptinstaller
+		  0x8f03    M   D   com.apple.private.alloy.timezonesync-idswake
+		  0xa003    M   A   com.apple.audio.AudioComponentRegistrar
+		  0x6003    M   A   com.apple.coreduetd.context
+		 0x19303    M   A   com.apple.iconservices.store
+		 0x1b303    M   D   com.apple.netauth.sys.auth
+		 0x1dd03    M   D   com.apple.biokitaggdd.daemon
+		 0x1e903    M   D   com.apple.dt.xctestd.target
+		 0x1f103    M   A   com.apple.logind
+		 0x11e03    M   D   com.apple.DataDetectorsSourceAccess
+		 0x13203    M   A   com.apple.AirPlayXPCHelper
+		  0x6503    M   A   com.apple.logd.cachedelete
+		  0x5503    M   D   com.apple.storedownloadd.daemon
+		  0x3c03    M   D   com.apple.mobile.keybagd.mach
+		 0x18603    M   A   com.apple.networkd_privileged
+		  0x5803    M   D   com.apple.installandsetup.systemmigrationd.SelectSource
+		  0x3b03    M   A   com.apple.mobile.keybagd.xpc
+		  0x3403    M   D   com.apple.fontmover
+		  0x172b    U   A   com.apple.CoreDisplay.master
+		 0x19407    M   A   com.apple.coreservices.appleevents
+		 0x1aa03    M   A   com.apple.dmd
+		 0x18b07    M   A   com.apple.windowserver.watchdog
+		 0x17b03    M   A   com.apple.security.translocation
+		 0x1df03    M   D   com.apple.thermald
+		 0x1e603    M   A   com.apple.ProgressReporting
+		 0x1f603    M   D   com.apple.mdmclient.daemon.push.development
+		 0x1fb03    M   A   com.apple.corecaptured
+		 0x10503    M   D   com.apple.TrustEvaluationAgent
+		  0xfe03    M   D   com.apple.afpfs_checkafp
+		  0xfc03    M   A   com.apple.locationd.routine
+		 0x11503    M   A   com.apple.tailspind
+		 0x11903    M   A   com.apple.mDNSResponder.dnsproxy
+		  0x6e03    M   A   com.apple.SystemConfiguration.DNSConfiguration
+		  0x4303    M   A   com.apple.system.opendirectoryd.membership
+		  0x1f03    M   D   com.apple.findmymacmessenger
+		 0x2a203    M   A   com.apple.libquitd
+		 0x1e103    M   A   com.apple.securitydservice
+		 0x1f503    M   D   com.apple.mdmclient.daemon.push.production
+		 0x1fd03    M   D   com.apple.usbd
+		 0x12d03    M   A   com.apple.coremedia.endpoint.xpc
+		  0xcf03    M   A   com.apple.nsurlsessiond-cachedelete
+		 0x14d03    M   A   com.apple.trustd
+		  0x6d03    M   A   com.apple.SystemConfiguration.NetworkInformation
+		 0x21703    M   A   com.apple.AmbientDisplayAgent
+		 0x2a303    M   A   com.apple.spinreporterd
+		 0x19f03    M   A   com.apple.CrashReporterSupportHelper
+		 0x15d03    M   D   com.apple.efilogin-helper
+		 0x1ef03    M   A   com.apple.installd.CacheDelete
+		 0x11103    M   D   com.apple.dpaudiothru
+		  0xe503    M   A   com.apple.wifi.sharekit
+		  0xb603    M   A   com.apple.metadata.mds.legacy
+		  0xb203    M   A   com.apple.icloud.findmydeviced.aps-development
+		  0x9f03    M   A   com.apple.logd.admin
+	}
+
+	externally-hosted endpoints = {
+	}
+
+	task-special ports = {
+			   0xc03 4       bootstrap  com.apple.xpc.launchd.domain.system
+			 0x10103 9          access  com.apple.taskgated
+	}
+
+	disabled services = {
+{
+	"com.apple.AEServer" => false
+	"com.apple.AppleFileServer" => true
+	"com.apple.CSCSupportd" => true
+	"com.apple.ODSAgent" => true
+	"com.apple.ftpd" => true
+	"com.openssh.sshd" => false
+	"com.apple.smbd" => true
+	"com.intego.Personal-Backup.agent" => false
+	"com.intego.Personal-Backup.daemon" => false
+}
+	}
+
+	properties = {
+		shutting down = 0
+		slain = 0
+		uncorked = 0
+		origin resolved = 0
+		deactivated = 0
+		inactive = 0
+		in initial on-demand = 0
+		audit check done = 1
+		bootcache hack = 1
+		cocooning = 0
+		gui = 0
+		gui login = 0
+		exec hack = 0
+	}
+}

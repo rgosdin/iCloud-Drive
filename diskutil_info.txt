@@ -1,0 +1,298 @@
+   Device Identifier:         disk0
+   Device Node:               /dev/disk0
+   Whole:                     Yes
+   Part of Whole:             disk0
+   Device / Media Name:       SATA SSD
+
+   Volume Name:               Not applicable (no file system)
+   Mounted:                   Not applicable (no file system)
+   File System:               None
+
+   Content (IOContent):       GUID_partition_scheme
+   OS Can Be Installed:       No
+   Media Type:                Generic
+   Protocol:                  SATA
+   SMART Status:              Verified
+
+   Disk Size:                 240.1 GB (240057409536 Bytes) (exactly 468862128 512-Byte-Units)
+   Device Block Size:         512 Bytes
+
+   Read-Only Media:           No
+   Read-Only Volume:          Not applicable (no file system)
+
+   Device Location:           Internal
+   Removable Media:           Fixed
+
+   Solid State:               Yes
+   Virtual:                   No
+   Hardware AES Support:      No
+
+**********
+
+   Device Identifier:         disk0s1
+   Device Node:               /dev/disk0s1
+   Whole:                     No
+   Part of Whole:             disk0
+
+   Volume Name:               EFI
+   Mounted:                   No
+
+   Partition Type:            EFI
+   File System Personality:   MS-DOS FAT32
+   Type (Bundle):             msdos
+   Name (User Visible):       MS-DOS (FAT32)
+
+   OS Can Be Installed:       No
+   Media Type:                Generic
+   Protocol:                  SATA
+   SMART Status:              Verified
+   Volume UUID:               0E239BC6-F960-3107-89CF-1C97F78BB46B
+   Disk / Partition UUID:     9B24595B-BD4E-4B6D-B184-68D9A46D8A2E
+   Partition Offset:          20480 Bytes (40 512-Byte-Device-Blocks)
+
+   Disk Size:                 209.7 MB (209715200 Bytes) (exactly 409600 512-Byte-Units)
+   Device Block Size:         512 Bytes
+
+   Volume Total Space:        0 B (0 Bytes) (exactly 0 512-Byte-Units)
+   Volume Free Space:         0 B (0 Bytes) (exactly 0 512-Byte-Units)
+
+   Read-Only Media:           No
+   Read-Only Volume:          Not applicable (not mounted)
+
+   Device Location:           Internal
+   Removable Media:           Fixed
+
+   Solid State:               Yes
+   Hardware AES Support:      No
+
+**********
+
+   Device Identifier:         disk0s2
+   Device Node:               /dev/disk0s2
+   Whole:                     No
+   Part of Whole:             disk0
+
+   Volume Name:               Not applicable (no file system)
+   Mounted:                   Not applicable (no file system)
+   File System:               None
+
+   Partition Type:            Apple_APFS
+   OS Can Be Installed:       No
+   Media Type:                Generic
+   Protocol:                  SATA
+   SMART Status:              Verified
+   Disk / Partition UUID:     12508FDF-B607-42FE-9EFC-4DA23F6FBB4C
+   Partition Offset:          209735680 Bytes (409640 512-Byte-Device-Blocks)
+
+   Disk Size:                 239.8 GB (239847653376 Bytes) (exactly 468452448 512-Byte-Units)
+   Device Block Size:         512 Bytes
+
+   Read-Only Media:           No
+   Read-Only Volume:          Not applicable (no file system)
+
+   Device Location:           Internal
+   Removable Media:           Fixed
+
+   Solid State:               Yes
+   Hardware AES Support:      No
+
+**********
+
+   Device Identifier:         disk1
+   Device Node:               /dev/disk1
+   Whole:                     Yes
+   Part of Whole:             disk1
+   Device / Media Name:       SATA SSD
+
+   Volume Name:               Not applicable (no file system)
+   Mounted:                   Not applicable (no file system)
+   File System:               None
+
+   Content (IOContent):       EF57347C-0000-11AA-AA11-00306543ECAC
+   OS Can Be Installed:       No
+   Media Type:                Generic
+   Protocol:                  SATA
+   SMART Status:              Verified
+   Disk / Partition UUID:     260EB317-E9F4-4212-8AF9-C93709E26729
+
+   Disk Size:                 239.8 GB (239847653376 Bytes) (exactly 468452448 512-Byte-Units)
+   Device Block Size:         4096 Bytes
+
+   Read-Only Media:           No
+   Read-Only Volume:          Not applicable (no file system)
+
+   Device Location:           Internal
+   Removable Media:           Fixed
+
+   Solid State:               Yes
+   Virtual:                   Yes
+   Hardware AES Support:      No
+
+**********
+
+   Device Identifier:         disk1s1
+   Device Node:               /dev/disk1s1
+   Whole:                     No
+   Part of Whole:             disk1
+
+   Volume Name:               MacOS
+   Mounted:                   Yes
+   Mount Point:               /
+
+   Partition Type:            41504653-0000-11AA-AA11-00306543ECAC
+   File System Personality:   APFS
+   Type (Bundle):             apfs
+   Name (User Visible):       APFS
+   Owners:                    Enabled
+
+   OS Can Be Installed:       Yes
+   Booter Disk:               disk1s2
+   Recovery Disk:             disk1s3
+   Media Type:                Generic
+   Protocol:                  SATA
+   SMART Status:              Verified
+   Volume UUID:               515057A2-DE46-47AD-A732-F377E26D3889
+   Disk / Partition UUID:     515057A2-DE46-47AD-A732-F377E26D3889
+
+   Disk Size:                 239.8 GB (239847653376 Bytes) (exactly 468452448 512-Byte-Units)
+   Device Block Size:         4096 Bytes
+
+   Volume Total Space:        239.8 GB (239847653376 Bytes) (exactly 468452448 512-Byte-Units)
+   Volume Used Space:         55.2 GB (55200681984 Bytes) (exactly 107813832 512-Byte-Units) (23.0%)
+   Volume Free Space:         184.6 GB (184646971392 Bytes) (exactly 360638616 512-Byte-Units) (77.0%)
+   Allocation Block Size:     4096 Bytes
+
+   Read-Only Media:           No
+   Read-Only Volume:          No
+
+   Device Location:           Internal
+   Removable Media:           Fixed
+
+   Solid State:               Yes
+   Hardware AES Support:      No
+
+**********
+
+   Device Identifier:         disk1s2
+   Device Node:               /dev/disk1s2
+   Whole:                     No
+   Part of Whole:             disk1
+
+   Volume Name:               Preboot
+   Mounted:                   No
+
+   Partition Type:            41504653-0000-11AA-AA11-00306543ECAC
+   File System Personality:   APFS
+   Type (Bundle):             apfs
+   Name (User Visible):       APFS
+   Owners:                    Disabled
+
+   OS Can Be Installed:       No
+   Booter Disk:               disk1s2
+   Recovery Disk:             disk1s3
+   Media Type:                Generic
+   Protocol:                  SATA
+   SMART Status:              Verified
+   Volume UUID:               ED6ECD85-3E4D-443D-BC4B-7A7C9041F05C
+   Disk / Partition UUID:     ED6ECD85-3E4D-443D-BC4B-7A7C9041F05C
+
+   Disk Size:                 239.8 GB (239847653376 Bytes) (exactly 468452448 512-Byte-Units)
+   Device Block Size:         4096 Bytes
+
+   Volume Total Space:        0 B (0 Bytes) (exactly 0 512-Byte-Units)
+   Volume Free Space:         0 B (0 Bytes) (exactly 0 512-Byte-Units)
+
+   Read-Only Media:           No
+   Read-Only Volume:          Not applicable (not mounted)
+
+   Device Location:           Internal
+   Removable Media:           Fixed
+
+   Solid State:               Yes
+   Hardware AES Support:      No
+
+**********
+
+   Device Identifier:         disk1s3
+   Device Node:               /dev/disk1s3
+   Whole:                     No
+   Part of Whole:             disk1
+
+   Volume Name:               Recovery
+   Mounted:                   No
+
+   Partition Type:            41504653-0000-11AA-AA11-00306543ECAC
+   File System Personality:   APFS
+   Type (Bundle):             apfs
+   Name (User Visible):       APFS
+   Owners:                    Disabled
+
+   OS Can Be Installed:       No
+   Booter Disk:               disk1s2
+   Recovery Disk:             disk1s3
+   Media Type:                Generic
+   Protocol:                  SATA
+   SMART Status:              Verified
+   Volume UUID:               F5B706B2-9011-4F55-8FBD-27358D410DDF
+   Disk / Partition UUID:     F5B706B2-9011-4F55-8FBD-27358D410DDF
+
+   Disk Size:                 239.8 GB (239847653376 Bytes) (exactly 468452448 512-Byte-Units)
+   Device Block Size:         4096 Bytes
+
+   Volume Total Space:        0 B (0 Bytes) (exactly 0 512-Byte-Units)
+   Volume Free Space:         0 B (0 Bytes) (exactly 0 512-Byte-Units)
+
+   Read-Only Media:           No
+   Read-Only Volume:          Not applicable (not mounted)
+
+   Device Location:           Internal
+   Removable Media:           Fixed
+
+   Solid State:               Yes
+   Hardware AES Support:      No
+
+**********
+
+   Device Identifier:         disk1s4
+   Device Node:               /dev/disk1s4
+   Whole:                     No
+   Part of Whole:             disk1
+
+   Volume Name:               VM.html
+   Mounted:                   Yes
+   Mount Point:               /private/var/vm
+
+   Partition Type:            41504653-0000-11AA-AA11-00306543ECAC
+   File System Personality:   APFS
+   Type (Bundle):             apfs
+   Name (User Visible):       APFS
+   Owners:                    Enabled
+
+   OS Can Be Installed:       No
+   Booter Disk:               disk1s2
+   Recovery Disk:             disk1s3
+   Media Type:                Generic
+   Protocol:                  SATA
+   SMART Status:              Verified
+   Volume UUID:               10616B12-6094-4E61-B395-9153BA240CC5
+   Disk / Partition UUID:     10616B12-6094-4E61-B395-9153BA240CC5
+
+   Disk Size:                 239.8 GB (239847653376 Bytes) (exactly 468452448 512-Byte-Units)
+   Device Block Size:         4096 Bytes
+
+   Volume Total Space:        239.8 GB (239847653376 Bytes) (exactly 468452448 512-Byte-Units)
+   Volume Used Space:         55.2 GB (55200681984 Bytes) (exactly 107813832 512-Byte-Units) (23.0%)
+   Volume Free Space:         184.6 GB (184646971392 Bytes) (exactly 360638616 512-Byte-Units) (77.0%)
+   Allocation Block Size:     4096 Bytes
+
+   Read-Only Media:           No
+   Read-Only Volume:          No
+
+   Device Location:           Internal
+   Removable Media:           Fixed
+
+   Solid State:               Yes
+   Hardware AES Support:      No
+
+**********
+

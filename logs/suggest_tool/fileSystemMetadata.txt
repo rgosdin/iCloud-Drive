@@ -1,0 +1,18 @@
+User: _reportmemoryexception (269)
+
+Suggestions Directory: /var/db/reportmemoryexception/Library/Suggestions
+Size: 64
+Owner: 269
+Group: 269
+Permissions: 755
+Created:             2019-06-13 00:04:19 +0000
+Added:               2019-06-13 00:04:19 +0000
+Attributes Modified: 2001-01-01 00:37:24 +0000
+Content Modified:    2019-06-13 00:04:19 +0000
+Directory?     YES
+Executable?    YES
+Readable?      YES
+Regular File?  NO
+Symbolic Link? NO
+Writable?      YES
+

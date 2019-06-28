@@ -1,0 +1,18 @@
+Night Shift Status
+{
+    AutoBlueReductionEnabled = 1;
+    BlueLightReductionAlgoOverride = 0;
+    BlueLightReductionDisableScheduleAlertCounter = 3;
+    BlueLightReductionSchedule =     {
+        DayStartHour = 7;
+        DayStartMinute = 0;
+        NightStartHour = 22;
+        NightStartMinute = 0;
+    };
+    BlueReductionEnabled = 0;
+    BlueReductionMode = 0;
+    BlueReductionSunScheduleAllowed = 0;
+    Version = 1;
+} 
+Night Shift Sunset/Sunrise
+(null) 

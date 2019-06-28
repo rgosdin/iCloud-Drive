@@ -1,0 +1,15 @@
+{
+	"enabled": false,
+	"profile": {
+		"name": "Custom",
+		"is_ssd": false,
+		"access_time_usec": 0,
+		"read_throughput_mbps": 0,
+		"write_throughput_mbps": 0,
+		"ioqueue_depth": 0,
+		"maxreadcnt": 0,
+		"maxwritecnt": 0,
+		"segreadcnt": 0,
+		"segwritecnt": 0
+	}
+}
