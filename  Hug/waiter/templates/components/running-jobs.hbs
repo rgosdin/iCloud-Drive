@@ -1,0 +1,34 @@
+{{#if jobs.isLoaded}}
+  {{#if jobs.length}}
+    {{#each jobs as |job| }}
+      <div class="tile tile--sidebar {{job.state}}">
+        {{#if job.repo.slug}}
+          {{status-icon status=job.state}}
+          {{#link-to "job" job.repo job}}
+            <span class="label-align">{{job.repo.slug}}</span>
+          {{/link-to}}
+        {{/if}}
+
+        <p class="tile-title float-right">
+          {{inline-svg 'icon-hash' class="icon"}}
+          {{#if job.repo.slug}}
+            {{#link-to "job" job.repo job}}<span class="label-align">{{job.number}}</span>{{/link-to}}
+          {{/if}}
+        </p>
+        <p>
+          {{inline-svg 'icon-clock' class="icon"}}
+          <span class="label-align">
+            Duration:
+            <time class="duration" datetime={{job.startedAt}} title={{job.startedAt}}>
+              {{format-duration job.duration}}
+            </time>
+          </span>
+        </p>
+      </div>
+    {{/each}}
+  {{else}}
+    <div class="loading-container">There are no jobs running</div>
+  {{/if}}
+{{else}}
+  {{loading-indicator center="true"}}
+{{/if}}

@@ -1,0 +1,62 @@
+.tile
+  height: auto
+  padding: 0.8em 0.5em 0.8em 1.5em
+  margin-bottom: .46rem
+  background-color: white
+  border-radius: 0
+  li:last-child &
+    margin-bottom: 0
+
+  @include colorRows($turf-green, 'passed', 8px)
+  @include colorRows($brick-red, 'failed', 8px)
+  @include colorRows($brick-red, 'errored', 8px)
+  @include colorRows($cement-grey, 'canceled', 8px)
+  @include colorRows($canary-yellow, 'started', 8px, true)
+  @include colorRows($canary-yellow, 'queued', 8px, true)
+  @include colorRows($canary-yellow, 'booting', 8px, true)
+  @include colorRows($canary-yellow, 'received', 8px, true)
+  @include colorRows($canary-yellow, 'created', 8px, true)
+
+  h2, p
+    margin: 0
+    font-size: inherit
+  h2
+    position: relative
+    display: inline-block
+    margin-bottom: .7em
+    padding-left: 1px
+    @media #{$medium-up}
+      width: 72%
+      white-space: nowrap
+      overflow: hidden
+      &:after
+        @include fadeOut(right, -90deg, white)
+  p.tile-title
+    width: 10%
+    @media #{$medium-up}
+      width: 27%
+      white-space: nowrap
+      overflow: hidden
+  a:hover
+    text-decoration: underline
+
+#tab_new
+  a:hover
+    .icon--plus:after
+      color: $oxide-blue
+
+.sidebar-list
+  margin-top: 1.4rem
+  ul
+    @include resetul
+    border-bottom: .46rem solid $pebble-grey
+    background-color: $pebble-grey
+
+.travistab-nav--sidebar
+  padding: 0 1em
+
+.sidebar-seperator
+  width: 90%
+  margin: 1rem auto
+  border: none
+  border-bottom: solid 2px $pebble-grey

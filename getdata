@@ -1,0 +1,38 @@
+o to the documentation of this file.
+    1 
+    7 #ifndef TREELITE_BASE_H_
+    8 #define TREELITE_BASE_H_
+    9 
+   10 #include <string>
+   11 #include <unordered_map>
+   12 #include <cstdint>
+   13 
+   14 namespace treelite {
+   15 
+   17 typedef double tl_float;
+   19 enum class SplitFeatureType : int8_t {
+   20   kNone, kNumerical, kCategorical
+   21 };
+   23 enum class Operator : int8_t {
+   24   kEQ,  
+   25   kLT,  
+   26   kLE,  
+   27   kGT,  
+   28   kGE   
+   29 };
+   31 extern const std::unordered_map<std::string, Operator> optable;
+   32 
+   38 inline std::string OpName(Operator op) {
+   39   switch (op) {
+   40     case Operator::kEQ: return "==";
+   41     case Operator::kLT: return "<";
+   42     case Operator::kLE: return "<=";
+   43     case Operator::kGT: return ">";
+   44     case Operator::kGE: return ">=";
+   45     default: return "";
+   46   }
+   47 }
+   48 
+   49 }  // namespace treelite
+   50 
+   51 #endif  // TREELITE_BASE_H_

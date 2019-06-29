@@ -1,0 +1,7 @@
+<ul class="owner-tiles">
+  {{#each repos as |repo|}}
+    {{owner-repo-tile repo=repo}}
+  {{else}}
+    {{no-repos}}
+  {{/each}}
+</ul>

@@ -1,0 +1,22 @@
+From 9bff54c5f376403da5390843cb2294e3eb8437c9 Mon Sep 17 00:00:00 2001
+From: C. Michael Pilato <cmpilato@collab.net>
+Date: Thu, 15 Sep 2016 15:34:55 -0400
+Subject: [PATCH] Add .gitignore
+
+---
+ .gitignore | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 .gitignore
+
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..9d7747d
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1,2 @@
++install.sh
++**/*.pyc
+\ No newline at end of file
+--
+Working Copy 3.7.1
+
