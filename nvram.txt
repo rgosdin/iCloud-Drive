@@ -1,5 +1,5 @@
 efi-boot-device	<array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>ED6ECD85-3E4D-443D-BC4B-7A7C9041F05C</string></dict></dict><key>BLLastBSDName</key><string>disk1s2</string></dict><dict><key>IOEFIDevicePathType</key><string>MediaFilePath</string><key>Path</key><string>\515057A2-DE46-47AD-A732-F377E26D3889\System\Library\CoreServices\boot.efi</string></dict></array>%00
-boot-gamma	%10%06%00%00%c5%9c%00%00%00%00%00%00n%00%00%00%00%00%00%00%07%00%04%04%db%05%0b%0b%b2%0e%1e%1e%95$66m>WWO`ww%09%80%a1%a1%87%a8%07%00%04%04%db%05%0b%0b%b2%0e%1e%1e%95$66m>WWO`ww%09%80%a1%a1%87%a8%07%00%04%04%db%05%0b%0b%b2%0e%1e%1e%95$66m>WWO`ww%09%80%a1%a1%87%a8
+boot-gamma	%10%06%00%00%c5%9c%00%00%00%00%00%00n%00%00%00%00%00%00%00%07%00%04%04%db%05%0b%0b%b2%0e%1e%1e%95$66m>WWO`ww%09%80%a1%a1%87%a8%07%00%04%04%db%05%0b%0b%b2%0e%1e%1e%95$66m>WWO`ww%09%80%a1%a1%87%a8%07%00%04%04%db%05%0b%%b2%0e%1e%1e%95$66m>WWO`ww%09%80%a1%a1%87%a8
 bluetoothInternalControllerInfo	%1a%82%ac%05%000%11%fa%e0%f8G%07%af%ed
 fmm-computer-name	MacBook of Ryan
 bluetoothActiveControllerInfo	%1a%82%ac%05%00%00%000%11%fa%e0%f8G%07%af%ed
