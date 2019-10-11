@@ -1,0 +1,116 @@
+{"app_name":"Working Copy","timestamp":"2019-10-09 02:32:46.45 -0400","app_version":"3.7.9","slice_uuid":"9F997E85-1BA2-399C-A17A-D3951FD64F29","adam_id":896694807,"build_version":"3.7.9.22","bundleID":"com.appliedphasor.working-copy","share_with_app_devs":false,"is_first_party":false,"bug_type":"202","os_version":"iPhone OS 12.3.1 (16F203)","incident_id":"3218E544-ACA0-404A-B687-4B8786381DE7","name":"Working Copy"}
+Date/Time:       2019-10-09 02:32:38 -0400
+End time:        2019-10-09 02:32:45 -0400
+OS Version:      iPhone OS 12.3.1 (Build 16F203)
+Architecture:    arm64
+Report Version:  28
+Incident Identifier: 3218E544-ACA0-404A-B687-4B8786381DE7
+
+Data Source:     Microstackshots
+Shared Cache:    0x2b2e4000 770D1DD7-E917-3822-A714-B0D76347D120
+
+Command:         Working Copy
+Path:            /private/var/containers/Bundle/Application/BC697BFA-71DD-4BA3-B77F-1F3860C6D3EF/Working Copy.app/Working Copy
+Identifier:      com.appliedphasor.working-copy
+Version:         3.7.9 (3.7.9.22)
+Beta Identifier: 9719E37E-8DBD-4556-BF93-186C6587B31B
+PID:             1465
+
+Event:           cpu usage
+Action taken:    none
+CPU:             144 seconds cpu time over 153 seconds (94% cpu average), exceeding limit of 80% cpu over 180 seconds
+CPU limit:       144s
+Limit duration:  180s
+CPU used:        144s
+Duration:        7.03s
+Steps:           8
+
+Hardware model:  iPhone10,4
+Active cpus:     6
+Boot args:        
+
+
+Heaviest stack for the target process:
+  8  ??? (libsystem_pthread.dylib + 49428) [0x1abdc9114]
+  8  ??? (libdispatch.dylib + 282120) [0x1abbcde08]
+  8  ??? (libdispatch.dylib + 248108) [0x1abbc592c]
+  8  ??? (libdispatch.dylib + 245228) [0x1abbc4dec]
+  8  ??? (libdispatch.dylib + 395220) [0x1abbe97d4]
+  8  ??? (libdispatch.dylib + 391736) [0x1abbe8a38]
+  8  ??? (<09B91700-68FC-34BA-A747-2D5608FC3383> + 3638816) [0x103728620]
+  8  ??? (<09B91700-68FC-34BA-A747-2D5608FC3383> + 3636316) [0x103727c5c]
+  8  ??? (<09B91700-68FC-34BA-A747-2D5608FC3383> + 3619892) [0x103723c34]
+  8  ??? (<09B91700-68FC-34BA-A747-2D5608FC3383> + 5691692) [0x10391d92c]
+  8  ??? (<09B91700-68FC-34BA-A747-2D5608FC3383> + 6049320) [0x103974e28]
+  8  ??? (<09B91700-68FC-34BA-A747-2D5608FC3383> + 3622792) [0x103724788]
+  8  ??? (<09B91700-68FC-34BA-A747-2D5608FC3383> + 3621668) [0x103724324]
+  8  ??? (<09B91700-68FC-34BA-A747-2D5608FC3383> + 1298408) [0x1034ecfe8]
+  7  ??? (<09B91700-68FC-34BA-A747-2D5608FC3383> + 1297792) [0x1034ecd80]
+  7  ??? (<09B91700-68FC-34BA-A747-2D5608FC3383> + 1296024) [0x1034ec698]
+  7  ??? (Foundation + 459804) [0x1acb6b41c]
+  7  ??? (Foundation + 306520) [0x1acb45d58]
+  5  ??? (libsystem_platform.dylib + 32136) [0x1abdb9d88]
+
+
+Powerstats for:  Working Copy [1465]
+Bundle ID:       com.appliedphasor.working-copy
+Adam ID:         896694807
+Is first party:  No
+App version:     3.7.9
+Build version:   3.7.9.22
+Is Beta:         No
+Share with Devs: No
+UUID:            9F997E85-1BA2-399C-A17A-D3951FD64F29
+Path:            /private/var/containers/Bundle/Application/BC697BFA-71DD-4BA3-B77F-1F3860C6D3EF/Working Copy.app/Working Copy
+Architecture:    arm64
+Parent:          UNKNOWN [1]
+UID:             501
+Footprint:       374 MB
+Start time:      2019-10-09 02:32:38 -0400
+End time:        2019-10-09 02:32:45 -0400
+Num samples:     8 (100%)
+CPU Time:        6.881s
+Primary state:   6 samples Non-Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS Background, Requested Thread QoS User Initiated, Override Thread QoS Unspecified
+User Activity:   0 samples Idle, 0 samples Active, 8 samples Unknown
+Power Source:    0 samples on Battery, 0 samples on AC, 8 samples Unknown
+  8  ??? (libsystem_pthread.dylib + 49428) [0x1abdc9114]
+    8  ??? (libdispatch.dylib + 282120) [0x1abbcde08]
+      8  ??? (libdispatch.dylib + 248108) [0x1abbc592c]
+        8  ??? (libdispatch.dylib + 245228) [0x1abbc4dec]
+          8  ??? (libdispatch.dylib + 395220) [0x1abbe97d4]
+            8  ??? (libdispatch.dylib + 391736) [0x1abbe8a38]
+              8  ??? (<09B91700-68FC-34BA-A747-2D5608FC3383> + 3638816) [0x103728620]
+                8  ??? (<09B91700-68FC-34BA-A747-2D5608FC3383> + 3636316) [0x103727c5c]
+                  8  ??? (<09B91700-68FC-34BA-A747-2D5608FC3383> + 3619892) [0x103723c34]
+                    8  ??? (<09B91700-68FC-34BA-A747-2D5608FC3383> + 5691692) [0x10391d92c]
+                      8  ??? (<09B91700-68FC-34BA-A747-2D5608FC3383> + 6049320) [0x103974e28]
+                        8  ??? (<09B91700-68FC-34BA-A747-2D5608FC3383> + 3622792) [0x103724788]
+                          8  ??? (<09B91700-68FC-34BA-A747-2D5608FC3383> + 3621668) [0x103724324]
+                            8  ??? (<09B91700-68FC-34BA-A747-2D5608FC3383> + 1298408) [0x1034ecfe8]
+                              7  ??? (<09B91700-68FC-34BA-A747-2D5608FC3383> + 1297792) [0x1034ecd80]
+                                7  ??? (<09B91700-68FC-34BA-A747-2D5608FC3383> + 1296024) [0x1034ec698]
+                                  7  ??? (Foundation + 459804) [0x1acb6b41c]
+                                    7  ??? (Foundation + 306520) [0x1acb45d58]
+                                      5  ??? (libsystem_platform.dylib + 32136) [0x1abdb9d88]
+                                        1  <User mode>
+                                      1  ??? (libsystem_platform.dylib + 32152) [0x1abdb9d98]
+                                        1  <User mode>
+                                      1  ??? (libsystem_platform.dylib + 32148) [0x1abdb9d94]
+                              1  ??? (<09B91700-68FC-34BA-A747-2D5608FC3383> + 1297812) [0x1034ecd94]
+                                1  ??? (libobjc.A.dylib + 83744) [0x1ab392720]
+                                  1  ??? (libobjc.A.dylib + 83640) [0x1ab3926b8]
+                                    1  ??? (libobjc.A.dylib + 18380) [0x1ab3827cc]
+                                      1  ??? (Foundation + 111156) [0x1acb16234]
+                                        1  ??? (libsystem_malloc.dylib + 50876) [0x1abd886bc]
+                                          1  ??? (libsystem_kernel.dylib + 98344) [0x1abd3b028]
+
+  Binary Images:
+           0x102f60000 -                ???  Working Copy             <9F997E85-1BA2-399C-A17A-D3951FD64F29>  /private/var/containers/Bundle/Application/BC697BFA-71DD-4BA3-B77F-1F3860C6D3EF/Working Copy.app/Working Copy
+           0x1033b0000 -                ???  ???                      <09B91700-68FC-34BA-A747-2D5608FC3383>
+           0x1ab37e000 -        0x1abb05fff  libobjc.A.dylib          <C48D6666-7B89-3A29-9590-44BB49A1973E>  /usr/lib/libobjc.A.dylib
+           0x1abb89000 -        0x1abbf8fff  libdispatch.dylib        <94DCBC89-BACB-39BE-ADFF-CCEA74E7BDB6>  /usr/lib/system/libdispatch.dylib
+           0x1abd23000 -        0x1abd4dfff  libsystem_kernel.dylib   <CC9F9508-B5BF-3478-A442-F3CEC1591804>  /usr/lib/system/libsystem_kernel.dylib
+           0x1abd7c000 -        0x1abd9efff  libsystem_malloc.dylib   <3CF79822-26B0-3974-9F8E-EBD3F328C63E>  /usr/lib/system/libsystem_malloc.dylib
+           0x1abdb2000 -        0x1abdbcfff  libsystem_platform.dylib <8B5DD1F4-CD3C-3C99-B291-1F7290DDF050>  /usr/lib/system/libsystem_platform.dylib
+           0x1abdbd000 -        0x1abdcdfff  libsystem_pthread.dylib  <BEB13D83-11CD-3AA1-A18D-EA822DA57C69>  /usr/lib/system/libsystem_pthread.dylib
+           0x1acafb000 -        0x1acde5fff  Foundation               <25293172-DF9F-3FB9-9E4F-FD4EA250557E>  /System/Library/Frameworks/Foundation.framework/Foundation
