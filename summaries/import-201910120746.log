@@ -1,0 +1,44 @@
+environment:
+  AV_PROJECTS: 'c:\projects'
+  AV_TIFF_DOWNLOAD: 'c:\projects\download'
+  AV_TIFF_SOURCE: 'c:\projects\libtiff'
+  AV_TIFF_BUILD: 'c:\projects\build'
+  AV_TIFF_INSTALL: 'c:\projects\install'
+
+  matrix:
+    - compiler: cygwin-cmake
+      configuration: Release
+      generator: Unix Makefiles
+      shared: ON
+    - compiler: cygwin-cmake
+      configuration: Debug
+      generator: Unix Makefiles
+      shared: OFF
+    - compiler: mingw64-cmake
+      configuration: Release
+      generator: Unix Makefiles
+      shared: ON
+    - compiler: mingw64-cmake
+      configuration: Debug
+      generator: Unix Makefiles
+      shared: OFF
+    - compiler: vc14-cmake
+      configuration: Release
+      generator: Visual Studio 14 2015 Win64
+      shared: ON
+    - compiler: vc14-cmake
+      configuration: Debug
+      generator: Visual Studio 14 2015 Win64
+      shared: OFF
+    - compiler: vc14-nmake
+      configuration: Release
+    - compiler: vc9-cmake
+      configuration: Debug
+      generator: Visual Studio 9 2008
+      shared: ON
+
+cache:
+  - 'c:\projects\download -> appveyor.yml'
+
+# Operating system (build VM template)
+os: 'Visual Studio 2015'
