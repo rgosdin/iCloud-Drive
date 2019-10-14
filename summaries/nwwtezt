@@ -1,0 +1,13 @@
+{
+  "videoid" : "none",
+  "gfeedback" : "none",
+  "player" : "none",
+  "client" : {
+    "cmodel" : "iPhone10,4",
+    "cosver" : "12.3.1.16F203",
+    "cver" : "14.36.5",
+    "cbr" : "com.google.ios.youtube"
+  },
+  "cpn" : "none",
+  "date" : "2019-10-14 06:50:02 +0000"
+}
