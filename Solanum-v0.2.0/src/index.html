@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Solanum</title>
+		<style>
+			:root {
+				--dark-grey: #393939;
+				--medium-grey: #606060;
+				--light-grey: #bebebe;
+
+				--slider-lower-color: var(--light-grey);
+				--slider-upper-color: var(--medium-grey);
+			}
+		</style>
+	</head>
+
+	<body style="overflow-y: hidden; height: 100vh; margin: 0; background-color: black; color: #BEBEBE;">
+		<noscript>
+			The Solanum frontend for the Hypnos audio cloud requires JavaScript to run.
+			You can find the source code for the frontend here:
+			<a href="https://git.sr.ht/~serra/Solanum">https://git.sr.ht/~serra/Solanum</a>.
+		</noscript>
+		<div
+			style="overflow-y: auto; height: calc(100vh - 4rem - 2rem - 7px); padding: 2rem 2rem 0 2rem;"
+		>
+			<solanum-navigation id="nav"></solanum-navigation>
+			<browse-grid id="content"></browse-grid>
+		</div>
+ 		<player-bar id="player"></player-bar>
+		<a href="/javascript.html" data-jslicense="1" style="display: none;">
+			JavaScript license information
+		</a>
+	</body>
+</html>

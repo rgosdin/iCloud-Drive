@@ -1,0 +1,6 @@
+inputSpec: openapi/Soil/doc/spec.yml
+outputDir: src/api/Soil
+generatorName: typescript-fetch
+additionalProperties:
+  supportsES6: true
+  typescriptThreePlus: true

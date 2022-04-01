@@ -1,0 +1,472 @@
+{
+  "db": "PostgreSQL",
+  "0f81feb07d5166da17da7c14a692c372f4fde86a8c781f9932791a3cc060ae9b": {
+    "query": "\nWITH\ninput(artist, title, file) AS (VALUES ($1::INTEGER, $2::TEXT, $3::INTEGER)),\nins AS (\n    INSERT INTO albums (artist, title, file)\n    SELECT * FROM input\n    ON CONFLICT (artist, title, file) WHERE file IS NOT NULL DO NOTHING\n    RETURNING id\n)\nSELECT COALESCE (\n    (SELECT id FROM ins),\n    (SELECT id FROM albums WHERE artist = $1 AND title = $2 AND file = $3)\n)",
+    "describe": {
+      "columns": [
+        {
+          "ordinal": 0,
+          "name": "coalesce",
+          "type_info": "Int4"
+        }
+      ],
+      "parameters": {
+        "Left": [
+          "Int4",
+          "Text",
+          "Int4"
+        ]
+      },
+      "nullable": [
+        null
+      ]
+    }
+  },
+  "1977acbbd9b648f88b22ed88d508cd6cbc4e1e66fbe2b2312905b476b90b6635": {
+    "query": "\nWITH\ninput(artist, title) AS (VALUES ($1::INTEGER, $2::TEXT)),\nins AS (\n    INSERT INTO albums (artist, title)\n    SELECT * FROM input\n    ON CONFLICT (artist, title) WHERE file IS NULL DO NOTHING\n    RETURNING id\n)\nSELECT COALESCE (\n    (SELECT id FROM ins),\n    (SELECT id FROM albums WHERE artist = $1 AND title = $2 AND file IS NULL)\n)",
+    "describe": {
+      "columns": [
+        {
+          "ordinal": 0,
+          "name": "coalesce",
+          "type_info": "Int4"
+        }
+      ],
+      "parameters": {
+        "Left": [
+          "Int4",
+          "Text"
+        ]
+      },
+      "nullable": [
+        null
+      ]
+    }
+  },
+  "2c97caf67aa683c2e0c850d5f51b262c1fd33b65d7a31f026a6df26cf522c101": {
+    "query": "\n  INSERT INTO album_tracks (file, album, album_disc, title, position, duration)\n  VALUES                   ($1  , $2   , $3        , $4   , $5      , $6      )\nON CONFLICT (file) DO\n  UPDATE SET\n    album = excluded.album,\n    album_disc = excluded.album_disc,\n    title = excluded.title,\n    position = excluded.position,\n    duration = excluded.duration\n  WHERE album_tracks.file = excluded.file",
+    "describe": {
+      "columns": [],
+      "parameters": {
+        "Left": [
+          "Int4",
+          "Int4",
+          "Int2",
+          "Text",
+          "Int2",
+          "Int4"
+        ]
+      },
+      "nullable": []
+    }
+  },
+  "605efbcda4815c006dc3db0b70743f1b2207a166ecfd9087e99c5e48964ebce5": {
+    "query": "\nUPDATE files\nSET last_modified = $2, is_directory = $3, is_cover = $4\nWHERE id = $1\n                  ",
+    "describe": {
+      "columns": [],
+      "parameters": {
+        "Left": [
+          "Int4",
+          "Timestamp",
+          "Bool",
+          "Bool"
+        ]
+      },
+      "nullable": []
+    }
+  },
+  "6225085c27a1cbe76e449910379a761435e26c89e6f33551f2f45312d2cd0a61": {
+    "query": "\nSELECT\n    ((ait.end - ait.start) / 1000) AS \"duration!\",\n    ait.title AS \"track_title\",\n    ait.start AS \"track_start\",\n    ait.end AS \"track_end\",\n    ab.title AS \"album_title\",\n    ar.name AS \"artist_name?\",\n    fp.path AS \"path!\"\nFROM\n    album_inline_tracks ait\n    INNER JOIN albums ab ON ab.id = $1\n    INNER JOIN file_paths fp ON fp.id = ab.file\n    LEFT JOIN artists ar ON ar.id = ab.artist\nWHERE\n    ait.album = $1 AND\n    ait.start = $2\n        ",
+    "describe": {
+      "columns": [
+        {
+          "ordinal": 0,
+          "name": "duration!",
+          "type_info": "Int4"
+        },
+        {
+          "ordinal": 1,
+          "name": "track_title",
+          "type_info": "Text"
+        },
+        {
+          "ordinal": 2,
+          "name": "track_start",
+          "type_info": "Int4"
+        },
+        {
+          "ordinal": 3,
+          "name": "track_end",
+          "type_info": "Int4"
+        },
+        {
+          "ordinal": 4,
+          "name": "album_title",
+          "type_info": "Text"
+        },
+        {
+          "ordinal": 5,
+          "name": "artist_name?",
+          "type_info": "Text"
+        },
+        {
+          "ordinal": 6,
+          "name": "path!",
+          "type_info": "Text"
+        }
+      ],
+      "parameters": {
+        "Left": [
+          "Int4",
+          "Int4"
+        ]
+      },
+      "nullable": [
+        null,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true
+      ]
+    }
+  },
+  "690a37a5f49af23b0f57184aaf8fd9f7b6d64d670f4fe19666b0c694ec3184d3": {
+    "query": "\nSELECT id FROM artists WHERE name = $1",
+    "describe": {
+      "columns": [
+        {
+          "ordinal": 0,
+          "name": "id",
+          "type_info": "Int4"
+        }
+      ],
+      "parameters": {
+        "Left": [
+          "Text"
+        ]
+      },
+      "nullable": [
+        false
+      ]
+    }
+  },
+  "8c4b185d9e96b719b6549a14aff94001d69a13961f5b1928f6043113d83a6dab": {
+    "query": "\nDELETE FROM files\nWHERE id = $1\n           ",
+    "describe": {
+      "columns": [],
+      "parameters": {
+        "Left": [
+          "Int4"
+        ]
+      },
+      "nullable": []
+    }
+  },
+  "9154ccb5ac83d812009c9eb16a597a065828f4c93d7d665358b671e59bfba9e4": {
+    "query": "\nINSERT INTO files (parent, name, last_modified, is_directory, is_cover)\nVALUES            ($1    , $2  , $3           , $4          , $5)\nRETURNING id\n                  ",
+    "describe": {
+      "columns": [
+        {
+          "ordinal": 0,
+          "name": "id",
+          "type_info": "Int4"
+        }
+      ],
+      "parameters": {
+        "Left": [
+          "Int4",
+          "Text",
+          "Timestamp",
+          "Bool",
+          "Bool"
+        ]
+      },
+      "nullable": [
+        false
+      ]
+    }
+  },
+  "9622cb5b49b9d9aba828e7b379a8d43ddae54935b3d449048716be52b65e402d": {
+    "query": "\nINSERT INTO album_inline_tracks (album, start, \"end\", title)\nVALUES                          ($1   , $2   , $3   , $4   )",
+    "describe": {
+      "columns": [],
+      "parameters": {
+        "Left": [
+          "Int4",
+          "Int4",
+          "Int4",
+          "Text"
+        ]
+      },
+      "nullable": []
+    }
+  },
+  "d94fd3035bb2f5ef9dd29481eaae96ca981d60e0eb9e847bf87565f786bbea8e": {
+    "query": "\nWITH RECURSIVE\n  audio_leafs(id, parent) AS (\n    SELECT id, parent\n    FROM files\n    WHERE id IN (\n        SELECT file\n        FROM album_tracks\n      UNION\n        SELECT file\n        FROM albums\n    )\n  ),\n  files_with_albums(id, parent) AS (\n      SELECT id, parent\n      FROM files\n      WHERE\n        parent IN (SELECT parent FROM audio_leafs) AND\n        NOT is_directory\n    UNION\n      SELECT files.id, files.parent\n      FROM files\n      INNER JOIN files_with_albums AS childs ON childs.parent = files.id\n  )\nDELETE FROM files\nWHERE id NOT IN (\n  SELECT id FROM files_with_albums\n)",
+    "describe": {
+      "columns": [],
+      "parameters": {
+        "Left": []
+      },
+      "nullable": []
+    }
+  },
+  "e3662673682b774b049585fe298a85cef0f91b46557202abe7c20a51ecf0cd80": {
+    "query": "\nSELECT id, name\nFROM files\nWHERE\n  parent IS NULL\n  AND is_directory",
+    "describe": {
+      "columns": [
+        {
+          "ordinal": 0,
+          "name": "id",
+          "type_info": "Int4"
+        },
+        {
+          "ordinal": 1,
+          "name": "name",
+          "type_info": "Text"
+        }
+      ],
+      "parameters": {
+        "Left": []
+      },
+      "nullable": [
+        false,
+        false
+      ]
+    }
+  },
+  "e6fe9c5fab097105123da3d2d06853bf926ee491232e7c2a19b96f199d14eed7": {
+    "query": "\nDELETE FROM albums\nWHERE file = $1",
+    "describe": {
+      "columns": [],
+      "parameters": {
+        "Left": [
+          "Int4"
+        ]
+      },
+      "nullable": []
+    }
+  },
+  "e7a94fcc1a015a20ed3b6ccff909773a6b6cc280be35537af303d9057cae4bc0": {
+    "query": "\nSELECT *\nFROM (\n    SELECT\n        CAST (ait.album AS TEXT) || '-' || CAST (ait.start AS TEXT) AS \"id!\",\n        ait.title AS \"title!\",\n        false AS \"is_parent!\",\n        ait.start AS \"track_start?\"\n    FROM\n        files f\n        INNER JOIN albums ab ON ab.file = $1\n        INNER JOIN album_inline_tracks ait ON ait.album = ab.id\n    WHERE f.id = $1\nUNION ALL\n    SELECT\n        CAST (f.parent AS TEXT) AS \"id!\",\n        (SELECT name FROM files WHERE id = f.parent) AS \"title!\",\n        true AS \"is_parent\",\n        NULL AS \"track_start?\"\n    FROM\n        files f\n    WHERE\n        f.id = $1\n) AS t\nORDER BY t.\"track_start?\"\n        ",
+    "describe": {
+      "columns": [
+        {
+          "ordinal": 0,
+          "name": "id!",
+          "type_info": "Text"
+        },
+        {
+          "ordinal": 1,
+          "name": "title!",
+          "type_info": "Text"
+        },
+        {
+          "ordinal": 2,
+          "name": "is_parent!",
+          "type_info": "Bool"
+        },
+        {
+          "ordinal": 3,
+          "name": "track_start?",
+          "type_info": "Int4"
+        }
+      ],
+      "parameters": {
+        "Left": [
+          "Int4"
+        ]
+      },
+      "nullable": [
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  "e8f811abfa0dba93c23a475e62d27e52db7c9aec0c286b76a717f40cea39275a": {
+    "query": "\nREFRESH MATERIALIZED VIEW file_paths\n    ",
+    "describe": {
+      "columns": [],
+      "parameters": {
+        "Left": []
+      },
+      "nullable": []
+    }
+  },
+  "eb9c40cf71cb70a48f9673c7d7b9aa4edb08832b48e6b87f71b6cf8270ef6e66": {
+    "query": "\nWITH files_in_dir AS (\n    SELECT\n        f.id AS \"id!\",\n        name AS \"name!\",\n        is_directory AS \"is_directory!\",\n        is_cover AS \"is_cover!\",\n        CASE\n            WHEN EXISTS (\n                SELECT\n                FROM album_tracks\n                WHERE album_tracks.file = f.id\n            ) THEN true\n            ELSE false\n        END AS \"is_standalone_track!\",\n        false AS \"is_parent!\"\n    FROM files f\n    WHERE parent = $1\n    UNION\n    SELECT\n        id AS \"id!\",\n        name AS \"name!\",\n        is_directory AS \"is_directory!\",\n        is_cover AS \"is_cover!\",\n        CASE\n            WHEN EXISTS (\n                SELECT\n                FROM album_tracks\n                WHERE album_tracks.file = f.id\n            ) THEN true\n            ELSE false\n        END AS \"is_standalone_track!\",\n        true AS \"is_parent!\"\n    FROM files f\n    WHERE id = (SELECT parent FROM files WHERE id = $1)\n)\nSELECT\n    files_in_dir.\"id!\",\n    files_in_dir.\"name!\",\n    files_in_dir.\"is_directory!\",\n    files_in_dir.\"is_cover!\",\n    files_in_dir.\"is_standalone_track!\",\n    files_in_dir.\"is_parent!\",\n    album_tracks.id AS \"track_id?\"\nFROM files_in_dir\nLEFT JOIN album_tracks\n  ON album_tracks.file = \"id!\"\nORDER BY files_in_dir.\"name!\"\n        ",
+    "describe": {
+      "columns": [
+        {
+          "ordinal": 0,
+          "name": "id!",
+          "type_info": "Int4"
+        },
+        {
+          "ordinal": 1,
+          "name": "name!",
+          "type_info": "Text"
+        },
+        {
+          "ordinal": 2,
+          "name": "is_directory!",
+          "type_info": "Bool"
+        },
+        {
+          "ordinal": 3,
+          "name": "is_cover!",
+          "type_info": "Bool"
+        },
+        {
+          "ordinal": 4,
+          "name": "is_standalone_track!",
+          "type_info": "Bool"
+        },
+        {
+          "ordinal": 5,
+          "name": "is_parent!",
+          "type_info": "Bool"
+        },
+        {
+          "ordinal": 6,
+          "name": "track_id?",
+          "type_info": "Int4"
+        }
+      ],
+      "parameters": {
+        "Left": [
+          "Int4"
+        ]
+      },
+      "nullable": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false
+      ]
+    }
+  },
+  "f0b44ed2d71a101d8f2b0b093830026a6d7060adedabecd8cc8372e4db94ac28": {
+    "query": "\nSELECT\n    at.duration,\n    at.title,\n    ab.title AS \"album_title\",\n    ar.name AS \"artist_name?\",\n    path AS \"path!\"\nFROM\n    album_tracks at\n    INNER JOIN file_paths fp ON at.file = fp.id\n    INNER JOIN albums ab ON at.album = ab.id\n    LEFT JOIN artists ar ON ab.artist = ar.id\nWHERE at.id = $1\n        ",
+    "describe": {
+      "columns": [
+        {
+          "ordinal": 0,
+          "name": "duration",
+          "type_info": "Int4"
+        },
+        {
+          "ordinal": 1,
+          "name": "title",
+          "type_info": "Text"
+        },
+        {
+          "ordinal": 2,
+          "name": "album_title",
+          "type_info": "Text"
+        },
+        {
+          "ordinal": 3,
+          "name": "artist_name?",
+          "type_info": "Text"
+        },
+        {
+          "ordinal": 4,
+          "name": "path!",
+          "type_info": "Text"
+        }
+      ],
+      "parameters": {
+        "Left": [
+          "Int4"
+        ]
+      },
+      "nullable": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ]
+    }
+  },
+  "f443d78f128380ec95cb72a2561a3d161660a3396148231f63994b270e2c5d78": {
+    "query": "\nSELECT id FROM albums WHERE artist = $1 AND title = $2 AND file = $3",
+    "describe": {
+      "columns": [
+        {
+          "ordinal": 0,
+          "name": "id",
+          "type_info": "Int4"
+        }
+      ],
+      "parameters": {
+        "Left": [
+          "Int4",
+          "Text",
+          "Int4"
+        ]
+      },
+      "nullable": [
+        false
+      ]
+    }
+  },
+  "f72f4701e21a75d90e49ce7f2067a55d41d0cabb91b5fbd6548c7134666f4a19": {
+    "query": "\nWITH\ninput(name) AS (VALUES ($1::TEXT)),\nins AS (\n    INSERT INTO artists (name)\n    SELECT * FROM input\n    ON CONFLICT (name) DO NOTHING\n    RETURNING id\n)\nSELECT COALESCE (\n    (SELECT id FROM ins),\n    (SELECT id FROM artists WHERE name = $1)\n)",
+    "describe": {
+      "columns": [
+        {
+          "ordinal": 0,
+          "name": "coalesce",
+          "type_info": "Int4"
+        }
+      ],
+      "parameters": {
+        "Left": [
+          "Text"
+        ]
+      },
+      "nullable": [
+        null
+      ]
+    }
+  },
+  "f841af38e639a246a7c4bc33d27cff0c73516ba6f7470510655581bdce3f5bc9": {
+    "query": "\nSELECT fp.id AS \"id!\", fp.path AS \"path!\", f.last_modified\nFROM file_paths fp\nINNER JOIN files f ON f.id = fp.id\n       ",
+    "describe": {
+      "columns": [
+        {
+          "ordinal": 0,
+          "name": "id!",
+          "type_info": "Int4"
+        },
+        {
+          "ordinal": 1,
+          "name": "path!",
+          "type_info": "Text"
+        },
+        {
+          "ordinal": 2,
+          "name": "last_modified",
+          "type_info": "Timestamp"
+        }
+      ],
+      "parameters": {
+        "Left": []
+      },
+      "nullable": [
+        true,
+        true,
+        true
+      ]
+    }
+  }
+}
