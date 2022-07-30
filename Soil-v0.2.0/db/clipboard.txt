@@ -1,0 +1,1 @@
+working-copy://x-callback-url/status?key=XJTBE632N4&repo=$current&depth=9999&no_path=empty&clipboard=no&no_unchanged=empty
