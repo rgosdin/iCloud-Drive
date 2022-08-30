@@ -13,7 +13,7 @@ GEM
     hashr (2.0.0)
     multi_json (1.12.1)
     puma (3.4.0)
-    rack (1.6.4)
+    rack (1.6.13)
     rack-mobile-detect (0.4.0)
       rack
     rack-protection (1.5.3)
